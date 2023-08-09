@@ -11,7 +11,7 @@ const Header1 = () => {
             <ul>
               <li>
                 <i className="far fa-envelope" />{" "}
-                <a href="mailto:support@gmail.com">support@gmail.com</a>
+                <a href="mailto:support@gmail.com">info@silverpyramids.com</a>
               </li>
               <li>
                 <i className="far fa-phone" />{" "}
