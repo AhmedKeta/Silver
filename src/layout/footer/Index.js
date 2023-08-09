@@ -9,8 +9,7 @@ const Footer = () => {
             className="footer-cta-inner bgs-cover"
             style={{
               backgroundImage: "url(assets/images/footer/footer-cta-bg.jpg)",
-            }}
-          >
+            }}>
             <div className="section-title wow fadeInLeft delay-0-2s">
               <span className="sub-title">Need Any Consultations ?</span>
               <h2>We’re Ready to Growth IT Business</h2>
@@ -25,7 +24,7 @@ const Footer = () => {
               <div className="content">
                 <span>Hotline</span>
                 <br />
-                <a href="callto:+000(123)45688">+000 (123) 456 88</a>
+                <a href="callto:+1 630-995-9223">+1 630-995-9223</a>
               </div>
             </div>
           </div>
@@ -36,16 +35,13 @@ const Footer = () => {
           <div className="col-xl-3 col-sm-6">
             <div className="footer-widget widget_about wow fadeInUp delay-0-2s">
               <div className="footer-logo mb-30">
-                <Link legacyBehavior href="/index">
+                <Link legacyBehavior href="/">
                   <a>
                     <img src="assets/images/logos/logo-one.png" alt="Logo" />
                   </a>
                 </Link>
               </div>
-              <p>
-                Sed perspiciatis unde omnste natus error voluptatem accusanti
-                doloreue audantium totamrem aeriam.
-              </p>
+              <p>Turning your vision into eReality</p>
               <Link legacyBehavior href="/about">
                 <a className="read-more">
                   Learn More Us <i className="fas fa-long-arrow-right" />
@@ -55,34 +51,18 @@ const Footer = () => {
           </div>
           <div className="col-xl-3 col-sm-6 order-xl-2">
             <div className="footer-widget widget_newsletter wow fadeInUp delay-0-6s">
-              <h4 className="footer-title">Newsletter</h4>
-              <p>
-                Sed perspiciatis unde omnste natus error voluptatem accusante.
-              </p>
-              <form onSubmit={(e) => e.preventDefault()} action="#">
-                <label htmlFor="email">
-                  <i className="far fa-envelope" />
-                </label>
-                <input
-                  id="email"
-                  type="email"
-                  placeholder="support@gmail.com"
-                  required
-                />
-                <button>Sign Up</button>
-              </form>
-              <h5>Follow Us</h5>
+              <h4 className="footer-title">Follow Us</h4>
               <div className="social-style-one">
-                <a href="#">
+                <a href="https://www.facebook.com/profile.php?id=100094335560472">
                   <i className="fab fa-facebook-f" />
                 </a>
-                <a href="#">
+                <a href="https://x.com/silverpyramids1">
                   <i className="fab fa-twitter" />
                 </a>
-                <a href="#">
+                <a href="https://www.instagram.com/silverpyramids/">
                   <i className="fab fa-instagram" />
                 </a>
-                <a href="#">
+                <a href="https://www.linkedin.com/company/silver-pyramids-inc./mycompany/?viewAsMember=true">
                   <i className="fab fa-linkedin-in" />
                 </a>
               </div>
@@ -97,8 +77,7 @@ const Footer = () => {
                     <li>
                       <Link
                         legacyBehavior
-                        href="about"
-                      >{`Company History`}</Link>
+                        href="about">{`Company History`}</Link>
                     </li>
                     <li>
                       <Link legacyBehavior href="about">{`About Company`}</Link>
@@ -106,26 +85,22 @@ const Footer = () => {
                     <li>
                       <Link
                         legacyBehavior
-                        href="services"
-                      >{`Latest Services`}</Link>
+                        href="services">{`Latest Services`}</Link>
                     </li>
                     <li>
                       <Link
                         legacyBehavior
-                        href="project-grid"
-                      >{`Popular Works`}</Link>
+                        href="project-grid">{`Popular Works`}</Link>
                     </li>
                     <li>
                       <Link
                         legacyBehavior
-                        href="faqs"
-                      >{`Asked Questions`}</Link>
+                        href="faqs">{`Asked Questions`}</Link>
                     </li>
                     <li>
                       <Link
                         legacyBehavior
-                        href="blog"
-                      >{`Blog &amp; News`}</Link>
+                        href="blog">{`Blog &amp; News`}</Link>
                     </li>
                     <li>
                       <Link legacyBehavior href="contact">{`Contact us`}</Link>
@@ -242,7 +217,7 @@ const Footer = () => {
             </div>
             <div className="col-lg-4">
               <div className="copyright-text text-lg-end wow fadeInLeft delay-0-2s">
-                <p>© 2023 Jeena. All rights reserved.</p>
+                <p>© 2023 Silver Pyramids. All rights reserved.</p>
               </div>
             </div>
           </div>

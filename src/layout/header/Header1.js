@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Search from "../Search";
 import Menu from "./Menu";
 
 const Header1 = () => {
@@ -11,28 +10,30 @@ const Header1 = () => {
             <ul>
               <li>
                 <i className="far fa-envelope" />{" "}
-                <a href="mailto:support@gmail.com">support@gmail.com</a>
+                <a href="mailto:info@silverpyramids.com">
+                  info@silverpyramids.com
+                </a>
               </li>
               <li>
                 <i className="far fa-phone" />{" "}
-                <a href="callto:+000(123)45688">+000 (123) 456 88</a>
+                <a href="callto:+1 630-995-9223">+1 630-995-9223</a>
               </li>
               <li className="for-none">
-                <i className="far fa-clock" /> Working Hours : Monday- Friday,
-                10 am to 5pm
+                <i className="far fa-clock" /> Working Hours : Monday- Friday, 9
+                am to 5pm
               </li>
               <li>
                 <div className="social-style-one">
-                  <a href="#">
+                  <a href="https://www.facebook.com/profile.php?id=100094335560472">
                     <i className="fab fa-facebook-f" />
                   </a>
-                  <a href="#">
+                  <a href="https://x.com/silverpyramids1">
                     <i className="fab fa-twitter" />
                   </a>
-                  <a href="#">
+                  <a href="https://www.instagram.com/silverpyramids/">
                     <i className="fab fa-instagram" />
                   </a>
-                  <a href="#">
+                  <a href="https://www.linkedin.com/company/silver-pyramids-inc./mycompany/?viewAsMember=true">
                     <i className="fab fa-linkedin-in" />
                   </a>
                 </div>
@@ -62,10 +63,6 @@ const Header1 = () => {
               {/* Main Menu */}
               <Menu />
               {/* Main Menu End*/}
-            </div>
-            {/* Nav Search */}
-            <div className="nav-search py-10">
-              <Search />
             </div>
             {/* Menu Button */}
             <div className="menu-btns">

@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Search from "../Search";
 import HeaderTop from "./HeaderTop";
 import Menu from "./Menu";
 
@@ -29,10 +28,6 @@ const DefaultHeader = () => {
               <Menu />
               {/* Main Menu End*/}
             </div>
-            {/* Nav Search */}
-            <div className="nav-search ms-xl-auto py-10">
-              <Search />
-            </div>
             {/* Menu Button */}
             <div className="menu-btns">
               <Link legacyBehavior href="/contact">
@@ -43,16 +38,16 @@ const DefaultHeader = () => {
             </div>
             {/* Header Social */}
             <div className="social-style-two">
-              <a href="#">
+              <a href="https://www.facebook.com/profile.php?id=100094335560472">
                 <i className="fab fa-facebook-f" />
               </a>
-              <a href="#">
+              <a href="https://x.com/silverpyramids1">
                 <i className="fab fa-twitter" />
               </a>
-              <a href="#">
+              <a href="https://www.instagram.com/silverpyramids/">
                 <i className="fab fa-instagram" />
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/company/silver-pyramids-inc./mycompany/?viewAsMember=true">
                 <i className="fab fa-linkedin-in" />
               </a>
             </div>
