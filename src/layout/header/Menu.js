@@ -48,6 +48,7 @@ const MobileMenu = () => {
           className="navbar-collapse clearfix"
         >
           <ul className="navigation clearfix">
+            {/* Home */}
             <li className="dropdown">
               <a href="#" onClick={() => active("home")}>
                 Home
@@ -70,16 +71,17 @@ const MobileMenu = () => {
                 <span className="fas fa-chevron-down" />
               </div>
             </li>
+            {/* Services */}
             <li className="dropdown">
               <a href="#" onClick={() => active("services")}>
                 services
               </a>
               <ul style={activeSubMenu("services")}>
                 <li>
-                  <Link href="services">Services One</Link>
+                  <Link href="services">Software Solutions</Link>
                 </li>
                 <li>
-                  <Link href="services2">Services Two</Link>
+                  <Link href="services2">Marketing Solutions</Link>
                 </li>
                 <li>
                   <Link href="service-details">service details</Link>
@@ -89,9 +91,10 @@ const MobileMenu = () => {
                 <span className="fas fa-chevron-down" />
               </div>
             </li>
+            {/* Projects */}
             <li className="dropdown">
               <a href="#" onClick={() => active("Project")}>
-                Project
+                Projects
               </a>
               <ul style={activeSubMenu("Project")}>
                 <li>
@@ -108,6 +111,7 @@ const MobileMenu = () => {
                 <span className="fas fa-chevron-down" />
               </div>
             </li>
+            {/* Shop */}
             <li className="dropdown">
               <a href="#" onClick={() => active("shop")}>
                 shop
@@ -130,6 +134,7 @@ const MobileMenu = () => {
                 <span className="fas fa-chevron-down" />
               </div>
             </li>
+            {/* Blog */}
             <li className="dropdown">
               <a href="#" onClick={() => active("blog")}>
                 blog
@@ -146,6 +151,7 @@ const MobileMenu = () => {
                 <span className="fas fa-chevron-down" />
               </div>
             </li>
+            {/* Pages */}
             <li className="dropdown">
               <a href="#" onClick={() => active("pages")}>
                 pages

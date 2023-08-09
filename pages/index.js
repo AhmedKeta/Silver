@@ -26,7 +26,7 @@ const Index = () => {
                 </p>
                 <Link legacyBehavior href="/about">
                   <a className="theme-btn mt-20 wow fadeInUp delay-0-6s">
-                    Let’s Get Started <i className="fas fa-long-arrow-right" />
+                    Ready To Grow With Us ? <i className="fas fa-long-arrow-right" />
                   </a>
                 </Link>
                 <div className="hero-shapes">
