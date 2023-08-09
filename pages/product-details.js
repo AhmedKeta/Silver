@@ -4,10 +4,12 @@ import { relatedProductSlider } from "@/src/sliderProps";
 import Link from "next/link";
 import { Nav, Tab } from "react-bootstrap";
 import Slider from "react-slick";
+import Meta from "@/components/Meta";
 
 const ProductDetails = () => {
   return (
     <Layout>
+      <Meta title="Project" />
       <PageBanner pageName={"Product Details"} />
       <section className="product-details pt-130 rpt-100">
         <div className="container">
@@ -18,8 +20,7 @@ const ProductDetails = () => {
                   <Tab.Content className="tab-content preview-images">
                     <Tab.Pane
                       className="tab-pane fade preview-item"
-                      eventKey="preview1"
-                    >
+                      eventKey="preview1">
                       <img
                         src="assets/images/shop/preview1.jpg"
                         alt="Perview"
@@ -27,8 +28,7 @@ const ProductDetails = () => {
                     </Tab.Pane>
                     <Tab.Pane
                       className="tab-pane fade preview-item"
-                      eventKey="preview2"
-                    >
+                      eventKey="preview2">
                       <img
                         src="assets/images/shop/preview1.jpg"
                         alt="Perview"
@@ -36,8 +36,7 @@ const ProductDetails = () => {
                     </Tab.Pane>
                     <Tab.Pane
                       className="tab-pane fade preview-item"
-                      eventKey="preview3"
-                    >
+                      eventKey="preview3">
                       <img
                         src="assets/images/shop/preview1.jpg"
                         alt="Perview"
@@ -49,24 +48,21 @@ const ProductDetails = () => {
                       as="a"
                       href="#preview1"
                       eventKey="preview1"
-                      className="thumb-item"
-                    >
+                      className="thumb-item">
                       <img src="assets/images/shop/thumb1.jpg" alt="Thumb" />
                     </Nav.Link>
                     <Nav.Link
                       as="a"
                       href="#preview2"
                       eventKey="preview2"
-                      className="thumb-item"
-                    >
+                      className="thumb-item">
                       <img src="assets/images/shop/thumb2.jpg" alt="Thumb" />
                     </Nav.Link>
                     <Nav.Link
                       as="a"
                       href="#preview3"
                       eventKey="preview3"
-                      className="thumb-item"
-                    >
+                      className="thumb-item">
                       <img src="assets/images/shop/thumb3.jpg" alt="Thumb" />
                     </Nav.Link>
                   </Nav>
@@ -130,8 +126,7 @@ const ProductDetails = () => {
                 <form
                   onSubmit={(e) => e.preventDefault()}
                   action="#"
-                  className="add-to-cart pt-15"
-                >
+                  className="add-to-cart pt-15">
                   <input
                     type="number"
                     defaultValue={1}
@@ -153,14 +148,12 @@ const ProductDetails = () => {
           <Tab.Container defaultActiveKey={"details"}>
             <Nav
               as="ul"
-              className="nav product-information-tab mt-90 mb-40 wow fadeInUp delay-0-2s"
-            >
+              className="nav product-information-tab mt-90 mb-40 wow fadeInUp delay-0-2s">
               <li>
                 <Nav.Link
                   eventKey="details"
                   href="#details"
-                  data-bs-toggle="tab"
-                >
+                  data-bs-toggle="tab">
                   Descrptions
                 </Nav.Link>
               </li>
@@ -168,8 +161,7 @@ const ProductDetails = () => {
                 <Nav.Link
                   eventKey="information"
                   href="#information"
-                  data-bs-toggle="tab"
-                >
+                  data-bs-toggle="tab">
                   Information
                 </Nav.Link>
               </li>
@@ -225,8 +217,7 @@ const ProductDetails = () => {
             id="review-form"
             className="review-form z-1 rel"
             name="review-form"
-            action="#"
-          >
+            action="#">
             <h3>Leave Your Reviews</h3>
             <div className="ratting py-15">
               <b>Your Rating</b>

@@ -4,6 +4,7 @@ import dynamic from "next/dynamic";
 import Link from "next/link";
 import { Nav, Tab } from "react-bootstrap";
 import Slider from "react-slick";
+import Meta from "@/components/Meta";
 
 const Counter = dynamic(() => import("@/src/components/Counter"), {
   ssr: false,
@@ -14,8 +15,7 @@ const Index2 = () => {
     <Layout>
       <section
         className="hero-area-two bgs-cover"
-        style={{ backgroundImage: "url(assets/images/hero/hero-two.jpg)" }}
-      >
+        style={{ backgroundImage: "url(assets/images/hero/hero-two.jpg)" }}>
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-8">
@@ -153,7 +153,7 @@ const Index2 = () => {
                     <div className="content">
                       <span>Hotline</span>
                       <br />
-                      <a href="callto:+000(123)45688">+000 (123) 456 88</a>
+                      <a href="callto:+1 630-995-9223">+1 630-995-9223</a>
                     </div>
                   </div>
                 </div>
@@ -307,8 +307,7 @@ const Index2 = () => {
                 <a
                   href="https://www.youtube.com/watch?v=9Y7ma241N8k"
                   className="mfp-iframe video-play style-two"
-                  tabIndex={0}
-                >
+                  tabIndex={0}>
                   <i className="fas fa-play" />
                 </a>
                 <div className="image">
@@ -353,8 +352,7 @@ const Index2 = () => {
                   <span
                     className="count-text plus"
                     data-speed={3000}
-                    data-stop={35}
-                  >
+                    data-stop={35}>
                     <Counter end={35} />
                   </span>
                   <span className="counter-title">Years Of Experience</span>
@@ -371,8 +369,7 @@ const Index2 = () => {
                   <span
                     className="count-text plus"
                     data-speed={3000}
-                    data-stop={693}
-                  >
+                    data-stop={693}>
                     <Counter end={693} />
                   </span>
                   <span className="counter-title">Project Complate</span>
@@ -389,8 +386,7 @@ const Index2 = () => {
                   <span
                     className="count-text percent"
                     data-speed={3000}
-                    data-stop={98}
-                  >
+                    data-stop={98}>
                     <Counter end={98} />
                   </span>
                   <span className="counter-title">Clients Satisfaction</span>
@@ -519,16 +515,14 @@ const Index2 = () => {
             <div className="why-choose-tab">
               <Nav
                 as={"ul"}
-                className="nav nav-pills nav-fill mb-80 rmb-50 wow fadeInUp delay-0-4s"
-              >
+                className="nav nav-pills nav-fill mb-80 rmb-50 wow fadeInUp delay-0-4s">
                 <li className="nav-item">
                   <Nav.Link
                     as="a"
                     eventKey={"wc-tap1"}
                     className="nav-link"
                     data-bs-toggle="tab"
-                    href="#wc-tap1"
-                  >
+                    href="#wc-tap1">
                     <i className="flaticon-creativity" />{" "}
                     <span>UX/UI Design</span>
                   </Nav.Link>
@@ -539,8 +533,7 @@ const Index2 = () => {
                     eventKey={"wc-tap2"}
                     className="nav-link"
                     data-bs-toggle="tab"
-                    href="#wc-tap2"
-                  >
+                    href="#wc-tap2">
                     <i className="flaticon-test" />{" "}
                     <span>Apps Development</span>
                   </Nav.Link>
@@ -551,8 +544,7 @@ const Index2 = () => {
                     eventKey={"wc-tap3"}
                     className="nav-link"
                     data-bs-toggle="tab"
-                    href="#wc-tap3"
-                  >
+                    href="#wc-tap3">
                     <i className="flaticon-cyber-security-1" />{" "}
                     <span>Cyber Security</span>
                   </Nav.Link>
@@ -563,8 +555,7 @@ const Index2 = () => {
                     eventKey={"wc-tap4"}
                     className="nav-link"
                     data-bs-toggle="tab"
-                    href="#wc-tap4"
-                  >
+                    href="#wc-tap4">
                     <i className="flaticon-support" /> <span>Tech Support</span>
                   </Nav.Link>
                 </li>

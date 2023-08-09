@@ -4,6 +4,7 @@ import { projectSliderActive } from "@/src/sliderProps";
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import Slider from "react-slick";
+import Meta from "@/components/Meta";
 
 const Counter = dynamic(() => import("@/src/components/Counter"), {
   ssr: false,
@@ -12,6 +13,7 @@ const Counter = dynamic(() => import("@/src/components/Counter"), {
 const Index = () => {
   return (
     <Layout header={1}>
+      <Meta />
       {/* Hero Section Start */}
       <section className="hero-area bgc-gray rel z-1">
         <div className="container">
@@ -254,8 +256,7 @@ const Index = () => {
                 <a
                   href="https://www.youtube.com/watch?v=9Y7ma241N8k"
                   className="mfp-iframe video-play"
-                  tabIndex={-1}
-                >
+                  tabIndex={-1}>
                   <i className="fas fa-play" />
                 </a>
               </div>
@@ -309,8 +310,7 @@ const Index = () => {
                 <a
                   href="https://www.youtube.com/watch?v=9Y7ma241N8k"
                   className="mfp-iframe video-play"
-                  tabIndex={-1}
-                >
+                  tabIndex={-1}>
                   <i className="fas fa-play" />
                 </a>
               </div>
@@ -527,13 +527,13 @@ const Index = () => {
                   <a href="#">
                     <i className="fab fa-facebook-f" />
                   </a>
-                  <a href="#">
-                    <i className="fab fa-twitter" />
+                  <a href="https://x.com/silverpyramids1">
+                    <i className="fab fa-x-twitter" />
                   </a>
-                  <a href="#">
+                  <a href="https://www.instagram.com/silverpyramids/">
                     <i className="fab fa-instagram" />
                   </a>
-                  <a href="#">
+                  <a href="https://www.linkedin.com/company/silver-pyramids-inc./mycompany/?viewAsMember=true">
                     <i className="fab fa-linkedin-in" />
                   </a>
                 </div>
@@ -548,13 +548,13 @@ const Index = () => {
                   <a href="#">
                     <i className="fab fa-facebook-f" />
                   </a>
-                  <a href="#">
-                    <i className="fab fa-twitter" />
+                  <a href="https://x.com/silverpyramids1">
+                    <i className="fab fa-x-twitter" />
                   </a>
-                  <a href="#">
+                  <a href="https://www.instagram.com/silverpyramids/">
                     <i className="fab fa-instagram" />
                   </a>
-                  <a href="#">
+                  <a href="https://www.linkedin.com/company/silver-pyramids-inc./mycompany/?viewAsMember=true">
                     <i className="fab fa-linkedin-in" />
                   </a>
                 </div>
@@ -569,13 +569,13 @@ const Index = () => {
                   <a href="#">
                     <i className="fab fa-facebook-f" />
                   </a>
-                  <a href="#">
-                    <i className="fab fa-twitter" />
+                  <a href="https://x.com/silverpyramids1">
+                    <i className="fab fa-x-twitter" />
                   </a>
-                  <a href="#">
+                  <a href="https://www.instagram.com/silverpyramids/">
                     <i className="fab fa-instagram" />
                   </a>
-                  <a href="#">
+                  <a href="https://www.linkedin.com/company/silver-pyramids-inc./mycompany/?viewAsMember=true">
                     <i className="fab fa-linkedin-in" />
                   </a>
                 </div>
@@ -590,13 +590,13 @@ const Index = () => {
                   <a href="#">
                     <i className="fab fa-facebook-f" />
                   </a>
-                  <a href="#">
-                    <i className="fab fa-twitter" />
+                  <a href="https://x.com/silverpyramids1">
+                    <i className="fab fa-x-twitter" />
                   </a>
-                  <a href="#">
+                  <a href="https://www.instagram.com/silverpyramids/">
                     <i className="fab fa-instagram" />
                   </a>
-                  <a href="#">
+                  <a href="https://www.linkedin.com/company/silver-pyramids-inc./mycompany/?viewAsMember=true">
                     <i className="fab fa-linkedin-in" />
                   </a>
                 </div>
@@ -613,8 +613,7 @@ const Index = () => {
             className="statistics-inner bgs-cover text-white p-80 pb-20"
             style={{
               backgroundImage: "url(assets/images/background/statistics.jpg)",
-            }}
-          >
+            }}>
             <div className="row align-items-xl-start align-items-center">
               <div className="col-xl-5 col-lg-6">
                 <div className="statistics-content mb-55 wow fadeInUp delay-0-2s">
@@ -637,8 +636,7 @@ const Index = () => {
                       <span
                         className="count-text plus"
                         data-speed={3000}
-                        data-stop={2563}
-                      >
+                        data-stop={2563}>
                         <Counter end={2563} />
                       </span>
                       <span className="counter-title">Project Complate</span>
@@ -650,8 +648,7 @@ const Index = () => {
                       <span
                         className="count-text percent"
                         data-speed={3000}
-                        data-stop="98.9"
-                      >
+                        data-stop="98.9">
                         <Counter end={98.9} decimals={1} />
                       </span>
                       <span className="counter-title">Clinets Happy</span>
@@ -663,8 +660,7 @@ const Index = () => {
                       <span
                         className="count-text plus"
                         data-speed={3000}
-                        data-stop="35.6"
-                      >
+                        data-stop="35.6">
                         <Counter end={35.6} decimals={1} />
                       </span>
                       <span className="counter-title">Years Experience</span>
@@ -676,8 +672,7 @@ const Index = () => {
                       <span
                         className="count-text k-plus"
                         data-speed={3000}
-                        data-stop={63}
-                      >
+                        data-stop={63}>
                         <Counter end={63} />
                       </span>
                       <span className="counter-title">Award Winning</span>

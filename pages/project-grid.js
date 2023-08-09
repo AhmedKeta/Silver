@@ -1,10 +1,12 @@
 import PageBanner from "@/components/PageBanner";
 import Layout from "@/layout";
 import Link from "next/link";
+import Meta from "@/components/Meta";
 
 const ProjectGrid = () => {
   return (
     <Layout>
+      <Meta title="Project" />
       <PageBanner pageName={"Project Grid"} />
       <section className="project-grid-area rel z-2 py-130 rpy-100">
         <div className="container">

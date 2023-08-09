@@ -1,10 +1,12 @@
 import PageBanner from "@/components/PageBanner";
 import Layout from "@/layout";
 import Link from "next/link";
+import Meta from "@/components/Meta";
 
 const Blog = () => {
   return (
     <Layout>
+      <Meta title="Blog" />
       <PageBanner pageName={"Blog Standard"} />
       <section className="blog-standard-area py-130 rpy-100">
         <div className="container">
@@ -321,8 +323,7 @@ const Blog = () => {
                   <form
                     onSubmit={(e) => e.preventDefault()}
                     action="#"
-                    className="default-search-form"
-                  >
+                    className="default-search-form">
                     <input type="text" placeholder="Find Keywords" required />
                     <button
                       type="submit"

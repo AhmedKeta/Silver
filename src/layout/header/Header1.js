@@ -28,7 +28,7 @@ const Header1 = () => {
                     <i className="fab fa-facebook-f" />
                   </a>
                   <a href="https://x.com/silverpyramids1">
-                    <i className="fab fa-twitter" />
+                    <i className="fab fa-x-twitter" />
                   </a>
                   <a href="https://www.instagram.com/silverpyramids/">
                     <i className="fab fa-instagram" />

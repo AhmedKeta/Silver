@@ -3,6 +3,7 @@ import Layout from "@/layout";
 import { JeenaAccordion2 } from "@/src/components/JeenaAccordion";
 import ProgressBar from "@/src/components/ProgressBar";
 import Link from "next/link";
+import Meta from "@/components/Meta";
 
 const Team = () => {
   const accordionData = [
@@ -13,6 +14,7 @@ const Team = () => {
   ];
   return (
     <Layout>
+      <Meta title="Services" />
       <PageBanner pageName={"Team Member"} pageTitle="Amazing Team" />
       <section className="team-top-area pt-75 rpt-45 rel z-2">
         <div className="container">
@@ -22,8 +24,7 @@ const Team = () => {
                 <img src="assets/images/team/team-page.jpg" alt="Team Page" />
                 <a
                   href="https://www.youtube.com/watch?v=9Y7ma241N8k"
-                  className="mfp-iframe video-play"
-                >
+                  className="mfp-iframe video-play">
                   <i className="fas fa-play" />
                 </a>
               </div>
@@ -80,7 +81,7 @@ const Team = () => {
                     <i className="fab fa-facebook-f" />
                   </a>
                   <a href="#">
-                    <i className="fab fa-twitter" />
+                    <i className="fab fa-x-twitter" />
                   </a>
                   <a href="#">
                     <i className="fab fa-instagram" />
@@ -101,7 +102,7 @@ const Team = () => {
                     <i className="fab fa-facebook-f" />
                   </a>
                   <a href="#">
-                    <i className="fab fa-twitter" />
+                    <i className="fab fa-x-twitter" />
                   </a>
                   <a href="#">
                     <i className="fab fa-instagram" />
@@ -122,7 +123,7 @@ const Team = () => {
                     <i className="fab fa-facebook-f" />
                   </a>
                   <a href="#">
-                    <i className="fab fa-twitter" />
+                    <i className="fab fa-x-twitter" />
                   </a>
                   <a href="#">
                     <i className="fab fa-instagram" />
@@ -143,7 +144,7 @@ const Team = () => {
                     <i className="fab fa-facebook-f" />
                   </a>
                   <a href="#">
-                    <i className="fab fa-twitter" />
+                    <i className="fab fa-x-twitter" />
                   </a>
                   <a href="#">
                     <i className="fab fa-instagram" />
@@ -164,7 +165,7 @@ const Team = () => {
                     <i className="fab fa-facebook-f" />
                   </a>
                   <a href="#">
-                    <i className="fab fa-twitter" />
+                    <i className="fab fa-x-twitter" />
                   </a>
                   <a href="#">
                     <i className="fab fa-instagram" />
@@ -185,7 +186,7 @@ const Team = () => {
                     <i className="fab fa-facebook-f" />
                   </a>
                   <a href="#">
-                    <i className="fab fa-twitter" />
+                    <i className="fab fa-x-twitter" />
                   </a>
                   <a href="#">
                     <i className="fab fa-instagram" />
@@ -206,7 +207,7 @@ const Team = () => {
                     <i className="fab fa-facebook-f" />
                   </a>
                   <a href="#">
-                    <i className="fab fa-twitter" />
+                    <i className="fab fa-x-twitter" />
                   </a>
                   <a href="#">
                     <i className="fab fa-instagram" />
@@ -227,7 +228,7 @@ const Team = () => {
                     <i className="fab fa-facebook-f" />
                   </a>
                   <a href="#">
-                    <i className="fab fa-twitter" />
+                    <i className="fab fa-x-twitter" />
                   </a>
                   <a href="#">
                     <i className="fab fa-instagram" />
@@ -275,8 +276,7 @@ const Team = () => {
                 </div>
                 <div
                   className="faq-accordion style-two pt-20"
-                  id="faq-accordion"
-                >
+                  id="faq-accordion">
                   <JeenaAccordion2 accordionsData={accordionData} />
                 </div>
               </div>

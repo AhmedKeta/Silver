@@ -240,16 +240,16 @@ const About = () => {
                 <h4>Johnathan P. Bailey</h4>
                 <span className="designation">UX/UI Designer</span>
                 <div className="social-style-two">
-                  <a href="#">
+                  <a href="https://www.facebook.com/people/Silver-Pyramids-Inc/100094335560472/">
                     <i className="fab fa-facebook-f" />
                   </a>
-                  <a href="#">
-                    <i className="fab fa-twitter" />
+                  <a href="https://x.com/silverpyramids1">
+                    <i className="fab fa-x-twitter" />
                   </a>
-                  <a href="#">
+                  <a href="https://www.instagram.com/silverpyramids/">
                     <i className="fab fa-instagram" />
                   </a>
-                  <a href="#">
+                  <a href="https://www.linkedin.com/company/silver-pyramids-inc./mycompany/?viewAsMember=true">
                     <i className="fab fa-linkedin-in" />
                   </a>
                 </div>
@@ -261,16 +261,16 @@ const About = () => {
                 <h4>Mark M. Hughes</h4>
                 <span className="designation">Web Developer</span>
                 <div className="social-style-two">
-                  <a href="#">
+                  <a href="https://www.facebook.com/people/Silver-Pyramids-Inc/100094335560472/">
                     <i className="fab fa-facebook-f" />
                   </a>
-                  <a href="#">
-                    <i className="fab fa-twitter" />
+                  <a href="https://x.com/silverpyramids1">
+                    <i className="fab fa-x-twitter" />
                   </a>
-                  <a href="#">
+                  <a href="https://www.instagram.com/silverpyramids/">
                     <i className="fab fa-instagram" />
                   </a>
-                  <a href="#">
+                  <a href="https://www.linkedin.com/company/silver-pyramids-inc./mycompany/?viewAsMember=true">
                     <i className="fab fa-linkedin-in" />
                   </a>
                 </div>
@@ -282,16 +282,16 @@ const About = () => {
                 <h4>Donald B. Mitchell</h4>
                 <span className="designation">Software Engineer</span>
                 <div className="social-style-two">
-                  <a href="#">
+                  <a href="https://www.facebook.com/people/Silver-Pyramids-Inc/100094335560472/">
                     <i className="fab fa-facebook-f" />
                   </a>
-                  <a href="#">
-                    <i className="fab fa-twitter" />
+                  <a href="https://x.com/silverpyramids1">
+                    <i className="fab fa-x-twitter" />
                   </a>
-                  <a href="#">
+                  <a href="https://www.instagram.com/silverpyramids/">
                     <i className="fab fa-instagram" />
                   </a>
-                  <a href="#">
+                  <a href="https://www.linkedin.com/company/silver-pyramids-inc./mycompany/?viewAsMember=true">
                     <i className="fab fa-linkedin-in" />
                   </a>
                 </div>
@@ -303,16 +303,16 @@ const About = () => {
                 <h4>Bennie N. Bannister</h4>
                 <span className="designation">Senior Consultant</span>
                 <div className="social-style-two">
-                  <a href="#">
+                  <a href="https://www.facebook.com/people/Silver-Pyramids-Inc/100094335560472/">
                     <i className="fab fa-facebook-f" />
                   </a>
-                  <a href="#">
-                    <i className="fab fa-twitter" />
+                  <a href="https://x.com/silverpyramids1">
+                    <i className="fab fa-x-twitter" />
                   </a>
-                  <a href="#">
+                  <a href="https://www.instagram.com/silverpyramids/">
                     <i className="fab fa-instagram" />
                   </a>
-                  <a href="#">
+                  <a href="https://www.linkedin.com/company/silver-pyramids-inc./mycompany/?viewAsMember=true">
                     <i className="fab fa-linkedin-in" />
                   </a>
                 </div>

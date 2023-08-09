@@ -1,10 +1,12 @@
 import PageBanner from "@/components/PageBanner";
 import Layout from "@/layout";
 import Link from "next/link";
+import Meta from "@/components/Meta";
 
 const BlogDetails = () => {
   return (
     <Layout>
+      <Meta title="Blog" />
       <PageBanner pageName={"Blog Details"} />
       <section className="blog-details-area py-130 rpy-100">
         <div className="container">
@@ -103,10 +105,10 @@ const BlogDetails = () => {
                     <a href="#">
                       <i className="fab fa-facebook-f" />
                     </a>
-                    <a href="#">
-                      <i className="fab fa-twitter" />
+                    <a href="https://x.com/silverpyramids1">
+                      <i className="fab fa-x-twitter" />
                     </a>
-                    <a href="#">
+                    <a href="https://www.instagram.com/silverpyramids/">
                       <i className="fab fa-instagram" />
                     </a>
                   </div>
@@ -132,7 +134,7 @@ const BlogDetails = () => {
                         <i className="fab fa-facebook-f" />
                       </Link>
                       <Link legacyBehavior href="contact">
-                        <i className="fab fa-twitter" />
+                        <i className="fab fa-x-twitter" />
                       </Link>
                       <Link legacyBehavior href="contact">
                         <i className="fab fa-instagram" />
@@ -254,8 +256,7 @@ const BlogDetails = () => {
               <form
                 onSubmit={(e) => e.preventDefault()}
                 id="comment-form"
-                className="comment-form bgc-lighter mt-80 wow fadeInUp delay-0-2s"
-              >
+                className="comment-form bgc-lighter mt-80 wow fadeInUp delay-0-2s">
                 <h4>Leave a Message</h4>
                 <p>Have any question? Ready to talk to us! </p>
                 <div className="row mt-15">
@@ -329,8 +330,7 @@ const BlogDetails = () => {
                   <form
                     onSubmit={(e) => e.preventDefault()}
                     action="#"
-                    className="default-search-form"
-                  >
+                    className="default-search-form">
                     <input type="text" placeholder="Find Keywords" required />
                     <button
                       type="submit"

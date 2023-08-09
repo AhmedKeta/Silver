@@ -48,7 +48,7 @@ const HiddenSidebar = () => {
           {/*Social Icons*/}
           <div className="social-style-one">
             <a href="https://x.com/silverpyramids1">
-              <i className="fab fa-twitter" />
+              <i className="fab fa-x-twitter" />
             </a>
             <a href="https://www.facebook.com/profile.php?id=100094335560472">
               <i className="fab fa-facebook-f" />
