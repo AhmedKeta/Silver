@@ -5,6 +5,7 @@ import { projectThreeActive, servicesFiveActive } from "@/src/sliderProps";
 import Link from "next/link";
 import { Nav, Tab } from "react-bootstrap";
 import Slider from "react-slick";
+import Meta from "@/components/Meta";
 
 const Index4 = () => {
   return (

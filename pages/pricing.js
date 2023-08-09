@@ -2,10 +2,12 @@ import PageBanner from "@/components/PageBanner";
 import Layout from "@/layout";
 import Link from "next/link";
 import { Nav, Tab } from "react-bootstrap";
+import Meta from "@/components/Meta";
 
 const Pricing = () => {
   return (
     <Layout>
+      <Meta title="Pricing" />
       <PageBanner pageName={"Price Package"} />{" "}
       <section className="price-plan-page-top pt-130 rpt-100 pb-100 rpb-70 rel z-1">
         <div className="container">
@@ -135,8 +137,7 @@ const Pricing = () => {
                         as="button"
                         className="nav-link"
                         data-bs-toggle="tab"
-                        eventKey="monthly"
-                      >
+                        eventKey="monthly">
                         Monthly <i className="fas fa-long-arrow-right" />
                       </Nav.Link>
                     </li>
@@ -145,8 +146,7 @@ const Pricing = () => {
                         as="button"
                         className="nav-link"
                         data-bs-toggle="tab"
-                        eventKey="yearly"
-                      >
+                        eventKey="yearly">
                         Yearly <i className="fas fa-long-arrow-right" />
                       </Nav.Link>
                     </li>

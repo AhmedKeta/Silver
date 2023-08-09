@@ -2,9 +2,12 @@ import PageBanner from "@/components/PageBanner";
 import Layout from "@/layout";
 import JeenaAccordion from "@/src/components/JeenaAccordion";
 import { Nav, Tab } from "react-bootstrap";
+import Meta from "@/components/Meta";
+
 const Faq = () => {
   return (
     <Layout>
+      <Meta title="FAQs" />
       <PageBanner pageName={"FAQs"} />
       <section className="faq-page-area pt-130 rpt-100 rel z-1">
         <div className="container">
@@ -20,8 +23,7 @@ const Faq = () => {
                   className="nav-link"
                   data-bs-toggle="tab"
                   href="#faq-tab1"
-                  eventKey="faq-tab1"
-                >
+                  eventKey="faq-tab1">
                   General
                 </Nav.Link>
               </li>
@@ -31,8 +33,7 @@ const Faq = () => {
                   className="nav-link"
                   data-bs-toggle="tab"
                   href="#faq-tab2"
-                  eventKey="faq-tab2"
-                >
+                  eventKey="faq-tab2">
                   IT Consulting
                 </Nav.Link>
               </li>
@@ -42,8 +43,7 @@ const Faq = () => {
                   className="nav-link"
                   data-bs-toggle="tab"
                   href="#faq-tab3"
-                  eventKey="faq-tab3"
-                >
+                  eventKey="faq-tab3">
                   Package
                 </Nav.Link>
               </li>
@@ -53,8 +53,7 @@ const Faq = () => {
                   className="nav-link"
                   data-bs-toggle="tab"
                   href="#faq-tab4"
-                  eventKey="faq-tab4"
-                >
+                  eventKey="faq-tab4">
                   Services
                 </Nav.Link>
               </li>
@@ -64,8 +63,7 @@ const Faq = () => {
                   className="nav-link"
                   data-bs-toggle="tab"
                   href="#faq-tab5"
-                  eventKey="faq-tab5"
-                >
+                  eventKey="faq-tab5">
                   Privacy
                 </Nav.Link>
               </li>
@@ -75,8 +73,7 @@ const Faq = () => {
                   className="nav-link"
                   data-bs-toggle="tab"
                   href="#faq-tab6"
-                  eventKey="faq-tab6"
-                >
+                  eventKey="faq-tab6">
                   Customer
                 </Nav.Link>
               </li>
@@ -86,8 +83,7 @@ const Faq = () => {
                   className="nav-link"
                   data-bs-toggle="tab"
                   href="#faq-tab7"
-                  eventKey="faq-tab7"
-                >
+                  eventKey="faq-tab7">
                   Shop
                 </Nav.Link>
               </li>
@@ -97,16 +93,14 @@ const Faq = () => {
                   className="nav-link"
                   data-bs-toggle="tab"
                   href="#faq-tab8"
-                  eventKey="faq-tab8"
-                >
+                  eventKey="faq-tab8">
                   Payments
                 </Nav.Link>
               </li>
             </Nav>
             <Tab.Content
               className="tab-content faq-accordion style-three"
-              id="faq-accordion"
-            >
+              id="faq-accordion">
               <Tab.Pane className="tab-pane fade" eventKey="faq-tab1">
                 <JeenaAccordion
                   accordions={[1, 2, 3, 4, 5, 6, 7, 8]}
@@ -152,8 +146,7 @@ const Faq = () => {
                   onSubmit={(e) => e.preventDefault()}
                   className="form-style-one"
                   action="#"
-                  name="contact-form"
-                >
+                  name="contact-form">
                   <div className="row">
                     <div className="col-md-6">
                       <div className="form-group">
@@ -210,8 +203,7 @@ const Faq = () => {
                       <div className="form-group mb-0">
                         <button
                           type="submit"
-                          className="theme-btn style-two mt-15 w-100"
-                        >
+                          className="theme-btn style-two mt-15 w-100">
                           send message <i className="far fa-long-arrow-right" />
                         </button>
                       </div>

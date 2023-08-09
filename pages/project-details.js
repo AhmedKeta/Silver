@@ -1,10 +1,12 @@
 import PageBanner from "@/components/PageBanner";
 import Layout from "@/layout";
 import Link from "next/link";
+import Meta from "@/components/Meta";
 
 const ProjectDetails = () => {
   return (
     <Layout>
+      <Meta title="Project" />
       <PageBanner pageName={"Project Details"} />
       <section className="project-details-area pt-130 rpt-100 pb-60 rpb-30">
         <div className="container">

@@ -1,9 +1,11 @@
 import Link from "next/link";
 import { Fragment } from "react";
+import Meta from "@/components/Meta";
 
 const E404 = () => {
   return (
     <Fragment>
+      <Meta title="Not found" />
       <section className="error-page-area py-80">
         <div className="container">
           <div className="error-page-content text-center">
@@ -34,22 +36,22 @@ const E404 = () => {
               </div>
             </div>
             <div className="btn-social pt-15 wow fadeInUp delay-0-4s">
-              <Link legacyBehavior legacyBehavior href="/">
+              <Link legacyBehavior href="/">
                 <a className="theme-btn mb-30 mx-2">
                   Go to Home <i className="fas fa-long-arrow-right" />
                 </a>
               </Link>
               <div className="social-style-two mb-30 mx-2">
-                <a href="#">
+                <a href="https://www.facebook.com/people/Silver-Pyramids-Inc/100094335560472/">
                   <i className="fab fa-facebook-f" />
                 </a>
-                <a href="#">
-                  <i className="fab fa-twitter" />
+                <a href="https://x.com/silverpyramids1">
+                  <i className="fab fa-x-twitter" />
                 </a>
-                <a href="#">
+                <a href="https://www.instagram.com/silverpyramids/">
                   <i className="fab fa-instagram" />
                 </a>
-                <a href="#">
+                <a href="https://www.linkedin.com/company/silver-pyramids-inc./mycompany/?viewAsMember=true">
                   <i className="fab fa-linkedin-in" />
                 </a>
               </div>

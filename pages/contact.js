@@ -1,6 +1,7 @@
 import PageBanner from "@/components/PageBanner";
 import Meta from "@/components/Meta";
 import Layout from "@/layout";
+
 const Contact = () => {
   return (
     <Layout>
