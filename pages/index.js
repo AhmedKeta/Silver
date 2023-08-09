@@ -18,7 +18,7 @@ const Index = () => {
           <div className="row align-items-center">
             <div className="col-lg-6 align-self-center">
               <div className="hero-content pt-115 pb-125 rpb-0 wow fadeInUp delay-0-4s">
-                <h1>Affordable Big IT &amp; Technology Solutions</h1>
+                <h1>Creative Technology &amp; Marketing Solutions</h1>
                 <p>
                   Bring On Monday, the innovative small business online
                   accounting services that both you and your bottom line will
@@ -66,6 +66,7 @@ const Index = () => {
             src="assets/images/shapes/hero-right-shape.png"
             alt="Shape"
           />
+          {/* <div className="triangle-shape"></div> */}
         </div>
       </section>
       {/* Hero Section End */}
@@ -158,7 +159,7 @@ const Index = () => {
                     <div className="content">
                       <span>Hotline</span>
                       <br />
-                      <a href="callto:+000(123)45688">+000 (123) 456 88</a>
+                      <a href="callto:+1 630-995-9223">+1 630-995-9223</a>
                     </div>
                   </div>
                 </div>
