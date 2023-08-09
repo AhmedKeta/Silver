@@ -1,3 +1,15 @@
+/* styles.css */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&family=Roboto:wght@400;500;700&display=swap'); */
+/* @import url('../public/'); */
+/* @import url('../public/assets/css/flaticon.min.css');
+@import url('../public/assets/css/fontawesome-5.14.0.min.css');
+@import url('../public/assets/css/bootstrap.min.css');
+@import url('../public/assets/css/magnific-popup.min.css');
+@import url('../public/assets/css/nice-select.min.css');
+@import url('../public/assets/css/animate.min.css');
+@import url('../public/assets/css/slick.min.css');
+@import url('../public/assets/css/style.css'); */
+
 .main-menu li.dropdown:hover > ul {
   display: block;
 }

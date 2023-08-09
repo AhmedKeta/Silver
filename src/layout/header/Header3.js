@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { Fragment } from "react";
 import HiddenSidebar from "../HiddenSidebar";
-import Search from "../Search";
 import HeaderTop from "./HeaderTop";
 import Menu from "./Menu";
 
@@ -31,10 +30,6 @@ const Header3 = () => {
                 {/* Main Menu */}
                 <Menu />
                 {/* Main Menu End*/}
-              </div>
-              {/* Nav Search */}
-              <div className="nav-search py-10">
-                <Search />
               </div>
               {/* Menu Button */}
               <div className="menu-btns">

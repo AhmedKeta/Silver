@@ -3,6 +3,7 @@ import TestimonialsSlider from "@/src/components/slider/TestimonialsSlider";
 import Layout from "@/src/layout/Layout";
 import dynamic from "next/dynamic";
 import Link from "next/link";
+import Meta from "@/components/Meta";
 
 const Counter = dynamic(() => import("@/src/components/Counter"), {
   ssr: false,
@@ -11,6 +12,7 @@ const Counter = dynamic(() => import("@/src/components/Counter"), {
 const About = () => {
   return (
     <Layout>
+      <Meta title="About Us" />
       <PageBanner pageName={"About Us"} />
       <section className="about-area-five py-130 rpt-100 rpb-65 rel z-1">
         <div className="container">
@@ -20,8 +22,8 @@ const About = () => {
                 <img src="assets/images/about/about-five1.jpg" alt="About" />
                 <img src="assets/images/about/about-five2.jpg" alt="About" />
                 <div className="experience-years">
-                  <span className="years">25</span>
-                  <h4>Years Of ExperienceIT Solutions</h4>
+                  <span className="years">23</span>
+                  <h4>Years Of Experience IT Solutions, Marketing</h4>
                 </div>
                 <img
                   className="abut-bg-shape"
@@ -152,8 +154,7 @@ const About = () => {
             className="statistics-inner style-two bgs-cover text-white p-80 pb-20"
             style={{
               backgroundImage: "url(assets/images/background/statistics.jpg)",
-            }}
-          >
+            }}>
             <div className="row align-items-xl-start align-items-center">
               <div className="col-xl-5 col-lg-6">
                 <div className="statistics-content mb-55 wow fadeInUp delay-0-2s">
@@ -176,8 +177,7 @@ const About = () => {
                       <span
                         className="count-text plus"
                         data-speed={3000}
-                        data-stop={2563}
-                      >
+                        data-stop={2563}>
                         <Counter end={2563} />
                       </span>
                       <span className="counter-title">Project Complate</span>
@@ -189,8 +189,7 @@ const About = () => {
                       <span
                         className="count-text percent"
                         data-speed={3000}
-                        data-stop="98.9"
-                      >
+                        data-stop="98.9">
                         <Counter end={98.9} decimals="1" />
                       </span>
                       <span className="counter-title">Clinets Happy</span>
@@ -202,8 +201,7 @@ const About = () => {
                       <span
                         className="count-text plus"
                         data-speed={3000}
-                        data-stop="35.6"
-                      >
+                        data-stop="35.6">
                         <Counter end={35.6} decimals="1" />
                       </span>
                       <span className="counter-title">Years Experience</span>
@@ -215,8 +213,7 @@ const About = () => {
                       <span
                         className="count-text k-plus"
                         data-speed={3000}
-                        data-stop={63}
-                      >
+                        data-stop={63}>
                         <Counter end={63} />
                       </span>
                       <span className="counter-title">Award Winning</span>
@@ -356,8 +353,7 @@ const About = () => {
                 <a
                   className="nav-link active"
                   data-bs-toggle="tab"
-                  href="#wc-tap1"
-                >
+                  href="#wc-tap1">
                   <i className="flaticon-creativity" />{" "}
                   <span>UX/UI Design</span>
                 </a>

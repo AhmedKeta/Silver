@@ -1,9 +1,11 @@
 import PageBanner from "@/components/PageBanner";
+import Meta from "@/components/Meta";
 import Layout from "@/layout";
 const Contact = () => {
   return (
     <Layout>
-      <PageBanner pageName={"Contact Us"} />{" "}
+      <Meta title="Contact Us" />
+      <PageBanner pageName={"Contact Us"} />
       <section className="contact-page-info pt-130 rpt-100 pb-100 rpb-70 rel z-1">
         <div className="container">
           <div className="row text-center mb-35 justify-content-center wow fadeInUp delay-0-2s">
@@ -13,10 +15,9 @@ const Contact = () => {
                 <h2>Contact Informations</h2>
               </div>
               <p>
-                Sed ut perspiciatis unde omnis natus errorsit voluptatem
-                accusantium doloremque laudantium aperiam eaque quae abillo
-                inventore veritatis quasi architecto beatae vitae dicta sunt
-                explicabo
+                Let us tailor a service package that meets your needs. Tell us a
+                little about your business, and we will get back to you with
+                some ideas as soon as possible.
               </p>
             </div>
           </div>
@@ -27,7 +28,7 @@ const Contact = () => {
                   <i className="fal fa-map-marker-alt" />
                 </div>
                 <h4>Locations</h4>
-                <span>553 Main Street, 2nd - Block, New York 32500</span>
+                <span>13118 W.San Miguel Ave. Litchfield Park</span>
               </div>
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6">
@@ -36,11 +37,13 @@ const Contact = () => {
                   <i className="fal fa-envelope-open" />
                 </div>
                 <h4>Email Us</h4>
-                <a href="mailto:supportitinfo@gmail.com">
-                  supportitinfo@gmail.com
+                <a href="mailto:info@silverpyramids.com">
+                  info@silverpyramids.com
                 </a>
                 <br />
-                <a href="http://www.itservice.net">www.itservice.net</a>
+                <a href="mailto:sales@silverpyramids.com">
+                  sales@silverpyramids.com
+                </a>
               </div>
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6">
@@ -48,12 +51,13 @@ const Contact = () => {
                 <div className="icon">
                   <i className="fal fa-phone-plus" />
                 </div>
-                <h4>Locations</h4>
+                <h4>Call Us</h4>
                 <span>
-                  Mobile : <a href="callto:+000(123)45667">+000 (123) 45 667</a>
+                  Mobile : <a href="callto:+1 630-995-9223">+1 630-995-9223</a>
                 </span>
+                <br />
                 <span>
-                  Teliphone : <a href="callto:+1234566">+1234566</a>
+                  <br />
                 </span>
               </div>
             </div>
@@ -64,7 +68,7 @@ const Contact = () => {
                 </div>
                 <h4>Working Hour</h4>
                 <b>Monday _ Friday,</b>
-                <span>08:00am - 06:00pm</span>
+                <span>09:00am - 05:00pm</span>
               </div>
             </div>
           </div>
@@ -75,7 +79,7 @@ const Contact = () => {
       <div className="contact-page-map wow fadeInUp delay-0-2s">
         <div className="our-location">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m12!1m10!1m3!1d142190.2862584524!2d-74.01298319978558!3d40.721725351435126!2m1!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sbd!4v1663473911885!5m2!1sen!2sbd"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57066.317998691055!2d-112.38962475962514!3d33.53046621941129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b4729051b136d%3A0xc44d06acbde01f2c!2s13118%20W%20San%20Miguel%20Ave%2C%20Litchfield%20Park%2C%20AZ%2085340%2C%20USA!5e1!3m2!1sen!2seg!4v1691500440982!5m2!1sen!2seg"
             style={{ border: 0, width: "100%" }}
             allowFullScreen=""
             loading="lazy"
@@ -95,10 +99,9 @@ const Contact = () => {
                   <h2>Send Us Message</h2>
                 </div>
                 <p>
-                  Sed ut perspiciatis unde omnis natus errorsit voluptatem
-                  accusantium doloremque laudantium aperiam eaque quae abillo
-                  inventore veritatis quasi architecto beatae vitae dicta sunt
-                  explicabo
+                  Let us tailor a service package that meets your needs. Tell us
+                  a little about your business, and we will get back to you with
+                  some ideas as soon as possible.
                 </p>
               </div>
             </div>
@@ -107,8 +110,7 @@ const Contact = () => {
               id="contactForm"
               className="contactForm"
               action="assets/php/form-process.php"
-              name="contactForm"
-            >
+              name="contactForm">
               <div className="row">
                 <div className="col-md-6">
                   <div className="form-group">

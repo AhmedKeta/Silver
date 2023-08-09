@@ -47,17 +47,17 @@ const HiddenSidebar = () => {
           </div>
           {/*Social Icons*/}
           <div className="social-style-one">
-            <a href="#">
+            <a href="https://x.com/silverpyramids1">
               <i className="fab fa-twitter" />
             </a>
-            <a href="#">
+            <a href="https://www.facebook.com/profile.php?id=100094335560472">
               <i className="fab fa-facebook-f" />
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com/silverpyramids/">
               <i className="fab fa-instagram" />
             </a>
-            <a href="#">
-              <i className="fab fa-pinterest-p" />
+            <a href="https://www.linkedin.com/company/silver-pyramids-inc./mycompany/?viewAsMember=true">
+              <i className="fab fa-linkedin-in" />
             </a>
           </div>
         </div>
