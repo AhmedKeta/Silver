@@ -5,6 +5,7 @@ import { serviceThreeSlider } from "@/src/sliderProps";
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import Slider from "react-slick";
+import Meta from "@/components/Meta";
 
 const Counter = dynamic(() => import("@/src/components/Counter"), {
   ssr: false,
@@ -13,6 +14,7 @@ const Counter = dynamic(() => import("@/src/components/Counter"), {
 const Service2 = () => {
   return (
     <Layout>
+      <Meta title="Services" />
       <PageBanner pageName={"Service"} pageTitle="Services Two" />
       <section className="services-area-three overflow-hidden pt-130 rpt-100 pb-100 rpb-70 rel z-1">
         <div className="container">
@@ -124,8 +126,7 @@ const Service2 = () => {
         className="statistics-area-four text-white bgs-cover pt-80 pb-20"
         style={{
           backgroundImage: "url(assets/images/background/statistics-three.jpg)",
-        }}
-      >
+        }}>
         <div className="container">
           <div className="row align-items-xl-start align-items-center">
             <div className="col-xl-5 col-lg-6">
@@ -149,8 +150,7 @@ const Service2 = () => {
                     <span
                       className="count-text plus"
                       data-speed={3000}
-                      data-stop={2563}
-                    >
+                      data-stop={2563}>
                       <Counter end={2563} />
                     </span>
                     <span className="counter-title">Project Complate</span>
@@ -162,8 +162,7 @@ const Service2 = () => {
                     <span
                       className="count-text percent"
                       data-speed={3000}
-                      data-stop="98.9"
-                    >
+                      data-stop="98.9">
                       <Counter end={98.9} decimals={1} />
                     </span>
                     <span className="counter-title">Clinets Happy</span>
@@ -175,8 +174,7 @@ const Service2 = () => {
                     <span
                       className="count-text plus"
                       data-speed={3000}
-                      data-stop="35.6"
-                    >
+                      data-stop="35.6">
                       <Counter end={35.6} decimals={1} />
                     </span>
                     <span className="counter-title">Years Experience</span>
@@ -188,8 +186,7 @@ const Service2 = () => {
                     <span
                       className="count-text k-plus"
                       data-speed={3000}
-                      data-stop={63}
-                    >
+                      data-stop={63}>
                       <Counter end={63} />
                     </span>
                     <span className="counter-title">Award Winning</span>
@@ -217,8 +214,7 @@ const Service2 = () => {
                 />
                 <a
                   className="plus"
-                  href="assets/images/services/service-three1.jpg"
-                >
+                  href="assets/images/services/service-three1.jpg">
                   <i className="fal fa-plus" />
                 </a>
               </div>
@@ -254,8 +250,7 @@ const Service2 = () => {
                 />
                 <a
                   className="plus"
-                  href="assets/images/services/service-three2.jpg"
-                >
+                  href="assets/images/services/service-three2.jpg">
                   <i className="fal fa-plus" />
                 </a>
               </div>
@@ -291,8 +286,7 @@ const Service2 = () => {
                 />
                 <a
                   className="plus"
-                  href="assets/images/services/service-three3.jpg"
-                >
+                  href="assets/images/services/service-three3.jpg">
                   <i className="fal fa-plus" />
                 </a>
               </div>
@@ -328,8 +322,7 @@ const Service2 = () => {
                 />
                 <a
                   className="plus"
-                  href="assets/images/services/service-three1.jpg"
-                >
+                  href="assets/images/services/service-three1.jpg">
                   <i className="fal fa-plus" />
                 </a>
               </div>
@@ -365,8 +358,7 @@ const Service2 = () => {
                 />
                 <a
                   className="plus"
-                  href="assets/images/services/service-three2.jpg"
-                >
+                  href="assets/images/services/service-three2.jpg">
                   <i className="fal fa-plus" />
                 </a>
               </div>
@@ -402,8 +394,7 @@ const Service2 = () => {
                 />
                 <a
                   className="plus"
-                  href="assets/images/services/service-three3.jpg"
-                >
+                  href="assets/images/services/service-three3.jpg">
                   <i className="fal fa-plus" />
                 </a>
               </div>

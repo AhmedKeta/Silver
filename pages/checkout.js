@@ -1,9 +1,12 @@
 import PageBanner from "@/components/PageBanner";
 import Layout from "@/layout";
 import { Accordion } from "react-bootstrap";
+import Meta from "@/components/Meta";
+
 const Checkout = () => {
   return (
     <Layout>
+      <Meta title="Checkout" />
       <PageBanner pageName={"Checkout"} />
       <Accordion defaultActiveKey="collapse3">
         <div className="checkout-form-area py-130">
@@ -15,8 +18,7 @@ const Checkout = () => {
                   <Accordion.Toggle
                     as="a"
                     className="card-header"
-                    eventKey="collapse0"
-                  >
+                    eventKey="collapse0">
                     Click here to login
                   </Accordion.Toggle>
                 </h6>
@@ -73,8 +75,7 @@ const Checkout = () => {
                   <Accordion.Toggle
                     as="a"
                     className="card-header"
-                    eventKey="collapse3"
-                  >
+                    eventKey="collapse3">
                     Click here to enter your code
                   </Accordion.Toggle>
                 </h6>
@@ -104,8 +105,7 @@ const Checkout = () => {
                   <Accordion.Toggle
                     as="a"
                     className="card-header"
-                    eventKey="collapse4"
-                  >
+                    eventKey="collapse4">
                     {" "}
                     Enter here
                   </Accordion.Toggle>
@@ -116,8 +116,7 @@ const Checkout = () => {
                     id="checkout-form"
                     className="checkout-form"
                     name="checkout-form"
-                    action="#"
-                  >
+                    action="#">
                     <div className="row">
                       <div className="col-lg-12 pt-15">
                         <h5>Personal Information</h5>
@@ -206,8 +205,7 @@ const Checkout = () => {
                           <select
                             className="select"
                             name="country"
-                            id="country"
-                          >
+                            id="country">
                             <option value="value1">Select Country</option>
                             <option value="value2">Australia</option>
                             <option value="value3">Canada</option>
@@ -308,8 +306,7 @@ const Checkout = () => {
                   <Accordion.Toggle
                     as="a"
                     className="card-header"
-                    eventKey="collapse5"
-                  >
+                    eventKey="collapse5">
                     {" "}
                     Payment Method
                   </Accordion.Toggle>
@@ -324,8 +321,7 @@ const Checkout = () => {
                             defaultActiveKey="collapseOne"
                             as="ul"
                             id="paymentMethod"
-                            className="mb-30"
-                          >
+                            className="mb-30">
                             {/* Default unchecked */}
                             <li className="custom-control custom-radio">
                               <input
@@ -341,8 +337,7 @@ const Checkout = () => {
                                 htmlFor="methodone"
                                 data-toggle="collapse"
                                 data-target="#collapseOne"
-                                eventKey="collapseOne"
-                              >
+                                eventKey="collapseOne">
                                 {" "}
                                 Direct Bank Transfer{" "}
                                 <i className="fas fa-money-check" />
@@ -350,8 +345,7 @@ const Checkout = () => {
                               <Accordion.Collapse
                                 eventKey="collapseOne"
                                 data-parent="#paymentMethod"
-                                style={{}}
-                              >
+                                style={{}}>
                                 <p>
                                   Make your payment directly into our bank
                                   account. Please use your Order ID as the
@@ -374,16 +368,14 @@ const Checkout = () => {
                                 htmlFor="methodtwo"
                                 data-toggle="collapse"
                                 data-target="#collapseTwo"
-                                eventKey="collapseTwo"
-                              >
+                                eventKey="collapseTwo">
                                 {" "}
                                 Cash On Delivery <i className="fas fa-truck" />
                               </Accordion.Toggle>
                               <Accordion.Collapse
                                 eventKey="collapseTwo"
                                 data-parent="#paymentMethod"
-                                style={{}}
-                              >
+                                style={{}}>
                                 <p>Pay with cash upon delivery.</p>
                               </Accordion.Collapse>
                             </li>
@@ -401,15 +393,13 @@ const Checkout = () => {
                                 htmlFor="methodthree"
                                 data-toggle="collapse"
                                 data-target="#collapsethree"
-                                eventKey="collapsethree"
-                              >
+                                eventKey="collapsethree">
                                 Paypal <i className="fab fa-cc-paypal" />
                               </Accordion.Toggle>
                               <Accordion.Collapse
                                 eventKey="collapsethree"
                                 data-parent="#paymentMethod"
-                                style={{}}
-                              >
+                                style={{}}>
                                 <p>
                                   Pay via PayPal; you can pay with your credit
                                   card if you don’t have a PayPal account.

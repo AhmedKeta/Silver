@@ -2,6 +2,8 @@ import PageBanner from "@/components/PageBanner";
 import Layout from "@/layout";
 import dynamic from "next/dynamic";
 import Link from "next/link";
+import Meta from "@/components/Meta";
+
 const ProjectIsotope = dynamic(
   () => import("@/src/components/ProjectIsotope"),
   {
@@ -11,6 +13,7 @@ const ProjectIsotope = dynamic(
 const ProjectMasonry = () => {
   return (
     <Layout>
+      <Meta title="Project" />
       <PageBanner pageName={"Project Masonry"} />
       <section className="project-masonry-area rel z-2 py-130 rpy-100">
         <div className="container">

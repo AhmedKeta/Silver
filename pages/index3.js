@@ -7,6 +7,7 @@ import {
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import Slider from "react-slick";
+import Meta from "@/components/Meta";
 
 const Counter = dynamic(() => import("@/src/components/Counter"), {
   ssr: false,
@@ -17,8 +18,7 @@ const Index3 = () => {
     <Layout header={3}>
       <section
         className="slider-area bgs-cover pt-185 pb-160"
-        style={{ backgroundImage: "url(assets/images/slider/slider-bg.jpg)" }}
-      >
+        style={{ backgroundImage: "url(assets/images/slider/slider-bg.jpg)" }}>
         <div className="container">
           <Slider {...mainSliderActive} className="main-slider-active">
             <div className="slider-item">
@@ -216,8 +216,7 @@ const Index3 = () => {
                 />
                 <a
                   className="plus"
-                  href="assets/images/services/service-three1.jpg"
-                >
+                  href="assets/images/services/service-three1.jpg">
                   <i className="fal fa-plus" />
                 </a>
               </div>
@@ -253,8 +252,7 @@ const Index3 = () => {
                 />
                 <a
                   className="plus"
-                  href="assets/images/services/service-three2.jpg"
-                >
+                  href="assets/images/services/service-three2.jpg">
                   <i className="fal fa-plus" />
                 </a>
               </div>
@@ -290,8 +288,7 @@ const Index3 = () => {
                 />
                 <a
                   className="plus"
-                  href="assets/images/services/service-three3.jpg"
-                >
+                  href="assets/images/services/service-three3.jpg">
                   <i className="fal fa-plus" />
                 </a>
               </div>
@@ -327,8 +324,7 @@ const Index3 = () => {
                 />
                 <a
                   className="plus"
-                  href="assets/images/services/service-three1.jpg"
-                >
+                  href="assets/images/services/service-three1.jpg">
                   <i className="fal fa-plus" />
                 </a>
               </div>
@@ -364,8 +360,7 @@ const Index3 = () => {
                 />
                 <a
                   className="plus"
-                  href="assets/images/services/service-three2.jpg"
-                >
+                  href="assets/images/services/service-three2.jpg">
                   <i className="fal fa-plus" />
                 </a>
               </div>
@@ -401,8 +396,7 @@ const Index3 = () => {
                 />
                 <a
                   className="plus"
-                  href="assets/images/services/service-three3.jpg"
-                >
+                  href="assets/images/services/service-three3.jpg">
                   <i className="fal fa-plus" />
                 </a>
               </div>
@@ -451,8 +445,7 @@ const Index3 = () => {
                   style={{
                     backgroundImage:
                       "url(assets/images/about/consultations-bg.png)",
-                  }}
-                >
+                  }}>
                   <ul className="list-style-one mb-20">
                     <li>Bringing new IT solutions to the market</li>
                     <li>
@@ -470,7 +463,7 @@ const Index3 = () => {
                       <div className="content">
                         <span>Hotline</span>
                         <br />
-                        <a href="callto:+000(123)45688">+000 (123) 456 88</a>
+                        <a href="callto:+1 630-995-9223">+1 630-995-9223</a>
                       </div>
                     </div>
                   </div>
@@ -485,8 +478,7 @@ const Index3 = () => {
                 />
                 <a
                   href="https://www.youtube.com/watch?v=9Y7ma241N8k"
-                  className="mfp-iframe video-play"
-                >
+                  className="mfp-iframe video-play">
                   <i className="fas fa-play" />
                 </a>
               </div>
@@ -507,8 +499,7 @@ const Index3 = () => {
                     <span
                       className="count-text plus"
                       data-speed={3000}
-                      data-stop={2563}
-                    >
+                      data-stop={2563}>
                       <Counter end={2563} />
                     </span>
                     <span className="counter-title">Project Complate</span>
@@ -520,8 +511,7 @@ const Index3 = () => {
                     <span
                       className="count-text percent"
                       data-speed={3000}
-                      data-stop="98.9"
-                    >
+                      data-stop="98.9">
                       <Counter end={98.9} decimals={1} />
                     </span>
                     <span className="counter-title">Clinets Happy</span>
@@ -533,8 +523,7 @@ const Index3 = () => {
                     <span
                       className="count-text plus"
                       data-speed={3000}
-                      data-stop="35.6"
-                    >
+                      data-stop="35.6">
                       <Counter end={35.6} decimals={1} />
                     </span>
                     <span className="counter-title">Years Experience</span>
@@ -573,8 +562,7 @@ const Index3 = () => {
                 <div className="content">
                   <a
                     className="plus"
-                    href="assets/images/projects/project-two1.jpg"
-                  >
+                    href="assets/images/projects/project-two1.jpg">
                     <i className="fal fa-plus" />
                   </a>
                   <h4>
@@ -594,8 +582,7 @@ const Index3 = () => {
                 <div className="content">
                   <a
                     className="plus"
-                    href="assets/images/projects/project-two2.jpg"
-                  >
+                    href="assets/images/projects/project-two2.jpg">
                     <i className="fal fa-plus" />
                   </a>
                   <h4>
@@ -615,8 +602,7 @@ const Index3 = () => {
                 <div className="content">
                   <a
                     className="plus"
-                    href="assets/images/projects/project-two3.jpg"
-                  >
+                    href="assets/images/projects/project-two3.jpg">
                     <i className="fal fa-plus" />
                   </a>
                   <h4>
@@ -636,8 +622,7 @@ const Index3 = () => {
                 <div className="content">
                   <a
                     className="plus"
-                    href="assets/images/projects/project-two4.jpg"
-                  >
+                    href="assets/images/projects/project-two4.jpg">
                     <i className="fal fa-plus" />
                   </a>
                   <h4>
@@ -755,8 +740,7 @@ const Index3 = () => {
         className="contact-form-area py-130 rpy-100 bgs-cover"
         style={{
           backgroundImage: "url(assets/images/background/contact-form-bg.jpg)",
-        }}
-      >
+        }}>
         <div className="container">
           <div className="row gap-100 align-items-center">
             <div className="col-lg-7">
@@ -768,8 +752,7 @@ const Index3 = () => {
                   onSubmit={(e) => e.preventDefault()}
                   className="form-style-one"
                   action="#"
-                  name="contact-form"
-                >
+                  name="contact-form">
                   <div className="row">
                     <div className="col-md-6">
                       <div className="form-group">
@@ -826,8 +809,7 @@ const Index3 = () => {
                       <div className="form-group mb-0">
                         <button
                           type="submit"
-                          className="theme-btn style-two mt-15 w-100"
-                        >
+                          className="theme-btn style-two mt-15 w-100">
                           send message <i className="far fa-long-arrow-right" />
                         </button>
                       </div>
@@ -870,7 +852,7 @@ const Index3 = () => {
                     <div className="content">
                       <span>Hotline</span>
                       <h5>
-                        <a href="calto:+000(123)45688">+000 (123) 456 88</a>
+                        <a href="calto:+1 630-995-9223">+1 630-995-9223</a>
                       </h5>
                     </div>
                   </div>
@@ -901,8 +883,7 @@ const Index3 = () => {
                 </div>
                 <Slider
                   {...testimonialThreeSlider}
-                  className="testimonial-three-slider"
-                >
+                  className="testimonial-three-slider">
                   <div className="testimonial-item">
                     <div className="content">
                       <div className="testi-header">

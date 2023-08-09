@@ -2,6 +2,7 @@ import PageBanner from "@/components/PageBanner";
 import Layout from "@/layout";
 import { JeenaAccordion2 } from "@/src/components/JeenaAccordion";
 import Link from "next/link";
+import Meta from "@/components/Meta";
 
 const ServiceDetails = () => {
   const accordionData = [
@@ -12,6 +13,7 @@ const ServiceDetails = () => {
   ];
   return (
     <Layout>
+      <Meta title="Service" />
       <PageBanner pageName={"Service Details"} />
       <section className="service-details-area pt-130 rpt-100 pb-115 rpb-85">
         <div className="container">
@@ -87,8 +89,7 @@ const ServiceDetails = () => {
                 </p>
                 <div
                   className="faq-accordion pt-20 wow fadeInUp delay-0-2s"
-                  id="faq-accordion"
-                >
+                  id="faq-accordion">
                   <JeenaAccordion2 accordionsData={accordionData} />
                 </div>
               </div>
@@ -135,8 +136,7 @@ const ServiceDetails = () => {
                   style={{
                     backgroundImage:
                       "url(assets/images/widgets/cta-widget-bg.jpg)",
-                  }}
-                >
+                  }}>
                   <span className="h5">Let's Work Together</span>
                   <h2>IT Service Agency</h2>
                   <Link legacyBehavior href="/contact">
@@ -145,8 +145,8 @@ const ServiceDetails = () => {
                     </a>
                   </Link>
                   <br />
-                  <a href="callto:+000(123)45688" className="number">
-                    <i className="fas fa-phone" /> +000 (123) 456 88
+                  <a href="callto:+1 630-995-9223" className="number">
+                    <i className="fas fa-phone" /> +1 630-995-9223
                   </a>
                   <img
                     className="bg-shape"

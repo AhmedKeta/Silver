@@ -2,10 +2,12 @@ import PageBanner from "@/components/PageBanner";
 import Layout from "@/layout";
 import PlusMinusBtn from "@/src/components/PlusMinusBtn";
 import Link from "next/link";
+import Meta from "@/components/Meta";
 
 const Cart = () => {
   return (
     <Layout>
+      <Meta title="Cart" />
       <PageBanner pageName={"Shopping Cart"} />
       <section className="shopping-cart-area py-130 rel z-1">
         <div className="container">
@@ -106,8 +108,7 @@ const Cart = () => {
                 <form
                   onSubmit={(e) => e.preventDefault()}
                   action="#"
-                  className="d-sm-flex justify-content-center justify-content-lg-start"
-                >
+                  className="d-sm-flex justify-content-center justify-content-lg-start">
                   <input type="text" placeholder="Coupon Code" required />
                   <button className="theme-btn flex-none" type="submit">
                     apply Coupon <i className="fas fa-angle-double-right" />

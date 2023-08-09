@@ -1,10 +1,12 @@
 import PageBanner from "@/components/PageBanner";
 import Layout from "@/layout";
 import Link from "next/link";
+import Meta from "@/components/Meta";
 
 const Services = () => {
   return (
     <Layout>
+      <Meta title="Services" />
       <PageBanner pageName={"Services"} />
       <section className="work-process-area pt-130 pb-100 rpt-100 rpb-70 rel z-1">
         <div className="section-title text-center mb-70 wow fadeInUp delay-0-2s">
@@ -88,8 +90,7 @@ const Services = () => {
             <a
               href="https://www.youtube.com/watch?v=9Y7ma241N8k"
               className="mfp-iframe video-play"
-              tabIndex={-1}
-            >
+              tabIndex={-1}>
               <i className="fas fa-play" />
             </a>
           </div>
