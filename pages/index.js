@@ -22,13 +22,13 @@ const Index = () => {
               <div className="hero-content pt-115 pb-125 rpb-0 wow fadeInUp delay-0-4s">
                 <h1>Creative Technology &amp; Marketing Solutions</h1>
                 <p>
-                  Bring On Monday, the innovative small business online
-                  accounting services that both you and your bottom line will
-                  love.
+                  Elevate Your Business with Cutting-edge Software and Marketing
+                  Solutions Tailored to Your Growth.
                 </p>
                 <Link legacyBehavior href="/about">
                   <a className="theme-btn mt-20 wow fadeInUp delay-0-6s">
-                    Ready To Grow With Us ? <i className="fas fa-long-arrow-right" />
+                    Ready To Grow With Us ?{" "}
+                    <i className="fas fa-long-arrow-right" />
                   </a>
                 </Link>
                 <div className="hero-shapes">
@@ -51,8 +51,23 @@ const Index = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-end">
-              <div className="hero-images mt-80 wow fadeInLeft">
-                <img src="assets/images/hero/hero-one.jpg" alt="Hero" />
+              <div
+                className="hero-images wow fadeInLeft"
+                style={{
+                  height: "45vmax",
+                  width: "80vmax",
+                  objectFit: "cover",
+                  marginBottom: "0px",
+                }}
+              >
+                <img
+                  src="assets/images/hero/hero-one.png"
+                  alt="Hero"
+                  style={{
+                    height: "100%",
+                    objectFit: "cover",
+                  }}
+                />
               </div>
             </div>
           </div>
@@ -63,11 +78,6 @@ const Index = () => {
             src="assets/images/shapes/hero-bg-line-shapes.png"
             alt="Shape"
           />
-          <img
-            className="shape right-shape wow fadeInRight delay-0-8s"
-            src="assets/images/shapes/hero-right-shape.png"
-            alt="Shape"
-          />
           {/* <div className="triangle-shape"></div> */}
         </div>
       </section>
@@ -76,16 +86,16 @@ const Index = () => {
       <section className="partners-area mt-60 pt-150 pb-100 rmt-30 rpb-70 rel z-1">
         <div className="container">
           <div className="section-title text-center mb-50 wow fadeInUp delay-0-2s">
-            <span className="sub-title mb-15">Global Partners</span>
-            <h2>World Wide Partners</h2>
+            <span className="sub-title mb-15">Global Customers</span>
+            <h2>Our Customers</h2>
           </div>
           <div className="row row-cols-xl-5 row-cols-lg-4 row-cols-md-3 row-cols-2 justify-content-center">
             <div className="col">
               <Link legacyBehavior href="/contact">
                 <a className="partner-item wow fadeInUp delay-0-3s">
                   <img
-                    src="assets/images/partners/partner1.png"
-                    alt="Partner"
+                    src="assets/images/partners/discover.png"
+                    alt="discover"
                   />
                 </a>
               </Link>
@@ -93,20 +103,14 @@ const Index = () => {
             <div className="col">
               <Link legacyBehavior href="/contact">
                 <a className="partner-item wow fadeInUp delay-0-4s">
-                  <img
-                    src="assets/images/partners/partner2.png"
-                    alt="Partner"
-                  />
+                  <img src="assets/images/partners/ford.png" alt="ford" />
                 </a>
               </Link>
             </div>
             <div className="col">
               <Link legacyBehavior href="/contact">
                 <a className="partner-item wow fadeInUp delay-0-5s">
-                  <img
-                    src="assets/images/partners/partner3.png"
-                    alt="Partner"
-                  />
+                  <img src="assets/images/partners/lexmark.png" alt="lexmark" />
                 </a>
               </Link>
             </div>
@@ -114,8 +118,8 @@ const Index = () => {
               <Link legacyBehavior href="/contact">
                 <a className="partner-item wow fadeInUp delay-0-6s">
                   <img
-                    src="assets/images/partners/partner4.png"
-                    alt="Partner"
+                    src="assets/images/partners/blackveatech.png"
+                    alt="blackveatech"
                   />
                 </a>
               </Link>
@@ -124,8 +128,8 @@ const Index = () => {
               <Link legacyBehavior href="/contact">
                 <a className="partner-item wow fadeInUp delay-0-7s">
                   <img
-                    src="assets/images/partners/partner5.png"
-                    alt="Partner"
+                    src="assets/images/partners/manitowoc.png"
+                    alt="manitowoc"
                   />
                 </a>
               </Link>
@@ -142,13 +146,12 @@ const Index = () => {
               <div className="about-content rmb-65 wow fadeInLeft delay-0-2s">
                 <div className="section-title mb-30">
                   <span className="sub-title mb-15">About Company</span>
-                  <h2>Small Enough to Care Big Enough to Success</h2>
+                  <h2>Crafting Digital Excellence, Together.</h2>
                 </div>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium totam rem aperiam eaque ipsa
-                  quae abillo inventore veritatis et quasi architecto beatae
-                  vitae dicta sunt explicabo.
+                  At silverpyramids, we're your partners in achieving digital
+                  excellence. Through innovative strategies, we amplify your
+                  brand's potential, crafting success together.
                 </p>
                 <div className="about-btns mb-45">
                   <Link legacyBehavior href="/about">
@@ -170,18 +173,18 @@ const Index = () => {
                     <div className="service-item active">
                       <div className="icon">
                         <img
-                          src="assets/images/services/icon1.png"
+                          src="assets/images/services/icon2.png"
                           alt="Icon"
                         />
                       </div>
                       <h4>
                         <Link legacyBehavior href="service-details">
-                          IT Consulting
+                          Technology Solutions
                         </Link>
                       </h4>
                       <p>
-                        Sit amet consectetur adiisc elit sed eiusmod temp diunts
-                        ut labore et dolore magna
+                        Delivering tailored IT solutions that power your
+                        business's growth journey.
                       </p>
                     </div>
                   </div>
@@ -189,18 +192,18 @@ const Index = () => {
                     <div className="service-item">
                       <div className="icon">
                         <img
-                          src="assets/images/services/icon2.png"
+                          src="assets/images/services/icon1.png"
                           alt="Icon"
                         />
                       </div>
                       <h4>
                         <Link legacyBehavior href="service-details">
-                          Business Growth
+                          Marketing Solutions
                         </Link>
                       </h4>
                       <p>
-                        Sit amet consectetur adiisc elit sed eiusmod temp diunts
-                        ut labore et dolore magna
+                        Fueling your brand's success with strategic marketing
+                        prowess and creativity.
                       </p>
                     </div>
                   </div>
@@ -215,11 +218,7 @@ const Index = () => {
                     src="assets/images/about/about1.jpg"
                     alt="About"
                   />
-                  <img
-                    className="wow zoomIn delay-0-5s"
-                    src="assets/images/about/about-logo.png"
-                    alt="About"
-                  />
+                  <img className="wow zoomIn delay-0-5s" />
                 </div>
                 <div className="bottom-part">
                   <img
@@ -256,7 +255,8 @@ const Index = () => {
                 <a
                   href="https://www.youtube.com/watch?v=9Y7ma241N8k"
                   className="mfp-iframe video-play"
-                  tabIndex={-1}>
+                  tabIndex={-1}
+                >
                   <i className="fas fa-play" />
                 </a>
               </div>
@@ -310,7 +310,8 @@ const Index = () => {
                 <a
                   href="https://www.youtube.com/watch?v=9Y7ma241N8k"
                   className="mfp-iframe video-play"
-                  tabIndex={-1}>
+                  tabIndex={-1}
+                >
                   <i className="fas fa-play" />
                 </a>
               </div>
@@ -422,6 +423,60 @@ const Index = () => {
                   <h4>
                     <Link legacyBehavior href="service-details">
                       SEO Optimization
+                    </Link>
+                  </h4>
+                  <p>
+                    On the other hand we denounce withteous indignation and
+                    dislike men who beguilede demoralized by the charms pleasure
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6">
+              <div className="service-two-item wow fadeInUp delay-0-7s">
+                <div className="icon">
+                  <i className="flaticon-seo" />
+                </div>
+                <div className="content">
+                  <h4>
+                    <Link legacyBehavior href="service-details">
+                      Visual Content Services
+                    </Link>
+                  </h4>
+                  <p>
+                    On the other hand we denounce withteous indignation and
+                    dislike men who beguilede demoralized by the charms pleasure
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6">
+              <div className="service-two-item wow fadeInUp delay-0-7s">
+                <div className="icon">
+                  <i className="flaticon-seo" />
+                </div>
+                <div className="content">
+                  <h4>
+                    <Link legacyBehavior href="service-details">
+                      Social Media Marketing
+                    </Link>
+                  </h4>
+                  <p>
+                    On the other hand we denounce withteous indignation and
+                    dislike men who beguilede demoralized by the charms pleasure
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6">
+              <div className="service-two-item wow fadeInUp delay-0-7s">
+                <div className="icon">
+                  <i className="flaticon-seo" />
+                </div>
+                <div className="content">
+                  <h4>
+                    <Link legacyBehavior href="service-details">
+                      Marketing strategies
                     </Link>
                   </h4>
                   <p>
@@ -613,12 +668,13 @@ const Index = () => {
             className="statistics-inner bgs-cover text-white p-80 pb-20"
             style={{
               backgroundImage: "url(assets/images/background/statistics.jpg)",
-            }}>
+            }}
+          >
             <div className="row align-items-xl-start align-items-center">
               <div className="col-xl-5 col-lg-6">
                 <div className="statistics-content mb-55 wow fadeInUp delay-0-2s">
                   <div className="section-title mb-30">
-                    <span className="sub-title mb-15">Company Statistics</span>
+                    <span className="sub-title mb-15">Our Statistics</span>
                     <h2>Learn About Our Comapny Statistics</h2>
                   </div>
                   <Link legacyBehavior href="/about">
@@ -636,8 +692,9 @@ const Index = () => {
                       <span
                         className="count-text plus"
                         data-speed={3000}
-                        data-stop={2563}>
-                        <Counter end={2563} />
+                        data-stop={1021}
+                      >
+                        <Counter end={1021} />
                       </span>
                       <span className="counter-title">Project Complate</span>
                     </div>
@@ -648,7 +705,8 @@ const Index = () => {
                       <span
                         className="count-text percent"
                         data-speed={3000}
-                        data-stop="98.9">
+                        data-stop="98.9"
+                      >
                         <Counter end={98.9} decimals={1} />
                       </span>
                       <span className="counter-title">Clinets Happy</span>
@@ -660,8 +718,9 @@ const Index = () => {
                       <span
                         className="count-text plus"
                         data-speed={3000}
-                        data-stop="35.6">
-                        <Counter end={35.6} decimals={1} />
+                        data-stop="35.6"
+                      >
+                        <Counter end={78} decimals={1} />
                       </span>
                       <span className="counter-title">Years Experience</span>
                     </div>
@@ -672,7 +731,8 @@ const Index = () => {
                       <span
                         className="count-text k-plus"
                         data-speed={3000}
-                        data-stop={63}>
+                        data-stop={63}
+                      >
                         <Counter end={63} />
                       </span>
                       <span className="counter-title">Award Winning</span>
@@ -685,127 +745,10 @@ const Index = () => {
         </div>
       </section>
       {/* Statistics Area end */}
-      {/* Pricing Plan Area start */}
+      {/* Break Start */}
       <section className="price-plan-area bgc-lighter mt-30 rmt-0 pt-220 pb-100 rpb-70 rel z-1">
-        <div className="container pt-20">
-          <div className="section-title text-center mb-55 wow fadeInUp delay-0-2s">
-            <span className="sub-title mb-15">Amazing Pricing Plan</span>
-            <h2>Affordable Pricing Packages</h2>
-          </div>
-          <div className="row justify-content-center">
-            <div className="col-xl-4 col-md-6">
-              <div className="pricing-plan-item wow fadeInUp delay-0-2s">
-                <span className="badge">Best Package</span>
-                <h4 className="title">Basic Plan</h4>
-                <span className="price-count">5 Services Included</span>
-                <span className="price">29.85</span>
-                <Link legacyBehavior href="/pricing">
-                  <a className="theme-btn style-two">
-                    Choose Package <i className="fas fa-long-arrow-right" />
-                  </a>
-                </Link>
-                <h5>This Plan Included :</h5>
-                <ul>
-                  <li>
-                    <a href="#">Premium Quality Supports (24/7)</a>
-                  </li>
-                  <li>
-                    <a href="#">IT Consultations (Business Growth)</a>
-                  </li>
-                  <li>
-                    <a href="#">Web Design &amp; Development</a>
-                  </li>
-                  <li>
-                    <a href="#">Search Engine Optimization (SEO )</a>
-                  </li>
-                  <li>
-                    <a href="#">User &amp; Market Research</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-xl-4 col-md-6">
-              <div className="pricing-plan-item wow fadeInUp delay-0-4s">
-                <span className="badge">Best Package</span>
-                <h4 className="title">standard Plan</h4>
-                <span className="price-count">7 Services Included</span>
-                <span className="price">49.64</span>
-                <Link legacyBehavior href="/pricing">
-                  <a className="theme-btn style-two">
-                    Choose Package <i className="fas fa-long-arrow-right" />
-                  </a>
-                </Link>
-                <h5>This Plan Included :</h5>
-                <ul>
-                  <li>
-                    <a href="#">Premium Quality Supports (24/7)</a>
-                  </li>
-                  <li>
-                    <a href="#">IT Consultations (Business Growth)</a>
-                  </li>
-                  <li>
-                    <a href="#">Web Design &amp; Development</a>
-                  </li>
-                  <li>
-                    <a href="#">Search Engine Optimization (SEO )</a>
-                  </li>
-                  <li>
-                    <a href="#">User &amp; Market Research</a>
-                  </li>
-                  <li>
-                    <a href="#">UX/UI Strategy (Design &amp; Develop)</a>
-                  </li>
-                  <li>
-                    <a href="#">Product Engineering</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-xl-4 col-md-6">
-              <div className="pricing-plan-item wow fadeInUp delay-0-6s">
-                <span className="badge">Best Package</span>
-                <h4 className="title">Golden Package</h4>
-                <span className="price-count">7 Services Included</span>
-                <span className="price">98.73</span>
-                <Link legacyBehavior href="/pricing">
-                  <a className="theme-btn style-two">
-                    Choose Package <i className="fas fa-long-arrow-right" />
-                  </a>
-                </Link>
-                <h5>This Plan Included :</h5>
-                <ul>
-                  <li>
-                    <a href="#">Premium Quality Supports (24/7)</a>
-                  </li>
-                  <li>
-                    <a href="#">IT Consultations (Business Growth)</a>
-                  </li>
-                  <li>
-                    <a href="#">Web Design &amp; Development</a>
-                  </li>
-                  <li>
-                    <a href="#">Search Engine Optimization (SEO )</a>
-                  </li>
-                  <li>
-                    <a href="#">User &amp; Market Research</a>
-                  </li>
-                  <li>
-                    <a href="#">UX/UI Strategy (Design &amp; Develop)</a>
-                  </li>
-                  <li>
-                    <a href="#">Product Engineering</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
+
         <div className="price-shapes">
-          <img
-            className="shape one wow fadeInLeft delay-0-5s"
-            src="assets/images/shapes/price-left.png"
-            alt="Shape"
-          />
           <img
             className="shape two"
             src="assets/images/shapes/price-right.png"
@@ -813,7 +756,7 @@ const Index = () => {
           />
         </div>
       </section>
-      {/* Pricing Plan Area end */}
+      {/* Break End */}
       {/* Testimonials Area start */}
       <section className="testimonials-area py-130 rpy-100 rel z-1">
         <div className="container">
@@ -856,132 +799,6 @@ const Index = () => {
         </div>
       </section>
       {/* Testimonials Area end */}
-      {/* Blog Area start */}
-      <section className="blog-area pb-150 mb-30 rmb-0 rel z-1">
-        <div className="container">
-          <div className="section-title text-center mb-55 wow fadeInUp delay-0-2s">
-            <span className="sub-title mb-15">Our Blog &amp; News</span>
-            <h2>Latest Blog, New &amp; Articles</h2>
-          </div>
-          <div className="row justify-content-center">
-            <div className="col-xl-4 col-md-6">
-              <div className="blog-item style-two wow fadeInUp delay-0-2s">
-                <div className="image">
-                  <img src="assets/images/blog/blog1.jpg" alt="Blog" />
-                </div>
-                <div className="content">
-                  <ul className="blog-meta">
-                    <li>
-                      <i className="far fa-calendar-alt" />{" "}
-                      <a href="#">Jule 26, 2022</a>
-                    </li>
-                    <li>
-                      <i className="far fa-calendar-alt" />{" "}
-                      <a href="#">Comments (25)</a>
-                    </li>
-                  </ul>
-                  <h4>
-                    <Link legacyBehavior href="blog-details">
-                      Voice Usabilit Consideration Partially Visually Hidden
-                    </Link>
-                  </h4>
-                  <div className="author">
-                    <img src="assets/images/blog/author.jpg" alt="Author" />
-                    <i>Post By </i>
-                    <a href="#">John M. Brecht</a>
-                  </div>
-                  <p>
-                    We denounce righteou indignation and dislike men beguile and
-                    demoralize charms
-                  </p>
-                  <Link legacyBehavior href="/blog-details">
-                    <a className="read-more">
-                      Read More <i className="far fa-arrow-right" />
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-md-6">
-              <div className="blog-item style-two wow fadeInUp delay-0-4s">
-                <div className="image">
-                  <img src="assets/images/blog/blog2.jpg" alt="Blog" />
-                </div>
-                <div className="content">
-                  <ul className="blog-meta">
-                    <li>
-                      <i className="far fa-calendar-alt" />{" "}
-                      <a href="#">Jule 26, 2022</a>
-                    </li>
-                    <li>
-                      <i className="far fa-calendar-alt" />{" "}
-                      <a href="#">Comments (25)</a>
-                    </li>
-                  </ul>
-                  <h4>
-                    <Link legacyBehavior href="blog-details">
-                      How Create Vanil Java Script Gant Chart Adding Task
-                    </Link>
-                  </h4>
-                  <div className="author">
-                    <img src="assets/images/blog/author.jpg" alt="Author" />
-                    <i>Post By </i>
-                    <a href="#">John M. Brecht</a>
-                  </div>
-                  <p>
-                    We denounce righteou indignation and dislike men beguile and
-                    demoralize charms
-                  </p>
-                  <Link legacyBehavior href="/blog-details">
-                    <a className="read-more">
-                      Read More <i className="far fa-arrow-right" />
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-md-6">
-              <div className="blog-item style-two wow fadeInUp delay-0-6s">
-                <div className="image">
-                  <img src="assets/images/blog/blog3.jpg" alt="Blog" />
-                </div>
-                <div className="content">
-                  <ul className="blog-meta">
-                    <li>
-                      <i className="far fa-calendar-alt" />{" "}
-                      <a href="#">Jule 26, 2022</a>
-                    </li>
-                    <li>
-                      <i className="far fa-calendar-alt" />{" "}
-                      <a href="#">Comments (25)</a>
-                    </li>
-                  </ul>
-                  <h4>
-                    <Link legacyBehavior href="blog-details">
-                      Smashing Podcast Episode 47 Soueidan Accessibility
-                    </Link>
-                  </h4>
-                  <div className="author">
-                    <img src="assets/images/blog/author.jpg" alt="Author" />
-                    <i>Post By </i>
-                    <a href="#">John M. Brecht</a>
-                  </div>
-                  <p>
-                    We denounce righteou indignation and dislike men beguile and
-                    demoralize charms
-                  </p>
-                  <Link legacyBehavior href="/blog-details">
-                    <a className="read-more">
-                      Read More <i className="far fa-arrow-right" />
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* Blog Area end */}
     </Layout>
   );
 };

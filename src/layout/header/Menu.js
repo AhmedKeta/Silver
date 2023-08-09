@@ -78,7 +78,7 @@ const MobileMenu = () => {
               </a>
               <ul style={activeSubMenu("services")}>
                 <li>
-                  <Link href="services">Software Solutions</Link>
+                  <Link href="services">Technology Solutions</Link>
                 </li>
                 <li>
                   <Link href="services2">Marketing Solutions</Link>
@@ -213,6 +213,7 @@ const DeskTopMenu = () => {
       </div>
       <div className="navbar-collapse collapse clearfix">
         <ul className="navigation clearfix">
+          {/* Home */}
           <li className="dropdown">
             <a href="#">Home</a>
             <ul>
@@ -233,14 +234,15 @@ const DeskTopMenu = () => {
               <span className="fas fa-chevron-down" />
             </div>
           </li>
+          {/* Services */}
           <li className="dropdown">
             <a href="#">services</a>
             <ul>
               <li>
-                <Link href="services">Services One</Link>
+                <Link href="services">Technology Solutions</Link>
               </li>
               <li>
-                <Link href="services2">Services Two</Link>
+                <Link href="services2">Marketing Solutions</Link>
               </li>
               <li>
                 <Link href="service-details">service details</Link>
@@ -250,8 +252,9 @@ const DeskTopMenu = () => {
               <span className="fas fa-chevron-down" />
             </div>
           </li>
+          {/* Projects */}
           <li className="dropdown">
-            <a href="#">Project</a>
+            <a href="#">Projects</a>
             <ul>
               <li>
                 <Link href="project-grid">Project Grid</Link>
@@ -267,6 +270,7 @@ const DeskTopMenu = () => {
               <span className="fas fa-chevron-down" />
             </div>
           </li>
+          {/* Shop */}
           <li className="dropdown">
             <a href="#">shop</a>
             <ul>
@@ -287,6 +291,7 @@ const DeskTopMenu = () => {
               <span className="fas fa-chevron-down" />
             </div>
           </li>
+          {/* Blog */}
           <li className="dropdown">
             <a href="#">blog</a>
             <ul>
@@ -301,6 +306,7 @@ const DeskTopMenu = () => {
               <span className="fas fa-chevron-down" />
             </div>
           </li>
+          {/* Pages */}
           <li className="dropdown">
             <a href="#">pages</a>
             <ul>
