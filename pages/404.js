@@ -9,7 +9,7 @@ const E404 = () => {
       <section className="error-page-area py-80">
         <div className="container">
           <div className="error-page-content text-center">
-            <div className="logo w-75 mb-75 rmb-35 mx-auto wow fadeInUp delay-0-2s">
+            {/* <div className="logo w-25 mb-25 rmb-15 mx-auto wow fadeInUp delay-0-2s">
               <Link legacyBehavior href="/">
                 <a>
                   <img
@@ -19,8 +19,8 @@ const E404 = () => {
                   />
                 </a>
               </Link>
-            </div>
-            <div className="image mb-80 rmb-55 wow fadeInUp delay-0-4s">
+            </div> */}
+            <div className="image mb-40 rmb-25 wow fadeInUp delay-0-4s">
               <img src="assets/images/background/404.png" alt="Error" />
             </div>
             <div className="row justify-content-center wow fadeInUp delay-0-2s">
@@ -28,11 +28,7 @@ const E404 = () => {
                 <div className="section-title mb-20">
                   <h2>OPPS! This Pages Are Can’t Be Found </h2>
                 </div>
-                <p>
-                  On the other hand, we denounce with righteous indignation and
-                  dislike men who are so beguiled and demoralized by the charms
-                  of pleasure of the moment so blinded
-                </p>
+                <p>Explore more about our services and our work.</p>
               </div>
             </div>
             <div className="btn-social pt-15 wow fadeInUp delay-0-4s">
