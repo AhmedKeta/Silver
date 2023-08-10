@@ -81,6 +81,38 @@ export const serviceThreeSlider = {
   ],
 };
 
+export const partnerSlider = {
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  infinite: true,
+  speed: 2000,
+  arrows: false,
+  dots: false,
+  focusOnSelect: true,
+  autoplay: true,
+  autoplaySpeed: 1000,
+  responsive: [
+    {
+      breakpoint: 1300,
+      settings: {
+        slidesToShow: 4,
+      },
+    },
+    {
+      breakpoint: 991,
+      settings: {
+        slidesToShow: 3,
+      },
+    },
+    {
+      breakpoint: 559,
+      settings: {
+        slidesToShow: 1,
+      },
+    },
+  ],
+};
+
 export const testimonialThreeSlider = {
   slidesToShow: 1,
   slidesToScroll: 1,

@@ -11,8 +11,8 @@ const Footer = () => {
               backgroundImage: "url(assets/images/footer/footer-cta-bg.jpg)",
             }}>
             <div className="section-title wow fadeInLeft delay-0-2s">
-              <span className="sub-title">Need Any Consultations ?</span>
-              <h2>We’re Ready to Growth IT Business</h2>
+              <span className="sub-title">Need Any Consultations?</span>
+              <h2>We’re Ready to Growth your Business</h2>
             </div>
             <Link legacyBehavior href="/contact">
               <a className="theme-btn style-three wow fadeInRight delay-0-2s">
@@ -34,19 +34,20 @@ const Footer = () => {
         <div className="row medium-gap">
           <div className="col-xl-3 col-sm-6">
             <div className="footer-widget widget_about wow fadeInUp delay-0-2s">
-              <div className="footer-logo mb-30">
+              <div className="footer-logo mb-0" style={{ background: "none" }}>
                 <Link legacyBehavior href="/">
                   <a>
                     <img src="assets/images/logos/logo-one.png" alt="Logo" />
                   </a>
                 </Link>
               </div>
-              <p>Turning your vision into eReality</p>
-              <Link legacyBehavior href="/about">
-                <a className="read-more">
-                  Learn More Us <i className="fas fa-long-arrow-right" />
-                </a>
-              </Link>
+              <p>
+                {" "}
+                <a href="callto:+1 630-995-9223">+1 630-995-9223</a>
+              </p>
+              <a href="mailto:info@silverpyramids.com">
+                info@silverpyramids.com
+              </a>
             </div>
           </div>
           <div className="col-xl-3 col-sm-6 order-xl-2">
@@ -65,6 +66,9 @@ const Footer = () => {
                 <a href="https://www.linkedin.com/company/silver-pyramids-inc./mycompany/?viewAsMember=true">
                   <i className="fab fa-linkedin-in" />
                 </a>
+              </div>
+              <br />
+              <div className="social-style-one mt-10">
                 <a href="https://www.tiktok.com/@silver.pyramids?ug_source=op.auth&ug_term=Linktr.ee&utm_source=awyc6vc625ejxp86&utm_campaign=tt4d_profile_link&_r=1">
                   <i className="fab fa-tiktok" />
                 </a>
@@ -84,35 +88,24 @@ const Footer = () => {
                   <h4 className="footer-title">Quick Links</h4>
                   <ul className="list-style-two">
                     <li>
-                      <Link
-                        legacyBehavior
-                        href="about">{`Company History`}</Link>
+                      <Link legacyBehavior href="/">
+                        Home
+                      </Link>
                     </li>
                     <li>
-                      <Link legacyBehavior href="about">{`About Company`}</Link>
+                      <Link legacyBehavior href="services">
+                        Technology Solutions
+                      </Link>
                     </li>
                     <li>
-                      <Link
-                        legacyBehavior
-                        href="services">{`Latest Services`}</Link>
+                      <Link legacyBehavior href="services2">
+                        Marketing Solutions
+                      </Link>
                     </li>
                     <li>
-                      <Link
-                        legacyBehavior
-                        href="project-grid">{`Popular Works`}</Link>
-                    </li>
-                    <li>
-                      <Link
-                        legacyBehavior
-                        href="faqs">{`Asked Questions`}</Link>
-                    </li>
-                    <li>
-                      <Link
-                        legacyBehavior
-                        href="blog">{`Blog &amp; News`}</Link>
-                    </li>
-                    <li>
-                      <Link legacyBehavior href="contact">{`Contact us`}</Link>
+                      <Link legacyBehavior href="project-grid">
+                        Popular Works
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -122,38 +115,23 @@ const Footer = () => {
                   <h4 className="footer-title">Services</h4>
                   <ul className="list-style-two">
                     <li>
-                      <Link legacyBehavior href="service-details">
-                        <a>Product Design</a>
+                      <Link legacyBehavior href="digital-details">
+                        <a>Digital Consulting</a>
                       </Link>
                     </li>
                     <li>
-                      <Link legacyBehavior href="service-details">
+                      <Link legacyBehavior href="development-details">
                         <a>Design &amp; Development</a>
                       </Link>
                     </li>
                     <li>
-                      <Link legacyBehavior href="service-details">
-                        <a>UX/UI Strategy</a>
+                      <Link legacyBehavior href="social-details">
+                        <a>Social Media Adv.</a>
                       </Link>
                     </li>
                     <li>
-                      <Link legacyBehavior href="service-details">
+                      <Link legacyBehavior href="seo-details">
                         <a>Search Engine</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link legacyBehavior href="service-details">
-                        <a>IT Consulting</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link legacyBehavior href="service-details">
-                        <a>Software Development</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link legacyBehavior href="service-details">
-                        <a>Business Analysis</a>
                       </Link>
                     </li>
                   </ul>
@@ -165,32 +143,17 @@ const Footer = () => {
                   <ul className="list-style-two">
                     <li>
                       <Link legacyBehavior href="/contact">
-                        <a>Start Here</a>
+                        <a>Contact Us</a>
                       </Link>
                     </li>
                     <li>
                       <Link legacyBehavior href="about">
-                        Style guide
+                        About Us
                       </Link>
                     </li>
                     <li>
-                      <Link legacyBehavior href="404">
-                        <a>404 Not Found</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link legacyBehavior href="contact">
-                        <a>Password Protected</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link legacyBehavior href="contact">
-                        Licenses
-                      </Link>
-                    </li>
-                    <li>
-                      <Link legacyBehavior href="contact">
-                        Changelog
+                      <Link legacyBehavior href="terms">
+                        <a>Terms & Conditions</a>
                       </Link>
                     </li>
                   </ul>
@@ -202,31 +165,16 @@ const Footer = () => {
       </div>
       <div className="footer-bottom bgc-black mt-20 pt-20">
         <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-8">
-              <div className="footer-bottom-menu mb-10 wow fadeInRight delay-0-2s">
-                <ul>
-                  <li>
-                    <a href="#">Buy Template</a>
-                  </li>
-                  <li>
-                    <a href="#">Version 1.2</a>
-                  </li>
-                  <li>
-                    <a href="#">Image Licenses</a>
-                  </li>
-                  <li>
-                    <a href="#">Instructions</a>
-                  </li>
-                  <li>
-                    <a href="#">Visit My Templates</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-lg-4">
-              <div className="copyright-text text-lg-end wow fadeInLeft delay-0-2s">
-                <p>© 2023 Silver Pyramids. All rights reserved.</p>
+          <div className="row align-items-center justify-content-center">
+            {" "}
+            {/* Update this line */}
+            <div className="col-lg-12">
+              <div className="copyright-text text-center">
+                <p>
+                  © 2023 Silver Pyramids. All rights reserved.
+                  <a href="mailto:info@silverpyramids.com"> Contact us</a> for
+                  any inquiries.
+                </p>
               </div>
             </div>
           </div>
@@ -243,11 +191,11 @@ const Footer = () => {
           src="assets/images/footer/footer-bg-line-shape.png"
           alt="Shape"
         />
-        <img
+        {/* <img
           className="shape three wow fadeInRight delay-0-8s"
           src="assets/images/footer/footer-right.png"
           alt="Shape"
-        />
+        /> */}
       </div>
     </footer>
   );
