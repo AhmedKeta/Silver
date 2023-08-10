@@ -28,8 +28,10 @@ const Contact = () => {
                 <div className="icon">
                   <i className="fal fa-map-marker-alt" />
                 </div>
-                <h4>Locations</h4>
-                <span>13118 W.San Miguel Ave. Litchfield Park</span>
+                <h4>Location</h4>
+                <span style={{ fontSize: 14 }}>
+                  13118 W San Miguel Ave, Litchfield Park, AZ 85340, USA
+                </span>
               </div>
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6">
@@ -38,11 +40,15 @@ const Contact = () => {
                   <i className="fal fa-envelope-open" />
                 </div>
                 <h4>Email Us</h4>
-                <a href="mailto:info@silverpyramids.com">
+                <a
+                  style={{ fontSize: 14 }}
+                  href="mailto:info@silverpyramids.com">
                   info@silverpyramids.com
                 </a>
                 <br />
-                <a href="mailto:sales@silverpyramids.com">
+                <a
+                  style={{ fontSize: 14 }}
+                  href="mailto:sales@silverpyramids.com">
                   sales@silverpyramids.com
                 </a>
               </div>
@@ -53,8 +59,8 @@ const Contact = () => {
                   <i className="fal fa-phone-plus" />
                 </div>
                 <h4>Call Us</h4>
-                <span>
-                  Mobile : <a href="callto:+1 630-995-9223">+1 630-995-9223</a>
+                <span style={{ fontSize: 14 }}>
+                  Phone: <a href="callto:+1 630-995-9223">+1 630-995-9223</a>
                 </span>
                 <br />
                 <span>
@@ -68,8 +74,8 @@ const Contact = () => {
                   <i className="fal fa-clock" />
                 </div>
                 <h4>Working Hour</h4>
-                <b>Monday _ Friday,</b>
-                <span>09:00am - 05:00pm</span>
+                <b style={{ fontSize: 14 }}>Monday _ Friday,</b>
+                <span style={{ fontSize: 14 }}>09:00am - 05:00pm (PST)</span>
               </div>
             </div>
           </div>

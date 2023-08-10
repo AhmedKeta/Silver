@@ -39,7 +39,6 @@ const Service2 = () => {
                   <li>Content Creation and Copywriting</li>
                   <li>Social Media Marketing and Advertising</li>
                   <li>Search Engine Optimization (SEO)</li>
-                  <li>Pay-Per-Click (PPC) Advertising</li>
                 </ul>
                 {/* <Link legacyBehavior href="/services">
                   <a className="theme-btn mt-45">
@@ -51,41 +50,31 @@ const Service2 = () => {
             <div className="col-lg-7">
               <div className="row">
                 <div className="col-sm-6">
-                  <div className="feature-item style-two mt-25 wow fadeInUp delay-0-2s">
+                  <div className="feature-item style-two wow fadeInUp delay-0-2s">
                     <div className="icon">
                       <i className="flaticon-trust" />
                     </div>
-                    <Link legacyBehavior href="service-details">
+                    <div>
                       <h4>Trusted Partner</h4>
-                    </Link>
+                    </div>
                     <p>
                       We have built a strong reputation as a trusted partner for
                       businesses of all sizes. With our extensive experience and
                       a dedicated team, we provide reliable and effective
-                      marketing solutions.{" "}
+                      marketing solutions.
                     </p>
-                    <Link legacyBehavior href="/service-details">
-                      <a className="more-btn">
-                        <i className="far fa-angle-right" />
-                      </a>
-                    </Link>
-                  </div>{" "}
+                  </div>
                   <div className="feature-item style-two mt-25 wow fadeInDown delay-0-2s">
                     <div className="icon">
                       <i className="flaticon-brainstorming" />
                     </div>
-                    <Link legacyBehavior href="service-details">
+                    <div>
                       <h4>Technical Support</h4>
-                    </Link>
+                    </div>
                     <p>
                       Our technical support team is available round the clock to
-                      assist you with any issues or concerns you may have.{" "}
+                      assist you with any issues or concerns you may have.
                     </p>
-                    <Link legacyBehavior href="/service-details">
-                      <a className="more-btn">
-                        <i className="far fa-angle-right" />
-                      </a>
-                    </Link>
                   </div>
                 </div>
                 <div className="col-sm-6">
@@ -93,38 +82,28 @@ const Service2 = () => {
                     <div className="icon">
                       <i className="flaticon-technical-support" />
                     </div>
-                    <Link legacyBehavior href="service-details">
+                    <div>
                       <h4>Digital Marketing</h4>
-                    </Link>
+                    </div>
                     <p>
                       Our digital marketing services help businesses establish a
                       strong online presence and reach their target audience
-                      effectively.{" "}
+                      effectively.
                     </p>
-                    <Link legacyBehavior href="/service-details">
-                      <a className="more-btn">
-                        <i className="far fa-angle-right" />
-                      </a>
-                    </Link>
                   </div>
                   <div className="feature-item style-two wow fadeInUp delay-0-2s">
                     <div className="icon">
                       <i className="flaticon-social-media" />
                     </div>
-                    <Link legacyBehavior href="service-details">
+                    <div>
                       <h4>Social Media Marketing</h4>
-                    </Link>
+                    </div>
                     <p>
                       Harness the power of social media to reach your target
                       audience and build brand awareness. Our social media
                       marketing strategies will help you engage with your
-                      customers and drive conversions.{" "}
+                      customers and drive conversions.
                     </p>
-                    <Link legacyBehavior href="/service-details">
-                      <a className="more-btn">
-                        <i className="far fa-angle-right" />
-                      </a>
-                    </Link>
                   </div>
                 </div>
               </div>
@@ -147,7 +126,7 @@ const Service2 = () => {
             <div className="col-xl-5 col-lg-6">
               <div className="statistics-content mb-55 wow fadeInUp delay-0-2s">
                 <div className="section-title mb-30">
-                  <span className="sub-title mb-15">Company Statistics</span>
+                  <span className="sub-title mb-15">Our Statistics</span>
                   <h2>Learn About Our Comapny Statistics</h2>
                 </div>
                 <Link legacyBehavior href="/about">
@@ -159,19 +138,19 @@ const Service2 = () => {
             </div>
             <div className="col-xl-7 col-lg-6">
               <div className="row">
-                <div className="col-xl-3 col-6">
+                <div className="col-xl-3 col-small col-6">
                   <div className="counter-item counter-text-wrap wow fadeInDown delay-0-3s">
                     <i className="flaticon-target" />
                     <span
                       className="count-text plus"
                       data-speed={3000}
-                      data-stop={2563}>
-                      <Counter end={2563} />
+                      data-stop={1021}>
+                      <Counter end={1021} />
                     </span>
                     <span className="counter-title">Project Complate</span>
                   </div>
                 </div>
-                <div className="col-xl-3 col-6">
+                <div className="col-xl-3 col-small col-6">
                   <div className="counter-item counter-text-wrap wow fadeInUp delay-0-3s">
                     <i className="flaticon-target-audience" />
                     <span
@@ -183,19 +162,19 @@ const Service2 = () => {
                     <span className="counter-title">Clinets Happy</span>
                   </div>
                 </div>
-                <div className="col-xl-3 col-6">
+                <div className="col-xl-3 col-small col-6">
                   <div className="counter-item counter-text-wrap wow fadeInDown delay-0-3s">
                     <i className="flaticon-customer-experience" />
                     <span
                       className="count-text plus"
                       data-speed={3000}
                       data-stop="35.6">
-                      <Counter end={35.6} decimals={1} />
+                      <Counter end={78} decimals={1} />
                     </span>
                     <span className="counter-title">Years Experience</span>
                   </div>
                 </div>
-                <div className="col-xl-3 col-6">
+                <div className="col-xl-3 col-small col-6">
                   <div className="counter-item counter-text-wrap wow fadeInUp delay-0-3s">
                     <i className="flaticon-medal" />
                     <span
@@ -240,17 +219,17 @@ const Service2 = () => {
                     <i className="flaticon-coding-1" />
                   </div>
                   <h4>
-                    <Link legacyBehavior href="service-details">
-                      Digital Marketing Strategy
+                    <Link legacyBehavior href="visual-content-details">
+                      Visual Content Services
                     </Link>
                   </h4>
                 </div>
                 <div className="bottom-part">
                   <p>
-                    Reach your target audience with a tailored digital marketing
-                    strategy that drives results.{" "}
+                    Engage your audience with captivating visuals that drive
+                    results.
                   </p>
-                  <Link legacyBehavior href="/digital-details">
+                  <Link legacyBehavior href="/visual-content-details">
                     <a className="read-more">
                       Read More <i className="far fa-arrow-right" />
                     </a>
@@ -277,17 +256,17 @@ const Service2 = () => {
                     <i className="flaticon-layers" />
                   </div>
                   <h4>
-                    <Link legacyBehavior href="service-details">
-                      Content Creation and Copywriting
+                    <Link legacyBehavior href="marketing-details">
+                      Marketing strategies
                     </Link>
                   </h4>
                 </div>
                 <div className="bottom-part">
                   <p>
-                    Create compelling and engaging content that resonates with
-                    your audience and drives brand awareness.{" "}
+                    Create compelling content to boost brand awareness and
+                    audience engagement.
                   </p>
-                  <Link legacyBehavior href="/content-creation-details">
+                  <Link legacyBehavior href="/marketing-details">
                     <a className="read-more">
                       Read More <i className="far fa-arrow-right" />
                     </a>
@@ -314,18 +293,17 @@ const Service2 = () => {
                     <i className="flaticon-cyber-security-1" />
                   </div>
                   <h4>
-                    <Link legacyBehavior href="service-details">
-                      Media Production and Management
+                    <Link legacyBehavior href="seo-details">
+                      SEO Optimization
                     </Link>
                   </h4>
                 </div>
                 <div className="bottom-part">
                   <p>
-                    Produce high-quality media content, including videos and
-                    images, to captivate your audience and enhance your brand
-                    presence.
+                    Improve online visibility and rankings with effective search
+                    engine optimization techniques.
                   </p>
-                  <Link legacyBehavior href="/media-production-details">
+                  <Link legacyBehavior href="/seo-details">
                     <a className="read-more">
                       Read More <i className="far fa-arrow-right" />
                     </a>
@@ -352,91 +330,17 @@ const Service2 = () => {
                     <i className="flaticon-coding-1" />
                   </div>
                   <h4>
-                    <Link legacyBehavior href="service-details">
-                      Social Media Marketing and Management
+                    <Link legacyBehavior href="social-media-details">
+                      Social Media Advertising
                     </Link>
                   </h4>
                 </div>
                 <div className="bottom-part">
                   <p>
-                    Connect and engage on social platforms. Build a strong
-                    online presence and foster brand loyalty.
+                    Connect, engage, and build brand loyalty through strategic
+                    social media campaigns.
                   </p>
                   <Link legacyBehavior href="/social-media-details">
-                    <a className="read-more">
-                      Read More <i className="far fa-arrow-right" />
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="service-item-three">
-              <div className="image">
-                <img
-                  src="assets/images/services/service-three3.jpg"
-                  alt="Service"
-                />
-                <a
-                  className="plus"
-                  href="assets/images/services/service-three3.jpg">
-                  <i className="fal fa-plus" />
-                </a>
-              </div>
-              <div className="content">
-                <div className="top-part">
-                  <span className="number">05</span>
-                  <div className="icon">
-                    <i className="flaticon-cyber-security-1" />
-                  </div>
-                  <h4>
-                    <Link legacyBehavior href="service-details">
-                      Search Engine Optimization (SEO)
-                    </Link>
-                  </h4>
-                </div>
-                <div className="bottom-part">
-                  <p>
-                    Boost search rankings and organic traffic. Improve
-                    visibility and reach your target audience.
-                  </p>
-                  <Link legacyBehavior href="/seo-details">
-                    <a className="read-more">
-                      Read More <i className="far fa-arrow-right" />
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="service-item-three">
-              <div className="image">
-                <img
-                  src="assets/images/services/service-three3.jpg"
-                  alt="Service"
-                />
-                <a
-                  className="plus"
-                  href="assets/images/services/service-three3.jpg">
-                  <i className="fal fa-plus" />
-                </a>
-              </div>
-              <div className="content">
-                <div className="top-part">
-                  <span className="number">06</span>
-                  <div className="icon">
-                    <i className="flaticon-cyber-security-1" />
-                  </div>
-                  <h4>
-                    <Link legacyBehavior href="email-details">
-                      Email Marketing
-                    </Link>
-                  </h4>
-                </div>
-                <div className="bottom-part">
-                  <p>
-                    Nurture customer relationships through targeted campaigns.
-                    Drive engagement and generate leads.
-                  </p>
-                  <Link legacyBehavior href="/service-details">
                     <a className="read-more">
                       Read More <i className="far fa-arrow-right" />
                     </a>
@@ -581,11 +485,11 @@ const Service2 = () => {
       </section> */}
       {/* Pricing Plan Area end */}
       {/* Testimonials Area Two start */}
-      <section className="testimonials-area-two py-130 rpy-100 rel z-1">
+      {/* <section className="testimonials-area-two py-130 rpy-100 rel z-1">
         <div className="container">
           <TestimonialsSlider />
         </div>
-      </section>
+      </section> */}
     </Layout>
   );
 };
