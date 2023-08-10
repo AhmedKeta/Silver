@@ -155,11 +155,7 @@ const JeenaAccordion2 = ({ accordionsData }) => {
             data-bs-parent="#faq-accordion"
           >
             <div className="accordion-body">
-              <p>
-                Sed ut perspiciatis unde omniste natus voluptatem accusantium
-                doloremque laudantium totam rem aperiam quae abillo inventore
-                veritatis quasi architecto beatae vitae dicta sunt explicabo.
-              </p>
+              <p>{accordion.answer}</p>
             </div>
           </Accordion.Collapse>
         </div>

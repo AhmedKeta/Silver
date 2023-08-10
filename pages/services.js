@@ -6,8 +6,10 @@ import Meta from "@/components/Meta";
 const Services = () => {
   return (
     <Layout>
-      <Meta title="Services" />
+      <Meta title="Technology Solutions" />
       <PageBanner pageName={"Services"} pageTitle={"Technology Solutions"} />
+
+      {/* Work Process Area start */}
       <section className="work-process-area pt-130 pb-100 rpt-100 rpb-70 rel z-1">
         <div className="section-title text-center mb-70 wow fadeInUp delay-0-2s">
           <span className="sub-title mb-15">Our Approach</span>
@@ -82,6 +84,7 @@ const Services = () => {
         </div>
       </section>
       {/* Work Process Area end */}
+
       {/* Video Area start */}
       {/* <div className="video-area-two rel z-1">
         <div className="container">
@@ -97,6 +100,7 @@ const Services = () => {
         </div>
       </div> */}
       {/* Video Area end */}
+
       {/* Services Area start */}
       <section className="services-area bgc-lighter pt-75 pb-10 rel z-1">
         <div className="container">
@@ -104,7 +108,7 @@ const Services = () => {
             <div className="col-xl-4 col-md-6">
               <div className="section-title mb-60 wow fadeInUp delay-0-2s">
                 <span className="sub-title mb-15">Explore Our Services</span>
-                <h2>Delivering Exceptional IT Solutions</h2>
+                <h2>Exceptional Technology Solutions</h2>
               </div>
             </div>
             <div className="col-xl-4 col-md-6">
@@ -201,6 +205,7 @@ const Services = () => {
         </div>
       </section>
       {/* Services Area end */}
+
       {/* Customer Satisfaction Area start */}
       <section className="satisfaction-area-two mt-30 py-100 rpy-70 rel z-1">
         <div className="container">
@@ -211,15 +216,14 @@ const Services = () => {
                   <span className="sub-title mb-15">
                     Guaranteed Customer Satisfaction
                   </span>
-                  <h2>Fostering Innovation and Driving Business Growth</h2>
+                  <h2>Assured Customer Satisfaction in Technology Solutions</h2>
                 </div>
                 <p>
-                  With over two decades of experience and a dedicated team of
-                  850+ professionals, Iflexion caters to medium-sized and large
-                  companies worldwide. Our profound expertise combined with a
-                  deep understanding of business enables us to deliver
-                  exceptional solutions that empower enterprises and their
-                  employees.
+                  Backed by years of expertise, we proudly assure absolute
+                  contentment. Our track record of excellence, coupled with
+                  partnerships with industry giants, reflects our dedication to
+                  delivering unparalleled technology solutions that truly
+                  satisfy.
                 </p>
                 <div className="row pt-15">
                   <div className="col-sm-6">
@@ -258,7 +262,7 @@ const Services = () => {
                   />
                 </div>
                 <div className="experience-years">
-                  <h4>23 Years Of Experience</h4>
+                  <h4>Years Of Experience in our team</h4>
                   <img
                     src="assets/images/about/satisfaction-author.png"
                     alt="Author"
