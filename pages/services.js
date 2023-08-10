@@ -7,11 +7,11 @@ const Services = () => {
   return (
     <Layout>
       <Meta title="Services" />
-      <PageBanner pageName={"Services"} />
+      <PageBanner pageName={"Services"} pageTitle={"Technology Solutions"} />
       <section className="work-process-area pt-130 pb-100 rpt-100 rpb-70 rel z-1">
         <div className="section-title text-center mb-70 wow fadeInUp delay-0-2s">
-          <span className="sub-title mb-15">Working Process</span>
-          <h2>Industry Best Practices to the Core</h2>
+          <span className="sub-title mb-15">Our Approach</span>
+          <h2>Implementing Industry Best Practices</h2>
         </div>
         <div className="work-process-line text-center">
           <img src="assets/images/shapes/work-process-line.png" alt="line" />
@@ -22,10 +22,10 @@ const Services = () => {
               <div className="work-process-item mt-40 wow fadeInUp delay-0-2s">
                 <div className="number">01</div>
                 <div className="content">
-                  <h4>Discover</h4>
+                  <h4>Discovery</h4>
                   <p>
-                    We emphasize planning get everythin documente nothing
-                    assumption
+                    We prioritize thorough planning and documentation, leaving
+                    nothing to assumptions.
                   </p>
                 </div>
               </div>
@@ -36,8 +36,8 @@ const Services = () => {
                 <div className="content">
                   <h4>Planning</h4>
                   <p>
-                    Our design approach is to simplify. We embrace creating
-                    something.
+                    Our design approach is centered around simplicity. We strive
+                    to create something remarkable.
                   </p>
                 </div>
               </div>
@@ -46,10 +46,10 @@ const Services = () => {
               <div className="work-process-item mt-40 wow fadeInUp delay-0-2s">
                 <div className="number">03</div>
                 <div className="content">
-                  <h4>Design &amp; Dev</h4>
+                  <h4>Design &amp; Development</h4>
                   <p>
-                    At this step, we cater to requirement backed web services
-                    developmenc
+                    At this stage, we focus on developing web services that
+                    align with your requirements.
                   </p>
                 </div>
               </div>
@@ -60,8 +60,8 @@ const Services = () => {
                 <div className="content">
                   <h4>Testing</h4>
                   <p>
-                    On the other denounce with righteou indignation dislike
-                    beguile demore
+                    We thoroughly test our solutions to ensure they meet the
+                    highest standards of quality.
                   </p>
                 </div>
               </div>
@@ -70,10 +70,10 @@ const Services = () => {
               <div className="work-process-item mt-50 wow fadeInUp delay-0-2s">
                 <div className="number">05</div>
                 <div className="content">
-                  <h4>Project Deliver</h4>
+                  <h4>Project Delivery</h4>
                   <p>
-                    We denounce righteous indignation and dislike men who
-                    beguiled
+                    We deliver projects with utmost professionalism, ensuring
+                    client satisfaction.
                   </p>
                 </div>
               </div>
@@ -83,7 +83,7 @@ const Services = () => {
       </section>
       {/* Work Process Area end */}
       {/* Video Area start */}
-      <div className="video-area-two rel z-1">
+      {/* <div className="video-area-two rel z-1">
         <div className="container">
           <div className="video-wrap-two wow fadeInUp delay-0-2s">
             <img src="assets/images/background/video.jpg" alt="Video" />
@@ -95,7 +95,7 @@ const Services = () => {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Video Area end */}
       {/* Services Area start */}
       <section className="services-area bgc-lighter pt-75 pb-10 rel z-1">
@@ -103,8 +103,8 @@ const Services = () => {
           <div className="row medium-gap">
             <div className="col-xl-4 col-md-6">
               <div className="section-title mb-60 wow fadeInUp delay-0-2s">
-                <span className="sub-title mb-15">Latest Services</span>
-                <h2>We Provide Best IT Services</h2>
+                <span className="sub-title mb-15">Explore Our Services</span>
+                <h2>Delivering Exceptional IT Solutions</h2>
               </div>
             </div>
             <div className="col-xl-4 col-md-6">
@@ -114,13 +114,13 @@ const Services = () => {
                 </div>
                 <div className="content">
                   <h4>
-                    <Link legacyBehavior href="service-details">
-                      Digital Consulting
+                    <Link legacyBehavior href="digital-details">
+                      Digital Consulting Services
                     </Link>
                   </h4>
                   <p>
-                    On the other hand we denounce withteous indignation and
-                    dislike men who beguilede demoralized by the charms pleasure
+                    We provide comprehensive digital consulting services to help
+                    businesses thrive and overcome challenges.
                   </p>
                 </div>
               </div>
@@ -132,13 +132,13 @@ const Services = () => {
                 </div>
                 <div className="content">
                   <h4>
-                    <Link legacyBehavior href="service-details">
-                      Design &amp; Development
+                    <Link legacyBehavior href="development-details">
+                      Design &amp; Development Solutions
                     </Link>
                   </h4>
                   <p>
-                    On the other hand we denounce withteous indignation and
-                    dislike men who beguilede demoralized by the charms pleasure
+                    Our skilled team excels in designing and developing
+                    innovative solutions tailored to your specific needs.
                   </p>
                 </div>
               </div>
@@ -150,13 +150,13 @@ const Services = () => {
                 </div>
                 <div className="content">
                   <h4>
-                    <Link legacyBehavior href="service-details">
-                      Mobile App Solutions
+                    <Link legacyBehavior href="mobile-details">
+                      Mobile App Development
                     </Link>
                   </h4>
                   <p>
-                    On the other hand we denounce withteous indignation and
-                    dislike men who beguilede demoralized by the charms pleasure
+                    We specialize in creating cutting-edge mobile applications
+                    that deliver exceptional user experiences.
                   </p>
                 </div>
               </div>
@@ -168,13 +168,13 @@ const Services = () => {
                 </div>
                 <div className="content">
                   <h4>
-                    <Link legacyBehavior href="service-details">
+                    <Link legacyBehavior href="uiux-details">
                       UX/UI Design Strategy
                     </Link>
                   </h4>
                   <p>
-                    On the other hand we denounce withteous indignation and
-                    dislike men who beguilede demoralized by the charms pleasure
+                    Our UX/UI design strategies are aimed at creating visually
+                    appealing and user-friendly interfaces.
                   </p>
                 </div>
               </div>
@@ -186,13 +186,13 @@ const Services = () => {
                 </div>
                 <div className="content">
                   <h4>
-                    <Link legacyBehavior href="service-details">
-                      SEO Optimization
+                    <Link legacyBehavior href="seo-details">
+                      SEO Optimization Services
                     </Link>
                   </h4>
                   <p>
-                    On the other hand we denounce withteous indignation and
-                    dislike men who beguilede demoralized by the charms pleasure
+                    We offer comprehensive SEO optimization services to enhance
+                    your online visibility and drive organic traffic.
                   </p>
                 </div>
               </div>
@@ -211,14 +211,15 @@ const Services = () => {
                   <span className="sub-title mb-15">
                     Guaranteed Customer Satisfaction
                   </span>
-                  <h2>Ideate, Design And Fuel Business Growth</h2>
+                  <h2>Fostering Innovation and Driving Business Growth</h2>
                 </div>
                 <p>
-                  With over 20 years of experience and 850+ employees board,
-                  Iflexion serves medium-sized and large companies globally.
-                  Profound knowledge coupled with business understanding is what
-                  allows us to create unique solutions that power enterprises,
-                  their employees.
+                  With over two decades of experience and a dedicated team of
+                  850+ professionals, Iflexion caters to medium-sized and large
+                  companies worldwide. Our profound expertise combined with a
+                  deep understanding of business enables us to deliver
+                  exceptional solutions that empower enterprises and their
+                  employees.
                 </p>
                 <div className="row pt-15">
                   <div className="col-sm-6">
@@ -228,7 +229,7 @@ const Services = () => {
                       </div>
                       <h4>
                         <Link legacyBehavior href="service-details">
-                          Best Trusted Partner
+                          Your Most Trusted Partner
                         </Link>
                       </h4>
                     </div>
@@ -240,7 +241,7 @@ const Services = () => {
                       </div>
                       <h4>
                         <Link legacyBehavior href="service-details">
-                          24/7 Tehnical Support
+                          24/7 Technical Support
                         </Link>
                       </h4>
                     </div>
@@ -257,7 +258,7 @@ const Services = () => {
                   />
                 </div>
                 <div className="experience-years">
-                  <h4>25 Years Of Experience IT Solutions</h4>
+                  <h4>23 Years Of Experience</h4>
                   <img
                     src="assets/images/about/satisfaction-author.png"
                     alt="Author"

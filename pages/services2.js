@@ -15,31 +15,37 @@ const Service2 = () => {
   return (
     <Layout>
       <Meta title="Services" />
-      <PageBanner pageName={"Service"} pageTitle="Services Two" />
+      <PageBanner pageName={"Services"} pageTitle="Marketing Solutions" />
       <section className="services-area-three overflow-hidden pt-130 rpt-100 pb-100 rpb-70 rel z-1">
         <div className="container">
           <div className="row gap-100 align-items-center">
             <div className="col-lg-5">
               <div className="services-content-three mb-30 rmb-65 wow fadeInUp delay-0-2s">
                 <div className="section-title mb-30">
-                  <span className="sub-title mb-15">Amazing Services</span>
-                  <h2>We Provide Best IT Services to Growth you Business</h2>
+                  <span className="sub-title mb-15">Marketing Solutions</span>
+                  <h2>
+                    Drive Your Business Growth with Our Marketing Solutions
+                  </h2>
                 </div>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus sit voluptatem
-                  accusantium doloremque laudantium totam rem aperiame aque ipsa
-                  quae abillo inventore veritatis etuas
+                  We specialize in providing top-notch marketing solutions that
+                  will help your business thrive. Our team of experts is
+                  dedicated to delivering outstanding results and helping you
+                  achieve your marketing goals.
                 </p>
                 <ul className="list-style-one pt-5">
-                  <li>Comprehensive UI/UX Assessment</li>
-                  <li>Deep Contextual Research and 360° Planning</li>
-                  <li>Wireframing &amp; Prototyping</li>
+                  <li>Comprehensive Market Research and Analysis</li>
+                  <li>Strategic Planning and Campaign Development</li>
+                  <li>Content Creation and Copywriting</li>
+                  <li>Social Media Marketing and Advertising</li>
+                  <li>Search Engine Optimization (SEO)</li>
+                  <li>Pay-Per-Click (PPC) Advertising</li>
                 </ul>
-                <Link legacyBehavior href="/services">
+                {/* <Link legacyBehavior href="/services">
                   <a className="theme-btn mt-45">
                     View All Services <i className="fas fa-long-arrow-right" />
                   </a>
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="col-lg-7">
@@ -53,23 +59,27 @@ const Service2 = () => {
                       <h4>Trusted Partner</h4>
                     </Link>
                     <p>
-                      With over 20 year of experience 850+ employees flexion
+                      We have built a strong reputation as a trusted partner for
+                      businesses of all sizes. With our extensive experience and
+                      a dedicated team, we provide reliable and effective
+                      marketing solutions.{" "}
                     </p>
                     <Link legacyBehavior href="/service-details">
                       <a className="more-btn">
                         <i className="far fa-angle-right" />
                       </a>
                     </Link>
-                  </div>
-                  <div className="feature-item style-two wow fadeInUp delay-0-2s">
+                  </div>{" "}
+                  <div className="feature-item style-two mt-25 wow fadeInDown delay-0-2s">
                     <div className="icon">
-                      <i className="flaticon-social-media" />
+                      <i className="flaticon-brainstorming" />
                     </div>
                     <Link legacyBehavior href="service-details">
-                      <h4>Digital Marketing</h4>
+                      <h4>Technical Support</h4>
                     </Link>
                     <p>
-                      With over 20 year of experience 850+ employees flexion
+                      Our technical support team is available round the clock to
+                      assist you with any issues or concerns you may have.{" "}
                     </p>
                     <Link legacyBehavior href="/service-details">
                       <a className="more-btn">
@@ -84,10 +94,12 @@ const Service2 = () => {
                       <i className="flaticon-technical-support" />
                     </div>
                     <Link legacyBehavior href="service-details">
-                      <h4>Technical Support</h4>
+                      <h4>Digital Marketing</h4>
                     </Link>
                     <p>
-                      With over 20 year of experience 850+ employees flexion
+                      Our digital marketing services help businesses establish a
+                      strong online presence and reach their target audience
+                      effectively.{" "}
                     </p>
                     <Link legacyBehavior href="/service-details">
                       <a className="more-btn">
@@ -95,15 +107,18 @@ const Service2 = () => {
                       </a>
                     </Link>
                   </div>
-                  <div className="feature-item style-two mt-25 wow fadeInDown delay-0-2s">
+                  <div className="feature-item style-two wow fadeInUp delay-0-2s">
                     <div className="icon">
-                      <i className="flaticon-brainstorming" />
+                      <i className="flaticon-social-media" />
                     </div>
                     <Link legacyBehavior href="service-details">
-                      <h4>IT Consulting</h4>
+                      <h4>Social Media Marketing</h4>
                     </Link>
                     <p>
-                      With over 20 year of experience 850+ employees flexion
+                      Harness the power of social media to reach your target
+                      audience and build brand awareness. Our social media
+                      marketing strategies will help you engage with your
+                      customers and drive conversions.{" "}
                     </p>
                     <Link legacyBehavior href="/service-details">
                       <a className="more-btn">
@@ -203,7 +218,7 @@ const Service2 = () => {
         <div className="container">
           <div className="section-title text-center mb-55 wow fadeInUp delay-0-2s">
             <span className="sub-title mb-10">What We Provides</span>
-            <h2>Digital Core Services</h2>
+            <h2>Marketing, Content, and Media Services</h2>
           </div>
           <Slider {...serviceThreeSlider} className="service-three-slider">
             <div className="service-item-three wow fadeInUp delay-0-2s">
@@ -226,15 +241,16 @@ const Service2 = () => {
                   </div>
                   <h4>
                     <Link legacyBehavior href="service-details">
-                      Custom Software Development
+                      Digital Marketing Strategy
                     </Link>
                   </h4>
                 </div>
                 <div className="bottom-part">
                   <p>
-                    Sed perspiciat unde omnis esteo natus sit voluptatem ways
+                    Reach your target audience with a tailored digital marketing
+                    strategy that drives results.{" "}
                   </p>
-                  <Link legacyBehavior href="/service-details">
+                  <Link legacyBehavior href="/digital-details">
                     <a className="read-more">
                       Read More <i className="far fa-arrow-right" />
                     </a>
@@ -242,7 +258,7 @@ const Service2 = () => {
                 </div>
               </div>
             </div>
-            <div className="service-item-three active wow fadeInUp delay-0-4s">
+            <div className="service-item-three wow fadeInUp delay-0-4s">
               <div className="image">
                 <img
                   src="assets/images/services/service-three2.jpg"
@@ -262,15 +278,16 @@ const Service2 = () => {
                   </div>
                   <h4>
                     <Link legacyBehavior href="service-details">
-                      Web Design (UI/UX) &amp; Development
+                      Content Creation and Copywriting
                     </Link>
                   </h4>
                 </div>
                 <div className="bottom-part">
                   <p>
-                    Sed perspiciat unde omnis esteo natus sit voluptatem ways
+                    Create compelling and engaging content that resonates with
+                    your audience and drives brand awareness.{" "}
                   </p>
-                  <Link legacyBehavior href="/service-details">
+                  <Link legacyBehavior href="/content-creation-details">
                     <a className="read-more">
                       Read More <i className="far fa-arrow-right" />
                     </a>
@@ -298,15 +315,17 @@ const Service2 = () => {
                   </div>
                   <h4>
                     <Link legacyBehavior href="service-details">
-                      Cyber Security and IT Management
+                      Media Production and Management
                     </Link>
                   </h4>
                 </div>
                 <div className="bottom-part">
                   <p>
-                    Sed perspiciat unde omnis esteo natus sit voluptatem ways
+                    Produce high-quality media content, including videos and
+                    images, to captivate your audience and enhance your brand
+                    presence.
                   </p>
-                  <Link legacyBehavior href="/service-details">
+                  <Link legacyBehavior href="/media-production-details">
                     <a className="read-more">
                       Read More <i className="far fa-arrow-right" />
                     </a>
@@ -328,57 +347,22 @@ const Service2 = () => {
               </div>
               <div className="content">
                 <div className="top-part">
-                  <span className="number">01</span>
+                  <span className="number">04</span>
                   <div className="icon">
                     <i className="flaticon-coding-1" />
                   </div>
                   <h4>
                     <Link legacyBehavior href="service-details">
-                      Custom Software Development
+                      Social Media Marketing and Management
                     </Link>
                   </h4>
                 </div>
                 <div className="bottom-part">
                   <p>
-                    Sed perspiciat unde omnis esteo natus sit voluptatem ways
+                    Connect and engage on social platforms. Build a strong
+                    online presence and foster brand loyalty.
                   </p>
-                  <Link legacyBehavior href="/service-details">
-                    <a className="read-more">
-                      Read More <i className="far fa-arrow-right" />
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="service-item-three active">
-              <div className="image">
-                <img
-                  src="assets/images/services/service-three2.jpg"
-                  alt="Service"
-                />
-                <a
-                  className="plus"
-                  href="assets/images/services/service-three2.jpg">
-                  <i className="fal fa-plus" />
-                </a>
-              </div>
-              <div className="content">
-                <div className="top-part">
-                  <span className="number">02</span>
-                  <div className="icon">
-                    <i className="flaticon-layers" />
-                  </div>
-                  <h4>
-                    <Link legacyBehavior href="service-details">
-                      Web Design (UI/UX) &amp; Development
-                    </Link>
-                  </h4>
-                </div>
-                <div className="bottom-part">
-                  <p>
-                    Sed perspiciat unde omnis esteo natus sit voluptatem ways
-                  </p>
-                  <Link legacyBehavior href="/service-details">
+                  <Link legacyBehavior href="/social-media-details">
                     <a className="read-more">
                       Read More <i className="far fa-arrow-right" />
                     </a>
@@ -400,19 +384,57 @@ const Service2 = () => {
               </div>
               <div className="content">
                 <div className="top-part">
-                  <span className="number">03</span>
+                  <span className="number">05</span>
                   <div className="icon">
                     <i className="flaticon-cyber-security-1" />
                   </div>
                   <h4>
                     <Link legacyBehavior href="service-details">
-                      Cyber Security and IT Management
+                      Search Engine Optimization (SEO)
                     </Link>
                   </h4>
                 </div>
                 <div className="bottom-part">
                   <p>
-                    Sed perspiciat unde omnis esteo natus sit voluptatem ways
+                    Boost search rankings and organic traffic. Improve
+                    visibility and reach your target audience.
+                  </p>
+                  <Link legacyBehavior href="/seo-details">
+                    <a className="read-more">
+                      Read More <i className="far fa-arrow-right" />
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="service-item-three">
+              <div className="image">
+                <img
+                  src="assets/images/services/service-three3.jpg"
+                  alt="Service"
+                />
+                <a
+                  className="plus"
+                  href="assets/images/services/service-three3.jpg">
+                  <i className="fal fa-plus" />
+                </a>
+              </div>
+              <div className="content">
+                <div className="top-part">
+                  <span className="number">06</span>
+                  <div className="icon">
+                    <i className="flaticon-cyber-security-1" />
+                  </div>
+                  <h4>
+                    <Link legacyBehavior href="email-details">
+                      Email Marketing
+                    </Link>
+                  </h4>
+                </div>
+                <div className="bottom-part">
+                  <p>
+                    Nurture customer relationships through targeted campaigns.
+                    Drive engagement and generate leads.
                   </p>
                   <Link legacyBehavior href="/service-details">
                     <a className="read-more">
@@ -430,7 +452,7 @@ const Service2 = () => {
       </section>
       {/* What We Provide Area End */}
       {/* Pricing Plan Area start */}
-      <section className="price-plan-area overflow-hidden bgc-lighter pt-130 rpt-100 pb-100 rpb-70 rel z-1">
+      {/* <section className="price-plan-area overflow-hidden bgc-lighter pt-130 rpt-100 pb-100 rpb-70 rel z-1">
         <div className="container">
           <div className="section-title text-center mb-55 wow fadeInUp delay-0-2s">
             <span className="sub-title mb-15">Amazing Pricing Plan</span>
@@ -556,7 +578,7 @@ const Service2 = () => {
             alt="Shape"
           />
         </div>
-      </section>
+      </section> */}
       {/* Pricing Plan Area end */}
       {/* Testimonials Area Two start */}
       <section className="testimonials-area-two py-130 rpy-100 rel z-1">
