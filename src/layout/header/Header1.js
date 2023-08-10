@@ -19,12 +19,12 @@ const Header1 = () => {
                 <a href="callto:+1 630-995-9223">+1 630-995-9223</a>
               </li>
               <li className="for-none">
-                <i className="far fa-clock" /> Working Hours : Monday- Friday, 9
+                <i className="far fa-clock" /> Working Hours : Mon - Fri, 9
                 am to 5pm
               </li>
               <li>
                 <div className="social-style-one">
-                  <a href="https://www.facebook.com/profile.php?id=100094335560472">
+                  <a href="https://www.facebook.com/people/Silver-Pyramids-Inc/100094335560472/">
                     <i className="fab fa-facebook-f" />
                   </a>
                   <a href="https://x.com/silverpyramids1">
@@ -35,6 +35,12 @@ const Header1 = () => {
                   </a>
                   <a href="https://www.linkedin.com/company/silver-pyramids-inc./mycompany/?viewAsMember=true">
                     <i className="fab fa-linkedin-in" />
+                  </a>
+                  <a href="https://www.tiktok.com/@silver.pyramids?ug_source=op.auth&ug_term=Linktr.ee&utm_source=awyc6vc625ejxp86&utm_campaign=tt4d_profile_link&_r=1">
+                    <i className="fab fa-tiktok" />
+                  </a>
+                  <a href="https://www.youtube.com/@SilverPyramids1">
+                    <i className="fab fa-youtube" />
                   </a>
                 </div>
               </li>
