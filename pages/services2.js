@@ -66,7 +66,7 @@ const Service2 = () => {
                   </div>
                   <div className="feature-item style-two mt-25 wow fadeInDown delay-0-2s">
                     <div className="icon">
-                      <i className="flaticon-brainstorming" />
+                      <i className="flaticon-support" />
                     </div>
                     <div>
                       <h4>Technical Support</h4>
@@ -80,7 +80,7 @@ const Service2 = () => {
                 <div className="col-sm-6">
                   <div className="feature-item style-two wow fadeInDown delay-0-2s">
                     <div className="icon">
-                      <i className="flaticon-technical-support" />
+                      <i className="flaticon-megaphone" />
                     </div>
                     <div>
                       <h4>Digital Marketing</h4>
@@ -216,7 +216,7 @@ const Service2 = () => {
                 <div className="top-part">
                   <span className="number">01</span>
                   <div className="icon">
-                    <i className="flaticon-coding-1" />
+                    <i className="flaticon-creativity" />
                   </div>
                   <h4>
                     <Link legacyBehavior href="visual-content-details">
@@ -253,7 +253,7 @@ const Service2 = () => {
                 <div className="top-part">
                   <span className="number">02</span>
                   <div className="icon">
-                    <i className="flaticon-layers" />
+                    <i className="flaticon-megaphone" />
                   </div>
                   <h4>
                     <Link legacyBehavior href="marketing-details">
@@ -290,7 +290,7 @@ const Service2 = () => {
                 <div className="top-part">
                   <span className="number">03</span>
                   <div className="icon">
-                    <i className="flaticon-cyber-security-1" />
+                    <i className="flaticon-seo-1" />
                   </div>
                   <h4>
                     <Link legacyBehavior href="seo-details">
@@ -327,7 +327,7 @@ const Service2 = () => {
                 <div className="top-part">
                   <span className="number">04</span>
                   <div className="icon">
-                    <i className="flaticon-coding-1" />
+                    <i className="flaticon-social-media" />
                   </div>
                   <h4>
                     <Link legacyBehavior href="social-media-details">

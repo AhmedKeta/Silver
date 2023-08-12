@@ -617,7 +617,7 @@ const Index = () => {
             <div className="col-xl-4 col-md-6">
               <div className="service-two-item wow fadeInUp delay-0-7s">
                 <div className="icon">
-                  <i className="flaticon-seo" />
+                  <i className="flaticon-seo-1" />
                 </div>
                 <div className="content">
                   <h4>
@@ -635,7 +635,7 @@ const Index = () => {
             <div className="col-xl-4 col-md-6">
               <div className="service-two-item wow fadeInUp delay-0-7s">
                 <div className="icon">
-                  <i className="flaticon-seo" />
+                  <i className="flaticon-creativity" />
                 </div>
                 <div className="content">
                   <h4>
@@ -653,7 +653,7 @@ const Index = () => {
             <div className="col-xl-4 col-md-6">
               <div className="service-two-item wow fadeInUp delay-0-7s">
                 <div className="icon">
-                  <i className="flaticon-seo" />
+                  <i className="flaticon-social-media" />
                 </div>
                 <div className="content">
                   <h4>
@@ -671,7 +671,7 @@ const Index = () => {
             <div className="col-xl-4 col-md-6">
               <div className="service-two-item wow fadeInUp delay-0-7s">
                 <div className="icon">
-                  <i className="flaticon-seo" />
+                  <i className="flaticon-megaphone" />
                 </div>
                 <div className="content">
                   <h4>
