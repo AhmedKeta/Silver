@@ -159,7 +159,7 @@ const About = () => {
               <div className="col-xl-5 col-lg-6">
                 <div className="statistics-content mb-55 wow fadeInUp delay-0-2s">
                   <div className="section-title mb-30">
-                    <span className="sub-title mb-15">Company Statistics</span>
+                    <span className="sub-title mb-15">Our Statistics</span>
                     <h2>Learn About Our Comapny Statistics</h2>
                   </div>
                   <Link legacyBehavior href="/about">
@@ -177,8 +177,8 @@ const About = () => {
                       <span
                         className="count-text plus"
                         data-speed={3000}
-                        data-stop={2563}>
-                        <Counter end={2563} />
+                        data-stop={1021}>
+                        <Counter end={1021} />
                       </span>
                       <span className="counter-title">Project Complate</span>
                     </div>
@@ -190,7 +190,7 @@ const About = () => {
                         className="count-text percent"
                         data-speed={3000}
                         data-stop="98.9">
-                        <Counter end={98.9} decimals="1" />
+                        <Counter end={98.9} decimals={1} />
                       </span>
                       <span className="counter-title">Clinets Happy</span>
                     </div>
@@ -202,7 +202,7 @@ const About = () => {
                         className="count-text plus"
                         data-speed={3000}
                         data-stop="35.6">
-                        <Counter end={35.6} decimals="1" />
+                        <Counter end={78} decimals={1} />
                       </span>
                       <span className="counter-title">Years Experience</span>
                     </div>
