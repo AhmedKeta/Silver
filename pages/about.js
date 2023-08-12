@@ -4,6 +4,8 @@ import Layout from "@/src/layout/Layout";
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import Meta from "@/components/Meta";
+import Slider from "react-slick";
+import { partnerSlider } from "@/src/sliderProps";
 
 const Counter = dynamic(() => import("@/src/components/Counter"), {
   ssr: false,
@@ -533,64 +535,262 @@ const About = () => {
       </section>
       {/* Testimonials Area Two end */}
       {/* Partners Area start */}
-      <div className="partners-area-three text-center rel z-1 pb-110 rpb-80">
+      <section className="partners-area mt-60 pt-150 pb-100 rmt-30 rpb-70 rel z-1 overflow-hidden py-130 rpy-100">
         <div className="container">
-          <hr className="mb-75" />
-          <div className="row row-cols-xl-5 row-cols-lg-4 row-cols-md-3 row-cols-2 justify-content-center">
-            <div className="col">
-              <Link legacyBehavior href="/contact">
-                <a className="partner-item-two wow fadeInUp delay-0-3s">
-                  <img
-                    src="assets/images/partners/partner1.png"
-                    alt="Partner"
-                  />
-                </a>
-              </Link>
-            </div>
-            <div className="col">
-              <Link legacyBehavior href="/contact">
-                <a className="partner-item-two wow fadeInUp delay-0-4s">
-                  <img
-                    src="assets/images/partners/partner2.png"
-                    alt="Partner"
-                  />
-                </a>
-              </Link>
-            </div>
-            <div className="col">
-              <Link legacyBehavior href="/contact">
-                <a className="partner-item-two wow fadeInUp delay-0-5s">
-                  <img
-                    src="assets/images/partners/partner3.png"
-                    alt="Partner"
-                  />
-                </a>
-              </Link>
-            </div>
-            <div className="col">
-              <Link legacyBehavior href="/contact">
-                <a className="partner-item-two wow fadeInUp delay-0-6s">
-                  <img
-                    src="assets/images/partners/partner4.png"
-                    alt="Partner"
-                  />
-                </a>
-              </Link>
-            </div>
-            <div className="col">
-              <Link legacyBehavior href="/contact">
-                <a className="partner-item-two wow fadeInUp delay-0-7s">
-                  <img
-                    src="assets/images/partners/partner5.png"
-                    alt="Partner"
-                  />
-                </a>
-              </Link>
-            </div>
+          <div className="section-title text-center mb-50 wow fadeInUp delay-0-2s">
+            <span className="sub-title mb-15">Global Customers</span>
+            <h2>Our Customers</h2>
           </div>
-          <hr className="mt-45" />
+          <div>
+            <Slider {...partnerSlider} className="service-three-slider">
+              <div className="col">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-3s">
+                    <img
+                      src="assets/images/partners/discover.png"
+                      alt="discover"
+                    />
+                  </p>
+                </div>
+              </div>
+              <div className="col">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-4s">
+                    <img src="assets/images/partners/ford.png" alt="ford" />
+                  </p>
+                </div>
+              </div>{" "}
+              <div className="col">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-4s">
+                    <img src="assets/images/partners/sony.png" alt="sony" />
+                  </p>
+                </div>
+              </div>
+              <div className="col">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-5s">
+                    <img
+                      src="assets/images/partners/lexmark.png"
+                      alt="lexmark"
+                    />
+                  </p>
+                </div>
+              </div>
+              <div className="col">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-6s">
+                    <img
+                      src="assets/images/partners/blackveatech.png"
+                      alt="blackveatech"
+                    />
+                  </p>
+                </div>
+              </div>
+              <div className="col">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-7s">
+                    <img
+                      src="assets/images/partners/manitowoc.png"
+                      alt="manitowoc"
+                    />
+                  </p>
+                </div>
+              </div>
+              <div className="col">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-7s">
+                    <img src="assets/images/partners/fedex.png" alt="FedEx" />
+                  </p>
+                </div>
+              </div>
+              <div className="col">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-7s">
+                    <img
+                      src="assets/images/partners/generalmotors.png"
+                      alt="General Motors"
+                    />
+                  </p>
+                </div>
+              </div>
+              <div className="col">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-7s">
+                    <img src="assets/images/partners/exelon.png" alt="exelon" />
+                  </p>
+                </div>
+              </div>
+              <div className="col">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-7s">
+                    <img src="assets/images/partners/amgen.png" alt="amgen" />
+                  </p>
+                </div>
+              </div>
+              <div className="col">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-7s">
+                    <img src="assets/images/partners/calx.png" alt="calx" />
+                  </p>
+                </div>
+              </div>
+              <div className="col">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-7s">
+                    <img
+                      src="assets/images/partners/bobazona.png"
+                      alt="bobazona"
+                    />
+                  </p>
+                </div>
+              </div>
+              <div className="col">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-7s">
+                    <img
+                      src="assets/images/partners/cummins.png"
+                      alt="cummins"
+                    />
+                  </p>
+                </div>
+              </div>
+              <div className="col">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-7s">
+                    <img
+                      src="assets/images/partners/navitas.png"
+                      alt="navitas"
+                    />
+                  </p>
+                </div>
+              </div>
+              <div className="col">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-7s">
+                    <img
+                      src="assets/images/partners/royalepuppies.png"
+                      alt="Royale Puppies"
+                    />
+                  </p>
+                </div>
+              </div>
+              <div className="col">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-7s">
+                    <img
+                      src="assets/images/partners/opticalpro.png"
+                      alt="Optical Pro"
+                    />
+                  </p>
+                </div>
+              </div>{" "}
+              <div className="col">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-7s">
+                    <img
+                      src="assets/images/partners/snpglobal.png"
+                      alt="S&P Global"
+                    />
+                  </p>
+                </div>
+              </div>{" "}
+              <div className="col">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-7s">
+                    <img
+                      src="assets/images/partners/unitednations.png"
+                      alt="united nations"
+                    />
+                  </p>
+                </div>
+              </div>{" "}
+              <div className="col">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-7s">
+                    <img
+                      src="assets/images/partners/deutschebank.png"
+                      alt="deutsche bank"
+                    />
+                  </p>
+                </div>
+              </div>{" "}
+              <div className="col">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-7s">
+                    <img
+                      src="assets/images/partners/whirlpool.png"
+                      alt="whirlpool"
+                    />
+                  </p>
+                </div>
+              </div>{" "}
+              <div className="col">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-7s">
+                    <img
+                      src="assets/images/partners/yankeegroup.png"
+                      alt="yankee group"
+                    />
+                  </p>
+                </div>
+              </div>{" "}
+              <div className="col">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-7s">
+                    <img
+                      src="assets/images/partners/nielsen.png"
+                      alt="nielsen"
+                    />
+                  </p>
+                </div>
+              </div>{" "}
+              <div className="col">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-7s">
+                    <img src="assets/images/partners/mylan.png" alt="mylan" />
+                  </p>
+                </div>
+              </div>{" "}
+              <div className="col">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-7s">
+                    <img
+                      src="assets/images/partners/ultimategaragedoors.png"
+                      alt="ultimate garage doors"
+                    />
+                  </p>
+                </div>
+              </div>{" "}
+              <div className="col">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-7s">
+                    <img src="assets/images/partners/pfizer.png" alt="pfizer" />
+                  </p>
+                </div>
+              </div>{" "}
+              <div className="col">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-7s">
+                    <img src="assets/images/partners/bmw.png" alt="bmw" />
+                  </p>
+                </div>
+              </div>{" "}
+              <div className="col">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-7s">
+                    <img
+                      src="assets/images/partners/netflix.png"
+                      alt="netflix"
+                    />
+                  </p>
+                </div>
+              </div>{" "}
+            </Slider>
+          </div>
         </div>
-      </div>
+      </section>
+      {/* Partners Area end */}
     </Layout>
   );
 };
