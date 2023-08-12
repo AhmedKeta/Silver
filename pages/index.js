@@ -20,8 +20,9 @@ const Index = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 align-self-center">
-              <div className="hero-content pt-115 pb-125 rpb-0 delay-0-4s">
-                <h1>Creative Technology &amp; Marketing Solutions</h1>
+
+              <div className="hero-content pt-115 pb-125 rpb-0 wow fadeInUp delay-0-4s">
+                <h1>Your Vision, Our Expertise.</h1>
                 <p>
                   Elevate Your Business with Cutting-edge Software and Marketing
                   Solutions Tailored to Your Growth.

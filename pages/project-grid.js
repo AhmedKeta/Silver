@@ -6,23 +6,29 @@ import Meta from "@/components/Meta";
 const ProjectGrid = () => {
   return (
     <Layout>
-      <Meta title="Project" />
-      <PageBanner pageName={"Project Grid"} />
+      <Meta title="Case Studies" />
+      <PageBanner pageName={"Case Studies"} />
       <section className="project-grid-area rel z-2 py-130 rpy-100">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-8 col-lg-10">
               <div className="section-title text-center mb-50 wow fadeInUp delay-0-2s">
-                <h2>Let’s Insides About Recent Project Best Work Gallery</h2>
+                <h2>
+                  Exploring Success: Our Case Studies in Technology and
+                  Marketing Solutions
+                </h2>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium totam rem aperiam eaque ipsa
-                  quae abillo inventore veritatis et quasi architecto beatae
-                  vitae .
+                  Dive into our collection of captivating case studies that
+                  illuminate the intersection of technology and marketing.
+                  Discover how we've partnered with clients to overcome
+                  challenges, devise innovative solutions, and achieve
+                  remarkable outcomes. Each case study is a testament to our
+                  expertise and commitment to delivering exceptional results.
                 </p>
               </div>
             </div>
           </div>
+          {/* Projects */}
           <div className="row">
             <div className="col-xl-4 col-md-6">
               <div className="project-grid-item wow fadeInUp delay-0-2s">
@@ -258,13 +264,6 @@ const ProjectGrid = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="project-more-btn text-center">
-            <Link legacyBehavior href="/project-grid">
-              <a className="theme-btn style-two wow fadeInUp delay-0-2s">
-                View More Gallery <i className="fas fa-long-arrow-right" />
-              </a>
-            </Link>
           </div>
         </div>
       </section>
