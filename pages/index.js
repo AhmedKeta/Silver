@@ -20,7 +20,7 @@ const Index = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 align-self-center">
-              <div className="hero-content pt-115 pb-125 rpb-0 wow fadeInUp delay-0-4s">
+              <div className="hero-content pt-115 pb-125 rpb-0 delay-0-4s">
                 <h1>Creative Technology &amp; Marketing Solutions</h1>
                 <p>
                   Elevate Your Business with Cutting-edge Software and Marketing
@@ -53,14 +53,13 @@ const Index = () => {
             </div>
             <div className="col-lg-6 align-self-end">
               <div
-                className="hero-images wow fadeInLeft"
+                className="hero-images"
                 style={{
                   height: "45vmax",
                   width: "80vmax",
                   objectFit: "cover",
                   marginBottom: "0px",
-                }}
-              >
+                }}>
                 <img
                   src="assets/images/hero/hero-one.png"
                   alt="Hero"
@@ -457,8 +456,7 @@ const Index = () => {
                 <a
                   href="https://www.youtube.com/watch?v=9Y7ma241N8k"
                   className="mfp-iframe video-play"
-                  tabIndex={-1}
-                >
+                  tabIndex={-1}>
                   <i className="fas fa-play" />
                 </a>
               </div>
@@ -512,8 +510,7 @@ const Index = () => {
                 <a
                   href="https://www.youtube.com/watch?v=9Y7ma241N8k"
                   className="mfp-iframe video-play"
-                  tabIndex={-1}
-                >
+                  tabIndex={-1}>
                   <i className="fas fa-play" />
                 </a>
               </div>
@@ -551,13 +548,13 @@ const Index = () => {
                 </div>
                 <div className="content">
                   <h4>
-                    <Link legacyBehavior href="service-details">
+                    <Link legacyBehavior href="digital-details">
                       Digital Consulting
                     </Link>
                   </h4>
                   <p>
-                    On the other hand we denounce withteous indignation and
-                    dislike men who beguilede demoralized by the charms pleasure
+                    We provide comprehensive digital consulting services to help
+                    businesses thrive and overcome challenges.
                   </p>
                 </div>
               </div>
@@ -569,13 +566,13 @@ const Index = () => {
                 </div>
                 <div className="content">
                   <h4>
-                    <Link legacyBehavior href="service-details">
+                    <Link legacyBehavior href="development-details">
                       Design &amp; Development
                     </Link>
                   </h4>
                   <p>
-                    On the other hand we denounce withteous indignation and
-                    dislike men who beguilede demoralized by the charms pleasure
+                    Our skilled team excels in designing and developing
+                    innovative solutions tailored to your specific needs.
                   </p>
                 </div>
               </div>
@@ -587,13 +584,13 @@ const Index = () => {
                 </div>
                 <div className="content">
                   <h4>
-                    <Link legacyBehavior href="service-details">
+                    <Link legacyBehavior href="mobile-details">
                       Mobile App Solutions
                     </Link>
                   </h4>
                   <p>
-                    On the other hand we denounce withteous indignation and
-                    dislike men who beguilede demoralized by the charms pleasure
+                    We specialize in creating cutting-edge mobile applications
+                    that deliver exceptional user experiences.
                   </p>
                 </div>
               </div>
@@ -605,13 +602,13 @@ const Index = () => {
                 </div>
                 <div className="content">
                   <h4>
-                    <Link legacyBehavior href="service-details">
+                    <Link legacyBehavior href="uiux-details">
                       UX/UI Design Strategy
                     </Link>
                   </h4>
                   <p>
-                    On the other hand we denounce withteous indignation and
-                    dislike men who beguilede demoralized by the charms pleasure
+                    Our UX/UI design strategies are aimed at creating visually
+                    appealing and user-friendly interfaces.
                   </p>
                 </div>
               </div>
@@ -623,13 +620,13 @@ const Index = () => {
                 </div>
                 <div className="content">
                   <h4>
-                    <Link legacyBehavior href="service-details">
+                    <Link legacyBehavior href="seo-details">
                       SEO Optimization
                     </Link>
                   </h4>
                   <p>
-                    On the other hand we denounce withteous indignation and
-                    dislike men who beguilede demoralized by the charms pleasure
+                    We offer comprehensive SEO optimization services to enhance
+                    your online visibility and drive organic traffic.
                   </p>
                 </div>
               </div>
@@ -641,13 +638,13 @@ const Index = () => {
                 </div>
                 <div className="content">
                   <h4>
-                    <Link legacyBehavior href="service-details">
+                    <Link legacyBehavior href="visual-content-details">
                       Visual Content Services
                     </Link>
                   </h4>
                   <p>
-                    On the other hand we denounce withteous indignation and
-                    dislike men who beguilede demoralized by the charms pleasure
+                    Engage your audience with captivating visuals that drive
+                    results.
                   </p>
                 </div>
               </div>
@@ -659,13 +656,13 @@ const Index = () => {
                 </div>
                 <div className="content">
                   <h4>
-                    <Link legacyBehavior href="service-details">
+                    <Link legacyBehavior href="social-media-details">
                       Social Media Advertising
                     </Link>
                   </h4>
                   <p>
-                    On the other hand we denounce withteous indignation and
-                    dislike men who beguilede demoralized by the charms pleasure
+                    Connect, engage, and build brand loyalty through strategic
+                    social media campaigns.
                   </p>
                 </div>
               </div>
@@ -677,13 +674,13 @@ const Index = () => {
                 </div>
                 <div className="content">
                   <h4>
-                    <Link legacyBehavior href="service-details">
+                    <Link legacyBehavior href="marketing-details">
                       Marketing strategies
                     </Link>
                   </h4>
                   <p>
-                    On the other hand we denounce withteous indignation and
-                    dislike men who beguilede demoralized by the charms pleasure
+                    Create compelling content to boost brand awareness and
+                    audience engagement.
                   </p>
                 </div>
               </div>
@@ -870,8 +867,7 @@ const Index = () => {
             className="statistics-inner bgs-cover text-white p-80 pb-20"
             style={{
               backgroundImage: "url(assets/images/background/statistics.jpg)",
-            }}
-          >
+            }}>
             <div className="row align-items-xl-start align-items-center">
               <div className="col-xl-5 col-lg-6">
                 <div className="statistics-content mb-55 wow fadeInUp delay-0-2s">
@@ -894,8 +890,7 @@ const Index = () => {
                       <span
                         className="count-text plus"
                         data-speed={3000}
-                        data-stop={1021}
-                      >
+                        data-stop={1021}>
                         <Counter end={1021} />
                       </span>
                       <span className="counter-title">Project Complate</span>
@@ -907,8 +902,7 @@ const Index = () => {
                       <span
                         className="count-text percent"
                         data-speed={3000}
-                        data-stop="98.9"
-                      >
+                        data-stop="98.9">
                         <Counter end={98.9} decimals={1} />
                       </span>
                       <span className="counter-title">Clinets Happy</span>
@@ -920,8 +914,7 @@ const Index = () => {
                       <span
                         className="count-text plus"
                         data-speed={3000}
-                        data-stop="35.6"
-                      >
+                        data-stop="35.6">
                         <Counter end={78} decimals={1} />
                       </span>
                       <span className="counter-title">Years Experience</span>
@@ -933,8 +926,7 @@ const Index = () => {
                       <span
                         className="count-text k-plus"
                         data-speed={3000}
-                        data-stop={63}
-                      >
+                        data-stop={63}>
                         <Counter end={63} />
                       </span>
                       <span className="counter-title">Award Winning</span>
