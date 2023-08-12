@@ -81,7 +81,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="col-xl-6">
+          <div className="col-xl-6" style={{fontSize: 12}}>
             <div className="row">
               <div className="col-md-4 col-6 col-small">
                 <div className="footer-widget widget_nav_menu wow fadeInUp delay-0-3s">
@@ -131,7 +131,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <Link legacyBehavior href="seo-details">
-                        <a>Search Engine</a>
+                        <a>SEO</a>
                       </Link>
                     </li>
                   </ul>

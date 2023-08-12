@@ -20,8 +20,7 @@ const Index = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 align-self-center">
-
-              <div className="hero-content pt-115 pb-125 rpb-0 wow fadeInUp delay-0-4s">
+              <div className="hero-content pt-115 pb-125 rpb-0 delay-0-4s wow fadeInRight">
                 <h1>Your Vision, Our Expertise.</h1>
                 <p>
                   Elevate Your Business with Cutting-edge Software and Marketing
@@ -54,7 +53,7 @@ const Index = () => {
             </div>
             <div className="col-lg-6 align-self-end">
               <div
-                className="hero-images"
+                className="hero-images wow fadeInLeft"
                 style={{
                   height: "45vmax",
                   width: "80vmax",
@@ -93,247 +92,247 @@ const Index = () => {
           <div>
             <Slider {...partnerSlider} className="service-three-slider">
               <div className="col">
-                <Link legacyBehavior href="/contact">
-                  <a className="partner-item wow fadeInUp delay-0-3s">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-3s">
                     <img
                       src="assets/images/partners/discover.png"
                       alt="discover"
                     />
-                  </a>
-                </Link>
+                  </p>
+                </div>
               </div>
               <div className="col">
-                <Link legacyBehavior href="/contact">
-                  <a className="partner-item wow fadeInUp delay-0-4s">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-4s">
                     <img src="assets/images/partners/ford.png" alt="ford" />
-                  </a>
-                </Link>
+                  </p>
+                </div>
               </div>{" "}
               <div className="col">
-                <Link legacyBehavior href="/contact">
-                  <a className="partner-item wow fadeInUp delay-0-4s">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-4s">
                     <img src="assets/images/partners/sony.png" alt="sony" />
-                  </a>
-                </Link>
+                  </p>
+                </div>
               </div>
               <div className="col">
-                <Link legacyBehavior href="/contact">
-                  <a className="partner-item wow fadeInUp delay-0-5s">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-5s">
                     <img
                       src="assets/images/partners/lexmark.png"
                       alt="lexmark"
                     />
-                  </a>
-                </Link>
+                  </p>
+                </div>
               </div>
               <div className="col">
-                <Link legacyBehavior href="/contact">
-                  <a className="partner-item wow fadeInUp delay-0-6s">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-6s">
                     <img
                       src="assets/images/partners/blackveatech.png"
                       alt="blackveatech"
                     />
-                  </a>
-                </Link>
+                  </p>
+                </div>
               </div>
               <div className="col">
-                <Link legacyBehavior href="/contact">
-                  <a className="partner-item wow fadeInUp delay-0-7s">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-7s">
                     <img
                       src="assets/images/partners/manitowoc.png"
                       alt="manitowoc"
                     />
-                  </a>
-                </Link>
+                  </p>
+                </div>
               </div>
               <div className="col">
-                <Link legacyBehavior href="/contact">
-                  <a className="partner-item wow fadeInUp delay-0-7s">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-7s">
                     <img src="assets/images/partners/fedex.png" alt="FedEx" />
-                  </a>
-                </Link>
+                  </p>
+                </div>
               </div>
               <div className="col">
-                <Link legacyBehavior href="/contact">
-                  <a className="partner-item wow fadeInUp delay-0-7s">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-7s">
                     <img
                       src="assets/images/partners/generalmotors.png"
                       alt="General Motors"
                     />
-                  </a>
-                </Link>
+                  </p>
+                </div>
               </div>
               <div className="col">
-                <Link legacyBehavior href="/contact">
-                  <a className="partner-item wow fadeInUp delay-0-7s">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-7s">
                     <img src="assets/images/partners/exelon.png" alt="exelon" />
-                  </a>
-                </Link>
+                  </p>
+                </div>
               </div>
               <div className="col">
-                <Link legacyBehavior href="/contact">
-                  <a className="partner-item wow fadeInUp delay-0-7s">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-7s">
                     <img src="assets/images/partners/amgen.png" alt="amgen" />
-                  </a>
-                </Link>
+                  </p>
+                </div>
               </div>
               <div className="col">
-                <Link legacyBehavior href="/contact">
-                  <a className="partner-item wow fadeInUp delay-0-7s">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-7s">
                     <img src="assets/images/partners/calx.png" alt="calx" />
-                  </a>
-                </Link>
+                  </p>
+                </div>
               </div>
               <div className="col">
-                <Link legacyBehavior href="/contact">
-                  <a className="partner-item wow fadeInUp delay-0-7s">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-7s">
                     <img
                       src="assets/images/partners/bobazona.png"
                       alt="bobazona"
                     />
-                  </a>
-                </Link>
+                  </p>
+                </div>
               </div>
               <div className="col">
-                <Link legacyBehavior href="/contact">
-                  <a className="partner-item wow fadeInUp delay-0-7s">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-7s">
                     <img
                       src="assets/images/partners/cummins.png"
                       alt="cummins"
                     />
-                  </a>
-                </Link>
+                  </p>
+                </div>
               </div>
               <div className="col">
-                <Link legacyBehavior href="/contact">
-                  <a className="partner-item wow fadeInUp delay-0-7s">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-7s">
                     <img
                       src="assets/images/partners/navitas.png"
                       alt="navitas"
                     />
-                  </a>
-                </Link>
+                  </p>
+                </div>
               </div>
               <div className="col">
-                <Link legacyBehavior href="/contact">
-                  <a className="partner-item wow fadeInUp delay-0-7s">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-7s">
                     <img
                       src="assets/images/partners/royalepuppies.png"
                       alt="Royale Puppies"
                     />
-                  </a>
-                </Link>
+                  </p>
+                </div>
               </div>
               <div className="col">
-                <Link legacyBehavior href="/contact">
-                  <a className="partner-item wow fadeInUp delay-0-7s">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-7s">
                     <img
                       src="assets/images/partners/opticalpro.png"
                       alt="Optical Pro"
                     />
-                  </a>
-                </Link>
+                  </p>
+                </div>
               </div>{" "}
               <div className="col">
-                <Link legacyBehavior href="/contact">
-                  <a className="partner-item wow fadeInUp delay-0-7s">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-7s">
                     <img
                       src="assets/images/partners/snpglobal.png"
                       alt="S&P Global"
                     />
-                  </a>
-                </Link>
+                  </p>
+                </div>
               </div>{" "}
               <div className="col">
-                <Link legacyBehavior href="/contact">
-                  <a className="partner-item wow fadeInUp delay-0-7s">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-7s">
                     <img
                       src="assets/images/partners/unitednations.png"
                       alt="united nations"
                     />
-                  </a>
-                </Link>
+                  </p>
+                </div>
               </div>{" "}
               <div className="col">
-                <Link legacyBehavior href="/contact">
-                  <a className="partner-item wow fadeInUp delay-0-7s">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-7s">
                     <img
                       src="assets/images/partners/deutschebank.png"
                       alt="deutsche bank"
                     />
-                  </a>
-                </Link>
+                  </p>
+                </div>
               </div>{" "}
               <div className="col">
-                <Link legacyBehavior href="/contact">
-                  <a className="partner-item wow fadeInUp delay-0-7s">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-7s">
                     <img
                       src="assets/images/partners/whirlpool.png"
                       alt="whirlpool"
                     />
-                  </a>
-                </Link>
+                  </p>
+                </div>
               </div>{" "}
               <div className="col">
-                <Link legacyBehavior href="/contact">
-                  <a className="partner-item wow fadeInUp delay-0-7s">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-7s">
                     <img
                       src="assets/images/partners/yankeegroup.png"
                       alt="yankee group"
                     />
-                  </a>
-                </Link>
+                  </p>
+                </div>
               </div>{" "}
               <div className="col">
-                <Link legacyBehavior href="/contact">
-                  <a className="partner-item wow fadeInUp delay-0-7s">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-7s">
                     <img
                       src="assets/images/partners/nielsen.png"
                       alt="nielsen"
                     />
-                  </a>
-                </Link>
+                  </p>
+                </div>
               </div>{" "}
               <div className="col">
-                <Link legacyBehavior href="/contact">
-                  <a className="partner-item wow fadeInUp delay-0-7s">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-7s">
                     <img src="assets/images/partners/mylan.png" alt="mylan" />
-                  </a>
-                </Link>
+                  </p>
+                </div>
               </div>{" "}
               <div className="col">
-                <Link legacyBehavior href="/contact">
-                  <a className="partner-item wow fadeInUp delay-0-7s">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-7s">
                     <img
                       src="assets/images/partners/ultimategaragedoors.png"
                       alt="ultimate garage doors"
                     />
-                  </a>
-                </Link>
+                  </p>
+                </div>
               </div>{" "}
               <div className="col">
-                <Link legacyBehavior href="/contact">
-                  <a className="partner-item wow fadeInUp delay-0-7s">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-7s">
                     <img src="assets/images/partners/pfizer.png" alt="pfizer" />
-                  </a>
-                </Link>
+                  </p>
+                </div>
               </div>{" "}
               <div className="col">
-                <Link legacyBehavior href="/contact">
-                  <a className="partner-item wow fadeInUp delay-0-7s">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-7s">
                     <img src="assets/images/partners/bmw.png" alt="bmw" />
-                  </a>
-                </Link>
+                  </p>
+                </div>
               </div>{" "}
               <div className="col">
-                <Link legacyBehavior href="/contact">
-                  <a className="partner-item wow fadeInUp delay-0-7s">
+                <div>
+                  <p className="partner-item wow fadeInUp delay-0-7s">
                     <img
                       src="assets/images/partners/netflix.png"
                       alt="netflix"
                     />
-                  </a>
-                </Link>
+                  </p>
+                </div>
               </div>{" "}
             </Slider>
           </div>
@@ -874,7 +873,7 @@ const Index = () => {
                 <div className="statistics-content mb-55 wow fadeInUp delay-0-2s">
                   <div className="section-title mb-30">
                     <span className="sub-title mb-15">Our Statistics</span>
-                    <h2>Learn About Our Comapny Statistics</h2>
+                    <h2>Learn About Our Company Statistics</h2>
                   </div>
                   <Link legacyBehavior href="/about">
                     <a className="read-more">
@@ -894,7 +893,7 @@ const Index = () => {
                         data-stop={1021}>
                         <Counter end={1021} />
                       </span>
-                      <span className="counter-title">Project Complate</span>
+                      <span className="counter-title">Project Complete</span>
                     </div>
                   </div>
                   <div className="col-xl-3 col-small col-6">
@@ -906,7 +905,7 @@ const Index = () => {
                         data-stop="98.9">
                         <Counter end={98.9} decimals={1} />
                       </span>
-                      <span className="counter-title">Clinets Happy</span>
+                      <span className="counter-title">Clients Happy</span>
                     </div>
                   </div>
                   <div className="col-xl-3 col-small col-6">
