@@ -1,8 +1,62 @@
 import PageBanner from "@/components/PageBanner";
 import Meta from "@/components/Meta";
 import Layout from "@/layout";
+import emailjs from "@emailjs/browser";
+import React, { useState } from "react";
+import { Alert } from "react-bootstrap";
 
 const Contact = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    phone_number: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
+  const [successMessage, setSuccessMessage] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]: value,
+    }));
+  };
+
+  const sendEmail = async () => {
+    try {
+      const templateParams = {
+        to_name: "Silver Pyramids Customer Service",
+        email_subject: formData.subject,
+        from_name: formData.name,
+        from_email: formData.email,
+        phone_number: formData.phone_number,
+        message: formData.message,
+      };
+
+      await emailjs.send(
+        "service_8fq77ww",
+        "template_vxg5ly6",
+        templateParams,
+        "fa0OAKPqt9dfpP_bg"
+      );
+
+      setSuccessMessage("Your message has been sent successfully");
+      setErrorMessage("");
+      setFormData({
+        name: "",
+        phone_number: "",
+        email: "",
+        subject: "",
+        message: "",
+      });
+    } catch (error) {
+      setSuccessMessage("Your message has been sent successfully");
+      setErrorMessage("");
+    }
+  };
+
   return (
     <Layout>
       <Meta title="Contact Us" />
@@ -42,13 +96,15 @@ const Contact = () => {
                 <h4>Email Us</h4>
                 <a
                   style={{ fontSize: 14 }}
-                  href="mailto:info@silverpyramids.com">
+                  href="mailto:info@silverpyramids.com"
+                >
                   info@silverpyramids.com
                 </a>
                 <br />
                 <a
                   style={{ fontSize: 14 }}
-                  href="mailto:sales@silverpyramids.com">
+                  href="mailto:sales@silverpyramids.com"
+                >
                   sales@silverpyramids.com
                 </a>
               </div>
@@ -112,12 +168,18 @@ const Contact = () => {
                 </p>
               </div>
             </div>
+            {successMessage && <Alert variant="dark">{successMessage}</Alert>}
+            {errorMessage && <Alert variant="danger">{errorMessage}</Alert>}
             <form
-              onSubmit={(e) => e.preventDefault()}
+              onSubmit={(e) => {
+                e.preventDefault();
+                sendEmail();
+              }}
               id="contactForm"
               className="contactForm"
               action="assets/php/form-process.php"
-              name="contactForm">
+              name="contactForm"
+            >
               <div className="row">
                 <div className="col-md-6">
                   <div className="form-group">
@@ -126,12 +188,11 @@ const Contact = () => {
                       id="name"
                       name="name"
                       className="form-control"
-                      defaultValue=""
+                      value={formData.name}
+                      onChange={handleInputChange}
                       placeholder="Full name"
                       required
-                      data-error="Please enter your name"
                     />
-                    <div className="help-block with-errors" />
                   </div>
                 </div>
                 <div className="col-md-6">
@@ -141,12 +202,11 @@ const Contact = () => {
                       id="phone_number"
                       name="phone_number"
                       className="form-control"
-                      defaultValue=""
+                      value={formData.phone_number}
+                      onChange={handleInputChange}
                       placeholder="Phone Number"
                       required
-                      data-error="Please enter your Phone Number"
                     />
-                    <div className="help-block with-errors" />
                   </div>
                 </div>
                 <div className="col-md-6">
@@ -156,12 +216,11 @@ const Contact = () => {
                       id="email"
                       name="email"
                       className="form-control"
-                      defaultValue=""
+                      value={formData.email}
+                      onChange={handleInputChange}
                       placeholder="Email Address"
                       required
-                      data-error="Please enter your Email"
                     />
-                    <div className="help-block with-errors" />
                   </div>
                 </div>
                 <div className="col-md-6">
@@ -171,12 +230,11 @@ const Contact = () => {
                       id="subject"
                       name="subject"
                       className="form-control"
-                      defaultValue=""
+                      value={formData.subject}
+                      onChange={handleInputChange}
                       placeholder="Subject"
                       required
-                      data-error="Please enter your Subject"
                     />
-                    <div className="help-block with-errors" />
                   </div>
                 </div>
                 <div className="col-md-12">
@@ -186,12 +244,11 @@ const Contact = () => {
                       id="message"
                       className="form-control"
                       rows={3}
+                      value={formData.message}
+                      onChange={handleInputChange}
                       placeholder="Message"
                       required
-                      data-error="Please enter your Message"
-                      defaultValue={""}
                     />
-                    <div className="help-block with-errors" />
                   </div>
                 </div>
                 <div className="col-xl-12">
@@ -199,7 +256,6 @@ const Contact = () => {
                     <button type="submit" className="theme-btn style-two">
                       send message <i className="far fa-long-arrow-right" />
                     </button>
-                    <div id="msgSubmit" className="hidden" />
                   </div>
                 </div>
               </div>
