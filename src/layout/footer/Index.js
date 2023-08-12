@@ -9,7 +9,8 @@ const Footer = () => {
             className="footer-cta-inner bgs-cover"
             style={{
               backgroundImage: "url(assets/images/footer/footer-cta-bg.jpg)",
-            }}>
+            }}
+          >
             <div className="section-title wow fadeInLeft delay-0-2s">
               <span className="sub-title">Need Any Consultations?</span>
               <h2>We’re Ready to Growth your Business</h2>
@@ -37,12 +38,11 @@ const Footer = () => {
               <div className="footer-logo mb-0" style={{ background: "none" }}>
                 <Link legacyBehavior href="/">
                   <a>
-                    <img src="assets/images/logos/logo-one.png" alt="Logo" />
+                    <img src="assets/images/logos/logo-footer.png" alt="Logo" />
                   </a>
                 </Link>
               </div>
-              <p>
-                {" "}
+              <p style={{ marginBottom: "0px" }}>
                 <a href="callto:+1 630-995-9223">+1 630-995-9223</a>
               </p>
               <a href="mailto:info@silverpyramids.com">

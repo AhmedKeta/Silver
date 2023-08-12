@@ -5,7 +5,7 @@ import Menu from "./Menu";
 const DefaultHeader = () => {
   return (
     <header className="main-header header-two">
-      <HeaderTop />
+      {/* <HeaderTop /> */}
       {/*Header-Upper*/}
       <div className="header-upper bg-white">
         <div className="container-fluid clearfix">

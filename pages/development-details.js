@@ -61,7 +61,8 @@ const ServiceDetails = () => {
                 <div className="row">
                   <div className="col-md-6 mb-30 wow fadeInRight delay-0-2s">
                     <h3>
-                      We Provide Best Digital Services to Growth you Business
+                      We Provide Best Technology Solutions to Growth you
+                      Business
                     </h3>
                   </div>
                   <div className="col-md-6 mb-30 wow fadeInLeft delay-0-2s">
@@ -77,15 +78,14 @@ const ServiceDetails = () => {
                 <div className="row pb-30">
                   <div className="col-md-6 mb-30 wow fadeInLeft delay-0-2s">
                     <p>
-                      Aperiam eaque ipsa quae ab illo inventore veritatis quasi
-                      architecto beatae vitae dicta sunt explicabo. Nemo enim
-                      ipsam voluptatem quia voluptas sit aspernatur aut odit au
-                      fugit sed quia consequuntur magni dolores eos qui ratione
-                      voluptatem sequi nesciunt. Neque quisquam est, qui dolorem
-                      ipsum quia dolor sit amet, consectetur, adipisci velit,
-                      sed quia non numquam eius modi tempora incidunt ut labore
-                      et dolore magnam aliquam quaerat voluptatem minima
-                      veniamla
+                      Unlock business potential with our comprehensive Digital
+                      Consulting Services. From devising winning digital
+                      strategies and enhancing user experiences to cybersecurity
+                      readiness and harnessing the power of data analytics, we
+                      offer a suite of solutions that drive growth. Whether it's
+                      embracing new technologies or optimizing existing ones,
+                      our expert guidance ensures your journey towards digital
+                      excellence is smooth and rewarding.
                     </p>
                   </div>
                   <div className="col-md-6 mb-30 wow fadeInRight delay-0-2s">
@@ -99,12 +99,16 @@ const ServiceDetails = () => {
                 </div>
                 <h3>Service Management</h3>
                 <p>
-                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-                  odit au fugit sed quia consequun tur magni dolores eos qui
-                  ratione voluptatem sequi nesciunt. Neque quisquam est, qui
-                  dolorem epsum quia dolor sit amet, consectetur, adipisci
-                  velit, sed quia non numquam eius modi tempora sncidunt ut
-                  labore et dolore magnam aliquam quaerat voluptatem.
+                  At the heart of operational excellence lies effective Service
+                  Management. Our seasoned professionals excel in streamlining
+                  processes, optimizing resource allocation, and ensuring
+                  seamless service delivery. With a client-centered approach, we
+                  design tailored service frameworks that align with your
+                  business objectives. From incident resolution to service level
+                  agreement (SLA) adherence, we orchestrate every facet,
+                  allowing you to focus on core business functions while
+                  experiencing elevated service quality and customer
+                  satisfaction.
                 </p>
                 <div
                   className="faq-accordion pt-20 wow fadeInUp delay-0-2s"
@@ -116,12 +120,12 @@ const ServiceDetails = () => {
             </div>
             <div className="col-lg-4">
               <div className="service-sidebar">
-              <div className="widget widget-category wow fadeInUp delay-0-2s">
+                <div className="widget widget-category wow fadeInUp delay-0-2s">
                   <h4 className="widget-title">Services Category</h4>
                   <ul>
                     <li>
-                      <Link legacyBehavior href="development-details">
-                        Design & Development
+                      <Link legacyBehavior href="digital-details">
+                        Digital Consulting
                       </Link>
                     </li>
                     <li>
@@ -167,7 +171,6 @@ const ServiceDetails = () => {
                     alt="Shape"
                   />
                 </div>
-
               </div>
             </div>
           </div>
@@ -188,28 +191,28 @@ const ServiceDetails = () => {
               </div>
               <div className="content">
                 <h4>
-                  <Link legacyBehavior href="service-details">
-                    Product Engineering
+                  <Link legacyBehavior href="digital-details">
+                    Digital Consulting
                   </Link>
                 </h4>
-                <Link legacyBehavior href="/service-details">
+                <Link legacyBehavior href="/digital-details">
                   <a className="read-more">
                     Read More <i className="fal fa-angle-double-right" />
                   </a>
                 </Link>
               </div>
             </div>
-            <Link legacyBehavior href="/services2">
+            <Link legacyBehavior href="/services">
               <a className="show-all" />
             </Link>
             <div className="next-prev-item wow fadeInRight delay-0-2s">
               <div className="content">
                 <h4>
-                  <Link legacyBehavior href="service-details">
-                    Cyber Security
+                  <Link legacyBehavior href="uiux-details">
+                    UX/UI Design Strategy
                   </Link>
                 </h4>
-                <Link legacyBehavior href="/service-details">
+                <Link legacyBehavior href="/uiux-details">
                   <a className="read-more">
                     Read More <i className="fal fa-angle-double-right" />
                   </a>
