@@ -28,8 +28,11 @@ const ServiceDetails = () => {
   ];
   return (
     <Layout>
-      <Meta title="SEO Services" />
-      <PageBanner pageName={"SEO Services"} pageTitle={"SEO Optimization"} />
+      <Meta title="SEO Optimization Services" />
+      <PageBanner
+        pageName={"SEO Services"}
+        pageTitle={"SEO Optimization Services"}
+      />
       <section className="service-details-area pt-130 rpt-100 pb-115 rpb-85">
         <div className="container">
           <div className="row gap-100">
@@ -40,29 +43,15 @@ const ServiceDetails = () => {
                   <h2>SEO Optimization</h2>
                 </div>
                 <p>
-                  Boost your online presence and drive organic traffic to your
-                  website with our expert SEO optimization services. Our team of
-                  SEO specialists stays up-to-date with the latest search engine
-                  algorithms and best practices to ensure that your website
-                  ranks higher in search results and reaches your target
-                  audience effectively.
-                </p>
-                <p>
-                  We start with a comprehensive SEO audit and analysis of your
-                  website to identify opportunities for improvement. From
-                  optimizing on-page elements such as meta tags, headings, and
-                  content structure to enhancing site speed, mobile
-                  responsiveness, and user experience, we leave no stone
-                  unturned in maximizing your website's visibility and
-                  performance.
-                </p>
-                <p>
-                  Keyword research and optimization are at the core of our SEO
-                  strategy. We identify relevant keywords and phrases that your
-                  target audience is searching for and integrate them
-                  strategically into your website's content. This helps search
-                  engines understand the relevance of your website and improves
-                  its ranking for those keywords.
+                  Unlock unparalleled online visibility with our SEO
+                  Optimization Services. We elevate your digital footprint by
+                  fine-tuning strategies that enhance search engine rankings and
+                  drive organic traffic. Our data-driven approach targets
+                  relevant keywords, optimizing content and structure for peak
+                  performance. From on-page enhancements to off-page authority
+                  building, we navigate the ever-changing SEO landscape. Partner
+                  with us to rise through the ranks, connecting your brand with
+                  the right audience and maximizing your online potential.
                 </p>
                 <div className="image my-40 wow fadeInUp delay-0-2s">
                   <img
@@ -74,35 +63,30 @@ const ServiceDetails = () => {
                 {/*  */}
                 <div className="row">
                   <div className="col-md-6 mb-30 wow fadeInRight delay-0-2s">
-                    <h3>
-                      We Provide Best Digital Services to Growth you Business
-                    </h3>
+                    <h3>We Provide Best Technology Solutions to Growth you Business</h3>
                   </div>
                   <div className="col-md-6 mb-30 wow fadeInLeft delay-0-2s">
                     <ul className="list-style-one">
-                      <li>Trusted Partner</li>
-                      <li>Technical Support</li>
-                      <li>Digital Marketing</li>
-                      <li>Social Media Marketing</li>
+                      <li>Comprehensive UI/UX Assessment</li>
+                      <li>Deep Contextual Research &amp; Planning</li>
+                      <li>Wireframing &amp; Prototyping</li>
+                      <li>E-commerce Consulting</li>
+                      <li>Data Analytics and Insights</li>
+
                     </ul>
                   </div>
                 </div>
                 <div className="row pb-30">
                   <div className="col-md-6 mb-30 wow fadeInLeft delay-0-2s">
                     <p>
-                      In addition to on-page optimization, we also focus on
-                      building high-quality backlinks from reputable websites.
-                      This helps improve your website's authority and
-                      credibility in the eyes of search engines, further
-                      boosting its ranking.
-                    </p>
-                    <p>
-                      With our SEO optimization services, your website will not
-                      only rank higher in search results but also attract
-                      relevant, highly engaged visitors who are more likely to
-                      convert into customers. Stay ahead of the competition and
-                      enhance your online visibility with our proven SEO
-                      strategies.
+                      Unlock business potential with our comprehensive Digital
+                      Consulting Services. From devising winning digital
+                      strategies and enhancing user experiences to cybersecurity
+                      readiness and harnessing the power of data analytics, we
+                      offer a suite of solutions that drive growth. Whether it's
+                      embracing new technologies or optimizing existing ones,
+                      our expert guidance ensures your journey towards digital
+                      excellence is smooth and rewarding.
                     </p>
                   </div>
                   <div className="col-md-6 mb-30 wow fadeInRight delay-0-2s">
@@ -131,7 +115,8 @@ const ServiceDetails = () => {
 
                 <div
                   className="faq-accordion pt-20 wow fadeInUp delay-0-2s"
-                  id="faq-accordion">
+                  id="faq-accordion"
+                >
                   <JeenaAccordion2 accordionsData={accordionData} />
                 </div>
               </div>
@@ -140,28 +125,27 @@ const ServiceDetails = () => {
             {/* Side content start */}
             <div className="col-lg-4">
               <div className="service-sidebar">
-                {/* Services */}
-                <div className="widget widget-category wow fadeInUp delay-0-2s">
+              <div className="widget widget-category wow fadeInUp delay-0-2s">
                   <h4 className="widget-title">Services Category</h4>
                   <ul>
-                    <li>
-                      <Link legacyBehavior href="visual-content-details">
-                        Visual Content Services
+                  <li>
+                      <Link legacyBehavior href="digital-details">
+                        Digital Solutions
                       </Link>
                     </li>
                     <li>
-                      <Link legacyBehavior href="social-media-details">
-                        Social Media Advertising
+                      <Link legacyBehavior href="development-details">
+                        Design & Development
                       </Link>
                     </li>
                     <li>
-                      <Link legacyBehavior href="marketing-details">
-                        Marketing strategies
+                      <Link legacyBehavior href="mobile-details">
+                        Mobile Apps Development
                       </Link>
                     </li>
                     <li>
-                      <Link legacyBehavior href="seo-details">
-                        SEO Optimization
+                      <Link legacyBehavior href="uiux-details">
+                        UX/UI Design Strategy
                       </Link>
                     </li>
                   </ul>
@@ -172,7 +156,8 @@ const ServiceDetails = () => {
                   style={{
                     backgroundImage:
                       "url(assets/images/widgets/cta-widget-bg.jpg)",
-                  }}>
+                  }}
+                >
                   <span className="h5">Let's Work Together</span>
                   <span className="h2" style={{ color: "white" }}>
                     Technology Service Agency
@@ -213,11 +198,11 @@ const ServiceDetails = () => {
               {/* Previous */}
               <div className="content">
                 <h4>
-                  <Link legacyBehavior href="marketing-details">
-                    Marketing strategies
+                  <Link legacyBehavior href="uiux-details">
+                    UX/UI Design Strategy
                   </Link>
                 </h4>
-                <Link legacyBehavior href="/marketing-details">
+                <Link legacyBehavior href="/uiux-details">
                   <a className="read-more">
                     Read More <i className="fal fa-angle-double-right" />
                   </a>
@@ -225,18 +210,19 @@ const ServiceDetails = () => {
               </div>
               {/* Previous End */}
             </div>
-            <Link legacyBehavior href="/services2">
+            <Link legacyBehavior href="/services">
               <a className="show-all" />
             </Link>
             <div className="next-prev-item wow fadeInRight delay-0-2s">
               {/* Next */}
               <div className="content">
                 <h4>
-                  <Link legacyBehavior href="social-media-details">
-                    Social Media Advertising
+                  <Link legacyBehavior href="development-details">
+                    Design & Development
                   </Link>
                 </h4>
-                <Link legacyBehavior href="/social-media-details">
+                <Link legacyBehavior href="/development-details">
+
                   <a className="read-more">
                     Read More <i className="fal fa-angle-double-right" />
                   </a>

@@ -137,7 +137,7 @@ const Services = () => {
                 <div className="content">
                   <h4>
                     <Link legacyBehavior href="development-details">
-                      Design &amp; Development Solutions
+                      Design &amp; Development
                     </Link>
                   </h4>
                   <p>

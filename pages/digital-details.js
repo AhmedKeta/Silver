@@ -72,7 +72,7 @@ const ServiceDetails = () => {
                 <div className="row">
                   <div className="col-md-6 mb-30 wow fadeInRight delay-0-2s">
                     <h3>
-                      We Provide Best Digital Services to Growth you Business
+                      We Provide Best Technology Solutions to Growth you Business
                     </h3>
                   </div>
                   <div className="col-md-6 mb-30 wow fadeInLeft delay-0-2s">
@@ -221,7 +221,7 @@ const ServiceDetails = () => {
               </div>
               {/* Previous End */}
             </div>
-            <Link legacyBehavior href="/services2">
+            <Link legacyBehavior href="/services">
               <a className="show-all" />
             </Link>
             <div className="next-prev-item wow fadeInRight delay-0-2s">

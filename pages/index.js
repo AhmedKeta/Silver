@@ -59,7 +59,8 @@ const Index = () => {
                   width: "80vmax",
                   objectFit: "cover",
                   marginBottom: "0px",
-                }}>
+                }}
+              >
                 <img
                   src="assets/images/hero/hero-one.png"
                   alt="Hero"
@@ -90,9 +91,7 @@ const Index = () => {
             <h2>Our Customers</h2>
           </div>
           <div>
-            <Slider
-              {...partnerSlider}
-              className="service-three-slider">
+            <Slider {...partnerSlider} className="service-three-slider">
               <div className="col">
                 <Link legacyBehavior href="/contact">
                   <a className="partner-item wow fadeInUp delay-0-3s">
@@ -107,6 +106,13 @@ const Index = () => {
                 <Link legacyBehavior href="/contact">
                   <a className="partner-item wow fadeInUp delay-0-4s">
                     <img src="assets/images/partners/ford.png" alt="ford" />
+                  </a>
+                </Link>
+              </div>{" "}
+              <div className="col">
+                <Link legacyBehavior href="/contact">
+                  <a className="partner-item wow fadeInUp delay-0-4s">
+                    <img src="assets/images/partners/sony.png" alt="sony" />
                   </a>
                 </Link>
               </div>
@@ -143,9 +149,47 @@ const Index = () => {
               <div className="col">
                 <Link legacyBehavior href="/contact">
                   <a className="partner-item wow fadeInUp delay-0-7s">
+                    <img src="assets/images/partners/fedex.png" alt="FedEx" />
+                  </a>
+                </Link>
+              </div>
+              <div className="col">
+                <Link legacyBehavior href="/contact">
+                  <a className="partner-item wow fadeInUp delay-0-7s">
                     <img
-                      src="assets/images/partners/manitowoc.png"
-                      alt="manitowoc"
+                      src="assets/images/partners/generalmotors.png"
+                      alt="General Motors"
+                    />
+                  </a>
+                </Link>
+              </div>
+              <div className="col">
+                <Link legacyBehavior href="/contact">
+                  <a className="partner-item wow fadeInUp delay-0-7s">
+                    <img src="assets/images/partners/exelon.png" alt="exelon" />
+                  </a>
+                </Link>
+              </div>
+              <div className="col">
+                <Link legacyBehavior href="/contact">
+                  <a className="partner-item wow fadeInUp delay-0-7s">
+                    <img src="assets/images/partners/amgen.png" alt="amgen" />
+                  </a>
+                </Link>
+              </div>
+              <div className="col">
+                <Link legacyBehavior href="/contact">
+                  <a className="partner-item wow fadeInUp delay-0-7s">
+                    <img src="assets/images/partners/calx.png" alt="calx" />
+                  </a>
+                </Link>
+              </div>
+              <div className="col">
+                <Link legacyBehavior href="/contact">
+                  <a className="partner-item wow fadeInUp delay-0-7s">
+                    <img
+                      src="assets/images/partners/bobazona.png"
+                      alt="bobazona"
                     />
                   </a>
                 </Link>
@@ -154,8 +198,8 @@ const Index = () => {
                 <Link legacyBehavior href="/contact">
                   <a className="partner-item wow fadeInUp delay-0-7s">
                     <img
-                      src="assets/images/partners/manitowoc.png"
-                      alt="manitowoc"
+                      src="assets/images/partners/cummins.png"
+                      alt="cummins"
                     />
                   </a>
                 </Link>
@@ -164,8 +208,8 @@ const Index = () => {
                 <Link legacyBehavior href="/contact">
                   <a className="partner-item wow fadeInUp delay-0-7s">
                     <img
-                      src="assets/images/partners/manitowoc.png"
-                      alt="manitowoc"
+                      src="assets/images/partners/navitas.png"
+                      alt="navitas"
                     />
                   </a>
                 </Link>
@@ -174,8 +218,8 @@ const Index = () => {
                 <Link legacyBehavior href="/contact">
                   <a className="partner-item wow fadeInUp delay-0-7s">
                     <img
-                      src="assets/images/partners/manitowoc.png"
-                      alt="manitowoc"
+                      src="assets/images/partners/royalepuppies.png"
+                      alt="Royale Puppies"
                     />
                   </a>
                 </Link>
@@ -184,62 +228,113 @@ const Index = () => {
                 <Link legacyBehavior href="/contact">
                   <a className="partner-item wow fadeInUp delay-0-7s">
                     <img
-                      src="assets/images/partners/manitowoc.png"
-                      alt="manitowoc"
+                      src="assets/images/partners/opticalpro.png"
+                      alt="Optical Pro"
                     />
                   </a>
                 </Link>
-              </div>
+              </div>{" "}
               <div className="col">
                 <Link legacyBehavior href="/contact">
                   <a className="partner-item wow fadeInUp delay-0-7s">
                     <img
-                      src="assets/images/partners/manitowoc.png"
-                      alt="manitowoc"
+                      src="assets/images/partners/snpglobal.png"
+                      alt="S&P Global"
                     />
                   </a>
                 </Link>
-              </div>
+              </div>{" "}
               <div className="col">
                 <Link legacyBehavior href="/contact">
                   <a className="partner-item wow fadeInUp delay-0-7s">
                     <img
-                      src="assets/images/partners/manitowoc.png"
-                      alt="manitowoc"
+                      src="assets/images/partners/unitednations.png"
+                      alt="united nations"
                     />
                   </a>
                 </Link>
-              </div>
+              </div>{" "}
               <div className="col">
                 <Link legacyBehavior href="/contact">
                   <a className="partner-item wow fadeInUp delay-0-7s">
                     <img
-                      src="assets/images/partners/manitowoc.png"
-                      alt="manitowoc"
+                      src="assets/images/partners/deutschebank.png"
+                      alt="deutsche bank"
                     />
                   </a>
                 </Link>
-              </div>
+              </div>{" "}
               <div className="col">
                 <Link legacyBehavior href="/contact">
                   <a className="partner-item wow fadeInUp delay-0-7s">
                     <img
-                      src="assets/images/partners/manitowoc.png"
-                      alt="manitowoc"
+                      src="assets/images/partners/whirlpool.png"
+                      alt="whirlpool"
                     />
                   </a>
                 </Link>
-              </div>
+              </div>{" "}
               <div className="col">
                 <Link legacyBehavior href="/contact">
                   <a className="partner-item wow fadeInUp delay-0-7s">
                     <img
-                      src="assets/images/partners/manitowoc.png"
-                      alt="manitowoc"
+                      src="assets/images/partners/yankeegroup.png"
+                      alt="yankee group"
                     />
                   </a>
                 </Link>
-              </div>
+              </div>{" "}
+              <div className="col">
+                <Link legacyBehavior href="/contact">
+                  <a className="partner-item wow fadeInUp delay-0-7s">
+                    <img
+                      src="assets/images/partners/nielsen.png"
+                      alt="nielsen"
+                    />
+                  </a>
+                </Link>
+              </div>{" "}
+              <div className="col">
+                <Link legacyBehavior href="/contact">
+                  <a className="partner-item wow fadeInUp delay-0-7s">
+                    <img src="assets/images/partners/mylan.png" alt="mylan" />
+                  </a>
+                </Link>
+              </div>{" "}
+              <div className="col">
+                <Link legacyBehavior href="/contact">
+                  <a className="partner-item wow fadeInUp delay-0-7s">
+                    <img
+                      src="assets/images/partners/ultimategaragedoors.png"
+                      alt="ultimate garage doors"
+                    />
+                  </a>
+                </Link>
+              </div>{" "}
+              <div className="col">
+                <Link legacyBehavior href="/contact">
+                  <a className="partner-item wow fadeInUp delay-0-7s">
+                    <img src="assets/images/partners/pfizer.png" alt="pfizer" />
+                  </a>
+                </Link>
+              </div>{" "}
+              <div className="col">
+                <Link legacyBehavior href="/contact">
+                  <a className="partner-item wow fadeInUp delay-0-7s">
+                    <img src="assets/images/partners/bmw.png" alt="bmw" />
+                  </a>
+                </Link>
+              </div>{" "}
+              <div className="col">
+                <Link legacyBehavior href="/contact">
+                  <a className="partner-item wow fadeInUp delay-0-7s">
+                    <img
+                      src="assets/images/partners/netflix.png"
+                      alt="netflix"
+                    />
+                  </a>
+                </Link>
+              </div>{" "}
             </Slider>
           </div>
         </div>
@@ -362,7 +457,8 @@ const Index = () => {
                 <a
                   href="https://www.youtube.com/watch?v=9Y7ma241N8k"
                   className="mfp-iframe video-play"
-                  tabIndex={-1}>
+                  tabIndex={-1}
+                >
                   <i className="fas fa-play" />
                 </a>
               </div>
@@ -416,7 +512,8 @@ const Index = () => {
                 <a
                   href="https://www.youtube.com/watch?v=9Y7ma241N8k"
                   className="mfp-iframe video-play"
-                  tabIndex={-1}>
+                  tabIndex={-1}
+                >
                   <i className="fas fa-play" />
                 </a>
               </div>
@@ -773,7 +870,8 @@ const Index = () => {
             className="statistics-inner bgs-cover text-white p-80 pb-20"
             style={{
               backgroundImage: "url(assets/images/background/statistics.jpg)",
-            }}>
+            }}
+          >
             <div className="row align-items-xl-start align-items-center">
               <div className="col-xl-5 col-lg-6">
                 <div className="statistics-content mb-55 wow fadeInUp delay-0-2s">
@@ -796,7 +894,8 @@ const Index = () => {
                       <span
                         className="count-text plus"
                         data-speed={3000}
-                        data-stop={1021}>
+                        data-stop={1021}
+                      >
                         <Counter end={1021} />
                       </span>
                       <span className="counter-title">Project Complate</span>
@@ -808,7 +907,8 @@ const Index = () => {
                       <span
                         className="count-text percent"
                         data-speed={3000}
-                        data-stop="98.9">
+                        data-stop="98.9"
+                      >
                         <Counter end={98.9} decimals={1} />
                       </span>
                       <span className="counter-title">Clinets Happy</span>
@@ -820,7 +920,8 @@ const Index = () => {
                       <span
                         className="count-text plus"
                         data-speed={3000}
-                        data-stop="35.6">
+                        data-stop="35.6"
+                      >
                         <Counter end={78} decimals={1} />
                       </span>
                       <span className="counter-title">Years Experience</span>
@@ -832,7 +933,8 @@ const Index = () => {
                       <span
                         className="count-text k-plus"
                         data-speed={3000}
-                        data-stop={63}>
+                        data-stop={63}
+                      >
                         <Counter end={63} />
                       </span>
                       <span className="counter-title">Award Winning</span>
