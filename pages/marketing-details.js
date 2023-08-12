@@ -28,8 +28,11 @@ const ServiceDetails = () => {
   ];
   return (
     <Layout>
-      <Meta title="SEO Services" />
-      <PageBanner pageName={"SEO Services"} pageTitle={"SEO Optimization"} />
+      <Meta title="Marketing Services" />
+      <PageBanner
+        pageName={"Marketing Services"}
+        pageTitle={"Marketing strategies"}
+      />
       <section className="service-details-area pt-130 rpt-100 pb-115 rpb-85">
         <div className="container">
           <div className="row gap-100">
@@ -37,32 +40,31 @@ const ServiceDetails = () => {
               <div className="service-details-content">
                 {/* First Paragraph */}
                 <div className="section-title mb-30">
-                  <h2>SEO Optimization</h2>
+                  <h2>Marketing Strategies</h2>
                 </div>
                 <p>
-                  Boost your online presence and drive organic traffic to your
-                  website with our expert SEO optimization services. Our team of
-                  SEO specialists stays up-to-date with the latest search engine
-                  algorithms and best practices to ensure that your website
-                  ranks higher in search results and reaches your target
-                  audience effectively.
+                  Unlock the power of effective marketing strategies to propel
+                  your business forward. Our team of seasoned marketing experts
+                  combines data-driven insights and creative thinking to devise
+                  comprehensive strategies tailored to your unique goals. From
+                  brand positioning to customer acquisition, we help you
+                  navigate the dynamic marketing landscape with confidence.
                 </p>
                 <p>
-                  We start with a comprehensive SEO audit and analysis of your
-                  website to identify opportunities for improvement. From
-                  optimizing on-page elements such as meta tags, headings, and
-                  content structure to enhancing site speed, mobile
-                  responsiveness, and user experience, we leave no stone
-                  unturned in maximizing your website's visibility and
-                  performance.
+                  With a deep understanding of consumer behavior and market
+                  trends, we develop customized marketing plans that maximize
+                  your ROI. Whether you're looking to build brand awareness,
+                  drive website traffic, or generate leads, our strategies are
+                  designed to deliver measurable results and create a lasting
+                  impact.
                 </p>
                 <p>
-                  Keyword research and optimization are at the core of our SEO
-                  strategy. We identify relevant keywords and phrases that your
-                  target audience is searching for and integrate them
-                  strategically into your website's content. This helps search
-                  engines understand the relevance of your website and improves
-                  its ranking for those keywords.
+                  Our client-centric approach ensures that we align our
+                  strategies with your business objectives, target audience, and
+                  budget. We leverage a mix of traditional and digital marketing
+                  channels, including social media, content marketing, email
+                  campaigns, and more, to create a holistic approach that drives
+                  engagement and conversions.
                 </p>
                 <div className="image my-40 wow fadeInUp delay-0-2s">
                   <img
@@ -90,19 +92,21 @@ const ServiceDetails = () => {
                 <div className="row pb-30">
                   <div className="col-md-6 mb-30 wow fadeInLeft delay-0-2s">
                     <p>
-                      In addition to on-page optimization, we also focus on
-                      building high-quality backlinks from reputable websites.
-                      This helps improve your website's authority and
-                      credibility in the eyes of search engines, further
-                      boosting its ranking.
+                      Partner with us to leverage the power of marketing
+                      strategies that resonate with your audience and drive
+                      business growth. We offer a range of services including
+                      market research, competitor analysis, campaign planning
+                      and execution, brand development, and performance
+                      tracking. Let us be your trusted marketing partner and
+                      help you achieve your goals.
                     </p>
                     <p>
-                      With our SEO optimization services, your website will not
-                      only rank higher in search results but also attract
-                      relevant, highly engaged visitors who are more likely to
-                      convert into customers. Stay ahead of the competition and
-                      enhance your online visibility with our proven SEO
-                      strategies.
+                      At our core, we believe that marketing is not just about
+                      selling products or services—it's about building
+                      meaningful connections with your target audience. With our
+                      strategic approach and expertise, we empower businesses
+                      across industries to reach new heights and stay ahead of
+                      the competition.
                     </p>
                   </div>
                   <div className="col-md-6 mb-30 wow fadeInRight delay-0-2s">
@@ -213,11 +217,11 @@ const ServiceDetails = () => {
               {/* Previous */}
               <div className="content">
                 <h4>
-                  <Link legacyBehavior href="marketing-details">
-                    Marketing strategies
+                  <Link legacyBehavior href="visual-content-details">
+                    Visual Content Services
                   </Link>
                 </h4>
-                <Link legacyBehavior href="/marketing-details">
+                <Link legacyBehavior href="/visual-content-details">
                   <a className="read-more">
                     Read More <i className="fal fa-angle-double-right" />
                   </a>
@@ -232,11 +236,11 @@ const ServiceDetails = () => {
               {/* Next */}
               <div className="content">
                 <h4>
-                  <Link legacyBehavior href="social-media-details">
-                    Social Media Advertising
+                  <Link legacyBehavior href="seo-details">
+                    SEO Optimization
                   </Link>
                 </h4>
-                <Link legacyBehavior href="/social-media-details">
+                <Link legacyBehavior href="/seo-details">
                   <a className="read-more">
                     Read More <i className="fal fa-angle-double-right" />
                   </a>
