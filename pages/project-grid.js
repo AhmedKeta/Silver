@@ -45,7 +45,7 @@ const ProjectGrid = () => {
                 <div className="content">
                   <h4>
                     <Link legacyBehavior href="project-details">
-                      Web Development
+                      Project name
                     </Link>
                   </h4>
                   <Link legacyBehavior href="/project-details">
@@ -71,7 +71,7 @@ const ProjectGrid = () => {
                 <div className="content">
                   <h4>
                     <Link legacyBehavior href="project-details">
-                      Mobile Applications
+                      Project name
                     </Link>
                   </h4>
                   <Link legacyBehavior href="/project-details">
@@ -97,7 +97,7 @@ const ProjectGrid = () => {
                 <div className="content">
                   <h4>
                     <Link legacyBehavior href="project-details">
-                      IT Consulting
+                      Project name
                     </Link>
                   </h4>
                   <Link legacyBehavior href="/project-details">
@@ -123,137 +123,7 @@ const ProjectGrid = () => {
                 <div className="content">
                   <h4>
                     <Link legacyBehavior href="project-details">
-                      Business Analysis
-                    </Link>
-                  </h4>
-                  <Link legacyBehavior href="/project-details">
-                    <a className="detail-btn">
-                      <i className="far fa-arrow-right" />
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-md-6">
-              <div className="project-grid-item wow fadeInUp delay-0-4s">
-                <div className="image">
-                  <img
-                    src="assets/images/projects/project-grid5.jpg"
-                    alt="Project Grid"
-                  />
-                  <a
-                    className="plus"
-                    href="assets/images/projects/project-grid5.jpg"
-                  />
-                </div>
-                <div className="content">
-                  <h4>
-                    <Link legacyBehavior href="project-details">
-                      UX/UI Strategy
-                    </Link>
-                  </h4>
-                  <Link legacyBehavior href="/project-details">
-                    <a className="detail-btn">
-                      <i className="far fa-arrow-right" />
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-md-6">
-              <div className="project-grid-item wow fadeInUp delay-0-6s">
-                <div className="image">
-                  <img
-                    src="assets/images/projects/project-grid6.jpg"
-                    alt="Project Grid"
-                  />
-                  <a
-                    className="plus"
-                    href="assets/images/projects/project-grid6.jpg"
-                  />
-                </div>
-                <div className="content">
-                  <h4>
-                    <Link legacyBehavior href="project-details">
-                      Cyber Security
-                    </Link>
-                  </h4>
-                  <Link legacyBehavior href="/project-details">
-                    <a className="detail-btn">
-                      <i className="far fa-arrow-right" />
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-md-6">
-              <div className="project-grid-item wow fadeInUp delay-0-2s">
-                <div className="image">
-                  <img
-                    src="assets/images/projects/project-grid7.jpg"
-                    alt="Project Grid"
-                  />
-                  <a
-                    className="plus"
-                    href="assets/images/projects/project-grid7.jpg"
-                  />
-                </div>
-                <div className="content">
-                  <h4>
-                    <Link legacyBehavior href="project-details">
-                      Market Research
-                    </Link>
-                  </h4>
-                  <Link legacyBehavior href="/project-details">
-                    <a className="detail-btn">
-                      <i className="far fa-arrow-right" />
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-md-6">
-              <div className="project-grid-item wow fadeInUp delay-0-4s">
-                <div className="image">
-                  <img
-                    src="assets/images/projects/project-grid8.jpg"
-                    alt="Project Grid"
-                  />
-                  <a
-                    className="plus"
-                    href="assets/images/projects/project-grid8.jpg"
-                  />
-                </div>
-                <div className="content">
-                  <h4>
-                    <Link legacyBehavior href="project-details">
-                      Product Engineering
-                    </Link>
-                  </h4>
-                  <Link legacyBehavior href="/project-details">
-                    <a className="detail-btn">
-                      <i className="far fa-arrow-right" />
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-md-6">
-              <div className="project-grid-item wow fadeInUp delay-0-6s">
-                <div className="image">
-                  <img
-                    src="assets/images/projects/project-grid9.jpg"
-                    alt="Project Grid"
-                  />
-                  <a
-                    className="plus"
-                    href="assets/images/projects/project-grid9.jpg"
-                  />
-                </div>
-                <div className="content">
-                  <h4>
-                    <Link legacyBehavior href="project-details">
-                      Software Engineering
+                      Project name
                     </Link>
                   </h4>
                   <Link legacyBehavior href="/project-details">
