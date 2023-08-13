@@ -199,7 +199,114 @@ const Service2 = () => {
             <span className="sub-title mb-10">What We Provides</span>
             <h2>Marketing, Content, and Media Services</h2>
           </div>
-          <Slider {...serviceThreeSlider} className="service-three-slider">
+          <section className="project-grid-area rel z-2 py-130 rpy-100">
+            <div class="container">
+              <div class="row">
+                {" "}
+                <div className="col-xl-3 col-md-6">
+                  <div className="project-grid-item wow fadeInUp delay-0-2s">
+                    <div className="image">
+                      <img
+                        src="assets/images/services/infographic.png"
+                        alt="Project Grid"
+                      />
+                      <Link legacyBehavior href="/visual-content-details">
+                        <a className="plus" />
+                      </Link>
+                    </div>
+                    <div className="content">
+                      <h4>
+                        <Link legacyBehavior href="visual-content-details">
+                          Visual Content Services
+                        </Link>
+                      </h4>
+                      <Link legacyBehavior href="/visual-content-details">
+                        <a className="detail-btn">
+                          <i className="far fa-arrow-right" />
+                        </a>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-xl-3 col-md-6">
+                  <div className="project-grid-item wow fadeInUp delay-0-2s">
+                    <div className="image">
+                      <img
+                        src="assets/images/services/strategy.png"
+                        alt="Project Grid"
+                      />
+                      <Link legacyBehavior href="/marketing-details">
+                        <a className="plus" />
+                      </Link>
+                    </div>
+                    <div className="content">
+                      <h4>
+                        <Link legacyBehavior href="marketing-details">
+                          Marketing strategies
+                        </Link>
+                      </h4>
+                      <Link legacyBehavior href="/marketing-details">
+                        <a className="detail-btn">
+                          <i className="far fa-arrow-right" />
+                        </a>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-xl-3 col-md-6">
+                  <div className="project-grid-item wow fadeInUp delay-0-2s">
+                    <div className="image">
+                      <img
+                        src="assets/images/services/seo.png"
+                        alt="Project Grid"
+                      />
+                      <Link legacyBehavior href="/seo-details">
+                        <a className="plus" />
+                      </Link>
+                    </div>
+                    <div className="content">
+                      <h4>
+                        <Link legacyBehavior href="seo-details">
+                          SEO Optimization
+                        </Link>
+                      </h4>
+                      <Link legacyBehavior href="/seo-details">
+                        <a className="detail-btn">
+                          <i className="far fa-arrow-right" />
+                        </a>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-xl-3 col-md-6">
+                  <div className="project-grid-item wow fadeInUp delay-0-2s">
+                    <div className="image">
+                      <img
+                        src="assets/images/services/social-media.png"
+                        alt="Project Grid"
+                      />
+                      <Link legacyBehavior href="/social-media-details">
+                        <a className="plus" />
+                      </Link>
+                    </div>
+                    <div className="content">
+                      <h4>
+                        <Link legacyBehavior href="social-media-details">
+                          Social Media Advertising
+                        </Link>
+                      </h4>
+                      <Link legacyBehavior href="/social-media-details">
+                        <a className="detail-btn">
+                          <i className="far fa-arrow-right" />
+                        </a>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          {/* <Slider {...serviceThreeSlider} className="service-three-slider">
             <div className="service-item-three wow fadeInUp delay-0-2s">
               <div className="image">
                 <img
@@ -348,7 +455,7 @@ const Service2 = () => {
                 </div>
               </div>
             </div>
-          </Slider>
+          </Slider> */}
         </div>
         <div className="about-bg-shape">
           <img src="assets/images/background/what-we-provide.png" alt="Shape" />

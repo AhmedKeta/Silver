@@ -101,12 +101,7 @@ const Contact = () => {
                   info@silverpyramids.com
                 </a>
                 <br />
-                <a
-                  style={{ fontSize: 14 }}
-                  href="mailto:sales@silverpyramids.com"
-                >
-                  sales@silverpyramids.com
-                </a>
+                <br />
               </div>
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6">
