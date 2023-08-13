@@ -7,12 +7,11 @@ import Meta from "@/components/Meta";
 const Faq = () => {
   return (
     <Layout>
-      <Meta title="FAQs" />
-      <PageBanner pageName={"FAQs"} />
+      <Meta title="Terms and Conditions" />
+      <PageBanner pageName={"Terms and Conditions"} />
       <section className="faq-page-area pt-130 rpt-100 rel z-1">
         <div className="container">
           <div className="section-title mb-45">
-            <span className="sub-title mb-15">Faqs</span>
             <h2>Silver Pyramids Terms and Conditions</h2>
           </div>
           {/* Terms Start */}

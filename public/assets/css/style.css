@@ -4705,7 +4705,7 @@ h6,
 
 .main-header.header-one .mobile-logo {
   padding: 10px 25px;
-  background: var(--secondary-color);
+  background: white;
   -webkit-clip-path: polygon(6% 0%, 100% 0%, 94% 100%, 0% 100%);
   clip-path: polygon(6% 0%, 100% 0%, 94% 100%, 0% 100%);
 }
@@ -8038,7 +8038,7 @@ h6,
   top: 0;
   left: 0;
   opacity: 0.9;
-  background-color: var(--secondary-color);
+  background-color: var(--base-color);
 }
 @media only screen and (max-width: 479px) {
   .statistics-inner {
@@ -8066,7 +8066,7 @@ h6,
   top: 0;
   left: 0;
   opacity: 0.9;
-  background-color: var(--secondary-color);
+  background-color: var(--base-color);
 }
 
 .statistics-content .read-more {
@@ -11155,9 +11155,8 @@ blockquote .name:before {
   z-index: -1;
 }
 
-
 .loader-body {
-  background-color: #E5E7E1;
+  background-color: #e5e7e1;
   position: absolute;
   top: 43%;
   left: 47%;
@@ -11170,7 +11169,7 @@ blockquote .name:before {
 #loader-left-section {
   border-top: 30px solid transparent;
   border-bottom: 30px solid transparent;
-  border-left: 30px solid #A9A9A9;
+  border-left: 30px solid #a9a9a9;
   width: 0px;
   height: 0px;
   top: -60px;
@@ -11214,7 +11213,7 @@ blockquote .name:before {
 
 @keyframes colorchange-bottom {
   0% {
-    border-bottom: 30px solid #A9A9A9;
+    border-bottom: 30px solid #a9a9a9;
   }
   25% {
     border-bottom: 30px solid #929292;
@@ -11229,7 +11228,7 @@ blockquote .name:before {
 
 @keyframes colorchange-left {
   0% {
-    border-left: 30px solid #A9A9A9;
+    border-left: 30px solid #a9a9a9;
   }
   25% {
     border-left: 30px solid #929292;
@@ -11244,7 +11243,7 @@ blockquote .name:before {
 
 @keyframes colorchange-top {
   0% {
-    border-top: 30px solid #A9A9A9;
+    border-top: 30px solid #a9a9a9;
   }
   25% {
     border-top: 30px solid #929292;
@@ -11259,7 +11258,7 @@ blockquote .name:before {
 
 @keyframes colorchange-right {
   0% {
-    border-right: 30px solid #A9A9A9;
+    border-right: 30px solid #a9a9a9;
   }
   25% {
     border-right: 30px solid #929292;
