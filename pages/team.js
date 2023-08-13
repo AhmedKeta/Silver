@@ -7,10 +7,15 @@ import Meta from "@/components/Meta";
 
 const Team = () => {
   const accordionData = [
-    { id: 1, title: "UX Principles Embedded Systems ?" },
-    { id: 2, title: "Charity Conference Future Of Tech?" },
-    { id: 3, title: "Simplify Your Color Palette With CSS ?" },
-    { id: 4, title: "Build A Group Chat App With Vanilla JS ?" },
+    {
+      id: 1,
+      title: "1.	How do I make a payment?",
+      answer:
+        "You can make a payment through our secure online payment portal. Simply log in to your account and follow the instructions to complete the payment.",
+    },
+    { id: 2, title: "How can I get technical support?", answer: "" },
+    { id: 3, title: "Simplify Your Color Palette With CSS?" },
+    { id: 4, title: "Build A Group Chat App With Vanilla JS?" },
   ];
   return (
     <Layout>
@@ -22,11 +27,6 @@ const Team = () => {
             <div className="col-xl-7 col-lg-6">
               <div className="team-top-video mt-55 wow fadeInRight delay-0-2s">
                 <img src="assets/images/team/team-page.jpg" alt="Team Page" />
-                <a
-                  href="https://www.youtube.com/watch?v=9Y7ma241N8k"
-                  className="mfp-iframe video-play">
-                  <i className="fas fa-play" />
-                </a>
               </div>
             </div>
             <div className="col-xl-5 col-lg-6">
@@ -36,9 +36,11 @@ const Team = () => {
                   <h2>Our Team is Driven for your Success</h2>
                 </div>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error voluptatem
-                  accue antium doloremque laudantium totam rem aperiam eaque
-                  epsaus inventore veritatis architecto beatae dicta explicabo.
+                  A dedicated team member is a valuable asset for achieving
+                  success. With their expertise, commitment, and focus on client
+                  satisfaction, they contribute to seamless project execution
+                  and outstanding outcomes. Embrace the power of a dedicated
+                  team member and unlock your business's full potential.
                 </p>
                 <div className="team-circle-progress mt-35">
                   <div className="circle-progress-counter">
@@ -52,8 +54,8 @@ const Team = () => {
                   <div className="content">
                     <h4>Clients Satisfaction</h4>
                     <p>
-                      On the other hand denounce with righteous indig nation and
-                      dislike men beguiled demoralize
+                      On the other hand, Client satisfaction is of utmost
+                      importance in any business endeavor.
                     </p>
                   </div>
                 </div>
@@ -78,15 +80,6 @@ const Team = () => {
                 <span className="designation">UX/UI Designer</span>
                 <div className="social-style-two">
                   <a href="#">
-                    <i className="fab fa-facebook-f" />
-                  </a>
-                  <a href="#">
-                    <i className="fab fa-x-twitter" />
-                  </a>
-                  <a href="#">
-                    <i className="fab fa-instagram" />
-                  </a>
-                  <a href="#">
                     <i className="fab fa-linkedin-in" />
                   </a>
                 </div>
@@ -98,15 +91,6 @@ const Team = () => {
                 <h4>Mark M. Hughes</h4>
                 <span className="designation">Web Developer</span>
                 <div className="social-style-two">
-                  <a href="#">
-                    <i className="fab fa-facebook-f" />
-                  </a>
-                  <a href="#">
-                    <i className="fab fa-x-twitter" />
-                  </a>
-                  <a href="#">
-                    <i className="fab fa-instagram" />
-                  </a>
                   <a href="#">
                     <i className="fab fa-linkedin-in" />
                   </a>
@@ -120,15 +104,6 @@ const Team = () => {
                 <span className="designation">Software Engineer</span>
                 <div className="social-style-two">
                   <a href="#">
-                    <i className="fab fa-facebook-f" />
-                  </a>
-                  <a href="#">
-                    <i className="fab fa-x-twitter" />
-                  </a>
-                  <a href="#">
-                    <i className="fab fa-instagram" />
-                  </a>
-                  <a href="#">
                     <i className="fab fa-linkedin-in" />
                   </a>
                 </div>
@@ -140,15 +115,6 @@ const Team = () => {
                 <h4>Bennie N. Bannister</h4>
                 <span className="designation">Senior Consultant</span>
                 <div className="social-style-two">
-                  <a href="#">
-                    <i className="fab fa-facebook-f" />
-                  </a>
-                  <a href="#">
-                    <i className="fab fa-x-twitter" />
-                  </a>
-                  <a href="#">
-                    <i className="fab fa-instagram" />
-                  </a>
                   <a href="#">
                     <i className="fab fa-linkedin-in" />
                   </a>
@@ -162,15 +128,6 @@ const Team = () => {
                 <span className="designation">UX/UI Designer</span>
                 <div className="social-style-two">
                   <a href="#">
-                    <i className="fab fa-facebook-f" />
-                  </a>
-                  <a href="#">
-                    <i className="fab fa-x-twitter" />
-                  </a>
-                  <a href="#">
-                    <i className="fab fa-instagram" />
-                  </a>
-                  <a href="#">
                     <i className="fab fa-linkedin-in" />
                   </a>
                 </div>
@@ -182,15 +139,6 @@ const Team = () => {
                 <h4>Julio M. McDowell</h4>
                 <span className="designation">Web Developer</span>
                 <div className="social-style-two">
-                  <a href="#">
-                    <i className="fab fa-facebook-f" />
-                  </a>
-                  <a href="#">
-                    <i className="fab fa-x-twitter" />
-                  </a>
-                  <a href="#">
-                    <i className="fab fa-instagram" />
-                  </a>
                   <a href="#">
                     <i className="fab fa-linkedin-in" />
                   </a>
@@ -204,15 +152,6 @@ const Team = () => {
                 <span className="designation">Software Engineer</span>
                 <div className="social-style-two">
                   <a href="#">
-                    <i className="fab fa-facebook-f" />
-                  </a>
-                  <a href="#">
-                    <i className="fab fa-x-twitter" />
-                  </a>
-                  <a href="#">
-                    <i className="fab fa-instagram" />
-                  </a>
-                  <a href="#">
                     <i className="fab fa-linkedin-in" />
                   </a>
                 </div>
@@ -225,15 +164,6 @@ const Team = () => {
                 <span className="designation">Senior Consultant</span>
                 <div className="social-style-two">
                   <a href="#">
-                    <i className="fab fa-facebook-f" />
-                  </a>
-                  <a href="#">
-                    <i className="fab fa-x-twitter" />
-                  </a>
-                  <a href="#">
-                    <i className="fab fa-instagram" />
-                  </a>
-                  <a href="#">
                     <i className="fab fa-linkedin-in" />
                   </a>
                 </div>
@@ -241,11 +171,11 @@ const Team = () => {
             </div>
             <div className="col-lg-12">
               <div className="view-all-btn pt-30 text-center">
-                <Link legacyBehavior href="/team">
+                {/* <Link legacyBehavior href="/team">
                   <a className="theme-btn style-two">
                     View All Member <i className="fas fa-long-arrow-right" />
                   </a>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
@@ -265,7 +195,7 @@ const Team = () => {
       </section>
       {/* Team Area end */}
       {/* FAQs Area start */}
-      <section className="faq-area pb-130 rpb-100 rel z-1">
+      {/* <section className="faq-area pb-130 rpb-100 rel z-1">
         <div className="container">
           <div className="row align-items-center justify-content-between">
             <div className="col-xl-5 col-lg-6">
@@ -299,7 +229,7 @@ const Team = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </Layout>
   );
 };
