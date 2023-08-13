@@ -22,8 +22,14 @@ const About = () => {
           <div className="row align-items-center gap-100">
             <div className="col-lg-6">
               <div className="about-five-images mt-55 rel z-1 wow fadeInRight delay-0-2s">
-                <img src="assets/images/about/about-five1.jpg" alt="About" />
-                <img src="assets/images/about/about-five2.jpg" alt="About" />
+                <img
+                  src="assets/images/about/about-five1.jpg"
+                  alt="Silver Pyramids"
+                />
+                <img
+                  src="assets/images/about/about-five2.png"
+                  alt="Silver Pyramids"
+                />
                 <div className="experience-years">
                   <span className="years">23</span>
                   <h4>Years Of Experience IT Solutions, Marketing</h4>
@@ -147,7 +153,8 @@ const About = () => {
             className="statistics-inner style-two bgs-cover text-white p-80 pb-20"
             style={{
               backgroundImage: "url(assets/images/background/statistics.jpg)",
-            }}>
+            }}
+          >
             <div className="row align-items-xl-start align-items-center">
               <div className="col-xl-5 col-lg-6">
                 <div className="statistics-content mb-55 wow fadeInUp delay-0-2s">
@@ -170,7 +177,8 @@ const About = () => {
                       <span
                         className="count-text plus"
                         data-speed={3000}
-                        data-stop={1021}>
+                        data-stop={1021}
+                      >
                         <Counter end={1021} />
                       </span>
                       <span className="counter-title">Project Complate</span>
@@ -182,7 +190,8 @@ const About = () => {
                       <span
                         className="count-text percent"
                         data-speed={3000}
-                        data-stop="98.9">
+                        data-stop="98.9"
+                      >
                         <Counter end={98.9} decimals={1} />
                       </span>
                       <span className="counter-title">Clinets Happy</span>
@@ -194,7 +203,8 @@ const About = () => {
                       <span
                         className="count-text plus"
                         data-speed={3000}
-                        data-stop="35.6">
+                        data-stop="35.6"
+                      >
                         <Counter end={78} decimals={1} />
                       </span>
                       <span className="counter-title">Years Experience</span>
@@ -206,7 +216,8 @@ const About = () => {
                       <span
                         className="count-text k-plus"
                         data-speed={3000}
-                        data-stop={63}>
+                        data-stop={63}
+                      >
                         <Counter end={63} />
                       </span>
                       <span className="counter-title">Award Winning</span>
@@ -308,14 +319,16 @@ const About = () => {
             <div className="why-choose-tab">
               <Nav
                 as={"ul"}
-                className="nav nav-pills nav-fill mb-80 rmb-50 wow fadeInUp delay-0-4s">
+                className="nav nav-pills nav-fill mb-80 rmb-50 wow fadeInUp delay-0-4s"
+              >
                 <li className="nav-item">
                   <Nav.Link
                     as="a"
                     eventKey={"wc-tap1"}
                     className="nav-link"
                     data-bs-toggle="tab"
-                    href="#wc-tap1">
+                    href="#wc-tap1"
+                  >
                     <i className="flaticon-creativity" />{" "}
                     <span>UX/UI Design</span>
                   </Nav.Link>
@@ -326,7 +339,8 @@ const About = () => {
                     eventKey={"wc-tap2"}
                     className="nav-link"
                     data-bs-toggle="tab"
-                    href="#wc-tap2">
+                    href="#wc-tap2"
+                  >
                     <i className="flaticon-test" />{" "}
                     <span>Apps Development</span>
                   </Nav.Link>
@@ -337,7 +351,8 @@ const About = () => {
                     eventKey={"wc-tap3"}
                     className="nav-link"
                     data-bs-toggle="tab"
-                    href="#wc-tap3">
+                    href="#wc-tap3"
+                  >
                     <i className="flaticon-cyber-security-1" />{" "}
                     <span>Cyber Security</span>
                   </Nav.Link>
@@ -348,7 +363,8 @@ const About = () => {
                     eventKey={"wc-tap4"}
                     className="nav-link"
                     data-bs-toggle="tab"
-                    href="#wc-tap4">
+                    href="#wc-tap4"
+                  >
                     <i className="flaticon-support" /> <span>Tech Support</span>
                   </Nav.Link>
                 </li>
