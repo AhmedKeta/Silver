@@ -315,7 +315,7 @@ const DeskTopMenu = () => {
                 <Link href="about">About us</Link>
               </li>
               <li>
-                <Link href="about">Our Story</Link>
+                <Link href="story">Our Story</Link>
               </li>
               <li>
                 <Link href="team">Team</Link>
@@ -324,7 +324,7 @@ const DeskTopMenu = () => {
                 <Link href="faqs">FAQs</Link>
               </li>
               <li>
-                <Link href="faqs">Policies & Terms</Link>
+                <Link href="terms">Terms & Conditions</Link>
               </li>
             </ul>
             <div className="dropdown-btn">
