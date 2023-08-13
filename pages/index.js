@@ -59,8 +59,7 @@ const Index = () => {
                   width: "80vmax",
                   objectFit: "cover",
                   marginBottom: "0px",
-                }}
-              >
+                }}>
                 <img
                   src="assets/images/hero/hero-one.png"
                   alt="Hero"
@@ -90,7 +89,6 @@ const Index = () => {
             <span className="sub-title mb-15">Global Customers</span>
             <h2>Our Customers</h2>
           </div>
-          <div>
             <Slider {...partnerSlider} className="service-three-slider">
               <div className="col">
                 <div>
@@ -337,7 +335,6 @@ const Index = () => {
               </div>{" "}
             </Slider>
           </div>
-        </div>
       </section>
       {/* Partners Area end */}
       {/* About Area start */}
@@ -457,8 +454,7 @@ const Index = () => {
                 <a
                   href="https://www.youtube.com/watch?v=9Y7ma241N8k"
                   className="mfp-iframe video-play"
-                  tabIndex={-1}
-                >
+                  tabIndex={-1}>
                   <i className="fas fa-play" />
                 </a>
               </div>
@@ -512,8 +508,7 @@ const Index = () => {
                 <a
                   href="https://www.youtube.com/watch?v=9Y7ma241N8k"
                   className="mfp-iframe video-play"
-                  tabIndex={-1}
-                >
+                  tabIndex={-1}>
                   <i className="fas fa-play" />
                 </a>
               </div>
@@ -834,8 +829,7 @@ const Index = () => {
             className="statistics-inner bgs-cover text-white p-80 pb-20"
             style={{
               backgroundImage: "url(assets/images/background/statistics.jpg)",
-            }}
-          >
+            }}>
             <div className="row align-items-xl-start align-items-center">
               <div className="col-xl-5 col-lg-6">
                 <div className="statistics-content mb-55 wow fadeInUp delay-0-2s">
@@ -858,8 +852,7 @@ const Index = () => {
                       <span
                         className="count-text plus"
                         data-speed={3000}
-                        data-stop={1021}
-                      >
+                        data-stop={1021}>
                         <Counter end={1021} />
                       </span>
                       <span className="counter-title">Project Complete</span>
@@ -871,8 +864,7 @@ const Index = () => {
                       <span
                         className="count-text percent"
                         data-speed={3000}
-                        data-stop="98.9"
-                      >
+                        data-stop="98.9">
                         <Counter end={98.9} decimals={1} />
                       </span>
                       <span className="counter-title">Clients Happy</span>
@@ -884,8 +876,7 @@ const Index = () => {
                       <span
                         className="count-text plus"
                         data-speed={3000}
-                        data-stop="35.6"
-                      >
+                        data-stop="35.6">
                         <Counter end={78} decimals={1} />
                       </span>
                       <span className="counter-title">Years Experience</span>
@@ -897,8 +888,7 @@ const Index = () => {
                       <span
                         className="count-text k-plus"
                         data-speed={3000}
-                        data-stop={63}
-                      >
+                        data-stop={63}>
                         <Counter end={63} />
                       </span>
                       <span className="counter-title">Award Winning</span>

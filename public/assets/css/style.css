@@ -6915,9 +6915,13 @@ h6,
   -ms-flex-pack: center;
   justify-content: center;
   margin-bottom: 30px;
+  margin-top: 30px;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 559px) {
   .partner-item {
+    height: 65px;
+  }
+  .partner-item img {
     height: 65px;
   }
 }
