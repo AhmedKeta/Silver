@@ -6,6 +6,7 @@ import Link from "next/link";
 import Meta from "@/components/Meta";
 import Slider from "react-slick";
 import { partnerSlider } from "@/src/sliderProps";
+import { Nav, Tab } from "react-bootstrap";
 
 const Counter = dynamic(() => import("@/src/components/Counter"), {
   ssr: false,
@@ -38,10 +39,7 @@ const About = () => {
               <div className="about-content mt-55 rel z-1 wow fadeInLeft delay-0-2s">
                 <div className="section-title mb-60 rmb-40">
                   <span className="sub-title mb-15">About Company</span>
-                  <h2>
-                    Best talent, Competitive Cost, Incredible IT Service
-                    Infrastructure
-                  </h2>
+                  <h2>Delivering Exceptional IT Solutions and Services</h2>
                 </div>
                 <div className="row gap-40">
                   <div className="col-md-6">
@@ -50,15 +48,16 @@ const About = () => {
                         <i className="flaticon-trophy" />
                       </div>
                       <h4>
-                        <Link legacyBehavior href="service-details">
-                          Awards Winning Company
+                        <Link legacyBehavior href="project-grid">
+                          Award-Winning Company
                         </Link>
                       </h4>
                       <p>
-                        Sed ut perspiciat unde omnis este natus error sit
-                        voluptatem accusantium doloremque
+                        We are proud recipients of numerous prestigious awards,
+                        recognizing our commitment to excellence in IT solutions
+                        and services.
                       </p>
-                      <Link legacyBehavior href="/service-details">
+                      <Link legacyBehavior href="/project-grid">
                         <a className="read-more">
                           Read More <i className="far fa-arrow-right" />
                         </a>
@@ -71,15 +70,16 @@ const About = () => {
                         <i className="flaticon-pie-chart" />
                       </div>
                       <h4>
-                        <Link legacyBehavior href="service-details">
-                          Startup IT Solution &amp; Business Dev
+                        <Link legacyBehavior href="development-details">
+                          Startup IT Solutions &amp; Business Development
                         </Link>
                       </h4>
                       <p>
-                        Sed ut perspiciat unde omnis este natus error sit
-                        voluptatem accusantium doloremque
+                        We specialize in providing cutting-edge IT solutions and
+                        strategic business development services for startups,
+                        helping them achieve rapid growth and success.
                       </p>
-                      <Link legacyBehavior href="/service-details">
+                      <Link legacyBehavior href="/development-details">
                         <a className="read-more">
                           Read More <i className="far fa-arrow-right" />
                         </a>
@@ -107,10 +107,7 @@ const About = () => {
                     Simplicity
                   </Link>
                 </h4>
-                <p>
-                  Sed ut perspiciatis unde omniste natusey error sit voluptatem
-                  accusantium
-                </p>
+                <p>Effortless solutions for seamless experiences.</p>
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
@@ -123,10 +120,7 @@ const About = () => {
                     Social Good
                   </Link>
                 </h4>
-                <p>
-                  Sed ut perspiciatis unde omniste natusey error sit voluptatem
-                  accusantium
-                </p>
+                <p>Making a positive impact on communities everywhere.</p>
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
@@ -139,10 +133,7 @@ const About = () => {
                     Trust Partner
                   </Link>
                 </h4>
-                <p>
-                  Sed ut perspiciatis unde omniste natusey error sit voluptatem
-                  accusantium
-                </p>
+                <p>Reliable collaboration for mutual success.</p>
               </div>
             </div>
           </div>
@@ -164,7 +155,7 @@ const About = () => {
                     <span className="sub-title mb-15">Our Statistics</span>
                     <h2>Learn About Our Comapny Statistics</h2>
                   </div>
-                  <Link legacyBehavior href="/about">
+                  <Link legacyBehavior href="/project-grid">
                     <a className="read-more">
                       Learn More <i className="fas fa-long-arrow-right" />
                     </a>
@@ -242,15 +233,6 @@ const About = () => {
                 <h4>Johnathan P. Bailey</h4>
                 <span className="designation">UX/UI Designer</span>
                 <div className="social-style-two">
-                  <a href="https://www.facebook.com/people/Silver-Pyramids-Inc/100094335560472/">
-                    <i className="fab fa-facebook-f" />
-                  </a>
-                  <a href="https://x.com/silverpyramids1">
-                    <i className="fab fa-x-twitter" />
-                  </a>
-                  <a href="https://www.instagram.com/silverpyramids/">
-                    <i className="fab fa-instagram" />
-                  </a>
                   <a href="https://www.linkedin.com/company/silver-pyramids-inc./mycompany/?viewAsMember=true">
                     <i className="fab fa-linkedin-in" />
                   </a>
@@ -263,15 +245,6 @@ const About = () => {
                 <h4>Mark M. Hughes</h4>
                 <span className="designation">Web Developer</span>
                 <div className="social-style-two">
-                  <a href="https://www.facebook.com/people/Silver-Pyramids-Inc/100094335560472/">
-                    <i className="fab fa-facebook-f" />
-                  </a>
-                  <a href="https://x.com/silverpyramids1">
-                    <i className="fab fa-x-twitter" />
-                  </a>
-                  <a href="https://www.instagram.com/silverpyramids/">
-                    <i className="fab fa-instagram" />
-                  </a>
                   <a href="https://www.linkedin.com/company/silver-pyramids-inc./mycompany/?viewAsMember=true">
                     <i className="fab fa-linkedin-in" />
                   </a>
@@ -284,15 +257,6 @@ const About = () => {
                 <h4>Donald B. Mitchell</h4>
                 <span className="designation">Software Engineer</span>
                 <div className="social-style-two">
-                  <a href="https://www.facebook.com/people/Silver-Pyramids-Inc/100094335560472/">
-                    <i className="fab fa-facebook-f" />
-                  </a>
-                  <a href="https://x.com/silverpyramids1">
-                    <i className="fab fa-x-twitter" />
-                  </a>
-                  <a href="https://www.instagram.com/silverpyramids/">
-                    <i className="fab fa-instagram" />
-                  </a>
                   <a href="https://www.linkedin.com/company/silver-pyramids-inc./mycompany/?viewAsMember=true">
                     <i className="fab fa-linkedin-in" />
                   </a>
@@ -305,15 +269,6 @@ const About = () => {
                 <h4>Bennie N. Bannister</h4>
                 <span className="designation">Senior Consultant</span>
                 <div className="social-style-two">
-                  <a href="https://www.facebook.com/people/Silver-Pyramids-Inc/100094335560472/">
-                    <i className="fab fa-facebook-f" />
-                  </a>
-                  <a href="https://x.com/silverpyramids1">
-                    <i className="fab fa-x-twitter" />
-                  </a>
-                  <a href="https://www.instagram.com/silverpyramids/">
-                    <i className="fab fa-instagram" />
-                  </a>
                   <a href="https://www.linkedin.com/company/silver-pyramids-inc./mycompany/?viewAsMember=true">
                     <i className="fab fa-linkedin-in" />
                   </a>
@@ -349,181 +304,208 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="why-choose-tab">
-            <ul className="nav nav-pills nav-fill mb-80 rmb-50 wow fadeInUp delay-0-4s">
-              <li className="nav-item">
-                <a
-                  className="nav-link active"
-                  data-bs-toggle="tab"
-                  href="#wc-tap1">
-                  <i className="flaticon-creativity" />{" "}
-                  <span>UX/UI Design</span>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" data-bs-toggle="tab" href="#wc-tap2">
-                  <i className="flaticon-test" /> <span>Apps Development</span>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" data-bs-toggle="tab" href="#wc-tap3">
-                  <i className="flaticon-cyber-security-1" />{" "}
-                  <span>Cyber Security</span>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" data-bs-toggle="tab" href="#wc-tap4">
-                  <i className="flaticon-support" /> <span>Tech Support</span>
-                </a>
-              </li>
-            </ul>
-            <div className="tab-content">
-              <div className="tab-pane fade show active" id="wc-tap1">
-                <div className="row gap-90 align-items-center">
-                  <div className="col-lg-6">
-                    <div className="why-choose-image rmb-55">
-                      <img
-                        src="assets/images/about/why-choose1.jpg"
-                        alt="Why Choose"
-                      />
+          <Tab.Container defaultActiveKey={"wc-tap1"}>
+            <div className="why-choose-tab">
+              <Nav
+                as={"ul"}
+                className="nav nav-pills nav-fill mb-80 rmb-50 wow fadeInUp delay-0-4s">
+                <li className="nav-item">
+                  <Nav.Link
+                    as="a"
+                    eventKey={"wc-tap1"}
+                    className="nav-link"
+                    data-bs-toggle="tab"
+                    href="#wc-tap1">
+                    <i className="flaticon-creativity" />{" "}
+                    <span>UX/UI Design</span>
+                  </Nav.Link>
+                </li>
+                <li className="nav-item">
+                  <Nav.Link
+                    as="a"
+                    eventKey={"wc-tap2"}
+                    className="nav-link"
+                    data-bs-toggle="tab"
+                    href="#wc-tap2">
+                    <i className="flaticon-test" />{" "}
+                    <span>Apps Development</span>
+                  </Nav.Link>
+                </li>
+                <li className="nav-item">
+                  <Nav.Link
+                    as="a"
+                    eventKey={"wc-tap3"}
+                    className="nav-link"
+                    data-bs-toggle="tab"
+                    href="#wc-tap3">
+                    <i className="flaticon-cyber-security-1" />{" "}
+                    <span>Cyber Security</span>
+                  </Nav.Link>
+                </li>
+                <li className="nav-item">
+                  <Nav.Link
+                    as="a"
+                    eventKey={"wc-tap4"}
+                    className="nav-link"
+                    data-bs-toggle="tab"
+                    href="#wc-tap4">
+                    <i className="flaticon-support" /> <span>Tech Support</span>
+                  </Nav.Link>
+                </li>
+              </Nav>
+              <Tab.Content className="tab-content">
+                <Tab.Pane className="tab-pane fade" eventKey="wc-tap1">
+                  <div className="row gap-90 align-items-center">
+                    <div className="col-lg-6">
+                      <div className="why-choose-image rmb-55">
+                        <img
+                          src="assets/images/about/why-choose1.jpg"
+                          alt="Why Choose"
+                        />
+                      </div>
+                    </div>
+                    <div className="col-lg-6">
+                      <div className="why-choose-content">
+                        <h3>Comprehensive UI/UX Assessment</h3>
+                        <p>
+                          Assessment of existing UX/UI design or development
+                          from scratch to ensure optimal user engagement and
+                          satisfaction.
+                        </p>
+                        <ul className="list-style-one pt-5">
+                          <li>Comprehensive UI/UX Assessment</li>
+                          <li>Deep Contextual Research and 360° Planning</li>
+                          <li>Wireframing &amp; Prototyping</li>
+                        </ul>
+                        <Link legacyBehavior href="/uiux-details">
+                          <a className="theme-btn mt-30">
+                            Learn More <i className="fas fa-long-arrow-right" />
+                          </a>
+                        </Link>
+                      </div>
                     </div>
                   </div>
-                  <div className="col-lg-6">
-                    <div className="why-choose-content">
-                      <h3>
-                        An impactful Application Needs an innovative and
-                        interactive.
-                      </h3>
-                      <p>
-                        Our experts help create the right website for across all
-                        major platforms and devices. Taking into consideration
-                        your user behavior volu promotey the optimal experience
-                        we design responsive performance
-                      </p>
-                      <ul className="list-style-one pt-5">
-                        <li>Comprehensive UI/UX Assessment</li>
-                        <li>Deep Contextual Research and 360° Planning</li>
-                        <li>Wireframing &amp; Prototyping</li>
-                      </ul>
-                      <Link legacyBehavior href="/about">
-                        <a className="theme-btn mt-30">
-                          Learn More <i className="fas fa-long-arrow-right" />
-                        </a>
-                      </Link>
+                </Tab.Pane>
+                <Tab.Pane className="tab-pane fade" eventKey="wc-tap2">
+                  <div className="row gap-90 align-items-center">
+                    <div className="col-lg-6">
+                      <div className="why-choose-content">
+                        <h3>
+                          An impactful Application Needs an innovative and
+                          interactive.
+                        </h3>
+                        <p>
+                          Creating the right website for all major platforms and
+                          devices, considering user behavior and designing
+                          responsive performance.
+                        </p>
+                        <ul className="list-style-one pt-5">
+                          <li>Comprehensive UI/UX Assessment</li>
+                          <li>Deep Contextual Research and 360° Planning</li>
+                          <li>Wireframing &amp; Prototyping</li>
+                        </ul>
+                        <Link legacyBehavior href="/mobile-details">
+                          <a className="theme-btn mt-30">
+                            Learn More <i className="fas fa-long-arrow-right" />
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                    <div className="col-lg-6">
+                      <div className="why-choose-image rmt-55">
+                        <img
+                          src="assets/images/about/why-choose1.jpg"
+                          alt="Why Choose"
+                        />
+                      </div>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div className="tab-pane fade" id="wc-tap2">
-                <div className="row gap-90 align-items-center">
-                  <div className="col-lg-6">
-                    <div className="why-choose-content">
-                      <h3>
-                        An impactful Application Needs an innovative and
-                        interactive.
-                      </h3>
-                      <p>
-                        Our experts help create the right website for across all
-                        major platforms and devices. Taking into consideration
-                        your user behavior volu promotey the optimal experience
-                        we design responsive performance
-                      </p>
-                      <ul className="list-style-one pt-5">
-                        <li>Comprehensive UI/UX Assessment</li>
-                        <li>Deep Contextual Research and 360° Planning</li>
-                        <li>Wireframing &amp; Prototyping</li>
-                      </ul>
-                      <Link legacyBehavior href="/about">
-                        <a className="theme-btn mt-30">
-                          Learn More <i className="fas fa-long-arrow-right" />
-                        </a>
-                      </Link>
+                </Tab.Pane>
+                <Tab.Pane className="tab-pane fade" eventKey="wc-tap3">
+                  <div className="row gap-90 align-items-center">
+                    <div className="col-lg-6">
+                      <div className="why-choose-image rmb-55">
+                        <img
+                          src="assets/images/about/why-choose1.jpg"
+                          alt="Why Choose"
+                        />
+                      </div>
+                    </div>
+                    <div className="col-lg-6">
+                      <div className="why-choose-content">
+                        <h3>
+                          An impactful Application Needs an innovative and
+                          interactive.
+                        </h3>
+                        <p>
+                          Creating the right website for all major platforms and
+                          devices, considering user behavior and designing
+                          responsive performance.
+                        </p>
+                        <ul className="list-style-one pt-5">
+                          <li>Comprehensive UI/UX Assessment</li>
+                          <li>Deep Contextual Research and 360° Planning</li>
+                          <li>Wireframing &amp; Prototyping</li>
+                        </ul>
+                        <Link legacyBehavior href="/development-details">
+                          <a className="theme-btn mt-30">
+                            Learn More <i className="fas fa-long-arrow-right" />
+                          </a>
+                        </Link>
+                      </div>
                     </div>
                   </div>
-                  <div className="col-lg-6">
-                    <div className="why-choose-image rmt-55">
-                      <img
-                        src="assets/images/about/why-choose1.jpg"
-                        alt="Why Choose"
-                      />
+                </Tab.Pane>
+                <Tab.Pane className="tab-pane fade" eventKey="wc-tap4">
+                  <div className="row gap-90 align-items-center">
+                    <div className="col-lg-6">
+                      <div className="why-choose-content">
+                        <h3>
+                          An impactful Application Needs an innovative and
+                          interactive.
+                        </h3>
+                        <p>
+                          Creating the right website for all major platforms and
+                          devices, considering user behavior and designing
+                          responsive performance.
+                        </p>
+                        <ul className="list-style-one pt-5">
+                          <li>Comprehensive UI/UX Assessment</li>
+                          <li>Deep Contextual Research and 360° Planning</li>
+                          <li>Wireframing &amp; Prototyping</li>
+                        </ul>
+                        <Link legacyBehavior href="/digital-details">
+                          <a className="theme-btn mt-30">
+                            Learn More <i className="fas fa-long-arrow-right" />
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                    <div className="col-lg-6">
+                      <div className="why-choose-image rmt-55">
+                        <img
+                          src="assets/images/about/why-choose1.jpg"
+                          alt="Why Choose"
+                        />
+                      </div>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div className="tab-pane fade" id="wc-tap3">
-                <div className="row gap-90 align-items-center">
-                  <div className="col-lg-6">
-                    <div className="why-choose-image rmb-55">
-                      <img
-                        src="assets/images/about/why-choose1.jpg"
-                        alt="Why Choose"
-                      />
-                    </div>
-                  </div>
-                  <div className="col-lg-6">
-                    <div className="why-choose-content">
-                      <h3>
-                        An impactful Application Needs an innovative and
-                        interactive.
-                      </h3>
-                      <p>
-                        Our experts help create the right website for across all
-                        major platforms and devices. Taking into consideration
-                        your user behavior volu promotey the optimal experience
-                        we design responsive performance
-                      </p>
-                      <ul className="list-style-one pt-5">
-                        <li>Comprehensive UI/UX Assessment</li>
-                        <li>Deep Contextual Research and 360° Planning</li>
-                        <li>Wireframing &amp; Prototyping</li>
-                      </ul>
-                      <Link legacyBehavior href="/about">
-                        <a className="theme-btn mt-30">
-                          Learn More <i className="fas fa-long-arrow-right" />
-                        </a>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="tab-pane fade" id="wc-tap4">
-                <div className="row gap-90 align-items-center">
-                  <div className="col-lg-6">
-                    <div className="why-choose-content">
-                      <h3>
-                        An impactful Application Needs an innovative and
-                        interactive.
-                      </h3>
-                      <p>
-                        Our experts help create the right website for across all
-                        major platforms and devices. Taking into consideration
-                        your user behavior volu promotey the optimal experience
-                        we design responsive performance
-                      </p>
-                      <ul className="list-style-one pt-5">
-                        <li>Comprehensive UI/UX Assessment</li>
-                        <li>Deep Contextual Research and 360° Planning</li>
-                        <li>Wireframing &amp; Prototyping</li>
-                      </ul>
-                      <Link legacyBehavior href="/about">
-                        <a className="theme-btn mt-30">
-                          Learn More <i className="fas fa-long-arrow-right" />
-                        </a>
-                      </Link>
-                    </div>
-                  </div>
-                  <div className="col-lg-6">
-                    <div className="why-choose-image rmt-55">
-                      <img
-                        src="assets/images/about/why-choose1.jpg"
-                        alt="Why Choose"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
+                </Tab.Pane>
+              </Tab.Content>
             </div>
-          </div>
+          </Tab.Container>
+        </div>
+        <div className="why-choose-shapes">
+          <img
+            className="shape one"
+            src="assets/images/about/why-choose-shape1.png"
+            alt="Shape"
+          />
+          <img
+            className="shape two"
+            src="assets/images/about/why-choose-shape2.png"
+            alt="Shape"
+          />
         </div>
       </section>
       {/* Why Choose Us Area end */}
