@@ -8,9 +8,10 @@ const defaultAccordionData = [
   },
   {
     id: 2,
-    title:
+    title:  
       "Measuring The Performance Of Typefaces For Users Part Ukraine, A Charity Conference On The Future Of Tech ?",
-    largeDescription: true,
+    largeDescription: false,
+    body: "rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr",
   },
   {
     id: 3,
@@ -83,13 +84,7 @@ const JeenaAccordion = ({ defaultActive, accordions, accordionsData }) => {
                       <hr />
                       <div className="row">
                         <div className="col-lg-6">
-                          <p>
-                            On the other hand, we denounce with righteous
-                            indignation and dislike men who are so beguiled and
-                            demoralized by the charms of pleasure of the moment
-                            blinded by desire, that they cannot foresee the pain
-                            and trouble bound
-                          </p>
+                          <p>{accordion.body}</p>
                           <ul className="list-style-one my-15">
                             <li>Comprehensive UI/UX Assessment</li>
                             <li>Deep Contextual Research and 360° Planning</li>
@@ -105,15 +100,7 @@ const JeenaAccordion = ({ defaultActive, accordions, accordionsData }) => {
                       </div>
                     </Fragment>
                   ) : (
-                    <p>
-                      Sorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Numquam incidunt debitis magnam sit dicta asperiores
-                      quidem cum, blanditiis harum non nulla, esse sapiente
-                      doloremque, dolores natus! Harum consectetur saepe iure
-                      obcaecati illo, maiores minima in dolorem, deleniti unde
-                      aut similique fugit earum. Numquam ut ex ipsum molestiae,
-                      consequatur obcaecati? Velit.
-                    </p>
+                    <p>{accordion.body}</p>
                   )}
                 </div>
               </Accordion.Collapse>
