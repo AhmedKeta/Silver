@@ -321,7 +321,7 @@ const DeskTopMenu = () => {
                 <Link href="team">Team</Link>
               </li>
               <li>
-                <Link href="faqs">faqs</Link>
+                <Link href="faqs">FAQs</Link>
               </li>
               <li>
                 <Link href="faqs">Policies & Terms</Link>
