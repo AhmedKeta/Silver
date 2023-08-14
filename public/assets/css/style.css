@@ -646,7 +646,7 @@ a.theme-btn.style-four:not(:hover):after {
 .social-style-two a {
   margin-left: 5px;
   margin-right: 5px;
-  color: var(--secondary-color);
+  color: var(--base-color);
   width: 40px;
   height: 40px;
   background: var(--lighter-color);
@@ -4039,6 +4039,7 @@ h6,
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  font-size: 15px;
 }
 .header-top > ul > li {
   display: -webkit-box;

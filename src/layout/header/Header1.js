@@ -19,8 +19,8 @@ const Header1 = () => {
                 <a href="callto:+1 630-995-9223">+1 630-995-9223</a>
               </li>
               <li className="for-none">
-                <i className="far fa-clock" /> Working Hours : Mon - Fri, 9
-                am to 5pm
+                <i className="far fa-clock" /> Working Hours : Mon - Fri, 9 am
+                to 5pm (PST)
               </li>
               <li>
                 <div className="social-style-one">
