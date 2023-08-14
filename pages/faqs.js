@@ -7,7 +7,11 @@ import Meta from "@/components/Meta";
 const Faq = () => {
   return (
     <Layout>
-      <Meta title="FAQs" />
+      <Meta
+        title="FAQs"
+        description="Find answers to frequently asked questions about our services at Silver Pyramids. We address common queries related to technology solutions and marketing strategies."
+        keywords="FAQs, frequently asked questions, technology solutions, marketing strategies"
+      />
       <PageBanner pageName={"FAQs"} />
       <section className="faq-page-area pt-130 rpt-100 rel z-1">
         <div className="container">

@@ -28,7 +28,11 @@ const ServiceDetails = () => {
   ];
   return (
     <Layout>
-      <Meta title="Digital Service" />
+      <Meta
+        title="Digital Service"
+        description="Leverage our digital consulting services at Silver Pyramids to navigate the ever-changing digital landscape. Our expert consultants provide strategic guidance and insights to drive your business forward."
+        keywords="digital consulting services, strategic guidance, digital transformation, business insights"
+      />
       <PageBanner
         pageName={"Digital Services"}
         pageTitle={"Digital Consulting Services"}
@@ -72,7 +76,8 @@ const ServiceDetails = () => {
                 <div className="row">
                   <div className="col-md-6 mb-30 wow fadeInRight delay-0-2s">
                     <h3>
-                      We Provide Best Technology Solutions to Growth you Business
+                      We Provide Best Technology Solutions to Growth you
+                      Business
                     </h3>
                   </div>
                   <div className="col-md-6 mb-30 wow fadeInLeft delay-0-2s">
@@ -124,8 +129,7 @@ const ServiceDetails = () => {
 
                 <div
                   className="faq-accordion pt-20 wow fadeInUp delay-0-2s"
-                  id="faq-accordion"
-                >
+                  id="faq-accordion">
                   <JeenaAccordion2 accordionsData={accordionData} />
                 </div>
               </div>
@@ -166,8 +170,7 @@ const ServiceDetails = () => {
                   style={{
                     backgroundImage:
                       "url(assets/images/widgets/cta-widget-bg.jpg)",
-                  }}
-                >
+                  }}>
                   <span className="h5">Let's Work Together</span>
                   <span className="h2" style={{ color: "white" }}>
                     Technology Service Agency
@@ -187,7 +190,6 @@ const ServiceDetails = () => {
                     alt="Shape"
                   />
                 </div>
-
               </div>
             </div>
           </div>

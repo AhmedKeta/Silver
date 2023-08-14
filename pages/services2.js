@@ -14,7 +14,11 @@ const Counter = dynamic(() => import("@/src/components/Counter"), {
 const Service2 = () => {
   return (
     <Layout>
-      <Meta title="Services" />
+      <Meta
+        title="Marketing Solutions"
+        description="Enhance your online presence with our marketing services at Silver Pyramids. We specialize in visual content services, SEO optimization, and social media advertising to help you reach your target audience effectively."
+        keywords="marketing services, visual content services, SEO optimization, social media advertising"
+      />
       <PageBanner pageName={"Services"} pageTitle="Marketing Solutions" />
       <section className="services-area-three overflow-hidden pt-130 rpt-100 pb-100 rpb-70 rel z-1">
         <div className="container">
@@ -242,7 +246,7 @@ const Service2 = () => {
                     <div className="content">
                       <h4>
                         <Link legacyBehavior href="marketing-details">
-                          Marketing strategies
+                          Marketing Strategies
                         </Link>
                       </h4>
                       <Link legacyBehavior href="/marketing-details">
