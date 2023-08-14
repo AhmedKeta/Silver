@@ -28,7 +28,11 @@ const ServiceDetails = () => {
   ];
   return (
     <Layout>
-      <Meta title="Mobile Development" />
+      <Meta
+        title="Mobile Development"
+        description="Stay ahead of the mobile-first era with our mobile app development services at Silver Pyramids. We build intuitive and feature-rich mobile applications for various platforms, ensuring seamless user experiences."
+        keywords="mobile app development, iOS app development, Android app development, cross-platform apps"
+      />
       <PageBanner
         pageName={"Mobile Services"}
         pageTitle={"Mobile App Development"}
@@ -112,8 +116,7 @@ const ServiceDetails = () => {
                 </p>
                 <div
                   className="faq-accordion pt-20 wow fadeInUp delay-0-2s"
-                  id="faq-accordion"
-                >
+                  id="faq-accordion">
                   <JeenaAccordion2 accordionsData={accordionData} />
                 </div>
               </div>
@@ -150,8 +153,7 @@ const ServiceDetails = () => {
                   style={{
                     backgroundImage:
                       "url(assets/images/widgets/cta-widget-bg.jpg)",
-                  }}
-                >
+                  }}>
                   <span className="h5">Let's Work Together</span>
                   <h2>IT Service Agency</h2>
                   <Link legacyBehavior href="/contact">
@@ -169,7 +171,6 @@ const ServiceDetails = () => {
                     alt="Shape"
                   />
                 </div>
-
               </div>
             </div>
           </div>

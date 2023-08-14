@@ -28,10 +28,14 @@ const ServiceDetails = () => {
   ];
   return (
     <Layout>
-      <Meta title="Marketing Services" />
+      <Meta
+        title="Marketing Services"
+        description="Enhance your online presence with our marketing services at Silver Pyramids. We specialize in visual content services, SEO optimization, and social media advertising to help you reach your target audience effectively."
+        keywords="marketing services, visual content services, SEO optimization, social media advertising"
+      />
       <PageBanner
         pageName={"Marketing Services"}
-        pageTitle={"Marketing strategies"}
+        pageTitle={"Marketing Strategies"}
       />
       <section className="service-details-area pt-130 rpt-100 pb-115 rpb-85">
         <div className="container">

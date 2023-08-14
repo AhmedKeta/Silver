@@ -13,7 +13,7 @@ const ProjectIsotope = dynamic(
 const ProjectMasonry = () => {
   return (
     <Layout>
-      <Meta title="Project" />
+      <Meta title="Project Masonry" />
       <PageBanner pageName={"Project Masonry"} />
       <section className="project-masonry-area rel z-2 py-130 rpy-100">
         <div className="container">

@@ -11,11 +11,13 @@ const Meta = ({ title, description, image, keywords, href }) => {
       <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
       {description && <meta name="description" content={description} />}
       {keywords && <meta name="keywords" content={keywords} />}
+      <meta name="googlebot" content="index, follow, archive, snippet" />
       {/* Open Graph tags */}
       <meta
         property="og:title"
         content={title ? "Silver Pyramids | " + title : "Silver Pyramids"}
       />
+      <meta property="og:site_name" content="Silver Pyramids" />
       {description && <meta property="og:description" content={description} />}
       {image && (
         <meta
@@ -36,10 +38,12 @@ const Meta = ({ title, description, image, keywords, href }) => {
         content={title ? "Silver Pyramids | " + title : "Silver Pyramids"}
       />
       {description && <meta name="twitter:description" content={description} />}
-      {image && <meta
-        name="twitter:image"
-        content={"https://silverpyramids.com/" + image}
-      />}
+      {image && (
+        <meta
+          name="twitter:image"
+          content={"https://silverpyramids.com/" + image}
+        />
+      )}
       {/* Title */}
       <title>{title ? "Silver Pyramids | " + title : "Silver Pyramids"}</title>
     </Head>

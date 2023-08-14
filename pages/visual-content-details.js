@@ -28,7 +28,11 @@ const ServiceDetails = () => {
   ];
   return (
     <Layout>
-      <Meta title="Visual Content Services" />
+      <Meta
+        title="Visual Content Services"
+        description="Elevate your brand with our visual content services at Silver Pyramids. We create captivating visuals that engage and communicate your message effectively."
+        keywords="visual content services, graphic design, branding, visual communication"
+      />
       <PageBanner
         pageName={"Visual Content Services"}
         pageTitle={"Visual Content Services"}

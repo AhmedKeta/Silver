@@ -6,7 +6,11 @@ import Meta from "@/components/Meta";
 const ProjectGrid = () => {
   return (
     <Layout>
-      <Meta title="Case Studies" />
+      <Meta
+        title="Case Studies"
+        description="Discover our successful projects and case studies at Silver Pyramids. We showcase our expertise in technology and marketing solutions through real-world examples and measurable results."
+        keywords="projects, case studies, technology solutions, marketing strategies"
+      />
       <PageBanner pageName={"Case Studies"} />
       <section className="project-grid-area rel z-2 py-130 rpy-100">
         <div className="container">
