@@ -28,7 +28,11 @@ const ServiceDetails = () => {
   ];
   return (
     <Layout>
-      <Meta title="UX/UI Service" />
+      <Meta
+        title="UX/UI Service"
+        description="Deliver exceptional user experiences with our UX/UI design strategy services at Silver Pyramids. We combine creative design principles and user-centric approaches to optimize your digital products."
+        keywords="UX/UI design strategy, user experience design, user interface design, design optimization"
+      />
       <PageBanner
         pageName={"Digital Services"}
         pageTitle={"UX/UI Design Strategy"}
@@ -113,18 +117,17 @@ const ServiceDetails = () => {
                 </p>
                 <div
                   className="faq-accordion pt-20 wow fadeInUp delay-0-2s"
-                  id="faq-accordion"
-                >
+                  id="faq-accordion">
                   <JeenaAccordion2 accordionsData={accordionData} />
                 </div>
               </div>
             </div>
             <div className="col-lg-4">
               <div className="service-sidebar">
-              <div className="widget widget-category wow fadeInUp delay-0-2s">
+                <div className="widget widget-category wow fadeInUp delay-0-2s">
                   <h4 className="widget-title">Services Category</h4>
                   <ul>
-                  <li>
+                    <li>
                       <Link legacyBehavior href="digital-details">
                         Digital Solutions
                       </Link>
@@ -151,8 +154,7 @@ const ServiceDetails = () => {
                   style={{
                     backgroundImage:
                       "url(assets/images/widgets/cta-widget-bg.jpg)",
-                  }}
-                >
+                  }}>
                   <span className="h5">Let's Work Together</span>
                   <h2>IT Service Agency</h2>
                   <Link legacyBehavior href="/contact">
@@ -170,7 +172,6 @@ const ServiceDetails = () => {
                     alt="Shape"
                   />
                 </div>
-
               </div>
             </div>
           </div>

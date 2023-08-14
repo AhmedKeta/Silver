@@ -74,7 +74,11 @@ const Contact = () => {
 
   return (
     <Layout>
-      <Meta title="Contact Us" />
+      <Meta
+        title="Contact Us"
+        description="Have questions or inquiries? Get in touch with Silver Pyramids. Contact our team today for personalized technology and marketing solutions tailored to your business."
+        keywords="contact us, get in touch, technology solutions, marketing services"
+      />
       <PageBanner pageName={"Contact Us"} />
       <section className="contact-page-info pt-130 rpt-100 pb-100 rpb-70 rel z-1">
         <div className="container">
@@ -111,8 +115,7 @@ const Contact = () => {
                 <h4>Email Us</h4>
                 <a
                   style={{ fontSize: 14 }}
-                  href="mailto:info@silverpyramids.com"
-                >
+                  href="mailto:info@silverpyramids.com">
                   info@silverpyramids.com
                 </a>
                 <br />
@@ -188,8 +191,7 @@ const Contact = () => {
               id="contactForm"
               className="contactForm"
               action="assets/php/form-process.php"
-              name="contactForm"
-            >
+              name="contactForm">
               <div className="row">
                 <div className="col-md-6">
                   <div className="form-group">

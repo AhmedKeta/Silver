@@ -6,7 +6,11 @@ import Meta from "@/components/Meta";
 const Services = () => {
   return (
     <Layout>
-      <Meta title="Technology Solutions" />
+      <Meta
+        title="Technology Solutions"
+        description="Explore our technology services at Silver Pyramids. From digital consulting to design and development, we provide innovative solutions tailored to your business needs."
+        keywords="technology services, digital consulting, design and development, mobile app development, UX/UI design strategy, SEO optimization services"
+      />
       <PageBanner pageName={"Services"} pageTitle={"Technology Solutions"} />
 
       {/* Work Process Area start */}

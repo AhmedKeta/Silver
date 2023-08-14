@@ -28,7 +28,11 @@ const ServiceDetails = () => {
   ];
   return (
     <Layout>
-      <Meta title="Social Media Services" />
+      <Meta
+        title="Social Media Services"
+        description="Amplify your brand reach through social media advertising with Silver Pyramids. Our targeted campaigns help you connect with your audience and achieve maximum impact."
+        keywords="social media advertising, social media marketing, audience targeting, brand reach"
+      />
       <PageBanner
         pageName={"Social Media Services"}
         pageTitle={"Social Media Advertising"}
