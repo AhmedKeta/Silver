@@ -1,9 +1,10 @@
 import PageBanner from "@/components/PageBanner";
 import Meta from "@/components/Meta";
 import Layout from "@/layout";
-import emailjs from "@emailjs/browser";
+// import emailjs from "@emailjs/browser";
 import React, { useState } from "react";
 import { Alert } from "react-bootstrap";
+import sendEmail from "@/src/sendMail";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -24,38 +25,52 @@ const Contact = () => {
     }));
   };
 
-  const sendEmail = async () => {
+  const sendContactEmail = async () => {
     try {
-      const templateParams = {
-        to_name: "Silver Pyramids Customer Service",
-        email_subject: formData.subject,
-        from_name: formData.name,
-        from_email: formData.email,
-        phone_number: formData.phone_number,
-        message: formData.message,
-      };
-
-      await emailjs.send(
-        "service_8fq77ww",
-        "template_vxg5ly6",
-        templateParams,
-        "fa0OAKPqt9dfpP_bg"
+      await sendEmail(
+        formData,
+        setSuccessMessage,
+        setErrorMessage,
+        setFormData
       );
-
-      setSuccessMessage("Your message has been sent successfully");
-      setErrorMessage("");
-      setFormData({
-        name: "",
-        phone_number: "",
-        email: "",
-        subject: "",
-        message: "",
-      });
     } catch (error) {
-      setSuccessMessage("Your message has been sent successfully");
-      setErrorMessage("");
+      setSuccessMessage("");
+      setErrorMessage(error);
     }
   };
+
+  // const sendEmail = async () => {
+  //   try {
+  //     const templateParams = {
+  //       to_name: "Silver Pyramids Customer Service",
+  //       email_subject: formData.subject,
+  //       from_name: formData.name,
+  //       from_email: formData.email,
+  //       phone_number: formData.phone_number,
+  //       message: formData.message,
+  //     };
+
+  //     await emailjs.send(
+  //       "service_8fq77ww",
+  //       "template_vxg5ly6",
+  //       templateParams,
+  //       "fa0OAKPqt9dfpP_bg"
+  //     );
+
+  //     setSuccessMessage("Your message has been sent successfully");
+  //     setErrorMessage("");
+  //     setFormData({
+  //       name: "",
+  //       phone_number: "",
+  //       email: "",
+  //       subject: "",
+  //       message: "",
+  //     });
+  //   } catch (error) {
+  //     setSuccessMessage("Your message has been sent successfully");
+  //     setErrorMessage("");
+  //   }
+  // };
 
   return (
     <Layout>
@@ -168,7 +183,7 @@ const Contact = () => {
             <form
               onSubmit={(e) => {
                 e.preventDefault();
-                sendEmail();
+                sendContactEmail();
               }}
               id="contactForm"
               className="contactForm"

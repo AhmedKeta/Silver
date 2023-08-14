@@ -153,8 +153,7 @@ const About = () => {
             className="statistics-inner style-two bgs-cover text-white p-80 pb-20"
             style={{
               backgroundImage: "url(assets/images/background/statistics.jpg)",
-            }}
-          >
+            }}>
             <div className="row align-items-xl-start align-items-center">
               <div className="col-xl-5 col-lg-6">
                 <div className="statistics-content mb-55 wow fadeInUp delay-0-2s">
@@ -177,8 +176,7 @@ const About = () => {
                       <span
                         className="count-text plus"
                         data-speed={3000}
-                        data-stop={1021}
-                      >
+                        data-stop={1021}>
                         <Counter end={1021} />
                       </span>
                       <span className="counter-title">Project Complate</span>
@@ -190,8 +188,7 @@ const About = () => {
                       <span
                         className="count-text percent"
                         data-speed={3000}
-                        data-stop="98.9"
-                      >
+                        data-stop="98.9">
                         <Counter end={98.9} decimals={1} />
                       </span>
                       <span className="counter-title">Clinets Happy</span>
@@ -203,8 +200,7 @@ const About = () => {
                       <span
                         className="count-text plus"
                         data-speed={3000}
-                        data-stop="35.6"
-                      >
+                        data-stop="35.6">
                         <Counter end={78} decimals={1} />
                       </span>
                       <span className="counter-title">Years Experience</span>
@@ -216,8 +212,7 @@ const About = () => {
                       <span
                         className="count-text k-plus"
                         data-speed={3000}
-                        data-stop={63}
-                      >
+                        data-stop={63}>
                         <Counter end={63} />
                       </span>
                       <span className="counter-title">Award Winning</span>
@@ -319,16 +314,14 @@ const About = () => {
             <div className="why-choose-tab">
               <Nav
                 as={"ul"}
-                className="nav nav-pills nav-fill mb-80 rmb-50 wow fadeInUp delay-0-4s"
-              >
+                className="nav nav-pills nav-fill mb-80 rmb-50 wow fadeInUp delay-0-4s">
                 <li className="nav-item">
                   <Nav.Link
                     as="a"
                     eventKey={"wc-tap1"}
                     className="nav-link"
                     data-bs-toggle="tab"
-                    href="#wc-tap1"
-                  >
+                    href="#wc-tap1">
                     <i className="flaticon-creativity" />{" "}
                     <span>UX/UI Design</span>
                   </Nav.Link>
@@ -339,8 +332,7 @@ const About = () => {
                     eventKey={"wc-tap2"}
                     className="nav-link"
                     data-bs-toggle="tab"
-                    href="#wc-tap2"
-                  >
+                    href="#wc-tap2">
                     <i className="flaticon-test" />{" "}
                     <span>Apps Development</span>
                   </Nav.Link>
@@ -351,10 +343,9 @@ const About = () => {
                     eventKey={"wc-tap3"}
                     className="nav-link"
                     data-bs-toggle="tab"
-                    href="#wc-tap3"
-                  >
-                    <i className="flaticon-cyber-security-1" />{" "}
-                    <span>Cyber Security</span>
+                    href="#wc-tap3">
+                    <i className="flaticon-development" />{" "}
+                    <span> Design &amp; Development</span>
                   </Nav.Link>
                 </li>
                 <li className="nav-item">
@@ -363,9 +354,9 @@ const About = () => {
                     eventKey={"wc-tap4"}
                     className="nav-link"
                     data-bs-toggle="tab"
-                    href="#wc-tap4"
-                  >
-                    <i className="flaticon-support" /> <span>Tech Support</span>
+                    href="#wc-tap4">
+                    <i className="flaticon-support" />{" "}
+                    <span>Digital Consulting</span>
                   </Nav.Link>
                 </li>
               </Nav>
@@ -384,15 +375,14 @@ const About = () => {
                       <div className="why-choose-content">
                         <h3>Comprehensive UI/UX Assessment</h3>
                         <p>
-                          Assessment of existing UX/UI design or development
-                          from scratch to ensure optimal user engagement and
+                          At our company, we understand the significance of user
+                          experience (UX) and user interface (UI) design in
+                          creating successful digital products. Our team of
+                          experienced designers conducts a comprehensive
+                          assessment of your existing UX/UI design or develops
+                          one from scratch to ensure optimal user engagement and
                           satisfaction.
                         </p>
-                        <ul className="list-style-one pt-5">
-                          <li>Comprehensive UI/UX Assessment</li>
-                          <li>Deep Contextual Research and 360° Planning</li>
-                          <li>Wireframing &amp; Prototyping</li>
-                        </ul>
                         <Link legacyBehavior href="/uiux-details">
                           <a className="theme-btn mt-30">
                             Learn More <i className="fas fa-long-arrow-right" />
@@ -407,19 +397,16 @@ const About = () => {
                     <div className="col-lg-6">
                       <div className="why-choose-content">
                         <h3>
-                          An impactful Application Needs an innovative and
-                          interactive.
+                          Customized App Development for Your Business Needs
                         </h3>
                         <p>
-                          Creating the right website for all major platforms and
-                          devices, considering user behavior and designing
-                          responsive performance.
+                          In today's digital landscape, having a mobile
+                          application is essential for businesses to reach their
+                          target audience and drive growth. Our app development
+                          services offer customized solutions tailored to your
+                          specific business needs, helping you stay ahead in the
+                          competitive market.
                         </p>
-                        <ul className="list-style-one pt-5">
-                          <li>Comprehensive UI/UX Assessment</li>
-                          <li>Deep Contextual Research and 360° Planning</li>
-                          <li>Wireframing &amp; Prototyping</li>
-                        </ul>
                         <Link legacyBehavior href="/mobile-details">
                           <a className="theme-btn mt-30">
                             Learn More <i className="fas fa-long-arrow-right" />
@@ -449,20 +436,17 @@ const About = () => {
                     </div>
                     <div className="col-lg-6">
                       <div className="why-choose-content">
-                        <h3>
-                          An impactful Application Needs an innovative and
-                          interactive.
-                        </h3>
+                        <h3>Efficient Design and Development Process</h3>
                         <p>
-                          Creating the right website for all major platforms and
-                          devices, considering user behavior and designing
-                          responsive performance.
+                          In the world of web development, a seamless and
+                          efficient design and development process can make all
+                          the difference. At our company, we prioritize a
+                          streamlined approach to ensure the successful creation
+                          and delivery of digital products. Our team of skilled
+                          designers and developers work collaboratively to bring
+                          your vision to life, adhering to industry best
+                          practices and utilizing the latest technologies.
                         </p>
-                        <ul className="list-style-one pt-5">
-                          <li>Comprehensive UI/UX Assessment</li>
-                          <li>Deep Contextual Research and 360° Planning</li>
-                          <li>Wireframing &amp; Prototyping</li>
-                        </ul>
                         <Link legacyBehavior href="/development-details">
                           <a className="theme-btn mt-30">
                             Learn More <i className="fas fa-long-arrow-right" />
@@ -476,20 +460,14 @@ const About = () => {
                   <div className="row gap-90 align-items-center">
                     <div className="col-lg-6">
                       <div className="why-choose-content">
-                        <h3>
-                          An impactful Application Needs an innovative and
-                          interactive.
-                        </h3>
+                        <h3>Reliable Tech Support for Seamless Operations</h3>
                         <p>
-                          Creating the right website for all major platforms and
-                          devices, considering user behavior and designing
-                          responsive performance.
+                          Technology plays a vital role in the success of any
+                          business. Our tech support services are designed to
+                          provide you with reliable solutions and assistance to
+                          ensure the seamless operation of your IT
+                          infrastructure.
                         </p>
-                        <ul className="list-style-one pt-5">
-                          <li>Comprehensive UI/UX Assessment</li>
-                          <li>Deep Contextual Research and 360° Planning</li>
-                          <li>Wireframing &amp; Prototyping</li>
-                        </ul>
                         <Link legacyBehavior href="/digital-details">
                           <a className="theme-btn mt-30">
                             Learn More <i className="fas fa-long-arrow-right" />
