@@ -17,6 +17,7 @@ const About = () => {
     <Layout>
       <Meta title="About Us" />
       <PageBanner pageName={"About Us"} />
+      {/* About Area start */}
       <section className="about-area-five py-130 rpt-100 rpb-65 rel z-1">
         <div className="container">
           <div className="row align-items-center gap-100">
@@ -146,6 +147,58 @@ const About = () => {
         </div>
       </section>
       {/* Services Area Three end */}
+      {/* About Area start */}
+      <section
+        className="contact-form-area py-130 rpy-100 bgs-cover mb-4"
+        style={{
+          backgroundImage: "url(assets/images/background/contact-form-bg.jpg)",
+        }}
+      >
+        <section className="about-area-two py-130 rpy-100 rel z-1">
+          <div className="container">
+            <div className="row align-items-center gap-90">
+              <div className="col-lg-6">
+                <div className="about-two-image rel z-1 rmb-65 wow fadeInRight delay-0-2s">
+                  <img
+                    src="/assets/images/logos/logo-big.png"
+                    alt="About"
+                  />
+                </div>
+              </div>
+              <div className="col-lg-6">
+                <div className="about-content rel z-1 wow fadeInLeft delay-0-2s">
+                  <div className="section-title mb-30">
+                    <span className="sub-title mb-15">About Company</span>
+                    <h2>Small Enough to Care Big Enough to Success</h2>
+                  </div>
+                  <p>
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium totam rem
+                    aperiam eaque ipsa quae abillo inventore veritatis et quasi
+                    architecto beatae vitae dicta sunt explicabo.
+                  </p>
+                  <div className="about-btns">
+                    <Link legacyBehavior href="/about">
+                      <a className="theme-btn style-three mt-15">
+                        Learn More <i className="fas fa-long-arrow-right" />
+                      </a>
+                    </Link>
+                    <div className="hotline mt-15">
+                      <i className="fas fa-phone" />
+                      <div className="content">
+                        <span>Hotline</span>
+                        <br />
+                        <a href="callto:+1 630-995-9223">+1 630-995-9223</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      {/* About Area end */}
       {/* Statistics Area start */}
       <section className="statistics-area-two rel z-2">
         <div className="container">
@@ -525,15 +578,113 @@ const About = () => {
         </div>
       </section>
       {/* Why Choose Us Area end */}
-      {/* Testimonials Area Two start */}
-      <section className="testimonials-area-two pb-115 rpb-85 rel z-1">
+      {/* Testimonial Area Four start */}
+      <section className="testimonials-area-four rel z-1">
         <div className="container">
-          <TestimonialsSlider />
+          <div className="row align-items-center">
+            <div className="col-xl-5 col-lg-6 ms-lg-auto">
+              <div className="testimonials-four-content py-65 rpt-0 rpb-35">
+                <div className="section-title mb-35 wow fadeInUp delay-0-2s">
+                  <span className="sub-title mb-15">Clients Testimonials</span>
+                  <h2>What Our Client’s Say About Our Agency</h2>
+                  <span className="bg-text">Says</span>
+                </div>
+                <div className="testimonial-item style-two wow fadeInUp delay-0-2s">
+                  <div className="image">
+                    <img
+                      src="assets/images/testimonials/testi-author1.jpg"
+                      alt="Author"
+                    />
+                  </div>
+                  <div className="content">
+                    <div className="testi-header">
+                      <h4>Excellent Works</h4>
+                    </div>
+                    <div className="testi-text">
+                      Sed ut perspiciatis unde omnis iste natus voluptatem accus
+                      antiume dolorem queauy antium totam aperiam eaque quaey
+                      abillosa inventore veritatis vitaec
+                    </div>
+                    <div className="testi-footer">
+                      <div className="icon">
+                        <i className="flaticon-quotation" />
+                      </div>
+                      <div className="title">
+                        <h4>Andrew D. Bricker</h4>
+                        <span className="designation">CEO &amp; Founder</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="testimonial-item style-two wow fadeInUp delay-0-2s">
+                  <div className="image">
+                    <img
+                      src="assets/images/testimonials/testi-author3.jpg"
+                      alt="Author"
+                    />
+                  </div>
+                  <div className="content">
+                    <div className="testi-header">
+                      <h4>Excellent Works</h4>
+                    </div>
+                    <div className="testi-text">
+                      On the other hand denounce righteous indignation and
+                      dislike men who are so beguiled and demorzed charms of
+                      pleasure of the moment blinde
+                    </div>
+                    <div className="testi-footer">
+                      <div className="icon">
+                        <i className="flaticon-quotation" />
+                      </div>
+                      <div className="title">
+                        <h4>Michael M. Callaway</h4>
+                        <span className="designation">CEO &amp; Founder</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="testimonial-item style-two wow fadeInUp delay-0-2s">
+                  <div className="image">
+                    <img
+                      src="assets/images/testimonials/testi-author4.jpg"
+                      alt="Author"
+                    />
+                  </div>
+                  <div className="content">
+                    <div className="testi-header">
+                      <h4>Excellent Works</h4>
+                    </div>
+                    <div className="testi-text">
+                      At vero eos et accusamuse iusto odio dignissimos ducimus
+                      qui blanditiis praesentium voluptatu delntc atque corrupti
+                      quos dolores quas molestias
+                    </div>
+                    <div className="testi-footer">
+                      <div className="icon">
+                        <i className="flaticon-quotation" />
+                      </div>
+                      <div className="title">
+                        <h4>William G. Manno</h4>
+                        <span className="designation">CEO &amp; Founder</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+        <div
+          className="testimonial-four-image"
+          style={{
+            backgroundImage:
+              "url(assets/images/testimonials/testimonial-four.jpg)",
+          }}
+        />
       </section>
-      {/* Testimonials Area Two end */}
+      {/* Testimonial Area Three end */}
       {/* Partners Area start */}
-      <section className="partners-area mt-60 pt-150 pb-100 rmt-30 rpb-70 rel z-1 overflow-hidden py-130 rpy-100">
+      <section className="partners-area mt-60 pt-50 pb-100 rmt-30 rpb-70 rel z-1 bgc-secondary overflow-hidden py-60 rpy-100 mb-4">
         <div className="container">
           <div className="section-title text-center mb-50 wow fadeInUp delay-0-2s">
             <span className="sub-title mb-15">Global Customers</span>
