@@ -36,8 +36,9 @@ const About = () => {
                   alt="Silver Pyramids"
                 />
                 <div className="experience-years">
-                  <span className="years">23</span>
-                  <h4>Years Of Experience IT Solutions, Marketing</h4>
+                  <h4>
+                    Years Of Experience In Technology Services and Marketing
+                  </h4>
                 </div>
                 <img
                   className="abut-bg-shape"
@@ -50,23 +51,26 @@ const About = () => {
               <div className="about-content mt-55 rel z-1 wow fadeInLeft delay-0-2s">
                 <div className="section-title mb-60 rmb-40">
                   <span className="sub-title mb-15">About Company</span>
-                  <h2>Delivering Exceptional IT Solutions and Services</h2>
+                  <h2>
+                    Delivering Exceptional Technology, Marketing Solutions and
+                    Services
+                  </h2>
                 </div>
                 <div className="row gap-40">
                   <div className="col-md-6">
                     <div className="service-item style-three">
                       <div className="icon">
-                        <i className="flaticon-trophy" />
+                        <i className="flaticon-rocket" />
                       </div>
                       <h4>
                         <Link legacyBehavior href="project-grid">
-                          Award-Winning Company
+                          Years In The Market
                         </Link>
                       </h4>
                       <p>
-                        We are proud recipients of numerous prestigious awards,
-                        recognizing our commitment to excellence in IT solutions
-                        and services.
+                        Over 24 years of industry experience, continuously
+                        evolving and shaping success stories through technology
+                        and marketing solutions.
                       </p>
                       <Link legacyBehavior href="/project-grid">
                         <a className="read-more">
@@ -82,7 +86,8 @@ const About = () => {
                       </div>
                       <h4>
                         <Link legacyBehavior href="development-details">
-                          Startup IT Solutions &amp; Business Development
+                          Providing Technology Solutions &amp; Business
+                          Development
                         </Link>
                       </h4>
                       <p>
@@ -153,11 +158,14 @@ const About = () => {
       {/* Services Area Three end */}
       {/* About Area start */}
       <section
-        className="contact-form-area py-130 rpy-100 bgs-cover mb-4"
+        className="contact-form-area py-20 rpy-100 bgs-cover mb-4"
         style={{
           backgroundImage: "url(assets/images/background/contact-form-bg.jpg)",
-        }}>
-        <section className="about-area-two py-130 rpy-100 rel z-1">
+
+        }}
+      >
+        <section className="about-area-two py-20 rpy-100 rel z-1">
+
           <div className="container">
             <div className="row align-items-center gap-90">
               <div className="col-lg-6">
@@ -168,30 +176,28 @@ const About = () => {
               <div className="col-lg-6">
                 <div className="about-content rel z-1 wow fadeInLeft delay-0-2s">
                   <div className="section-title mb-30">
-                    <span className="sub-title mb-15">About Company</span>
-                    <h2>Small Enough to Care Big Enough to Success</h2>
+                    <span className="sub-title mb-15">Our Story</span>
+                    <h2>
+                      Pioneering Digital Transformation: 23 Years of Crafting
+                      Online Success Stories
+                    </h2>
                   </div>
                   <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit
-                    voluptatem accusantium doloremque laudantium totam rem
-                    aperiam eaque ipsa quae abillo inventore veritatis et quasi
-                    architecto beatae vitae dicta sunt explicabo.
+                    Over two decades ago, we embarked on a journey driven by the
+                    evolving digital landscape. Recognizing the burgeoning need
+                    for online presence, we founded a software solutions and
+                    marketing company. As the internet became intrinsic to
+                    modern life, we positioned ourselves at the forefront,
+                    offering comprehensive website development services. With
+                    time, our vision expanded to encompass the demand for
+                    effective online promotion. Thus, our marketing division
+                    took shape, enabling us to propel clients' websites to new
+                    heights. Today, after 23 years of innovation and adaptation,
+                    we stand as a testament to our commitment to transforming
+                    businesses in the digital age, continually shaping success
+                    stories through cutting-edge solutions and unwavering
+                    dedication.
                   </p>
-                  <div className="about-btns">
-                    <Link legacyBehavior href="/about">
-                      <a className="theme-btn style-three mt-15">
-                        Learn More <i className="fas fa-long-arrow-right" />
-                      </a>
-                    </Link>
-                    <div className="hotline mt-15">
-                      <i className="fas fa-phone" />
-                      <div className="content">
-                        <span>Hotline</span>
-                        <br />
-                        <a href="callto:+1 630-995-9223">+1 630-995-9223</a>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -206,7 +212,8 @@ const About = () => {
             className="statistics-inner style-two bgs-cover text-white p-80 pb-20"
             style={{
               backgroundImage: "url(assets/images/background/statistics.jpg)",
-            }}>
+            }}
+          >
             <div className="row align-items-xl-start align-items-center">
               <div className="col-xl-5 col-lg-6">
                 <div className="statistics-content mb-55 wow fadeInUp delay-0-2s">
@@ -229,7 +236,8 @@ const About = () => {
                       <span
                         className="count-text plus"
                         data-speed={3000}
-                        data-stop={1021}>
+                        data-stop={1021}
+                      >
                         <Counter end={1021} />
                       </span>
                       <span className="counter-title">Project Complate</span>
@@ -241,7 +249,8 @@ const About = () => {
                       <span
                         className="count-text percent"
                         data-speed={3000}
-                        data-stop="98.9">
+                        data-stop="98.9"
+                      >
                         <Counter end={98.9} decimals={1} />
                       </span>
                       <span className="counter-title">Clinets Happy</span>
@@ -253,7 +262,8 @@ const About = () => {
                       <span
                         className="count-text plus"
                         data-speed={3000}
-                        data-stop="35.6">
+                        data-stop="35.6"
+                      >
                         <Counter end={78} decimals={1} />
                       </span>
                       <span className="counter-title">Years Experience</span>
@@ -265,7 +275,8 @@ const About = () => {
                       <span
                         className="count-text k-plus"
                         data-speed={3000}
-                        data-stop={63}>
+                        data-stop={63}
+                      >
                         <Counter end={63} />
                       </span>
                       <span className="counter-title">Award Winning</span>
@@ -367,14 +378,16 @@ const About = () => {
             <div className="why-choose-tab">
               <Nav
                 as={"ul"}
-                className="nav nav-pills nav-fill mb-80 rmb-50 wow fadeInUp delay-0-4s">
+                className="nav nav-pills nav-fill mb-80 rmb-50 wow fadeInUp delay-0-4s"
+              >
                 <li className="nav-item">
                   <Nav.Link
                     as="a"
                     eventKey={"wc-tap1"}
                     className="nav-link"
                     data-bs-toggle="tab"
-                    href="#wc-tap1">
+                    href="#wc-tap1"
+                  >
                     <i className="flaticon-creativity" />{" "}
                     <span>UX/UI Design</span>
                   </Nav.Link>
@@ -385,7 +398,8 @@ const About = () => {
                     eventKey={"wc-tap2"}
                     className="nav-link"
                     data-bs-toggle="tab"
-                    href="#wc-tap2">
+                    href="#wc-tap2"
+                  >
                     <i className="flaticon-test" />{" "}
                     <span>Apps Development</span>
                   </Nav.Link>
@@ -396,8 +410,9 @@ const About = () => {
                     eventKey={"wc-tap3"}
                     className="nav-link"
                     data-bs-toggle="tab"
-                    href="#wc-tap3">
-                    <i className="flaticon-development" />{" "}
+                    href="#wc-tap3"
+                  >
+                    <i className="flaticon-creativity" />{" "}
                     <span> Design &amp; Development</span>
                   </Nav.Link>
                 </li>
@@ -407,7 +422,8 @@ const About = () => {
                     eventKey={"wc-tap4"}
                     className="nav-link"
                     data-bs-toggle="tab"
-                    href="#wc-tap4">
+                    href="#wc-tap4"
+                  >
                     <i className="flaticon-support" />{" "}
                     <span>Digital Consulting</span>
                   </Nav.Link>
@@ -570,26 +586,30 @@ const About = () => {
                 <div className="testimonial-item style-two wow fadeInUp delay-0-2s">
                   <div className="image">
                     <img
-                      src="assets/images/testimonials/testi-author1.jpg"
+                      src="assets/images/testimonials/client.png"
                       alt="Author"
                     />
                   </div>
                   <div className="content">
                     <div className="testi-header">
-                      <h4>Excellent Works</h4>
+                      <h4>Silver Pyramids was ...</h4>
                     </div>
                     <div className="testi-text">
-                      Sed ut perspiciatis unde omnis iste natus voluptatem accus
-                      antiume dolorem queauy antium totam aperiam eaque quaey
-                      abillosa inventore veritatis vitaec
+                      A key component to delivering a very complex content
+                      management solution to a specialty pharmaceutical company
+                      that was heavily reliant on manual processes to manage a
+                      variety of content throughout their quality and R&D
+                      organizations.
                     </div>
                     <div className="testi-footer">
                       <div className="icon">
                         <i className="flaticon-quotation" />
                       </div>
                       <div className="title">
-                        <h4>Andrew D. Bricker</h4>
-                        <span className="designation">CEO &amp; Founder</span>
+                        <h4>Mike P.</h4>
+                        <span className="designation">
+                          Consulting Senior Manager
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -597,7 +617,7 @@ const About = () => {
                 <div className="testimonial-item style-two wow fadeInUp delay-0-2s">
                   <div className="image">
                     <img
-                      src="assets/images/testimonials/testi-author3.jpg"
+                      src="assets/images/testimonials/client.png"
                       alt="Author"
                     />
                   </div>
@@ -606,17 +626,21 @@ const About = () => {
                       <h4>Excellent Works</h4>
                     </div>
                     <div className="testi-text">
-                      On the other hand denounce righteous indignation and
-                      dislike men who are so beguiled and demorzed charms of
-                      pleasure of the moment blinde
+                      When it comes to the subject matter of ECM and Content
+                      Management, Silver Pyramids has a very strong grasp on
+                      both how to best apply it to an organization, as well as
+                      what features an ECM software line requires to be
+                      successful.
                     </div>
                     <div className="testi-footer">
                       <div className="icon">
                         <i className="flaticon-quotation" />
                       </div>
                       <div className="title">
-                        <h4>Michael M. Callaway</h4>
-                        <span className="designation">CEO &amp; Founder</span>
+                        <h4>Vince S.</h4>
+                        <span className="designation">
+                          Director of Technology
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -624,26 +648,27 @@ const About = () => {
                 <div className="testimonial-item style-two wow fadeInUp delay-0-2s">
                   <div className="image">
                     <img
-                      src="assets/images/testimonials/testi-author4.jpg"
+                      src="assets/images/testimonials/client.png"
                       alt="Author"
                     />
                   </div>
                   <div className="content">
                     <div className="testi-header">
-                      <h4>Excellent Works</h4>
+                      <h4>Experts in ... </h4>
                     </div>
                     <div className="testi-text">
-                      At vero eos et accusamuse iusto odio dignissimos ducimus
-                      qui blanditiis praesentium voluptatu delntc atque corrupti
-                      quos dolores quas molestias
+                      Successful delivery of innovative solutions and
+                      consistently exceeding customer expectations. They have a
+                      wealth of experience and knowledge in Enterprise Content
+                      Management,
                     </div>
                     <div className="testi-footer">
                       <div className="icon">
                         <i className="flaticon-quotation" />
                       </div>
                       <div className="title">
-                        <h4>William G. Manno</h4>
-                        <span className="designation">CEO &amp; Founder</span>
+                        <h4>Yasser M.</h4>
+                        <span className="designation">Technical Director</span>
                       </div>
                     </div>
                   </div>
@@ -662,7 +687,10 @@ const About = () => {
       </section>
       {/* Testimonial Area Three end */}
       {/* Partners Area start */}
-      <section className="partners-area mt-60 pt-50 pb-100 rmt-30 rpb-70 rel z-1 bgc-secondary overflow-hidden py-60 rpy-100 mb-4">
+      <section
+        className="partners-area mt-60 pt-50 pb-100 rmt-30 rpb-70 rel z-1 overflow-hidden py-60 rpy-100 mb-4"
+        style={{ backgroundColor: "Silver" }}
+      >
         <div className="container">
           <div className="section-title text-center mb-50 wow fadeInUp delay-0-2s">
             <span className="sub-title mb-15">Global Customers</span>
