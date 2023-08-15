@@ -28,8 +28,7 @@ export default class TestimonialsSlider extends Component {
             <div className="slider-arrow mb-25 text-lg-end">
               <button
                 className="slick-arrow testi-prev"
-                onClick={this.previous}
-              >
+                onClick={this.previous}>
                 <i className="far fa-angle-left" />
               </button>
               <button className="slick-arrow testi-next" onClick={this.next}>
@@ -41,8 +40,7 @@ export default class TestimonialsSlider extends Component {
         <Slider
           {...testimonialSlider}
           ref={(c) => (this.slider = c)}
-          className="testimonial-slider"
-        >
+          className="testimonial-slider">
           <div className="testimonial-item wow fadeInUp delay-0-2s">
             <div className="image">
               <img
@@ -155,7 +153,7 @@ const TestimonialsSlider2 = () => {
     setNav2(slider2);
   });
   const thumbs = {
-    slidesToShow: 5,
+    slidesToShow: 3,
     slidesToScroll: 1,
     infinite: false,
     speed: 400,
@@ -193,115 +191,55 @@ const TestimonialsSlider2 = () => {
         {...thumbs}
         asNavFor={nav1}
         ref={(slider) => setSlider2(slider)}
-        className="testi-image-slider"
-      >
+        className="testi-image-slider">
         <div className="testi-image-item">
-          <img
-            src="assets/images/testimonials/testi-author1.jpg"
-            alt="Author"
-          />
+          <img src="assets/images/testimonials/client.png" alt="Author" />
         </div>
         <div className="testi-image-item">
-          <img
-            src="assets/images/testimonials/testi-author2.jpg"
-            alt="Author"
-          />
+          <img src="assets/images/testimonials/client.png" alt="Author" />
         </div>
         <div className="testi-image-item">
-          <img
-            src="assets/images/testimonials/testi-author3.jpg"
-            alt="Author"
-          />
-        </div>
-        <div className="testi-image-item">
-          <img
-            src="assets/images/testimonials/testi-author4.jpg"
-            alt="Author"
-          />
-        </div>
-        <div className="testi-image-item">
-          <img
-            src="assets/images/testimonials/testi-author5.jpg"
-            alt="Author"
-          />
-        </div>
-        <div className="testi-image-item">
-          <img
-            src="assets/images/testimonials/testi-author1.jpg"
-            alt="Author"
-          />
+          <img src="assets/images/testimonials/client.png" alt="Author" />
         </div>
       </Slider>
       <Slider
         {...slider}
         asNavFor={nav2}
         ref={(slider) => setSlider1(slider)}
-        className="testi-content-slider"
-      >
+        className="testi-content-slider">
         <div className="testi-content-item">
           <p>
-            Sed ut perspiciatis unde omnis iste natus voluptatem accus antiume
-            dolorem queauy antium totam aperiam eaque quae abillosa inventore
-            veritatis etuarchite beatae vitaec voluptas sit aspernatur autodit
+            A key component to delivering a very complex content management
+            solution to a specialty pharmaceutical company that was heavily
+            reliant on manual processes to manage a variety of content
+            throughout their quality and R&D organizations.
           </p>
           <div className="author">
-            <span className="h4">Andrew D. Bricker</span>
-            <span>CEO &amp; Founder</span>
+            <span className="h4">Mike P.</span>
+            <span> Consulting Senior Manager</span>
           </div>
         </div>
         <div className="testi-content-item">
           <p>
-            Sed ut perspiciatis unde omnis iste natus voluptatem accus antiume
-            dolorem queauy antium totam aperiam eaque quae abillosa inventore
-            veritatis etuarchite beatae vitaec voluptas sit aspernatur autodit
+            When it comes to the subject matter of ECM and Content Management,
+            Silver Pyramids has a very strong grasp on both how to best apply it
+            to an organization, as well as what features an ECM software line
+            requires to be successful.
           </p>
           <div className="author">
-            <span className="h4">Andrew D. Bricker</span>
-            <span>CEO &amp; Founder</span>
+            <span className="h4">Vince S.</span>
+            <span> Director of Technology</span>
           </div>
         </div>
         <div className="testi-content-item">
           <p>
-            Sed ut perspiciatis unde omnis iste natus voluptatem accus antiume
-            dolorem queauy antium totam aperiam eaque quae abillosa inventore
-            veritatis etuarchite beatae vitaec voluptas sit aspernatur autodit
+            Successful delivery of innovative solutions and consistently
+            exceeding customer expectations. They have a wealth of experience
+            and knowledge in Enterprise Content Management,
           </p>
           <div className="author">
-            <span className="h4">Andrew D. Bricker</span>
-            <span>CEO &amp; Founder</span>
-          </div>
-        </div>
-        <div className="testi-content-item">
-          <p>
-            Sed ut perspiciatis unde omnis iste natus voluptatem accus antiume
-            dolorem queauy antium totam aperiam eaque quae abillosa inventore
-            veritatis etuarchite beatae vitaec voluptas sit aspernatur autodit
-          </p>
-          <div className="author">
-            <span className="h4">Andrew D. Bricker</span>
-            <span>CEO &amp; Founder</span>
-          </div>
-        </div>
-        <div className="testi-content-item">
-          <p>
-            Sed ut perspiciatis unde omnis iste natus voluptatem accus antiume
-            dolorem queauy antium totam aperiam eaque quae abillosa inventore
-            veritatis etuarchite beatae vitaec voluptas sit aspernatur autodit
-          </p>
-          <div className="author">
-            <span className="h4">Andrew D. Bricker</span>
-            <span>CEO &amp; Founder</span>
-          </div>
-        </div>
-        <div className="testi-content-item">
-          <p>
-            Sed ut perspiciatis unde omnis iste natus voluptatem accus antiume
-            dolorem queauy antium totam aperiam eaque quae abillosa inventore
-            veritatis etuarchite beatae vitaec voluptas sit aspernatur autodit
-          </p>
-          <div className="author">
-            <span className="h4">Andrew D. Bricker</span>
-            <span>CEO &amp; Founder</span>
+            <span className="h4">Yasser M.</span>
+            <span>Technical Director</span>
           </div>
         </div>
       </Slider>
