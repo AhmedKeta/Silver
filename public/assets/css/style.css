@@ -11283,3 +11283,13 @@ blockquote .name:before {
     border-right: 30px solid #363636;
   }
 }
+
+#mobile-social {
+  display: flex;
+  justify-content: space-around;
+}
+
+#contactForm > div > div.col-12 > div > div > div{
+display: flex;
+justify-content: center;
+}

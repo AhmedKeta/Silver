@@ -19,10 +19,17 @@ const Meta = ({ title, description, image, keywords, href }) => {
       />
       <meta property="og:site_name" content="Silver Pyramids" />
       {description && <meta property="og:description" content={description} />}
-      {image && (
+      {image ? (
         <meta
           property="og:image"
           content={"https://silverpyramids.com/" + image}
+        />
+      ) : (
+        <meta
+          property="og:image"
+          content={
+            "https://silver-pyramids.vercel.app/assets/images/hero/hero-one.png"
+          }
         />
       )}
       <meta
@@ -38,10 +45,17 @@ const Meta = ({ title, description, image, keywords, href }) => {
         content={title ? "Silver Pyramids | " + title : "Silver Pyramids"}
       />
       {description && <meta name="twitter:description" content={description} />}
-      {image && (
+      {image ? (
         <meta
-          name="twitter:image"
+          property="twitter:image"
           content={"https://silverpyramids.com/" + image}
+        />
+      ) : (
+        <meta
+          property="twitter:image"
+          content={
+            "https://silver-pyramids.vercel.app/assets/images/hero/hero-one.png"
+          }
         />
       )}
       {/* Title */}

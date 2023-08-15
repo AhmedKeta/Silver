@@ -5,8 +5,12 @@ import Layout from "@/layout";
 import React, { useState } from "react";
 import { Alert } from "react-bootstrap";
 import sendEmail from "@/src/sendMail";
+import ReCAPTCHA from "react-google-recaptcha";
 
 const Contact = () => {
+  const [visibleReCAPTCHA, setVisibleReCAPTCHA] = useState(false);
+  const [visibleSubmit, setVisibleSubmit] = useState(true);
+  const recaptchaRef = React.createRef();
   const [formData, setFormData] = useState({
     name: "",
     phone_number: "",
@@ -25,18 +29,20 @@ const Contact = () => {
     }));
   };
 
-  const sendContactEmail = async () => {
-    try {
-      await sendEmail(
-        formData,
-        setSuccessMessage,
-        setErrorMessage,
-        setFormData
-      );
-    } catch (error) {
-      setSuccessMessage("");
-      setErrorMessage(error);
-    }
+  const sendContactEmail =  () => {
+    setVisibleReCAPTCHA((visibleReCAPTCHA) => !visibleReCAPTCHA);
+    setVisibleSubmit((visibleSubmit) => !visibleSubmit);
+    // try {
+    //   await sendEmail(
+    //     formData,
+    //     setSuccessMessage,
+    //     setErrorMessage,
+    //     setFormData
+    //   );
+    // } catch (error) {
+    //   setSuccessMessage("");
+    //   setErrorMessage(error);
+    // }
   };
 
   // const sendEmail = async () => {
@@ -71,6 +77,26 @@ const Contact = () => {
   //     setErrorMessage("");
   //   }
   // };
+
+  const handleRecaptchaChange = async (captchaCode) => {
+    if (!captchaCode) {
+      return;
+    }
+    recaptchaRef.current.reset();
+    setVisibleReCAPTCHA((visibleReCAPTCHA) => !visibleReCAPTCHA);
+    setVisibleSubmit((visibleSubmit) => !visibleSubmit);
+    try {
+      await sendEmail(
+        formData,
+        setSuccessMessage,
+        setErrorMessage,
+        setFormData
+      );
+    } catch (error) {
+      setSuccessMessage("");
+      setErrorMessage(error);
+    }
+  };
 
   return (
     <Layout>
@@ -265,13 +291,31 @@ const Contact = () => {
                     />
                   </div>
                 </div>
-                <div className="col-xl-12">
+                <div className="col-12">
+                  <div className="text-center mb-0">
+                    {visibleReCAPTCHA && (
+                      <ReCAPTCHA
+                        className="g-recaptcha"
+                        ref={recaptchaRef}
+                        onSubmit={(value) => console.log(value)}
+                        sitekey="6Ld9d6onAAAAAE0pA2W14EIgz7yWTld15UTftCjY"
+                        onChange={handleRecaptchaChange}
+                      />
+                    )}
+                    {visibleSubmit && (
+                      <button type="submit" className="theme-btn style-two">
+                        send message <i className="far fa-long-arrow-right" />
+                      </button>
+                    )}
+                  </div>
+                </div>
+                {/* <div className="col-xl-12">
                   <div className="form-group text-center mb-0">
                     <button type="submit" className="theme-btn style-two">
                       send message <i className="far fa-long-arrow-right" />
                     </button>
                   </div>
-                </div>
+                </div> */}
               </div>
             </form>
           </div>

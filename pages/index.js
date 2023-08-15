@@ -6,6 +6,7 @@ import Link from "next/link";
 import Slider from "react-slick";
 import Meta from "@/components/Meta";
 import { partnerSlider } from "@/src/sliderProps";
+import ProjectSliderItem from "@/src/components/ProjectSliderItem";
 
 const Counter = dynamic(() => import("@/src/components/Counter"), {
   ssr: false,
@@ -424,76 +425,27 @@ const Index = () => {
             <h2>Our Work Does the Talking</h2>
           </div>
           <Slider {...projectSliderActive} className="project-slider-active">
-            <div className="project-slider-item">
-              <div className="video">
-                <img
-                  src="assets/images/projects/project-video.png"
-                  alt="Video"
-                />
-                <a
-                  href="https://www.youtube.com/watch?v=9Y7ma241N8k"
-                  className="mfp-iframe video-play"
-                  tabIndex={-1}
-                >
-                  <i className="fas fa-play" />
-                </a>
-              </div>
-              <div className="content">
-                <h4>
-                  High successful Sa video platform with a patented technology
-                  used by global enterprises.
-                </h4>
-                <p>
-                  On the other hand, we denounce with righteous indignation and
-                  dislike men who are so beguiled and demoralized by the charms
-                  of pleasure of the moment so blinded by desire
-                </p>
-                <ul className="list-style-one">
-                  <li>Bringing new IT solutions to the market</li>
-                  <li>To be included the list of the best 100 IT companies</li>
-                </ul>
-                <Link legacyBehavior href="/project-details">
-                  <a className="theme-btn style-two mt-15">
-                    View Details <i className="fas fa-long-arrow-right" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-            <div className="project-slider-item">
-              <div className="content">
-                <h4>
-                  High successful Sa video platform with a patented technology
-                  used by global enterprises.
-                </h4>
-                <p>
-                  On the other hand, we denounce with righteous indignation and
-                  dislike men who are so beguiled and demoralized by the charms
-                  of pleasure of the moment so blinded by desire
-                </p>
-                <ul className="list-style-one">
-                  <li>Bringing new IT solutions to the market</li>
-                  <li>To be included the list of the best 100 IT companies</li>
-                </ul>
-                <Link legacyBehavior href="/project-details">
-                  <a className="theme-btn style-two mt-15">
-                    View Details <i className="fas fa-long-arrow-right" />
-                  </a>
-                </Link>
-              </div>
-              <div className="video">
-                <img
-                  src="assets/images/projects/project-video.png"
-                  alt="Video"
-                />
-                <a
-                  href="https://www.youtube.com/watch?v=9Y7ma241N8k"
-                  className="mfp-iframe video-play"
-                  tabIndex={-1}
-                >
-                  <i className="fas fa-play" />
-                </a>
-              </div>
-            </div>
+
+            <ProjectSliderItem
+              imgSrc="assets/images/projects/project-video.png"
+              imgAlt="Video"
+              title="High successful Sa video platform with a patented technology used by global enterprises."
+              content=" On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment so blinded by desire"
+              odd={false}
+            />
+            <ProjectSliderItem
+              imgSrc="assets/images/projects/project-video.png"
+              imgAlt="Video"
+              title="High successful Sa video platform with a patented technology used by global enterprises."
+              content=" On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment so blinded by desire"
+            />
+            <ProjectSliderItem
+              imgSrc="assets/images/projects/project-video.png"
+              imgAlt="Video"
+              title="High successful Sa video platform with a patented technology used by global enterprises."
+              content=" On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment so blinded by desire"
+              odd={false}
+            />
           </Slider>
         </div>
         <div className="project-shapes">
