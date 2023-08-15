@@ -11,7 +11,7 @@ const Services = () => {
         description="Explore our technology services at Silver Pyramids. From digital consulting to design and development, we provide innovative solutions tailored to your business needs."
         keywords="technology services, digital consulting, design and development, mobile app development, UX/UI design strategy, SEO optimization services"
       />
-      <PageBanner pageName={"Services"} pageTitle={"Technology Solutions"} />
+      <PageBanner hero={"/assets/images/hero/technology-solution.png"} pageName={"Services"} pageTitle={"Technology Solutions"} />
 
       {/* Work Process Area start */}
       <section className="work-process-area pt-130 pb-100 rpt-100 rpb-70 rel z-1">

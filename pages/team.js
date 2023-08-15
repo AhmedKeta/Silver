@@ -24,7 +24,7 @@ const Team = () => {
         description="Meet the talented individuals behind Silver Pyramids. Our team members are experts in their respective fields, dedicated to delivering exceptional technology and marketing solutions to our clients."
         keywords="team members, experts, technology solutions, marketing services, professionals, talented individuals"
       />
-      <PageBanner pageName={"Team Member"} pageTitle="Amazing Team" />
+      <PageBanner hero={"/assets/images/hero/our-team.png"} pageName={"Team Member"} pageTitle="Amazing Team" />
       <section className="team-top-area pt-75 rpt-45 rel z-2">
         <div className="container">
           <div className="row gap-80 align-items-center">

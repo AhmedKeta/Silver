@@ -13,7 +13,7 @@ const Footer = () => {
           >
             <div className="section-title wow fadeInLeft delay-0-2s">
               <span className="sub-title">Need Any Consultations?</span>
-              <h2>We’re Ready to Growth your Business</h2>
+              <h2>We’re Ready to Grow your Business</h2>
             </div>
             <Link legacyBehavior href="/contact">
               <a className="theme-btn style-three wow fadeInRight delay-0-2s">
@@ -81,7 +81,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="col-xl-6" style={{fontSize: 12}}>
+          <div className="col-xl-6" style={{ fontSize: 12 }}>
             <div className="row">
               <div className="col-md-4 col-6 col-small">
                 <div className="footer-widget widget_nav_menu wow fadeInUp delay-0-3s">

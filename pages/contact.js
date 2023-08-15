@@ -129,7 +129,7 @@ const Contact = () => {
                 </div>
                 <h4>Location</h4>
                 <span style={{ fontSize: 14 }}>
-                  13118 W San Miguel Ave, Litchfield Park, AZ 85340, USA
+                  <h5>Phoenix</h5> Arizona, USA
                 </span>
               </div>
             </div>
@@ -141,7 +141,8 @@ const Contact = () => {
                 <h4>Email Us</h4>
                 <a
                   style={{ fontSize: 14 }}
-                  href="mailto:info@silverpyramids.com">
+                  href="mailto:info@silverpyramids.com"
+                >
                   info@silverpyramids.com
                 </a>
                 <br />
@@ -181,7 +182,7 @@ const Contact = () => {
       <div className="contact-page-map wow fadeInUp delay-0-2s">
         <div className="our-location">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57066.317998691055!2d-112.38962475962514!3d33.53046621941129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b4729051b136d%3A0xc44d06acbde01f2c!2s13118%20W%20San%20Miguel%20Ave%2C%20Litchfield%20Park%2C%20AZ%2085340%2C%20USA!5e1!3m2!1sen!2seg!4v1691500440982!5m2!1sen!2seg"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d425342.7899566704!2d-112.45469214008445!3d33.60554975209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b12ed50a179cb%3A0x8c69c7f8354a1bac!2sPhoenix%2C%20AZ%2C%20USA!5e0!3m2!1sen!2seg!4v1692095807005!5m2!1sen!2seg"
             style={{ border: 0, width: "100%" }}
             allowFullScreen=""
             loading="lazy"
@@ -217,7 +218,8 @@ const Contact = () => {
               id="contactForm"
               className="contactForm"
               action="assets/php/form-process.php"
-              name="contactForm">
+              name="contactForm"
+            >
               <div className="row">
                 <div className="col-md-6">
                   <div className="form-group">

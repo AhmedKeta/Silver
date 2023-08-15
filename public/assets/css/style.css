@@ -4815,26 +4815,26 @@ h6,
 }
 .hero-content h1 {
   color: white;
-  font-size: 65px;
+  font-size: 60px;
 }
 @media only screen and (max-width: 1199px) {
   .hero-content h1 {
-    font-size: 55px;
+    font-size: 50px;
   }
 }
 @media only screen and (max-width: 767px) {
   .hero-content h1 {
-    font-size: 45px;
+    font-size: 40px;
   }
 }
 @media only screen and (max-width: 575px) {
   .hero-content h1 {
-    font-size: 40px;
+    font-size: 35px;
   }
 }
 @media only screen and (max-width: 375px) {
   .hero-content h1 {
-    font-size: 33px;
+    font-size: 28px;
     line-height: 1.3;
   }
 }
@@ -4851,17 +4851,25 @@ h6,
 .hero-images {
   z-index: 1;
   position: relative;
-  margin-bottom: -80px;
-}
-@media only screen and (min-width: 1400px) {
-  .hero-images {
-    margin-left: -8%;
-    margin-right: -25%;
-  }
+  /* margin-left: -8%; */
+  height: fit-content;
 }
 .hero-images img {
+  /* height: 30%; */
   -webkit-clip-path: polygon(6% 0%, 100% 0%, 94% 100%, 0% 100%);
   clip-path: polygon(6% 0%, 100% 0%, 94% 100%, 0% 100%);
+}
+@media only screen and (max-width: 1200px) {
+  .hero-images img {
+    margin-top: 30px;
+    width: 100vw !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .hero-images img {
+    margin-top: 30px;
+    height: 90% !important;
+  }
 }
 
 .hero-shapes .shape {

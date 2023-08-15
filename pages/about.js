@@ -20,7 +20,10 @@ const About = () => {
         description="Learn more about Silver Pyramids. We are a leading provider of technology and marketing solutions, committed to helping businesses thrive in the digital landscape."
         keywords="about us, technology solutions, marketing services, digital landscape"
       />
-      <PageBanner pageName={"About Us"} />
+      <PageBanner
+        hero={"/assets/images/hero/about-us.png"}
+        pageName={"About Us"}
+      />
       {/* About Area start */}
       <section className="about-area-five py-130 rpt-100 rpb-65 rel z-1">
         <div className="container">
@@ -161,11 +164,9 @@ const About = () => {
         className="contact-form-area py-20 rpy-100 bgs-cover mb-4"
         style={{
           backgroundImage: "url(assets/images/background/contact-form-bg.jpg)",
-
         }}
       >
         <section className="about-area-two py-20 rpy-100 rel z-1">
-
           <div className="container">
             <div className="row align-items-center gap-90">
               <div className="col-lg-6">
