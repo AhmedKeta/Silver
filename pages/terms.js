@@ -8,7 +8,10 @@ const Faq = () => {
   return (
     <Layout>
       <Meta title="Terms and Conditions" />
-      <PageBanner pageName={"Terms and Conditions"} />
+      <PageBanner
+        hero={"/assets/images/hero/terms.png"}
+        pageName={"Terms and Conditions"}
+      />
       <section className="faq-page-area pt-130 rpt-100 rel z-1">
         <div className="container">
           <div className="section-title mb-45">
