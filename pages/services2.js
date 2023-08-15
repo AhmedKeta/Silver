@@ -19,7 +19,7 @@ const Service2 = () => {
         description="Enhance your online presence with our marketing services at Silver Pyramids. We specialize in visual content services, SEO optimization, and social media advertising to help you reach your target audience effectively."
         keywords="marketing services, visual content services, SEO optimization, social media advertising"
       />
-      <PageBanner pageName={"Services"} pageTitle="Marketing Solutions" />
+      <PageBanner hero={"/assets/images/hero/marketing-services.png"} pageName={"Services"} pageTitle="Marketing Solutions" />
       <section className="services-area-three overflow-hidden pt-130 rpt-100 pb-100 rpb-70 rel z-1">
         <div className="container">
           <div className="row gap-100 align-items-center">

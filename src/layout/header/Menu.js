@@ -48,29 +48,16 @@ const MobileMenu = () => {
           className="navbar-collapse clearfix"
         >
           <ul className="navigation clearfix">
+            {/*  */}
+            {/*  */}
             {/* Home */}
             <li className="dropdown">
-              <a href="#" onClick={() => active("home")}>
+              <Link href="/" onClick={() => active("home")}>
                 Home
-              </a>
-              <ul style={activeSubMenu("home")}>
-                <li>
-                  <Link href="/">IT Company</Link>
-                </li>
-                <li>
-                  <Link href="index2">IT Solutions</Link>
-                </li>
-                <li>
-                  <Link href="index3">IT Services</Link>
-                </li>
-                <li>
-                  <Link href="index4">IT Agency</Link>
-                </li>
-              </ul>
-              <div className="dropdown-btn" onClick={() => active("home")}>
-                <span className="fas fa-chevron-down" />
-              </div>
+              </Link>
             </li>
+            {/*  */}
+            {/*  */}
             {/* Services */}
             <li className="dropdown">
               <a href="#" onClick={() => active("services")}>
@@ -88,51 +75,26 @@ const MobileMenu = () => {
                 <span className="fas fa-chevron-down" />
               </div>
             </li>
+            {/*  */}
+            {/*  */}
             {/* Projects */}
             <li className="dropdown">
-              <a href="#" onClick={() => active("Project")}>
-                Projects
-              </a>
-              <ul style={activeSubMenu("Project")}>
-                <li>
-                  <Link href="project-grid">Project Grid</Link>
-                </li>
-                <li>
-                  <Link href="project-masonry">Project Masonry.</Link>
-                </li>
-                <li>
-                  <Link href="project-details">Project Details</Link>
-                </li>
-              </ul>
-              <div className="dropdown-btn" onClick={() => active("Project")}>
-                <span className="fas fa-chevron-down" />
-              </div>
+              <Link href="project-grid" onClick={() => active("Project")}>
+                Case Studies
+              </Link>
             </li>
-            {/* Shop */}
+            {/*  */}
+            {/*  */}
+            {/* Contact Us */}
             <li className="dropdown">
-              <a href="#" onClick={() => active("shop")}>
-                shop
-              </a>
-              <ul style={activeSubMenu("shop")}>
-                <li>
-                  <Link href="shop">shop grid</Link>
-                </li>
-                <li>
-                  <Link href="product-details">product details</Link>
-                </li>
-                <li>
-                  <Link href="cart">cart page</Link>
-                </li>
-                <li>
-                  <Link href="checkout">checkout</Link>
-                </li>
-              </ul>
-              <div className="dropdown-btn" onClick={() => active("shop")}>
-                <span className="fas fa-chevron-down" />
-              </div>
+              <Link href="contact" onClick={() => active("Project")}>
+                Contact US
+              </Link>
             </li>
+            {/*  */}
+            {/*  */}
             {/* Blog */}
-            <li className="dropdown">
+            {/* <li className="dropdown">
               <a href="#" onClick={() => active("blog")}>
                 blog
               </a>
@@ -147,30 +109,23 @@ const MobileMenu = () => {
               <div className="dropdown-btn" onClick={() => active("blog")}>
                 <span className="fas fa-chevron-down" />
               </div>
-            </li>
+            </li> */}
+            {/*  */}
+            {/*  */}
             {/* Pages */}
             <li className="dropdown">
               <a href="#" onClick={() => active("pages")}>
-                pages
+                About Us
               </a>
               <ul style={activeSubMenu("pages")}>
                 <li>
-                  <Link href="about">About us</Link>
+                  <Link href="about">Our Story</Link>
                 </li>
                 <li>
-                  <Link href="contact">Contact us</Link>
+                  <Link href="team">Our Team</Link>
                 </li>
                 <li>
-                  <Link href="team">Team</Link>
-                </li>
-                <li>
-                  <Link href="faqs">faqs</Link>
-                </li>
-                <li>
-                  <Link href="pricing">Pricing Plan</Link>
-                </li>
-                <li>
-                  <Link href="404">404 error</Link>
+                  <Link href="terms">Terms & Conditions</Link>
                 </li>
               </ul>
               <div className="dropdown-btn" onClick={() => active("pages")}>
@@ -186,7 +141,7 @@ const MobileMenu = () => {
 const DeskTopMenu = () => {
   return (
     <nav className="main-menu navbar-expand-lg desktop-menu">
-      <div className="navbar-header">
+      <div className="navbar-header"> 
         <div className="mobile-logo">
           <Link href="/">
             <img
@@ -215,20 +170,6 @@ const DeskTopMenu = () => {
           {/* Home */}
           <li className="dropdown">
             <Link href="/">Home</Link>
-            <ul>
-              <li>
-                <Link href="/">IT Company</Link>
-              </li>
-              <li>
-                <Link href="index2">IT Solutions</Link>
-              </li>
-              <li>
-                <Link href="index3">IT Services</Link>
-              </li>
-              <li>
-                <Link href="index4">IT Agency</Link>
-              </li>
-            </ul>
           </li>
           {/*  */}
           {/*  */}
@@ -312,16 +253,10 @@ const DeskTopMenu = () => {
             <Link href="about">About Us</Link>
             <ul>
               <li>
-                <Link href="about">About us</Link>
+                <Link href="about">Our Story</Link>
               </li>
               <li>
-                <Link href="story">Our Story</Link>
-              </li>
-              <li>
-                <Link href="team">Team</Link>
-              </li>
-              <li>
-                <Link href="faqs">FAQs</Link>
+                <Link href="team">Our Team</Link>
               </li>
               <li>
                 <Link href="terms">Terms & Conditions</Link>

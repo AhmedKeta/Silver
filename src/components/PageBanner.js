@@ -1,9 +1,9 @@
 import Link from "next/link";
-const PageBanner = ({ pageName, pageTitle }) => {
+const PageBanner = ({ pageName, pageTitle, hero }) => {
   return (
     <section
       className="page-banner-area bgs-cover py-135 rpy-100"
-      style={{ backgroundImage: "url(assets/images/background/banner.jpg)" }}
+      style={{ backgroundImage: `url(${hero})` }}
     >
       <div className="container">
         <div className="banner-inner text-white text-center">
