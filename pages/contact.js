@@ -105,7 +105,7 @@ const Contact = () => {
         description="Have questions or inquiries? Get in touch with Silver Pyramids. Contact our team today for personalized technology and marketing solutions tailored to your business."
         keywords="contact us, get in touch, technology solutions, marketing services"
       />
-      <PageBanner pageName={"Contact Us"} />
+      <PageBanner hero={"/assets/images/hero/contact.png"} pageName={"Contact Us"} />
       <section className="contact-page-info pt-130 rpt-100 pb-100 rpb-70 rel z-1">
         <div className="container">
           <div className="row text-center mb-35 justify-content-center wow fadeInUp delay-0-2s">

@@ -436,7 +436,7 @@ const About = () => {
                     <div className="col-lg-6">
                       <div className="why-choose-image rmb-55">
                         <img
-                          src="assets/images/about/why-choose1.jpg"
+                          src="assets/images/about/uiux.jpg"
                           alt="Why Choose"
                         />
                       </div>
@@ -487,7 +487,7 @@ const About = () => {
                     <div className="col-lg-6">
                       <div className="why-choose-image rmt-55">
                         <img
-                          src="assets/images/about/why-choose1.jpg"
+                          src="assets/images/about/app.jpg"
                           alt="Why Choose"
                         />
                       </div>
@@ -499,7 +499,7 @@ const About = () => {
                     <div className="col-lg-6">
                       <div className="why-choose-image rmb-55">
                         <img
-                          src="assets/images/about/why-choose1.jpg"
+                          src="assets/images/about/design.jpg"
                           alt="Why Choose"
                         />
                       </div>
@@ -548,7 +548,7 @@ const About = () => {
                     <div className="col-lg-6">
                       <div className="why-choose-image rmt-55">
                         <img
-                          src="assets/images/about/why-choose1.jpg"
+                          src="assets/images/about/support.jpg"
                           alt="Why Choose"
                         />
                       </div>
