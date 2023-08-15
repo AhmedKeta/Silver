@@ -1,6 +1,8 @@
 import Head from "next/head";
+const url = "https://silverpyramids.com/";
 
 const Meta = ({ title, description, image, keywords, href }) => {
+  image = image || "assets/images/hero/hero-one.png";
   return (
     <Head>
       <meta charSet="UTF-8" />
@@ -19,25 +21,13 @@ const Meta = ({ title, description, image, keywords, href }) => {
       />
       <meta property="og:site_name" content="Silver Pyramids" />
       {description && <meta property="og:description" content={description} />}
-      {image ? (
-        <meta
-          property="og:image"
-          content={"https://silverpyramids.com/" + image}
-        />
-      ) : (
-        <meta
-          property="og:image"
-          content={
-            "https://silver-pyramids.vercel.app/assets/images/hero/hero-one.png"
-          }
-        />
-      )}
+      {image && <meta property="og:image" content={url + image} />}
       <meta
         property="og:image:alt"
         content={title ? "Silver Pyramids | " + title : "Silver Pyramids"}
       />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content={href | "https://silverpyramids.com/"} />
+      <meta property="og:url" content={href || url} />
       {/* Twitter Card tags */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta
@@ -45,19 +35,7 @@ const Meta = ({ title, description, image, keywords, href }) => {
         content={title ? "Silver Pyramids | " + title : "Silver Pyramids"}
       />
       {description && <meta name="twitter:description" content={description} />}
-      {image ? (
-        <meta
-          property="twitter:image"
-          content={"https://silverpyramids.com/" + image}
-        />
-      ) : (
-        <meta
-          property="twitter:image"
-          content={
-            "https://silver-pyramids.vercel.app/assets/images/hero/hero-one.png"
-          }
-        />
-      )}
+      {image && <meta property="twitter:image" content={url + image} />}
       {/* Title */}
       <title>{title ? "Silver Pyramids | " + title : "Silver Pyramids"}</title>
     </Head>

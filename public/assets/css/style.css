@@ -7020,11 +7020,11 @@ h6,
     margin-right: 25px;
   }
 }
-@media only screen and (min-width: 1200px) {
+/* @media only screen and (min-width: 1200px) {
   .project-slider-item .video {
     max-width: 46%;
   }
-}
+} */
 .project-slider-item .video:before {
   z-index: 1;
 }
@@ -7052,11 +7052,11 @@ h6,
     padding-right: 25px;
   }
 }
-@media only screen and (min-width: 1200px) {
+/* @media only screen and (min-width: 1200px) {
   .project-slider-item .content {
     max-width: 45%;
   }
-}
+} */
 .project-slider-item .content h4 {
   margin-top: -10px;
   margin-bottom: 16px;
