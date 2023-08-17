@@ -8,7 +8,7 @@ const Footer = () => {
           <div
             className="footer-cta-inner bgs-cover"
             style={{
-              backgroundImage: "url(assets/images/footer/footer-cta-bg.jpg)",
+              backgroundImage: "url(assets/images/footer/footer-cta-bg.webp)",
             }}
           >
             <div className="section-title wow fadeInLeft delay-0-2s">
@@ -17,13 +17,13 @@ const Footer = () => {
             </div>
             <Link legacyBehavior href="/contact">
               <a className="theme-btn style-three wow fadeInRight delay-0-2s">
-                Get Free Quote <i className="fas fa-long-arrow-right" />
+                Contact us ....<i className="fas fa-long-arrow-right" />
               </a>
             </Link>
             <div className="hotline wow fadeInRight delay-0-2s">
               <i className="fas fa-phone" />
               <div className="content">
-                <span>Hotline</span>
+                <span>Call us now</span>
                 <br />
                 <a href="callto:+1 630-995-9223">+1 630-995-9223</a>
               </div>
@@ -38,7 +38,7 @@ const Footer = () => {
               <div className="footer-logo mb-0" style={{ background: "none" }}>
                 <Link legacyBehavior href="/">
                   <a>
-                    <img src="assets/images/logos/logo-footer.png" alt="Logo" />
+                    <img src="assets/images/logos/logo-footer.webp" alt="Logo" />
                   </a>
                 </Link>
               </div>
@@ -103,8 +103,8 @@ const Footer = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link legacyBehavior href="project-grid">
-                        Popular Works
+                      <Link legacyBehavior href="why-us">
+                        Why Silver Pyramids
                       </Link>
                     </li>
                   </ul>
@@ -172,8 +172,7 @@ const Footer = () => {
               <div className="copyright-text text-center">
                 <p>
                   © 2023 Silver Pyramids. All rights reserved.
-                  <a href="mailto:info@silverpyramids.com"> Contact us</a> for
-                  any inquiries.
+                  <a href="mailto:info@silverpyramids.com"> Contact us</a> for inquiries.
                 </p>
               </div>
             </div>
@@ -183,17 +182,17 @@ const Footer = () => {
       <div className="footer-shapes">
         <img
           className="shape one"
-          src="assets/images/footer/footer-bg-weve-shape.png"
+          src="assets/images/footer/footer-bg-weve-shape.webp"
           alt="Shape"
         />
         <img
           className="shape two"
-          src="assets/images/footer/footer-bg-line-shape.png"
+          src="assets/images/footer/footer-bg-line-shape.webp"
           alt="Shape"
         />
         {/* <img
           className="shape three wow fadeInRight delay-0-8s"
-          src="assets/images/footer/footer-right.png"
+          src="assets/images/footer/footer-right.webp"
           alt="Shape"
         /> */}
       </div>

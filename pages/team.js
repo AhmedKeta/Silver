@@ -1,8 +1,6 @@
 import PageBanner from "@/components/PageBanner";
 import Layout from "@/layout";
-import { JeenaAccordion2 } from "@/src/components/JeenaAccordion";
 import ProgressBar from "@/src/components/ProgressBar";
-import Link from "next/link";
 import Meta from "@/components/Meta";
 
 const Team = () => {
@@ -24,20 +22,24 @@ const Team = () => {
         description="Meet the talented individuals behind Silver Pyramids. Our team members are experts in their respective fields, dedicated to delivering exceptional technology and marketing solutions to our clients."
         keywords="team members, experts, technology solutions, marketing services, professionals, talented individuals"
       />
-      <PageBanner hero={"/assets/images/hero/our-team.png"} pageName={"Team Member"} pageTitle="Amazing Team" />
+      <PageBanner
+        hero={"/assets/images/hero/our-team.webp"}
+        pageName={"Team Member"}
+        pageTitle="Such an Amazing Team"
+      />
       <section className="team-top-area pt-75 rpt-45 rel z-2">
         <div className="container">
           <div className="row gap-80 align-items-center">
             <div className="col-xl-7 col-lg-6">
               <div className="team-top-video mt-55 wow fadeInRight delay-0-2s">
-                <img src="assets/images/team/team-page.jpg" alt="Team Page" />
+                <img src="assets/images/team/team-page.webp" alt="Team Page" />
               </div>
             </div>
             <div className="col-xl-5 col-lg-6">
               <div className="team-top-content mt-55 wow fadeInLeft delay-0-2s">
                 <div className="section-title mb-30">
                   <span className="sub-title mb-15">Dedicated Team Member</span>
-                  <h2>Our Team is Driven for your Success</h2>
+                  <h2>Our Team is Driven by your Success</h2>
                 </div>
                 <p>
                   A dedicated team member is a valuable asset for achieving
@@ -79,7 +81,7 @@ const Team = () => {
           <div className="row justify-content-center">
             <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="team-member style-two wow fadeInUp delay-0-2s">
-                <img src="assets/images/team/member1.jpg" alt="Team" />
+                <img src="assets/images/team/member1.webp" alt="Team" />
                 <h4>Johnathan P. Bailey</h4>
                 <span className="designation">UX/UI Designer</span>
                 <div className="social-style-two">
@@ -91,7 +93,7 @@ const Team = () => {
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="team-member style-two wow fadeInUp delay-0-4s">
-                <img src="assets/images/team/member2.jpg" alt="Team" />
+                <img src="assets/images/team/member2.webp" alt="Team" />
                 <h4>Mark M. Hughes</h4>
                 <span className="designation">Web Developer</span>
                 <div className="social-style-two">
@@ -103,7 +105,7 @@ const Team = () => {
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="team-member style-two wow fadeInUp delay-0-6s">
-                <img src="assets/images/team/member3.jpg" alt="Team" />
+                <img src="assets/images/team/member3.webp" alt="Team" />
                 <h4>Donald B. Mitchell</h4>
                 <span className="designation">Software Engineer</span>
                 <div className="social-style-two">
@@ -115,7 +117,7 @@ const Team = () => {
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="team-member style-two wow fadeInUp delay-0-8s">
-                <img src="assets/images/team/member4.jpg" alt="Team" />
+                <img src="assets/images/team/member4.webp" alt="Team" />
                 <h4>Bennie N. Bannister</h4>
                 <span className="designation">Senior Consultant</span>
                 <div className="social-style-two">
@@ -127,7 +129,7 @@ const Team = () => {
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="team-member style-two wow fadeInUp delay-0-2s">
-                <img src="assets/images/team/member5.jpg" alt="Team" />
+                <img src="assets/images/team/member5.webp" alt="Team" />
                 <h4>Federico M. Upton</h4>
                 <span className="designation">UX/UI Designer</span>
                 <div className="social-style-two">
@@ -139,7 +141,7 @@ const Team = () => {
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="team-member style-two wow fadeInUp delay-0-4s">
-                <img src="assets/images/team/member6.jpg" alt="Team" />
+                <img src="assets/images/team/member6.webp" alt="Team" />
                 <h4>Julio M. McDowell</h4>
                 <span className="designation">Web Developer</span>
                 <div className="social-style-two">
@@ -151,7 +153,7 @@ const Team = () => {
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="team-member style-two wow fadeInUp delay-0-6s">
-                <img src="assets/images/team/member7.jpg" alt="Team" />
+                <img src="assets/images/team/member7.webp" alt="Team" />
                 <h4>Michael S. Pearson</h4>
                 <span className="designation">Software Engineer</span>
                 <div className="social-style-two">
@@ -163,7 +165,7 @@ const Team = () => {
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="team-member style-two wow fadeInUp delay-0-8s">
-                <img src="assets/images/team/member8.jpg" alt="Team" />
+                <img src="assets/images/team/member8.webp" alt="Team" />
                 <h4>Kenneth L. Booth</h4>
                 <span className="designation">Senior Consultant</span>
                 <div className="social-style-two">
@@ -175,11 +177,6 @@ const Team = () => {
             </div>
             <div className="col-lg-12">
               <div className="view-all-btn pt-30 text-center">
-                {/* <Link legacyBehavior href="/team">
-                  <a className="theme-btn style-two">
-                    View All Member <i className="fas fa-long-arrow-right" />
-                  </a>
-                </Link> */}
               </div>
             </div>
           </div>
@@ -187,53 +184,17 @@ const Team = () => {
         <div className="team-shapes">
           <img
             className="shape one"
-            src="assets/images/team/team-shape-one.png"
+            src="assets/images/team/team-shape-one.webp"
             alt="Shape"
           />
           <img
             className="shape two"
-            src="assets/images/team/team-shape-two.png"
+            src="assets/images/team/team-shape-two.webp"
             alt="Shape"
           />
         </div>
       </section>
       {/* Team Area end */}
-      {/* FAQs Area start */}
-      {/* <section className="faq-area pb-130 rpb-100 rel z-1">
-        <div className="container">
-          <div className="row align-items-center justify-content-between">
-            <div className="col-xl-5 col-lg-6">
-              <div className="faq-content rmb-65 wow fadeInLeft delay-0-2s">
-                <div className="section-title mb-30">
-                  <span className="sub-title mb-15">Faqs</span>
-                  <h2>Frequently Asked Questions</h2>
-                </div>
-                <div
-                  className="faq-accordion style-two pt-20"
-                  id="faq-accordion">
-                  <JeenaAccordion2 accordionsData={accordionData} />
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div className="faq-images wow fadeInRight delay-0-2s">
-                <div className="logo">
-                  <Link legacyBehavior href="/index">
-                    <a>
-                      <img
-                        src="assets/images/logos/logo-one2.png"
-                        alt="Logo"
-                        title="Logo"
-                      />
-                    </a>
-                  </Link>
-                </div>
-                <img src="assets/images/about/faq-right.jpg" alt="FAQs" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
     </Layout>
   );
 };

@@ -9773,22 +9773,27 @@ blockquote .name:before {
 
 /* Contact Info Box */
 .contact-info-box {
+  display: flex;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
   background: white;
-  margin-bottom: 30px;
-  padding: 50px 40px 45px;
-  border: 1px solid var(--border-color);
+  margin-bottom: 10px;
+  padding: 10px 10px 10px;
+  /* border: 1px solid var(--border-color); */
+  flex-wrap: wrap;
 }
-@media only screen and (min-width: 376px) {
+/* @media only screen and (min-width: 376px) {
   .contact-info-box {
     font-size: 18px;
   }
-}
+} */
+
+
 .contact-info-box .icon {
   font-size: 55px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+  margin-right: 10px;
   color: var(--secondary-color);
 }
 @media only screen and (max-width: 375px) {
@@ -9802,11 +9807,13 @@ blockquote .name:before {
 @media only screen and (min-width: 376px) {
   .contact-info-box h4 {
     font-size: 24px;
+    margin-top: 15px;
   }
 }
 .contact-info-box > a,
 .contact-info-box > span {
   display: inline-block;
+  text-align: center;
 }
 .contact-info-box > b {
   font-weight: 500;
@@ -11293,3 +11300,7 @@ blockquote .name:before {
 display: flex;
 justify-content: center;
 }
+
+#__next > div > section.contact-form-area.py-130.rpy-100 > div > div > div:nth-child(1) > div > form > div > div.col-xl-12 > div > div > div{
+display: flex;
+justify-content: center;}

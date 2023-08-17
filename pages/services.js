@@ -11,7 +11,11 @@ const Services = () => {
         description="Explore our technology services at Silver Pyramids. From digital consulting to design and development, we provide innovative solutions tailored to your business needs."
         keywords="technology services, digital consulting, design and development, mobile app development, UX/UI design strategy, SEO optimization services"
       />
-      <PageBanner hero={"/assets/images/hero/technology-solution.png"} pageName={"Services"} pageTitle={"Technology Solutions"} />
+      <PageBanner
+        hero={"/assets/images/hero/technology-solution.webp"}
+        pageName={"Services"}
+        pageTitle={"Technology Solutions"}
+      />
 
       {/* Work Process Area start */}
       <section className="work-process-area pt-130 pb-100 rpt-100 rpb-70 rel z-1">
@@ -20,7 +24,7 @@ const Services = () => {
           <h2>Implementing Industry Best Practices</h2>
         </div>
         <div className="work-process-line text-center">
-          <img src="assets/images/shapes/work-process-line.png" alt="line" />
+          <img src="assets/images/shapes/work-process-line.webp" alt="line" />
         </div>
         <div className="container">
           <div className="row row-cols-xl-5 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center">
@@ -54,8 +58,8 @@ const Services = () => {
                 <div className="content">
                   <h4>Design &amp; Development</h4>
                   <p>
-                    At this stage, we focus on developing web services that
-                    align with your requirements.
+                    At this stage, we focus on developing technology services
+                    that align with your requirements.
                   </p>
                 </div>
               </div>
@@ -89,22 +93,6 @@ const Services = () => {
       </section>
       {/* Work Process Area end */}
 
-      {/* Video Area start */}
-      {/* <div className="video-area-two rel z-1">
-        <div className="container">
-          <div className="video-wrap-two wow fadeInUp delay-0-2s">
-            <img src="assets/images/background/video.jpg" alt="Video" />
-            <a
-              href="https://www.youtube.com/watch?v=9Y7ma241N8k"
-              className="mfp-iframe video-play"
-              tabIndex={-1}>
-              <i className="fas fa-play" />
-            </a>
-          </div>
-        </div>
-      </div> */}
-      {/* Video Area end */}
-
       {/* Services Area start */}
       <section className="services-area bgc-lighter pt-75 pb-10 rel z-1">
         <div className="container">
@@ -123,7 +111,7 @@ const Services = () => {
                 <div className="content">
                   <h4>
                     <Link legacyBehavior href="digital-details">
-                      Digital Consulting Services
+                      Digital Transforming & Consulting
                     </Link>
                   </h4>
                   <p>
@@ -226,8 +214,8 @@ const Services = () => {
                   Backed by years of expertise, we proudly assure absolute
                   contentment. Our track record of excellence, coupled with
                   partnerships with industry giants, reflects our dedication to
-                  delivering unparalleled technology solutions that truly
-                  satisfy.
+                  delivering unparalleled technology solutions that are truly
+                  satisfying.
                 </p>
                 <div className="row pt-15">
                   <div className="col-sm-6">
@@ -236,9 +224,9 @@ const Services = () => {
                         <i className="flaticon-trust" />
                       </div>
                       <h4>
-                        <Link legacyBehavior href="service-details">
+                        <div href="service-details">
                           Your Most Trusted Partner
-                        </Link>
+                        </div>
                       </h4>
                     </div>
                   </div>
@@ -248,9 +236,9 @@ const Services = () => {
                         <i className="flaticon-technical-support" />
                       </div>
                       <h4>
-                        <Link legacyBehavior href="service-details">
-                          24/7 Technical Support
-                        </Link>
+                        <div href="service-details">
+                          Superior Technical Support
+                        </div>
                       </h4>
                     </div>
                   </div>
@@ -261,16 +249,13 @@ const Services = () => {
               <div className="cs-image-part ps-0 mb-30 wow fadeInRight delay-0-2s">
                 <div className="image">
                   <img
-                    src="assets/images/about/satisfaction-two.jpg"
+                    src="assets/images/about/satisfaction-two.webp"
                     alt="Satisfaction"
                   />
                 </div>
                 <div className="experience-years">
-                  <h4>Years Of Experience in our team</h4>
-                  <img
-                    src="assets/images/about/satisfaction-author.png"
-                    alt="Author"
-                  />
+                  <h4>78+ Years Of Experience in our team</h4>
+
                 </div>
               </div>
             </div>

@@ -15,7 +15,7 @@ const DefaultHeader = () => {
                 <Link legacyBehavior href="/">
                   <a>
                     <img
-                      src="assets/images/logos/logo.png"
+                      src="assets/images/logos/logo.webp"
                       alt="Logo"
                       title="Logo"
                     />
@@ -29,13 +29,13 @@ const DefaultHeader = () => {
               {/* Main Menu End*/}
             </div>
             {/* Menu Button */}
-            <div className="menu-btns">
+            {/* <div className="menu-btns">
               <Link legacyBehavior href="/contact">
                 <a className="theme-btn">
                   Get a Quote <i className="fas fa-long-arrow-right" />
                 </a>
               </Link>
-            </div>
+            </div> */}
             {/* Header Social */}
             <div className="social-style-two">
               <a href="https://www.facebook.com/people/Silver-Pyramids-Inc/100094335560472/">

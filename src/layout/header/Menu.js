@@ -24,7 +24,7 @@ const MobileMenu = () => {
           <div className="mobile-logo">
             <Link href="/">
               <img
-                src="assets/images/logos/logo-one.png"
+                src="assets/images/logos/logo-one.webp"
                 alt="Logo"
                 title="Logo"
               />
@@ -76,11 +76,11 @@ const MobileMenu = () => {
             {/*  */}
             {/*  */}
             {/* Projects */}
-            <li className="dropdown">
+            {/* <li className="dropdown">
               <Link href="project-grid" onClick={() => active("Project")}>
                 Case Studies
               </Link>
-            </li>
+            </li> */}
             {/*  */}
             {/*  */}
             {/* Contact Us */}
@@ -113,18 +113,21 @@ const MobileMenu = () => {
             {/* Pages */}
             <li className="dropdown">
               <a href="#" onClick={() => active("pages")}>
-                About Us
+                About Silver Pyramids
               </a>
               <ul style={activeSubMenu("pages")}>
                 <li>
                   <Link href="about">Our Story</Link>
                 </li>
                 <li>
-                  <Link href="team">Our Team</Link>
+                  <Link href="why-us">Why Us</Link>
                 </li>
                 <li>
-                  <Link href="terms">Terms & Conditions</Link>
+                  <Link href="team">Our Team</Link>
                 </li>
+                {/* <li>
+                  <Link href="terms">Terms & Conditions</Link>
+                </li> */}
               </ul>
               <div className="dropdown-btn" onClick={() => active("pages")}>
                 <span className="fas fa-chevron-down" />
@@ -168,7 +171,7 @@ const DeskTopMenu = () => {
         <div className="mobile-logo">
           <Link href="/">
             <img
-              src="assets/images/logos/logo-one.png"
+              src="assets/images/logos/logo-one.webp"
               alt="Logo"
               title="Logo"
             />
@@ -214,9 +217,9 @@ const DeskTopMenu = () => {
           {/*  */}
           {/*  */}
           {/* Case Studies */}
-          <li className="dropdown">
+          {/* <li className="dropdown">
             <Link href="project-grid">Case Studies</Link>
-          </li>
+          </li> */}
           {/*  */}
           {/*  */}
           {/* Clients */}
@@ -273,17 +276,20 @@ const DeskTopMenu = () => {
           {/*  */}
           {/* About Us */}
           <li className="dropdown">
-            <Link href="about">About Us</Link>
+            <Link href="about">About Silver Pyramids</Link>
             <ul>
               <li>
                 <Link href="about">Our Story</Link>
               </li>
               <li>
-                <Link href="team">Our Team</Link>
+                <Link href="why-us">Why Us</Link>
               </li>
               <li>
-                <Link href="terms">Terms & Conditions</Link>
+                <Link href="team">Our Team</Link>
               </li>
+              {/* <li>
+                <Link href="terms">Terms & Conditions</Link>
+              </li> */}
             </ul>
             <div className="dropdown-btn">
               <span className="fas fa-chevron-down" />

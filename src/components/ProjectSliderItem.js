@@ -14,14 +14,14 @@ const ProjectSliderItem = ({ imgSrc, imgAlt, title, content, odd = true }) => {
         <div className="content">
           <h4>{title}</h4>
           <p>{content}</p>
-          <Link legacyBehavior href="/project-details">
+          {/* <Link legacyBehavior href="/project-details">
             <a className="theme-btn style-two mt-15">
               View Details <i className="fas fa-long-arrow-right" />
             </a>
-          </Link>
+          </Link> */}
         </div>
       </div>
-      {!odd / 2 && (
+      {!(odd / 2) && (
         <div className="col-lg-6">
           <div className="video">
             <img src={imgSrc} alt={imgAlt} className="img-fluid" />

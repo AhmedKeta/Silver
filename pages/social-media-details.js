@@ -3,29 +3,9 @@ import Layout from "@/layout";
 import { JeenaAccordion2 } from "@/src/components/JeenaAccordion";
 import Link from "next/link";
 import Meta from "@/components/Meta";
+import accordionData from "@/src/marketingAccordion";
 
 const ServiceDetails = () => {
-  // Accordion Questions Section
-  const accordionData = [
-    {
-      id: 1,
-      title: "Why Get Our IT Services?",
-      answer:
-        "Experience unmatched IT services with us. We blend expertise and innovation to optimize your operations, boost efficiency, and ensure security. Elevate your business with our strategic technological solutions.",
-    },
-    {
-      id: 2,
-      title: "BestTeam Member Provider?",
-      answer:
-        "We take pride in being your premier team member provider. Our exceptional talent pool, curated for your unique needs, fuels innovation, accelerates projects, and drives your company's success.",
-    },
-    {
-      id: 3,
-      title: "Learn About Our Company?",
-      answer:
-        "Discover our company's essence. With a blend of experience and innovation, we're committed to delivering top-tier solutions. Unveil our journey, values, and expertise, and join us in shaping excellence.",
-    },
-  ];
   return (
     <Layout>
       <Meta
@@ -36,6 +16,7 @@ const ServiceDetails = () => {
       <PageBanner
         pageName={"Social Media Services"}
         pageTitle={"Social Media Advertising"}
+        hero={"/assets/images/hero/Social.webp"}
       />
       <section className="service-details-area pt-130 rpt-100 pb-115 rpb-85">
         <div className="container">
@@ -71,7 +52,7 @@ const ServiceDetails = () => {
                 </p>
                 <div className="image my-40 wow fadeInUp delay-0-2s">
                   <img
-                    src="assets/images/services/service-details.jpg"
+                    src="assets/images/services/social-media.webp"
                     alt="Service Details"
                   />
                 </div>
@@ -80,7 +61,7 @@ const ServiceDetails = () => {
                 <div className="row">
                   <div className="col-md-6 mb-30 wow fadeInRight delay-0-2s">
                     <h3>
-                      We Provide Best Digital Services to Growth you Business
+                      We Provide Best Digital Services to Grow your Business
                     </h3>
                   </div>
                   <div className="col-md-6 mb-30 wow fadeInLeft delay-0-2s">
@@ -92,54 +73,7 @@ const ServiceDetails = () => {
                     </ul>
                   </div>
                 </div>
-                <div className="row pb-30">
-                  <div className="col-md-6 mb-30 wow fadeInLeft delay-0-2s">
-                    <p>
-                      Our social media advertising services encompass various ad
-                      formats, including image ads, video ads, carousel ads, and
-                      sponsored content. We take a data-driven approach to
-                      optimize your campaigns, analyzing key metrics such as
-                      click-through rates, conversions, and engagement to refine
-                      our strategies and maximize your ROI.
-                    </p>
-                    <p>
-                      Partner with us to unlock the full potential of social
-                      media advertising. Our expertise in audience targeting,
-                      campaign optimization, and creative storytelling will help
-                      you stand out in the crowded social media landscape and
-                      achieve your business goals. Get ready to connect, engage,
-                      and grow with our social media advertising services.
-                    </p>
-                  </div>
-                  <div className="col-md-6 mb-30 wow fadeInRight delay-0-2s">
-                    <div className="image">
-                      <img
-                        src="assets/images/services/service-middle.jpg"
-                        alt="Service"
-                      />
-                    </div>
-                  </div>
-                </div>
-                <h3>Service Management</h3>
-                <p>
-                  At the heart of operational excellence lies effective Service
-                  Management. Our seasoned professionals excel in streamlining
-                  processes, optimizing resource allocation, and ensuring
-                  seamless service delivery. With a client-centered approach, we
-                  design tailored service frameworks that align with your
-                  business objectives. From incident resolution to service level
-                  agreement (SLA) adherence, we orchestrate every facet,
-                  allowing you to focus on core business functions while
-                  experiencing elevated service quality and customer
-                  satisfaction.
-                </p>
-                {/*  */}
-
-                <div
-                  className="faq-accordion pt-20 wow fadeInUp delay-0-2s"
-                  id="faq-accordion">
-                  <JeenaAccordion2 accordionsData={accordionData} />
-                </div>
+                <JeenaAccordion2 accordionsData={accordionData} />
               </div>
             </div>
 
@@ -156,18 +90,28 @@ const ServiceDetails = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link legacyBehavior href="social-media-details">
-                        Social Media Advertising
-                      </Link>
-                    </li>
-                    <li>
                       <Link legacyBehavior href="marketing-details">
                         Marketing strategies
                       </Link>
                     </li>
                     <li>
                       <Link legacyBehavior href="seo-details">
-                        SEO Optimization
+                        SEO - SEM
+                      </Link>
+                    </li>{" "}
+                    <li>
+                      <Link legacyBehavior href="sms-details">
+                        Email & SMS
+                      </Link>
+                    </li>
+                    <li>
+                      <Link legacyBehavior href="house-content-details">
+                        In-House Content Creation
+                      </Link>
+                    </li>
+                    <li>
+                      <Link legacyBehavior href="cro-details">
+                        CRO
                       </Link>
                     </li>
                   </ul>
@@ -177,11 +121,11 @@ const ServiceDetails = () => {
                   className="widget widget-cta"
                   style={{
                     backgroundImage:
-                      "url(assets/images/widgets/cta-widget-bg.jpg)",
+                      "url(assets/images/widgets/cta-widget-bg.webp)",
                   }}>
                   <span className="h5">Let's Work Together</span>
                   <span className="h2" style={{ color: "white" }}>
-                    Technology Service Agency
+                    Marketing Service Agency
                   </span>
                   <Link legacyBehavior href="/contact">
                     <a className="theme-btn style-four">
@@ -194,7 +138,7 @@ const ServiceDetails = () => {
                   </a>
                   <img
                     className="bg-shape"
-                    src="assets/images/widgets/cta-bg-lines.png"
+                    src="assets/images/widgets/cta-bg-lines.webp"
                     alt="Shape"
                   />
                 </div>
@@ -211,16 +155,13 @@ const ServiceDetails = () => {
           <div className="next-prev-service mt-80">
             <div className="next-prev-item wow fadeInLeft delay-0-2s">
               <div className="image">
-                <img
-                  src="assets/images/services/service-prev.jpg"
-                  alt="Service"
-                />
+                <img src="assets/images/services/seo.webp" alt="Service" />
               </div>
               {/* Previous */}
               <div className="content">
                 <h4>
                   <Link legacyBehavior href="seo-details">
-                    SEO Optimization
+                    SEO - SEM
                   </Link>
                 </h4>
                 <Link legacyBehavior href="/seo-details">
@@ -251,7 +192,7 @@ const ServiceDetails = () => {
               {/* Next End */}
               <div className="image">
                 <img
-                  src="assets/images/services/service-next.jpg"
+                  src="assets/images/services/infographic.webp"
                   alt="Service"
                 />
               </div>

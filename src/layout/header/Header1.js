@@ -57,7 +57,7 @@ const Header1 = () => {
                 <Link legacyBehavior href="/">
                   <a>
                     <img
-                      src="assets/images/logos/logo-one.png"
+                      src="assets/images/logos/logo-one.webp"
                       alt="Logo"
                       title="Logo"
                     />
@@ -71,13 +71,13 @@ const Header1 = () => {
               {/* Main Menu End*/}
             </div>
             {/* Menu Button */}
-            <div className="menu-btns">
+            {/* <div className="menu-btns">
               <Link legacyBehavior href="/contact">
                 <a className="theme-btn">
                   Get a Quote <i className="fas fa-long-arrow-right" />
                 </a>
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -1,7 +1,6 @@
 import PageBanner from "@/components/PageBanner";
 import Meta from "@/components/Meta";
 import Layout from "@/layout";
-// import emailjs from "@emailjs/browser";
 import React, { useState } from "react";
 import { Alert } from "react-bootstrap";
 import sendEmail from "@/src/sendMail";
@@ -29,60 +28,16 @@ const Contact = () => {
     }));
   };
 
-  const sendContactEmail =  () => {
+  const sendContactEmail = () => {
     setVisibleReCAPTCHA((visibleReCAPTCHA) => !visibleReCAPTCHA);
     setVisibleSubmit((visibleSubmit) => !visibleSubmit);
-    // try {
-    //   await sendEmail(
-    //     formData,
-    //     setSuccessMessage,
-    //     setErrorMessage,
-    //     setFormData
-    //   );
-    // } catch (error) {
-    //   setSuccessMessage("");
-    //   setErrorMessage(error);
-    // }
   };
-
-  // const sendEmail = async () => {
-  //   try {
-  //     const templateParams = {
-  //       to_name: "Silver Pyramids Customer Service",
-  //       email_subject: formData.subject,
-  //       from_name: formData.name,
-  //       from_email: formData.email,
-  //       phone_number: formData.phone_number,
-  //       message: formData.message,
-  //     };
-
-  //     await emailjs.send(
-  //       "service_8fq77ww",
-  //       "template_vxg5ly6",
-  //       templateParams,
-  //       "fa0OAKPqt9dfpP_bg"
-  //     );
-
-  //     setSuccessMessage("Your message has been sent successfully");
-  //     setErrorMessage("");
-  //     setFormData({
-  //       name: "",
-  //       phone_number: "",
-  //       email: "",
-  //       subject: "",
-  //       message: "",
-  //     });
-  //   } catch (error) {
-  //     setSuccessMessage("Your message has been sent successfully");
-  //     setErrorMessage("");
-  //   }
-  // };
 
   const handleRecaptchaChange = async (captchaCode) => {
     if (!captchaCode) {
       return;
     }
-    recaptchaRef.current.reset();
+    // recaptchaRef.current.reset();
     setVisibleReCAPTCHA((visibleReCAPTCHA) => !visibleReCAPTCHA);
     setVisibleSubmit((visibleSubmit) => !visibleSubmit);
     try {
@@ -105,110 +60,108 @@ const Contact = () => {
         description="Have questions or inquiries? Get in touch with Silver Pyramids. Contact our team today for personalized technology and marketing solutions tailored to your business."
         keywords="contact us, get in touch, technology solutions, marketing services"
       />
-      <PageBanner hero={"/assets/images/hero/contact.png"} pageName={"Contact Us"} />
+      <PageBanner
+        hero={"/assets/images/hero/contact.webp"}
+        pageName={"Contact Us"}
+      />
       <section className="contact-page-info pt-130 rpt-100 pb-100 rpb-70 rel z-1">
         <div className="container">
           <div className="row text-center mb-35 justify-content-center wow fadeInUp delay-0-2s">
             <div className="col-xl-8 col-lg-10">
               <div className="section-title mb-25">
-                <span className="sub-title mb-15">Need any Helps</span>
-                <h2>Contact Informations</h2>
+                <h2>Contact Information</h2>
               </div>
               <p>
                 Let us tailor a service package that meets your needs. Tell us a
-                little about your business, and we will get back to you with
-                some ideas as soon as possible.
+                little about your business, and we will get in touch with you as
+                soon as possible.
               </p>
             </div>
           </div>
-          <div className="row justify-content-center">
-            <div className="col-xl-3 col-lg-4 col-md-6">
-              <div className="contact-info-box wow fadeInUp delay-0-2s">
-                <div className="icon">
-                  <i className="fal fa-map-marker-alt" />
+          <div className="row align-items-center">
+            <div className="justify-content-center col-md-6 col-12">
+              <div class="row">
+                <div className="col-xl-6">
+                  <div className="contact-info-box wow fadeInUp delay-0-2s">
+                    <div className="icon">
+                      <i className="fal fa-map-marker-alt" />
+                    </div>
+                    <h4>Headquarter</h4>
+                    <span
+                      style={{ fontSize: 14, textAlign: "center" }}
+                      className="col-12"
+                    >
+                      <span style={{ fontWeight: "bold" }}>Phoenix,</span>{" "}
+                      Arizona, USA
+                    </span>
+                  </div>
                 </div>
-                <h4>Location</h4>
-                <span style={{ fontSize: 14 }}>
-                  <h5>Phoenix</h5> Arizona, USA
-                </span>
-              </div>
+                <div className="col-xl-6">
+                  <div className="contact-info-box wow fadeInUp delay-0-3s">
+                    <div className="icon">
+                      <i className="fal fa-envelope-open" />
+                    </div>
+                    <h4>Email Us</h4>
+                    <a
+                      className="col-12"
+                      style={{ fontSize: 14 }}
+                      href="mailto:info@silverpyramids.com"
+                    >
+                      info@silverpyramids.com
+                    </a>
+                  </div>
+                </div>
+                <div className="col-xl-6">
+                  <div className="contact-info-box wow fadeInUp delay-0-4s">
+                    <div className="icon">
+                      <i className="fal fa-phone-plus" />
+                    </div>
+                    <h4>Call Us</h4>
+                    <span className="col-12" style={{ fontSize: 14 }}>
+                      Phone:{" "}
+                      <a href="callto:+1 630-995-9223">+1 630-995-9223</a>
+                    </span>
+                    <span></span>
+                  </div>
+                </div>
+                <div className="col-xl-6">
+                  <div className="contact-info-box wow fadeInUp delay-0-5s">
+                    <div className="icon">
+                      <i className="fal fa-clock" />
+                    </div>
+                    <h4 className="working">Working Hour</h4>
+                    <span class="col-12">
+                      <b style={{ fontSize: 14 }}>Monday - Friday, </b>
+                      <span style={{ fontSize: 14 }}>
+                        09:00am - 05:00pm (PST)
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>{" "}
             </div>
-            <div className="col-xl-3 col-lg-4 col-md-6">
-              <div className="contact-info-box wow fadeInUp delay-0-3s">
-                <div className="icon">
-                  <i className="fal fa-envelope-open" />
-                </div>
-                <h4>Email Us</h4>
-                <a
-                  style={{ fontSize: 14 }}
-                  href="mailto:info@silverpyramids.com"
-                >
-                  info@silverpyramids.com
-                </a>
-                <br />
-                <br />
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-4 col-md-6">
-              <div className="contact-info-box wow fadeInUp delay-0-4s">
-                <div className="icon">
-                  <i className="fal fa-phone-plus" />
-                </div>
-                <h4>Call Us</h4>
-                <span style={{ fontSize: 14 }}>
-                  Phone: <a href="callto:+1 630-995-9223">+1 630-995-9223</a>
-                </span>
-                <br />
-                <span>
-                  <br />
-                </span>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-4 col-md-6">
-              <div className="contact-info-box wow fadeInUp delay-0-5s">
-                <div className="icon">
-                  <i className="fal fa-clock" />
-                </div>
-                <h4>Working Hour</h4>
-                <b style={{ fontSize: 14 }}>Monday _ Friday,</b>
-                <span style={{ fontSize: 14 }}>09:00am - 05:00pm (PST)</span>
-              </div>
+            <div class="col-md-6 contact">
+              <img src="assets/images/about/map.webp"></img>
             </div>
           </div>
         </div>
       </section>
       {/* Contact Info Area end */}
-      {/* Location Map Area Start */}
-      <div className="contact-page-map wow fadeInUp delay-0-2s">
-        <div className="our-location">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d425342.7899566704!2d-112.45469214008445!3d33.60554975209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b12ed50a179cb%3A0x8c69c7f8354a1bac!2sPhoenix%2C%20AZ%2C%20USA!5e0!3m2!1sen!2seg!4v1692095807005!5m2!1sen!2seg"
-            style={{ border: 0, width: "100%" }}
-            allowFullScreen=""
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          />
-        </div>
-      </div>
-      {/* Location Map Area End */}
       {/* Contact Form Start */}
-      <section className="contact-page-form pb-130 rpb-100">
+      <section className="contact-page-form pb-130 rpb-100 pt-100">
         <div className="container">
           <div className="contact-form-wrap form-style-two bgc-lighter wow fadeInUp delay-0-2s">
             <div className="row text-center mb-35 justify-content-center">
               <div className="col-xl-9 col-lg-11">
                 <div className="section-title mb-25 wow fadeInUp delay-0-2s">
-                  <span className="sub-title mb-15">Get In Touch</span>
+                  <span className="sub-title mb-15">Get In Touch With Us</span>
                   <h2>Send Us Message</h2>
                 </div>
-                <p>
-                  Let us tailor a service package that meets your needs. Tell us
-                  a little about your business, and we will get back to you with
-                  some ideas as soon as possible.
-                </p>
               </div>
             </div>
-            {successMessage && <Alert variant="dark">{successMessage}</Alert>}
+            {successMessage && (
+              <Alert variant="success">{successMessage}</Alert>
+            )}
             {errorMessage && <Alert variant="danger">{errorMessage}</Alert>}
             <form
               onSubmit={(e) => {
@@ -217,7 +170,6 @@ const Contact = () => {
               }}
               id="contactForm"
               className="contactForm"
-              action="assets/php/form-process.php"
               name="contactForm"
             >
               <div className="row">
@@ -298,7 +250,7 @@ const Contact = () => {
                         className="g-recaptcha"
                         ref={recaptchaRef}
                         onSubmit={(value) => console.log(value)}
-                        sitekey="6Ld9d6onAAAAAE0pA2W14EIgz7yWTld15UTftCjY"
+                        sitekey="6LeSma8nAAAAAEkfttC5BzD3UjnzCiO76HazegmU"
                         onChange={handleRecaptchaChange}
                       />
                     )}
@@ -309,13 +261,6 @@ const Contact = () => {
                     )}
                   </div>
                 </div>
-                {/* <div className="col-xl-12">
-                  <div className="form-group text-center mb-0">
-                    <button type="submit" className="theme-btn style-two">
-                      send message <i className="far fa-long-arrow-right" />
-                    </button>
-                  </div>
-                </div> */}
               </div>
             </form>
           </div>

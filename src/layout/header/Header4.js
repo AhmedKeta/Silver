@@ -18,7 +18,7 @@ const Header4 = () => {
                   <Link legacyBehavior href="/">
                     <a>
                       <img
-                        src="assets/images/logos/logo.png"
+                        src="assets/images/logos/logo.webp"
                         alt="Logo"
                         title="Logo"
                       />

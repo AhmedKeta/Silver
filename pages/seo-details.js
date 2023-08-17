@@ -9,13 +9,13 @@ const ServiceDetails = () => {
   const accordionData = [
     {
       id: 1,
-      title: "Why Get Our IT Services?",
+      title: "Why Get Our Technology Services?",
       answer:
-        "Experience unmatched IT services with us. We blend expertise and innovation to optimize your operations, boost efficiency, and ensure security. Elevate your business with our strategic technological solutions.",
+        "Experience unmatched Technology services with us. We blend expertise and innovation to optimize your operations, boost efficiency, and ensure security. Elevate your business with our strategic technological solutions.",
     },
     {
       id: 2,
-      title: "BestTeam Member Provider?",
+      title: "Best Team Member Provider?",
       answer:
         "We take pride in being your premier team member provider. Our exceptional talent pool, curated for your unique needs, fuels innovation, accelerates projects, and drives your company's success.",
     },
@@ -36,6 +36,7 @@ const ServiceDetails = () => {
       <PageBanner
         pageName={"SEO Services"}
         pageTitle={"SEO Optimization Services"}
+        hero={"/assets/images/hero/SEO.webp"}
       />
       <section className="service-details-area pt-130 rpt-100 pb-115 rpb-85">
         <div className="container">
@@ -59,7 +60,7 @@ const ServiceDetails = () => {
                 </p>
                 <div className="image my-40 wow fadeInUp delay-0-2s">
                   <img
-                    src="assets/images/services/service-details.jpg"
+                    src="assets/images/services/seo.webp"
                     alt="Service Details"
                   />
                 </div>
@@ -68,8 +69,7 @@ const ServiceDetails = () => {
                 <div className="row">
                   <div className="col-md-6 mb-30 wow fadeInRight delay-0-2s">
                     <h3>
-                      We Provide Best Technology Solutions to Growth you
-                      Business
+                      We Provide Best Technology Solutions to Grow your Business
                     </h3>
                   </div>
                   <div className="col-md-6 mb-30 wow fadeInLeft delay-0-2s">
@@ -82,46 +82,13 @@ const ServiceDetails = () => {
                     </ul>
                   </div>
                 </div>
-                <div className="row pb-30">
-                  <div className="col-md-6 mb-30 wow fadeInLeft delay-0-2s">
-                    <p>
-                      Unlock business potential with our comprehensive Digital
-                      Consulting Services. From devising winning digital
-                      strategies and enhancing user experiences to cybersecurity
-                      readiness and harnessing the power of data analytics, we
-                      offer a suite of solutions that drive growth. Whether it's
-                      embracing new technologies or optimizing existing ones,
-                      our expert guidance ensures your journey towards digital
-                      excellence is smooth and rewarding.
-                    </p>
-                  </div>
-                  <div className="col-md-6 mb-30 wow fadeInRight delay-0-2s">
-                    <div className="image">
-                      <img
-                        src="assets/images/services/service-middle.jpg"
-                        alt="Service"
-                      />
-                    </div>
-                  </div>
-                </div>
-                <h3>Service Management</h3>
-                <p>
-                  At the heart of operational excellence lies effective Service
-                  Management. Our seasoned professionals excel in streamlining
-                  processes, optimizing resource allocation, and ensuring
-                  seamless service delivery. With a client-centered approach, we
-                  design tailored service frameworks that align with your
-                  business objectives. From incident resolution to service level
-                  agreement (SLA) adherence, we orchestrate every facet,
-                  allowing you to focus on core business functions while
-                  experiencing elevated service quality and customer
-                  satisfaction.
-                </p>
+
                 {/*  */}
 
                 <div
                   className="faq-accordion pt-20 wow fadeInUp delay-0-2s"
-                  id="faq-accordion">
+                  id="faq-accordion"
+                >
                   <JeenaAccordion2 accordionsData={accordionData} />
                 </div>
               </div>
@@ -135,7 +102,7 @@ const ServiceDetails = () => {
                   <ul>
                     <li>
                       <Link legacyBehavior href="digital-details">
-                        Digital Solutions
+                        Digital Transformation
                       </Link>
                     </li>
                     <li>
@@ -160,8 +127,9 @@ const ServiceDetails = () => {
                   className="widget widget-cta"
                   style={{
                     backgroundImage:
-                      "url(assets/images/widgets/cta-widget-bg.jpg)",
-                  }}>
+                      "url(assets/images/widgets/cta-widget-bg.webp)",
+                  }}
+                >
                   <span className="h5">Let's Work Together</span>
                   <span className="h2" style={{ color: "white" }}>
                     Technology Service Agency
@@ -177,7 +145,7 @@ const ServiceDetails = () => {
                   </a>
                   <img
                     className="bg-shape"
-                    src="assets/images/widgets/cta-bg-lines.png"
+                    src="assets/images/widgets/cta-bg-lines.webp"
                     alt="Shape"
                   />
                 </div>
@@ -194,10 +162,7 @@ const ServiceDetails = () => {
           <div className="next-prev-service mt-80">
             <div className="next-prev-item wow fadeInLeft delay-0-2s">
               <div className="image">
-                <img
-                  src="assets/images/services/service-prev.jpg"
-                  alt="Service"
-                />
+                <img src="assets/images/about/uiux.webp" alt="Service" />
               </div>
               {/* Previous */}
               <div className="content">
@@ -233,10 +198,7 @@ const ServiceDetails = () => {
               </div>
               {/* Next End */}
               <div className="image">
-                <img
-                  src="assets/images/services/service-next.jpg"
-                  alt="Service"
-                />
+                <img src="assets/images/about/design.webp" alt="Service" />
               </div>
             </div>
           </div>

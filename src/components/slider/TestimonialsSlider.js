@@ -44,7 +44,7 @@ export default class TestimonialsSlider extends Component {
           <div className="testimonial-item wow fadeInUp delay-0-2s">
             <div className="image">
               <img
-                src="assets/images/testimonials/testi-author1.jpg"
+                src="assets/images/testimonials/testi-author1.webp"
                 alt="Author"
               />
             </div>
@@ -106,7 +106,7 @@ export default class TestimonialsSlider extends Component {
           <div className="testimonial-item wow fadeInUp delay-0-6s">
             <div className="image">
               <img
-                src="assets/images/testimonials/testi-author4.jpg"
+                src="assets/images/testimonials/testi-author4.webp"
                 alt="Author"
               />
             </div>
@@ -193,13 +193,13 @@ const TestimonialsSlider2 = () => {
         ref={(slider) => setSlider2(slider)}
         className="testi-image-slider">
         <div className="testi-image-item">
-          <img src="assets/images/testimonials/client.png" alt="Author" />
+          <img src="assets/images/testimonials/client.webp" alt="Author" />
         </div>
         <div className="testi-image-item">
-          <img src="assets/images/testimonials/client.png" alt="Author" />
+          <img src="assets/images/testimonials/client.webp" alt="Author" />
         </div>
         <div className="testi-image-item">
-          <img src="assets/images/testimonials/client.png" alt="Author" />
+          <img src="assets/images/testimonials/client.webp" alt="Author" />
         </div>
       </Slider>
       <Slider

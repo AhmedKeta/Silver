@@ -5,8 +5,8 @@ import dynamic from "next/dynamic";
 import Link from "next/link";
 import Slider from "react-slick";
 import Meta from "@/components/Meta";
-import { partnerSlider } from "@/src/sliderProps";
 import ProjectSliderItem from "@/src/components/ProjectSliderItem";
+import PartnerSlider from "@/components/slider/PartnerSlider";
 
 const Counter = dynamic(() => import("@/src/components/Counter"), {
   ssr: false,
@@ -27,10 +27,10 @@ const Index = () => {
               <div className="hero-content pt-115 pb-125 rpb-0 delay-0-4s wow fadeInRight">
                 <h1>Your Vision, Our Expertise.</h1>
                 <p>
-                  Elevate Your Business with Cutting-edge Software and Marketing
-                  Solutions Tailored to Your Growth.
+                  Elevate Your Business with Cutting-edge Technology and
+                  Marketing Solutions Tailored to Your Growth.
                 </p>
-                <Link legacyBehavior href="/about">
+                <Link legacyBehavior href="/contact">
                   <a className="theme-btn mt-20 wow fadeInUp delay-0-6s">
                     Ready To Grow With Us ?{" "}
                     <i className="fas fa-long-arrow-right" />
@@ -39,30 +39,25 @@ const Index = () => {
                 <div className="hero-shapes">
                   <img
                     className="shape one"
-                    src="assets/images/shapes/dabble-plus.png"
+                    src="assets/images/shapes/dabble-plus.webp"
                     alt="Shape"
                   />
                   <img
                     className="shape two"
-                    src="assets/images/shapes/dabble-plus.png"
+                    src="assets/images/shapes/dabble-plus.webp"
                     alt="Shape"
                   />
                   <img
                     className="shape three"
-                    src="assets/images/shapes/plus.png"
+                    src="assets/images/shapes/plus.webp"
                     alt="Shape"
                   />
                 </div>
               </div>
             </div>
             <div className="col-xl-8 col-lg-12 align-self-end">
-              <div
-                className="hero-images wow fadeInLeft"
-              >
-                <img
-                  src="assets/images/hero/hero-one.png"
-                  alt="Hero"
-                />
+              <div className="hero-images wow fadeInLeft">
+                <img src="assets/images/hero/hero-one.webp" alt="Hero" />
               </div>
             </div>
           </div>
@@ -70,7 +65,7 @@ const Index = () => {
         <div className="hero-shapes">
           <img
             className="shape bg-lines"
-            src="assets/images/shapes/hero-bg-line-shapes.png"
+            src="assets/images/shapes/hero-bg-line-shapes.webp"
             alt="Shape"
           />
           {/* <div className="triangle-shape"></div> */}
@@ -78,244 +73,7 @@ const Index = () => {
       </section>
       {/* Hero Section End */}
       {/* Partners Area start */}
-      <section className="partners-area mt-60 pt-150 pb-100 rmt-30 rpb-70 rel z-1 overflow-hidden py-130 rpy-100">
-        <div className="container">
-          <div className="section-title text-center mb-50 wow fadeInUp delay-0-2s">
-            <span className="sub-title mb-15">Global Customers</span>
-            <h2>Our Customers</h2>
-          </div>
-          <Slider {...partnerSlider} className="service-three-slider">
-            <div className="col">
-              <div>
-                <p className="partner-item wow fadeInUp delay-0-3s">
-                  <img
-                    src="assets/images/partners/discover.png"
-                    alt="discover"
-                  />
-                </p>
-              </div>
-            </div>
-            <div className="col">
-              <div>
-                <p className="partner-item wow fadeInUp delay-0-4s">
-                  <img src="assets/images/partners/ford.png" alt="ford" />
-                </p>
-              </div>
-            </div>{" "}
-            <div className="col">
-              <div>
-                <p className="partner-item wow fadeInUp delay-0-4s">
-                  <img src="assets/images/partners/sony.png" alt="sony" />
-                </p>
-              </div>
-            </div>
-            <div className="col">
-              <div>
-                <p className="partner-item wow fadeInUp delay-0-5s">
-                  <img src="assets/images/partners/lexmark.png" alt="lexmark" />
-                </p>
-              </div>
-            </div>
-            <div className="col">
-              <div>
-                <p className="partner-item wow fadeInUp delay-0-6s">
-                  <img
-                    src="assets/images/partners/blackveatech.png"
-                    alt="blackveatech"
-                  />
-                </p>
-              </div>
-            </div>
-            <div className="col">
-              <div>
-                <p className="partner-item wow fadeInUp delay-0-7s">
-                  <img
-                    src="assets/images/partners/manitowoc.png"
-                    alt="manitowoc"
-                  />
-                </p>
-              </div>
-            </div>
-            <div className="col">
-              <div>
-                <p className="partner-item wow fadeInUp delay-0-7s">
-                  <img src="assets/images/partners/fedex.png" alt="FedEx" />
-                </p>
-              </div>
-            </div>
-            <div className="col">
-              <div>
-                <p className="partner-item wow fadeInUp delay-0-7s">
-                  <img
-                    src="assets/images/partners/generalmotors.png"
-                    alt="General Motors"
-                  />
-                </p>
-              </div>
-            </div>
-            <div className="col">
-              <div>
-                <p className="partner-item wow fadeInUp delay-0-7s">
-                  <img src="assets/images/partners/exelon.png" alt="exelon" />
-                </p>
-              </div>
-            </div>
-            <div className="col">
-              <div>
-                <p className="partner-item wow fadeInUp delay-0-7s">
-                  <img src="assets/images/partners/amgen.png" alt="amgen" />
-                </p>
-              </div>
-            </div>
-            <div className="col">
-              <div>
-                <p className="partner-item wow fadeInUp delay-0-7s">
-                  <img src="assets/images/partners/calx.png" alt="calx" />
-                </p>
-              </div>
-            </div>
-            <div className="col">
-              <div>
-                <p className="partner-item wow fadeInUp delay-0-7s">
-                  <img
-                    src="assets/images/partners/bobazona.png"
-                    alt="bobazona"
-                  />
-                </p>
-              </div>
-            </div>
-            <div className="col">
-              <div>
-                <p className="partner-item wow fadeInUp delay-0-7s">
-                  <img src="assets/images/partners/cummins.png" alt="cummins" />
-                </p>
-              </div>
-            </div>
-            <div className="col">
-              <div>
-                <p className="partner-item wow fadeInUp delay-0-7s">
-                  <img src="assets/images/partners/navitas.png" alt="navitas" />
-                </p>
-              </div>
-            </div>
-            <div className="col">
-              <div>
-                <p className="partner-item wow fadeInUp delay-0-7s">
-                  <img
-                    src="assets/images/partners/royalepuppies.png"
-                    alt="Royale Puppies"
-                  />
-                </p>
-              </div>
-            </div>
-            <div className="col">
-              <div>
-                <p className="partner-item wow fadeInUp delay-0-7s">
-                  <img
-                    src="assets/images/partners/opticalpro.png"
-                    alt="Optical Pro"
-                  />
-                </p>
-              </div>
-            </div>{" "}
-            <div className="col">
-              <div>
-                <p className="partner-item wow fadeInUp delay-0-7s">
-                  <img
-                    src="assets/images/partners/snpglobal.png"
-                    alt="S&P Global"
-                  />
-                </p>
-              </div>
-            </div>{" "}
-            <div className="col">
-              <div>
-                <p className="partner-item wow fadeInUp delay-0-7s">
-                  <img
-                    src="assets/images/partners/unitednations.png"
-                    alt="united nations"
-                  />
-                </p>
-              </div>
-            </div>{" "}
-            <div className="col">
-              <div>
-                <p className="partner-item wow fadeInUp delay-0-7s">
-                  <img
-                    src="assets/images/partners/deutschebank.png"
-                    alt="deutsche bank"
-                  />
-                </p>
-              </div>
-            </div>{" "}
-            <div className="col">
-              <div>
-                <p className="partner-item wow fadeInUp delay-0-7s">
-                  <img
-                    src="assets/images/partners/whirlpool.png"
-                    alt="whirlpool"
-                  />
-                </p>
-              </div>
-            </div>{" "}
-            <div className="col">
-              <div>
-                <p className="partner-item wow fadeInUp delay-0-7s">
-                  <img
-                    src="assets/images/partners/yankeegroup.png"
-                    alt="yankee group"
-                  />
-                </p>
-              </div>
-            </div>{" "}
-            <div className="col">
-              <div>
-                <p className="partner-item wow fadeInUp delay-0-7s">
-                  <img src="assets/images/partners/nielsen.png" alt="nielsen" />
-                </p>
-              </div>
-            </div>{" "}
-            <div className="col">
-              <div>
-                <p className="partner-item wow fadeInUp delay-0-7s">
-                  <img src="assets/images/partners/mylan.png" alt="mylan" />
-                </p>
-              </div>
-            </div>{" "}
-            <div className="col">
-              <div>
-                <p className="partner-item wow fadeInUp delay-0-7s">
-                  <img
-                    src="assets/images/partners/ultimategaragedoors.png"
-                    alt="ultimate garage doors"
-                  />
-                </p>
-              </div>
-            </div>{" "}
-            <div className="col">
-              <div>
-                <p className="partner-item wow fadeInUp delay-0-7s">
-                  <img src="assets/images/partners/pfizer.png" alt="pfizer" />
-                </p>
-              </div>
-            </div>{" "}
-            <div className="col">
-              <div>
-                <p className="partner-item wow fadeInUp delay-0-7s">
-                  <img src="assets/images/partners/bmw.png" alt="bmw" />
-                </p>
-              </div>
-            </div>{" "}
-            <div className="col">
-              <div>
-                <p className="partner-item wow fadeInUp delay-0-7s">
-                  <img src="assets/images/partners/netflix.png" alt="netflix" />
-                </p>
-              </div>
-            </div>{" "}
-          </Slider>
-        </div>
-      </section>
+      <PartnerSlider />
       {/* Partners Area end */}
       {/* About Area start */}
       <section className="about-area pb-130 rpb-100 rel z-1">
@@ -324,13 +82,13 @@ const Index = () => {
             <div className="col-lg-6">
               <div className="about-content rmb-65 wow fadeInLeft delay-0-2s">
                 <div className="section-title mb-30">
-                  <span className="sub-title mb-15">About Company</span>
+                  <span className="sub-title mb-15">About Silver Pyramids</span>
                   <h2>Crafting Digital Excellence, Together.</h2>
                 </div>
                 <p>
-                  At silverpyramids, we're your partners in achieving digital
+                  At Silver Pyramids, we're your partner in achieving digital
                   excellence. Through innovative strategies, we amplify your
-                  brand's potential, crafting success together.
+                  brand's potential and craft success together.
                 </p>
                 <div className="about-btns mb-45">
                   <Link legacyBehavior href="/about">
@@ -341,7 +99,7 @@ const Index = () => {
                   <div className="hotline mt-15">
                     <i className="fas fa-phone" />
                     <div className="content">
-                      <span>Hotline</span>
+                      <span>Call us now</span>
                       <br />
                       <a href="callto:+1 630-995-9223">+1 630-995-9223</a>
                     </div>
@@ -352,17 +110,17 @@ const Index = () => {
                     <div className="service-item active">
                       <div className="icon">
                         <img
-                          src="assets/images/services/icon2.png"
+                          src="assets/images/services/icon2.webp"
                           alt="Icon"
                         />
                       </div>
                       <h4>
-                        <Link legacyBehavior href="service-details">
+                        <Link legacyBehavior href="service">
                           Technology Solutions
                         </Link>
                       </h4>
                       <p>
-                        Delivering tailored technical solutions that power your
+                        We deliver tailored technical solutions that power your
                         business's growth journey.
                       </p>
                     </div>
@@ -371,18 +129,18 @@ const Index = () => {
                     <div className="service-item">
                       <div className="icon">
                         <img
-                          src="assets/images/services/icon1.png"
+                          src="assets/images/services/icon1.webp"
                           alt="Icon"
                         />
                       </div>
                       <h4>
-                        <Link legacyBehavior href="service-details">
+                        <Link legacyBehavior href="service2">
                           Marketing Solutions
                         </Link>
                       </h4>
                       <p>
-                        Fueling your brand's success with strategic marketing
-                        prowess and creativity.
+                        We fuel your brand's success with strategic marketing
+                        skills and creativity.
                       </p>
                     </div>
                   </div>
@@ -394,7 +152,7 @@ const Index = () => {
                 <div className="top-part">
                   <img
                     className="wow fadeInRight delay-0-3s"
-                    src="assets/images/about/about1.png"
+                    src="assets/images/about/about1.webp"
                     alt="Silver Pyramids"
                   />
                   <img className="wow zoomIn delay-0-5s" />
@@ -402,12 +160,12 @@ const Index = () => {
                 <div className="bottom-part">
                   <img
                     className="wow fadeInDown delay-0-5s"
-                    src="assets/images/about/about-dots.png"
+                    src="assets/images/about/about-dots.webp"
                     alt="Silver Pyramids"
                   />
                   <img
                     className="wow fadeInDown delay-0-3s"
-                    src="assets/images/about/about2.jpg"
+                    src="assets/images/about/about2.webp"
                     alt="Silver Pyramids"
                   />
                 </div>
@@ -421,26 +179,25 @@ const Index = () => {
       <section className="project-area overflow-hidden bgc-lighter pt-130 rpt-100 rel z-1">
         <div className="container">
           <div className="section-title text-center mb-55 wow fadeInUp delay-0-2s">
-            <span className="sub-title mb-15">Learn Our Project</span>
-            <h2>Our Work Does the Talking</h2>
+            {/* <span className="sub-title mb-15">Learn Our Project</span> */}
+            <h2>Let Our Work Do The Talking</h2>
           </div>
           <Slider {...projectSliderActive} className="project-slider-active">
-
             <ProjectSliderItem
-              imgSrc="assets/images/projects/project-video.png"
+              imgSrc="assets/images/projects/project-video.webp"
               imgAlt="Video"
               title="High successful Sa video platform with a patented technology used by global enterprises."
               content=" On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment so blinded by desire"
               odd={false}
             />
             <ProjectSliderItem
-              imgSrc="assets/images/projects/project-video.png"
+              imgSrc="assets/images/projects/project-video.webp"
               imgAlt="Video"
               title="High successful Sa video platform with a patented technology used by global enterprises."
               content=" On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment so blinded by desire"
             />
             <ProjectSliderItem
-              imgSrc="assets/images/projects/project-video.png"
+              imgSrc="assets/images/projects/project-video.webp"
               imgAlt="Video"
               title="High successful Sa video platform with a patented technology used by global enterprises."
               content=" On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment so blinded by desire"
@@ -451,12 +208,12 @@ const Index = () => {
         <div className="project-shapes">
           <img
             className="shape one"
-            src="assets/images/shapes/project-left.png"
+            src="assets/images/shapes/project-left.webp"
             alt="shape"
           />
           <img
             className="shape two"
-            src="assets/images/shapes/project-right.png"
+            src="assets/images/shapes/project-right.webp"
             alt="shape"
           />
         </div>
@@ -468,8 +225,10 @@ const Index = () => {
           <div className="row medium-gap">
             <div className="col-xl-4 col-md-6">
               <div className="section-title mb-60 wow fadeInUp delay-0-2s">
-                <span className="sub-title mb-15">Latest Services</span>
-                <h2>We Provide Best IT Services</h2>
+                <span className="sub-title mb-15">
+                  Silver Pyramids Services
+                </span>
+                <h2>Best of Breed Technology & Marketing Services</h2>
               </div>
             </div>
             <div className="col-xl-4 col-md-6">
@@ -480,7 +239,7 @@ const Index = () => {
                 <div className="content">
                   <h4>
                     <Link legacyBehavior href="digital-details">
-                      Digital Consulting
+                      Digital Transforming & Consulting
                     </Link>
                   </h4>
                   <p>
@@ -552,7 +311,7 @@ const Index = () => {
                 <div className="content">
                   <h4>
                     <Link legacyBehavior href="seo-details">
-                      SEO Optimization
+                      SEO - SEM
                     </Link>
                   </h4>
                   <p>
@@ -616,6 +375,60 @@ const Index = () => {
                 </div>
               </div>
             </div>
+            <div className="col-xl-4 col-md-6">
+              <div className="service-two-item wow fadeInUp delay-0-7s">
+                <div className="icon">
+                  <i className="flaticon-test" />
+                </div>
+                <div className="content">
+                  <h4>
+                    <Link legacyBehavior href="sms-details">
+                      Email & SMS
+                    </Link>
+                  </h4>
+                  <p>
+                    Email and SMS are two of the most critical components for
+                    retention marketing.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6">
+              <div className="service-two-item wow fadeInUp delay-0-7s">
+                <div className="icon">
+                  <i className="flaticon-brainstorming" />
+                </div>
+                <div className="content">
+                  <h4>
+                    <Link legacyBehavior href="house-content-details">
+                      In-House Content Creation
+                    </Link>
+                  </h4>
+                  <p>
+                    offering top tier in-house production out of our
+                    cutting-edge studio.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6">
+              <div className="service-two-item wow fadeInUp delay-0-7s">
+                <div className="icon">
+                  <i className="flaticon-agile" />
+                </div>
+                <div className="content">
+                  <h4>
+                    <Link legacyBehavior href="cro-details">
+                      CRO
+                    </Link>
+                  </h4>
+                  <p>
+                    Building websites with fast loading & appealing designs that
+                    are optimized for lead conversion.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -623,11 +436,11 @@ const Index = () => {
       {/* Work Process Area start */}
       <section className="work-process-area pt-130 pb-100 rpt-100 rpb-70 rel z-1">
         <div className="section-title text-center mb-70 wow fadeInUp delay-0-2s">
-          <span className="sub-title mb-15">Working Process</span>
-          <h2>Industry Best Practices to the Core</h2>
+          <span className="sub-title mb-15">Our Approach</span>
+          <h2>Implementing Industry Best Practices</h2>
         </div>
         <div className="work-process-line text-center">
-          <img src="assets/images/shapes/work-process-line.png" alt="line" />
+          <img src="assets/images/shapes/work-process-line.webp" alt="line" />
         </div>
         <div className="container">
           <div className="row row-cols-xl-5 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center">
@@ -635,10 +448,10 @@ const Index = () => {
               <div className="work-process-item mt-40 wow fadeInUp delay-0-2s">
                 <div className="number">01</div>
                 <div className="content">
-                  <h4>Discover</h4>
+                  <h4>Discovery</h4>
                   <p>
-                    We emphasize planning get everythin documente nothing
-                    assumption
+                    We prioritize thorough planning and documentation, leaving
+                    nothing to assumptions.
                   </p>
                 </div>
               </div>
@@ -649,8 +462,8 @@ const Index = () => {
                 <div className="content">
                   <h4>Planning</h4>
                   <p>
-                    Our design approach is to simplify. We embrace creating
-                    something.
+                    Our design approach is centered around simplicity. We strive
+                    to create something remarkable.
                   </p>
                 </div>
               </div>
@@ -659,10 +472,10 @@ const Index = () => {
               <div className="work-process-item mt-40 wow fadeInUp delay-0-2s">
                 <div className="number">03</div>
                 <div className="content">
-                  <h4>Design &amp; Dev</h4>
+                  <h4>Design &amp; Development</h4>
                   <p>
-                    At this step, we cater to requirement backed web services
-                    developmenc
+                    At this stage, we focus on developing technology services
+                    that align with your requirements.
                   </p>
                 </div>
               </div>
@@ -673,8 +486,8 @@ const Index = () => {
                 <div className="content">
                   <h4>Testing</h4>
                   <p>
-                    On the other denounce with righteou indignation dislike
-                    beguile demore
+                    We thoroughly test our solutions to ensure they meet the
+                    highest standards of quality.
                   </p>
                 </div>
               </div>
@@ -683,10 +496,10 @@ const Index = () => {
               <div className="work-process-item mt-50 wow fadeInUp delay-0-2s">
                 <div className="number">05</div>
                 <div className="content">
-                  <h4>Project Deliver</h4>
+                  <h4>Project Delivery</h4>
                   <p>
-                    We denounce righteous indignation and dislike men who
-                    beguiled
+                    We deliver projects with utmost professionalism, ensuring
+                    client satisfaction.
                   </p>
                 </div>
               </div>
@@ -705,7 +518,7 @@ const Index = () => {
           <div className="row justify-content-center">
             <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="team-member wow fadeInUp delay-0-2s">
-                <img src="assets/images/team/member1.jpg" alt="Team" />
+                <img src="assets/images/team/member1.webp" alt="Team" />
                 <h4>Johnathan P. Bailey</h4>
                 <span className="designation">UX/UI Designer</span>
                 <div className="social-style-two">
@@ -717,7 +530,7 @@ const Index = () => {
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="team-member wow fadeInUp delay-0-4s">
-                <img src="assets/images/team/member2.jpg" alt="Team" />
+                <img src="assets/images/team/member2.webp" alt="Team" />
                 <h4>Mark M. Hughes</h4>
                 <span className="designation">Web Developer</span>
                 <div className="social-style-two">
@@ -729,7 +542,7 @@ const Index = () => {
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="team-member wow fadeInUp delay-0-6s">
-                <img src="assets/images/team/member3.jpg" alt="Team" />
+                <img src="assets/images/team/member3.webp" alt="Team" />
                 <h4>Donald B. Mitchell</h4>
                 <span className="designation">Software Engineer</span>
                 <div className="social-style-two">
@@ -741,7 +554,7 @@ const Index = () => {
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="team-member wow fadeInUp delay-0-8s">
-                <img src="assets/images/team/member4.jpg" alt="Team" />
+                <img src="assets/images/team/member4.webp" alt="Team" />
                 <h4>Bennie N. Bannister</h4>
                 <span className="designation">Senior Consultant</span>
                 <div className="social-style-two">
@@ -761,14 +574,16 @@ const Index = () => {
           <div
             className="statistics-inner bgs-cover text-white p-80 pb-20"
             style={{
-              backgroundImage: "url(assets/images/background/statistics.jpg)",
+              backgroundImage: "url(assets/images/background/statistics.webp)",
             }}
           >
             <div className="row align-items-xl-start align-items-center">
               <div className="col-xl-5 col-lg-6">
                 <div className="statistics-content mb-55 wow fadeInUp delay-0-2s">
                   <div className="section-title mb-30">
-                    <span className="sub-title mb-15">Our Statistics</span>
+                    <span className="sub-title mb-15">
+                      Silver Pyramids Statistics
+                    </span>
                     <h2>Learn About Our Company Statistics</h2>
                   </div>
                   <Link legacyBehavior href="/about">
@@ -786,11 +601,11 @@ const Index = () => {
                       <span
                         className="count-text plus"
                         data-speed={3000}
-                        data-stop={1021}
+                        data-stop={321}
                       >
-                        <Counter end={1021} />
+                        <Counter end={321} />
                       </span>
-                      <span className="counter-title">Project Complete</span>
+                      <span className="counter-title">Projects Completed</span>
                     </div>
                   </div>
                   <div className="col-xl-3 col-small col-6">
@@ -816,20 +631,20 @@ const Index = () => {
                       >
                         <Counter end={78} decimals={1} />
                       </span>
-                      <span className="counter-title">Years Experience</span>
+                      <span className="counter-title">Years of Experience</span>
                     </div>
                   </div>
                   <div className="col-xl-3 col-small col-6">
                     <div className="counter-item counter-text-wrap wow fadeInUp delay-0-3s">
-                      <i className="flaticon-medal" />
+                      <i className="flaticon-networking" />
                       <span
-                        className="count-text k-plus"
-                        data-speed={3000}
-                        data-stop={63}
+                        className="count-text"
+                        data-speed={5000}
+                        data-stop={4}
                       >
-                        <Counter end={63} />
+                        <Counter end={4} />
                       </span>
-                      <span className="counter-title">Award Winning</span>
+                      <span className="counter-title">Offices Locations</span>
                     </div>
                   </div>
                 </div>
@@ -844,7 +659,7 @@ const Index = () => {
         <div className="price-shapes">
           <img
             className="shape two"
-            src="assets/images/shapes/price-right.png"
+            src="assets/images/shapes/price-right.webp"
             alt="Shape"
           />
         </div>
@@ -857,8 +672,8 @@ const Index = () => {
             <div className="col-xl-5 col-lg-6">
               <div className="testimonial-left-part rmb-85 wow fadeInLeft delay-0-2s">
                 <div className="section-title mb-45">
-                  <span className="sub-title mb-15">Our Testimonials</span>
-                  <h2>What Our Clients Say About Solutions</h2>
+                  <span className="sub-title mb-15">Testimonials</span>
+                  <h2>What Do Our Clients Say About Our Solutions</h2>
                 </div>
                 <TestimonialsSlider2 />
               </div>
@@ -866,23 +681,19 @@ const Index = () => {
             <div className="col-lg-6">
               <div className="testimonial-right-part wow fadeInRight delay-0-2s">
                 <img
-                  src="assets/images/testimonials/testimonial.png"
+                  src="assets/images/testimonials/testimonial.webp"
                   alt="Testimonial"
                 />
                 <div className="testi-image-over">
-                  <h3>We Have More 3248+ Reviews From Global Clients</h3>
-                  <img
-                    src="assets/images/testimonials/signature.png"
-                    alt="Signature"
-                  />
+                  <h3>We Have More 248+ Reviews From Global Clients</h3>
                 </div>
                 <div className="dot-shapes">
                   <img
-                    src="assets/images/testimonials/testimonial-dots.png"
+                    src="assets/images/testimonials/testimonial-dots.webp"
                     alt="Dots"
                   />
                   <img
-                    src="assets/images/testimonials/testimonial-dots.png"
+                    src="assets/images/testimonials/testimonial-dots.webp"
                     alt="Dots"
                   />
                 </div>
