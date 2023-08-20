@@ -141,7 +141,7 @@ const Contact = () => {
               </div>{" "}
             </div>
             <div class="col-md-6 contact">
-              <img src="assets/images/about/map.webp"></img>
+              <img src="/assets/images/about/map.webp"></img>
             </div>
           </div>
         </div>

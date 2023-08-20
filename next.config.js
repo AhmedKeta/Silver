@@ -1,6 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+
+  // output: "export",
+  // distDir: "dist",
+  // trailingSlash: true,
+  // assetPrefix: "",
   // exportPathMap: function () {
   //   return {
   //     "/": { page: "/" },
@@ -10,4 +15,4 @@ const nextConfig = {
   // },
 };
 
-module.exports = nextConfig
+module.exports = nextConfig;

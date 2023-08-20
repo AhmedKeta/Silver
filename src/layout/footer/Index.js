@@ -8,7 +8,7 @@ const Footer = () => {
           <div
             className="footer-cta-inner bgs-cover"
             style={{
-              backgroundImage: "url(assets/images/footer/footer-cta-bg.webp)",
+              backgroundImage: "url(/assets/images/footer/footer-cta-bg.webp)",
             }}
           >
             <div className="section-title wow fadeInLeft delay-0-2s">
@@ -38,7 +38,7 @@ const Footer = () => {
               <div className="footer-logo mb-0" style={{ background: "none" }}>
                 <Link legacyBehavior href="/">
                   <a>
-                    <img src="assets/images/logos/logo-footer.webp" alt="Logo" />
+                    <img src="/assets/images/logos/logo-footer.webp" alt="Logo" />
                   </a>
                 </Link>
               </div>
@@ -182,17 +182,17 @@ const Footer = () => {
       <div className="footer-shapes">
         <img
           className="shape one"
-          src="assets/images/footer/footer-bg-weve-shape.webp"
+          src="/assets/images/footer/footer-bg-weve-shape.webp"
           alt="Shape"
         />
         <img
           className="shape two"
-          src="assets/images/footer/footer-bg-line-shape.webp"
+          src="/assets/images/footer/footer-bg-line-shape.webp"
           alt="Shape"
         />
         {/* <img
           className="shape three wow fadeInRight delay-0-8s"
-          src="assets/images/footer/footer-right.webp"
+          src="/assets/images/footer/footer-right.webp"
           alt="Shape"
         /> */}
       </div>

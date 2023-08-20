@@ -10,7 +10,7 @@ const E404 = () => {
         <div className="container">
           <div className="error-page-content text-center">
             <div className="image mb-40 rmb-25 wow fadeInUp delay-0-4s">
-              <img src="assets/images/background/404.webp" alt="Error" />
+              <img src="/assets/images/background/404.webp" alt="Error" />
             </div>
             <div className="row justify-content-center wow fadeInUp delay-0-2s">
               <div className="col-xl-8 col-lg-10">

@@ -113,7 +113,7 @@ const Service2 = () => {
           </div>
         </div>
         <div className="servcies-bg-shape">
-          <img src="assets/images/shapes/services-bg-shape.webp" alt="Shape" />
+          <img src="/assets/images/shapes/services-bg-shape.webp" alt="Shape" />
         </div>
       </section>
       {/* Services Area Three end */}
@@ -122,7 +122,7 @@ const Service2 = () => {
         className="statistics-area-four text-white bgs-cover pt-80 pb-20"
         style={{
           backgroundImage:
-            "url(assets/images/background/statistics-three.webp)",
+            "url(/assets/images/background/statistics-three.webp)",
         }}>
         <div className="container">
           <div className="row align-items-xl-start align-items-center">
@@ -219,7 +219,7 @@ const Service2 = () => {
         </div>
         <div className="about-bg-shape">
           <img
-            src="assets/images/background/what-we-provide.webp"
+            src="/assets/images/background/what-we-provide.webp"
             alt="Shape"
           />
         </div>

@@ -24,7 +24,7 @@ const Services = () => {
           <h2>Implementing Industry Best Practices</h2>
         </div>
         <div className="work-process-line text-center">
-          <img src="assets/images/shapes/work-process-line.webp" alt="line" />
+          <img src="/assets/images/shapes/work-process-line.webp" alt="line" />
         </div>
         <div className="container">
           <div className="row row-cols-xl-5 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center">
@@ -249,7 +249,7 @@ const Services = () => {
               <div className="cs-image-part ps-0 mb-30 wow fadeInRight delay-0-2s">
                 <div className="image">
                   <img
-                    src="assets/images/about/satisfaction-two.webp"
+                    src="/assets/images/about/satisfaction-two.webp"
                     alt="Satisfaction"
                   />
                 </div>

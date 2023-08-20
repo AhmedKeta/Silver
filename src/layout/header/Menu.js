@@ -24,7 +24,7 @@ const MobileMenu = () => {
           <div className="mobile-logo">
             <Link href="/">
               <img
-                src="assets/images/logos/logo-one.webp"
+                src="/assets/images/logos/logo-one.webp"
                 alt="Logo"
                 title="Logo"
               />
@@ -122,9 +122,9 @@ const MobileMenu = () => {
                 <li>
                   <Link href="why-us">Why Us</Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link href="team">Our Team</Link>
-                </li>
+                </li> */}
                 {/* <li>
                   <Link href="terms">Terms & Conditions</Link>
                 </li> */}
@@ -171,7 +171,7 @@ const DeskTopMenu = () => {
         <div className="mobile-logo">
           <Link href="/">
             <img
-              src="assets/images/logos/logo-one.webp"
+              src="/assets/images/logos/logo-one.webp"
               alt="Logo"
               title="Logo"
             />
@@ -284,9 +284,9 @@ const DeskTopMenu = () => {
               <li>
                 <Link href="why-us">Why Us</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="team">Our Team</Link>
-              </li>
+              </li> */}
               {/* <li>
                 <Link href="terms">Terms & Conditions</Link>
               </li> */}

@@ -15,7 +15,7 @@ const DefaultHeader = () => {
                 <Link legacyBehavior href="/">
                   <a>
                     <img
-                      src="assets/images/logos/logo.webp"
+                      src="/assets/images/logos/logo.webp"
                       alt="Logo"
                       title="Logo"
                     />

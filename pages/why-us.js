@@ -98,7 +98,7 @@ const About = () => {
                     <div className="col-lg-6">
                       <div className="why-choose-image rmb-55">
                         <img
-                          src="assets/images/about/uiux.webp"
+                          src="/assets/images/about/uiux.webp"
                           alt="Why Choose"
                         />
                       </div>
@@ -149,7 +149,7 @@ const About = () => {
                     <div className="col-lg-6">
                       <div className="why-choose-image rmt-55">
                         <img
-                          src="assets/images/about/app.webp"
+                          src="/assets/images/about/app.webp"
                           alt="Why Choose"
                         />
                       </div>
@@ -161,7 +161,7 @@ const About = () => {
                     <div className="col-lg-6">
                       <div className="why-choose-image rmb-55">
                         <img
-                          src="assets/images/about/design.webp"
+                          src="/assets/images/about/design.webp"
                           alt="Why Choose"
                         />
                       </div>
@@ -210,7 +210,7 @@ const About = () => {
                     <div className="col-lg-6">
                       <div className="why-choose-image rmt-55">
                         <img
-                          src="assets/images/about/support.webp"
+                          src="/assets/images/about/support.webp"
                           alt="Why Choose"
                         />
                       </div>
@@ -224,12 +224,12 @@ const About = () => {
         <div className="why-choose-shapes">
           <img
             className="shape one"
-            src="assets/images/about/why-choose-shape1.webp"
+            src="/assets/images/about/why-choose-shape1.webp"
             alt="Shape"
           />
           <img
             className="shape two"
-            src="assets/images/about/why-choose-shape2.webp"
+            src="/assets/images/about/why-choose-shape2.webp"
             alt="Shape"
           />
         </div>
@@ -242,11 +242,11 @@ const About = () => {
             <div className="col-lg-6">
               <div className="about-five-images mt-55 rel z-1 wow fadeInRight delay-0-2s">
                 <img
-                  src="assets/images/about/about-five1.webp"
+                  src="/assets/images/about/about-five1.webp"
                   alt="Silver Pyramids"
                 />
                 <img
-                  src="assets/images/about/about-five2.webp"
+                  src="/assets/images/about/about-five2.webp"
                   alt="Silver Pyramids"
                 />
                 <div className="experience-years">
@@ -256,7 +256,7 @@ const About = () => {
                 </div>
                 <img
                   className="abut-bg-shape"
-                  src="assets/images/about/about-five-bg.webp"
+                  src="/assets/images/about/about-five-bg.webp"
                   alt="Shape"
                 />
               </div>
@@ -318,7 +318,7 @@ const About = () => {
           <div
             className="statistics-inner style-two bgs-cover text-white p-80 pb-20"
             style={{
-              backgroundImage: "url(assets/images/background/statistics.webp)",
+              backgroundImage: "url(/assets/images/background/statistics.webp)",
             }}>
             <div className="row align-items-xl-start align-items-center">
               <div className="col-xl-5 col-lg-6">
@@ -407,7 +407,7 @@ const About = () => {
                 <div className="testimonial-item style-two wow fadeInUp delay-0-2s">
                   <div className="image">
                     <img
-                      src="assets/images/testimonials/client.webp"
+                      src="/assets/images/testimonials/client.webp"
                       alt="Author"
                     />
                   </div>
@@ -438,7 +438,7 @@ const About = () => {
                 <div className="testimonial-item style-two wow fadeInUp delay-0-2s">
                   <div className="image">
                     <img
-                      src="assets/images/testimonials/client.webp"
+                      src="/assets/images/testimonials/client.webp"
                       alt="Author"
                     />
                   </div>
@@ -469,7 +469,7 @@ const About = () => {
                 <div className="testimonial-item style-two wow fadeInUp delay-0-2s">
                   <div className="image">
                     <img
-                      src="assets/images/testimonials/client.webp"
+                      src="/assets/images/testimonials/client.webp"
                       alt="Author"
                     />
                   </div>
@@ -502,7 +502,7 @@ const About = () => {
           className="testimonial-four-image"
           style={{
             backgroundImage:
-              "url(assets/images/testimonials/testimonial-four.webp)",
+              "url(/assets/images/testimonials/testimonial-four.webp)",
           }}
         />
       </section>

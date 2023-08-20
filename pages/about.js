@@ -19,7 +19,7 @@ const About = () => {
       <section
         className="contact-form-area py-20 rpy-100 bgs-cover mb-4"
         style={{
-          backgroundImage: "url(assets/images/background/contact-form-bg.webp)",
+          backgroundImage: "url(/assets/images/background/contact-form-bg.webp)",
         }}>
         <section className="about-area-two py-20 rpy-100 rel z-1">
           <div className="container">
@@ -66,7 +66,7 @@ const About = () => {
       </section>
       {/* our story end */}
       {/* Team Area start */}
-      <section className="team-area-two pt-130 rpt-100 pb-100 rpb-70 rel z-1">
+      {/* <section className="team-area-two pt-130 rpt-100 pb-100 rpb-70 rel z-1">
         <div className="container">
           <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
             <span className="sub-title mb-15">Team Member</span>
@@ -75,7 +75,7 @@ const About = () => {
           <div className="row justify-content-center">
             <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="team-member style-two wow fadeInUp delay-0-2s">
-                <img src="assets/images/team/member1.webp" alt="Team" />
+                <img src="/assets/images/team/member1.webp" alt="Team" />
                 <h4>Johnathan P. Bailey</h4>
                 <span className="designation">UX/UI Designer</span>
                 <div className="social-style-two">
@@ -87,7 +87,7 @@ const About = () => {
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="team-member style-two wow fadeInUp delay-0-4s">
-                <img src="assets/images/team/member2.webp" alt="Team" />
+                <img src="/assets/images/team/member2.webp" alt="Team" />
                 <h4>Mark M. Hughes</h4>
                 <span className="designation">Web Developer</span>
                 <div className="social-style-two">
@@ -99,7 +99,7 @@ const About = () => {
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="team-member style-two wow fadeInUp delay-0-6s">
-                <img src="assets/images/team/member3.webp" alt="Team" />
+                <img src="/assets/images/team/member3.webp" alt="Team" />
                 <h4>Donald B. Mitchell</h4>
                 <span className="designation">Software Engineer</span>
                 <div className="social-style-two">
@@ -111,7 +111,7 @@ const About = () => {
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="team-member style-two wow fadeInUp delay-0-8s">
-                <img src="assets/images/team/member4.webp" alt="Team" />
+                <img src="/assets/images/team/member4.webp" alt="Team" />
                 <h4>Bennie N. Bannister</h4>
                 <span className="designation">Senior Consultant</span>
                 <div className="social-style-two">
@@ -126,16 +126,16 @@ const About = () => {
         <div className="team-shapes">
           <img
             className="shape one"
-            src="assets/images/team/team-shape-one.webp"
+            src="/assets/images/team/team-shape-one.webp"
             alt="Shape"
           />
           <img
             className="shape two"
-            src="assets/images/team/team-shape-two.webp"
+            src="/assets/images/team/team-shape-two.webp"
             alt="Shape"
           />
         </div>
-      </section>
+      </section> */}
       {/* Team Area end */}
       {/* Partners Area start */}
       <PartnerSlider style={{ backgroundColor: "Silver" }} />

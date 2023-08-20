@@ -2,7 +2,7 @@ import Head from "next/head";
 const url = "https://silverpyramids.com/";
 
 const Meta = ({ title, description, image, keywords, href }) => {
-  image = image || "assets/images/hero/hero-one.webp";
+  image = image || "/assets/images/hero/hero-one.webp";
   return (
     <Head>
       <meta charSet="UTF-8" />

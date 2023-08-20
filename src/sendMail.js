@@ -1,6 +1,5 @@
 import emailjs from "@emailjs/browser";
 
-
 const sendEmail = async (
   formData,
   setSuccessMessage,
@@ -18,10 +17,10 @@ const sendEmail = async (
     };
 
     await emailjs.send(
-      "service_8fq77ww",
-      "template_vxg5ly6",
+      "service_16n23qn",
+      "template_lht6mfl",
       templateParams,
-      "fa0OAKPqt9dfpP_bg"
+      "CUdzn1eZGHstZxadA"
     );
 
     setSuccessMessage("Your message has been sent successfully");
@@ -40,4 +39,3 @@ const sendEmail = async (
 };
 
 export default sendEmail;
-

@@ -5833,7 +5833,7 @@ h6,
   bottom: -30px;
   width: 86px;
   height: 186px;
-  background: url(../images/about/why-choose-image-bg-dots.png) no-repeat
+  background: url(../images/about/why-choose-image-bg-dots.webp) no-repeat
     center/cover;
 }
 
@@ -6459,7 +6459,7 @@ h6,
   margin-bottom: 30px;
   display: inline-block;
   color: var(--secondary-color);
-  background: url(../images/services/icon-bg.png) no-repeat 100% 100%;
+  background: url(../images/services/icon-bg.webp) no-repeat 100% 100%;
 }
 .service-item-four p {
   margin: 20px 0 5px;
@@ -6848,7 +6848,7 @@ h6,
   -webkit-transform: translate(-100%, -100%);
   -ms-transform: translate(-100%, -100%);
   transform: translate(-100%, -100%);
-  background: url(../images/background/feature-bg.png) no-repeat;
+  background: url(../images/background/feature-bg.webp) no-repeat;
 }
 .feature-item.style-two .icon,
 .feature-item.style-three .icon {
@@ -8426,7 +8426,7 @@ h6,
   z-index: -1;
   width: 155px;
   height: 235px;
-  background: url(../images/background/pricing-bg.png) no-repeat center/cover;
+  background: url(../images/background/pricing-bg.webp) no-repeat center/cover;
 }
 .pricing-plan-item.style-two .title {
   text-align: center;

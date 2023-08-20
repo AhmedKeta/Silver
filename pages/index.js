@@ -39,17 +39,17 @@ const Index = () => {
                 <div className="hero-shapes">
                   <img
                     className="shape one"
-                    src="assets/images/shapes/dabble-plus.webp"
+                    src="/assets/images/shapes/dabble-plus.webp"
                     alt="Shape"
                   />
                   <img
                     className="shape two"
-                    src="assets/images/shapes/dabble-plus.webp"
+                    src="/assets/images/shapes/dabble-plus.webp"
                     alt="Shape"
                   />
                   <img
                     className="shape three"
-                    src="assets/images/shapes/plus.webp"
+                    src="/assets/images/shapes/plus.webp"
                     alt="Shape"
                   />
                 </div>
@@ -57,7 +57,7 @@ const Index = () => {
             </div>
             <div className="col-xl-8 col-lg-12 align-self-end">
               <div className="hero-images wow fadeInLeft">
-                <img src="assets/images/hero/hero-one.webp" alt="Hero" />
+                <img src="/assets/images/hero/hero-one.webp" alt="Hero" />
               </div>
             </div>
           </div>
@@ -65,7 +65,7 @@ const Index = () => {
         <div className="hero-shapes">
           <img
             className="shape bg-lines"
-            src="assets/images/shapes/hero-bg-line-shapes.webp"
+            src="/assets/images/shapes/hero-bg-line-shapes.webp"
             alt="Shape"
           />
           {/* <div className="triangle-shape"></div> */}
@@ -110,7 +110,7 @@ const Index = () => {
                     <div className="service-item active">
                       <div className="icon">
                         <img
-                          src="assets/images/services/icon2.webp"
+                          src="/assets/images/services/icon2.webp"
                           alt="Icon"
                         />
                       </div>
@@ -129,7 +129,7 @@ const Index = () => {
                     <div className="service-item">
                       <div className="icon">
                         <img
-                          src="assets/images/services/icon1.webp"
+                          src="/assets/images/services/icon1.webp"
                           alt="Icon"
                         />
                       </div>
@@ -152,7 +152,7 @@ const Index = () => {
                 <div className="top-part">
                   <img
                     className="wow fadeInRight delay-0-3s"
-                    src="assets/images/about/about1.webp"
+                    src="/assets/images/about/about1.webp"
                     alt="Silver Pyramids"
                   />
                   <img className="wow zoomIn delay-0-5s" />
@@ -160,12 +160,12 @@ const Index = () => {
                 <div className="bottom-part">
                   <img
                     className="wow fadeInDown delay-0-5s"
-                    src="assets/images/about/about-dots.webp"
+                    src="/assets/images/about/about-dots.webp"
                     alt="Silver Pyramids"
                   />
                   <img
                     className="wow fadeInDown delay-0-3s"
-                    src="assets/images/about/about2.webp"
+                    src="/assets/images/about/about2.webp"
                     alt="Silver Pyramids"
                   />
                 </div>
@@ -176,28 +176,27 @@ const Index = () => {
       </section>
       {/* About Area end */}
       {/* Project Area start */}
-      <section className="project-area overflow-hidden bgc-lighter pt-130 rpt-100 rel z-1">
+      {/* <section className="project-area overflow-hidden bgc-lighter pt-130 rpt-100 rel z-1">
         <div className="container">
           <div className="section-title text-center mb-55 wow fadeInUp delay-0-2s">
-            {/* <span className="sub-title mb-15">Learn Our Project</span> */}
             <h2>Let Our Work Do The Talking</h2>
           </div>
           <Slider {...projectSliderActive} className="project-slider-active">
             <ProjectSliderItem
-              imgSrc="assets/images/projects/project-video.webp"
+              imgSrc="/assets/images/projects/project-video.webp"
               imgAlt="Video"
               title="High successful Sa video platform with a patented technology used by global enterprises."
               content=" On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment so blinded by desire"
               odd={false}
             />
             <ProjectSliderItem
-              imgSrc="assets/images/projects/project-video.webp"
+              imgSrc="/assets/images/projects/project-video.webp"
               imgAlt="Video"
               title="High successful Sa video platform with a patented technology used by global enterprises."
               content=" On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment so blinded by desire"
             />
             <ProjectSliderItem
-              imgSrc="assets/images/projects/project-video.webp"
+              imgSrc="/assets/images/projects/project-video.webp"
               imgAlt="Video"
               title="High successful Sa video platform with a patented technology used by global enterprises."
               content=" On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment so blinded by desire"
@@ -208,16 +207,16 @@ const Index = () => {
         <div className="project-shapes">
           <img
             className="shape one"
-            src="assets/images/shapes/project-left.webp"
+            src="/assets/images/shapes/project-left.webp"
             alt="shape"
           />
           <img
             className="shape two"
-            src="assets/images/shapes/project-right.webp"
+            src="/assets/images/shapes/project-right.webp"
             alt="shape"
           />
         </div>
-      </section>
+      </section> */}
       {/* Project Area end */}
       {/* Services Area start */}
       <section className="services-area bgc-gray text-white pt-75 pb-10 rel z-1">
@@ -440,7 +439,7 @@ const Index = () => {
           <h2>Implementing Industry Best Practices</h2>
         </div>
         <div className="work-process-line text-center">
-          <img src="assets/images/shapes/work-process-line.webp" alt="line" />
+          <img src="/assets/images/shapes/work-process-line.webp" alt="line" />
         </div>
         <div className="container">
           <div className="row row-cols-xl-5 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center">
@@ -509,7 +508,7 @@ const Index = () => {
       </section>
       {/* Work Process Area end */}
       {/* Team Area start */}
-      <section className="team-area pb-100 rpb-70 rel z-1">
+      {/* <section className="team-area pb-100 rpb-70 rel z-1">
         <div className="container">
           <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
             <span className="sub-title mb-15">Team Member</span>
@@ -518,7 +517,7 @@ const Index = () => {
           <div className="row justify-content-center">
             <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="team-member wow fadeInUp delay-0-2s">
-                <img src="assets/images/team/member1.webp" alt="Team" />
+                <img src="/assets/images/team/member1.webp" alt="Team" />
                 <h4>Johnathan P. Bailey</h4>
                 <span className="designation">UX/UI Designer</span>
                 <div className="social-style-two">
@@ -530,7 +529,7 @@ const Index = () => {
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="team-member wow fadeInUp delay-0-4s">
-                <img src="assets/images/team/member2.webp" alt="Team" />
+                <img src="/assets/images/team/member2.webp" alt="Team" />
                 <h4>Mark M. Hughes</h4>
                 <span className="designation">Web Developer</span>
                 <div className="social-style-two">
@@ -542,7 +541,7 @@ const Index = () => {
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="team-member wow fadeInUp delay-0-6s">
-                <img src="assets/images/team/member3.webp" alt="Team" />
+                <img src="/assets/images/team/member3.webp" alt="Team" />
                 <h4>Donald B. Mitchell</h4>
                 <span className="designation">Software Engineer</span>
                 <div className="social-style-two">
@@ -554,7 +553,7 @@ const Index = () => {
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="team-member wow fadeInUp delay-0-8s">
-                <img src="assets/images/team/member4.webp" alt="Team" />
+                <img src="/assets/images/team/member4.webp" alt="Team" />
                 <h4>Bennie N. Bannister</h4>
                 <span className="designation">Senior Consultant</span>
                 <div className="social-style-two">
@@ -566,7 +565,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Team Area end */}
       {/* Statistics Area start */}
       <section className="statistics-area rel z-2">
@@ -574,7 +573,7 @@ const Index = () => {
           <div
             className="statistics-inner bgs-cover text-white p-80 pb-20"
             style={{
-              backgroundImage: "url(assets/images/background/statistics.webp)",
+              backgroundImage: "url(/assets/images/background/statistics.webp)",
             }}
           >
             <div className="row align-items-xl-start align-items-center">
@@ -659,7 +658,7 @@ const Index = () => {
         <div className="price-shapes">
           <img
             className="shape two"
-            src="assets/images/shapes/price-right.webp"
+            src="/assets/images/shapes/price-right.webp"
             alt="Shape"
           />
         </div>
@@ -681,7 +680,7 @@ const Index = () => {
             <div className="col-lg-6">
               <div className="testimonial-right-part wow fadeInRight delay-0-2s">
                 <img
-                  src="assets/images/testimonials/testimonial.webp"
+                  src="/assets/images/testimonials/testimonial.webp"
                   alt="Testimonial"
                 />
                 <div className="testi-image-over">
@@ -689,11 +688,11 @@ const Index = () => {
                 </div>
                 <div className="dot-shapes">
                   <img
-                    src="assets/images/testimonials/testimonial-dots.webp"
+                    src="/assets/images/testimonials/testimonial-dots.webp"
                     alt="Dots"
                   />
                   <img
-                    src="assets/images/testimonials/testimonial-dots.webp"
+                    src="/assets/images/testimonials/testimonial-dots.webp"
                     alt="Dots"
                   />
                 </div>

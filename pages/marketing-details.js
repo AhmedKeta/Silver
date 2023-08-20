@@ -53,7 +53,7 @@ const ServiceDetails = () => {
                 </p>
                 <div className="image my-40 wow fadeInUp delay-0-2s">
                   <img
-                    src="assets/images/services/strategy.webp"
+                    src="/assets/images/services/strategy.webp"
                     alt="Service Details"
                   />
                 </div>
@@ -122,7 +122,7 @@ const ServiceDetails = () => {
                   className="widget widget-cta"
                   style={{
                     backgroundImage:
-                      "url(assets/images/widgets/cta-widget-bg.webp)",
+                      "url(/assets/images/widgets/cta-widget-bg.webp)",
                   }}>
                   <span className="h5">Let's Work Together</span>
                   <span className="h2" style={{ color: "white" }}>
@@ -139,7 +139,7 @@ const ServiceDetails = () => {
                   </a>
                   <img
                     className="bg-shape"
-                    src="assets/images/widgets/cta-bg-lines.webp"
+                    src="/assets/images/widgets/cta-bg-lines.webp"
                     alt="Shape"
                   />
                 </div>
@@ -157,7 +157,7 @@ const ServiceDetails = () => {
             <div className="next-prev-item wow fadeInLeft delay-0-2s">
               <div className="image">
                 <img
-                  src="assets/images/services/infographic.webp"
+                  src="/assets/images/services/infographic.webp"
                   alt="Service"
                 />
               </div>
@@ -195,7 +195,7 @@ const ServiceDetails = () => {
               </div>
               {/* Next End */}
               <div className="image">
-                <img src="assets/images/services/seo.webp" alt="Service" />
+                <img src="/assets/images/services/seo.webp" alt="Service" />
               </div>
             </div>
           </div>

@@ -32,7 +32,7 @@ const Team = () => {
           <div className="row gap-80 align-items-center">
             <div className="col-xl-7 col-lg-6">
               <div className="team-top-video mt-55 wow fadeInRight delay-0-2s">
-                <img src="assets/images/team/team-page.webp" alt="Team Page" />
+                <img src="/assets/images/team/team-page.webp" alt="Team Page" />
               </div>
             </div>
             <div className="col-xl-5 col-lg-6">
@@ -81,7 +81,7 @@ const Team = () => {
           <div className="row justify-content-center">
             <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="team-member style-two wow fadeInUp delay-0-2s">
-                <img src="assets/images/team/member1.webp" alt="Team" />
+                <img src="/assets/images/team/member1.webp" alt="Team" />
                 <h4>Johnathan P. Bailey</h4>
                 <span className="designation">UX/UI Designer</span>
                 <div className="social-style-two">
@@ -93,7 +93,7 @@ const Team = () => {
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="team-member style-two wow fadeInUp delay-0-4s">
-                <img src="assets/images/team/member2.webp" alt="Team" />
+                <img src="/assets/images/team/member2.webp" alt="Team" />
                 <h4>Mark M. Hughes</h4>
                 <span className="designation">Web Developer</span>
                 <div className="social-style-two">
@@ -105,7 +105,7 @@ const Team = () => {
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="team-member style-two wow fadeInUp delay-0-6s">
-                <img src="assets/images/team/member3.webp" alt="Team" />
+                <img src="/assets/images/team/member3.webp" alt="Team" />
                 <h4>Donald B. Mitchell</h4>
                 <span className="designation">Software Engineer</span>
                 <div className="social-style-two">
@@ -117,7 +117,7 @@ const Team = () => {
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="team-member style-two wow fadeInUp delay-0-8s">
-                <img src="assets/images/team/member4.webp" alt="Team" />
+                <img src="/assets/images/team/member4.webp" alt="Team" />
                 <h4>Bennie N. Bannister</h4>
                 <span className="designation">Senior Consultant</span>
                 <div className="social-style-two">
@@ -129,7 +129,7 @@ const Team = () => {
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="team-member style-two wow fadeInUp delay-0-2s">
-                <img src="assets/images/team/member5.webp" alt="Team" />
+                <img src="/assets/images/team/member5.webp" alt="Team" />
                 <h4>Federico M. Upton</h4>
                 <span className="designation">UX/UI Designer</span>
                 <div className="social-style-two">
@@ -141,7 +141,7 @@ const Team = () => {
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="team-member style-two wow fadeInUp delay-0-4s">
-                <img src="assets/images/team/member6.webp" alt="Team" />
+                <img src="/assets/images/team/member6.webp" alt="Team" />
                 <h4>Julio M. McDowell</h4>
                 <span className="designation">Web Developer</span>
                 <div className="social-style-two">
@@ -153,7 +153,7 @@ const Team = () => {
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="team-member style-two wow fadeInUp delay-0-6s">
-                <img src="assets/images/team/member7.webp" alt="Team" />
+                <img src="/assets/images/team/member7.webp" alt="Team" />
                 <h4>Michael S. Pearson</h4>
                 <span className="designation">Software Engineer</span>
                 <div className="social-style-two">
@@ -165,7 +165,7 @@ const Team = () => {
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="team-member style-two wow fadeInUp delay-0-8s">
-                <img src="assets/images/team/member8.webp" alt="Team" />
+                <img src="/assets/images/team/member8.webp" alt="Team" />
                 <h4>Kenneth L. Booth</h4>
                 <span className="designation">Senior Consultant</span>
                 <div className="social-style-two">
@@ -184,12 +184,12 @@ const Team = () => {
         <div className="team-shapes">
           <img
             className="shape one"
-            src="assets/images/team/team-shape-one.webp"
+            src="/assets/images/team/team-shape-one.webp"
             alt="Shape"
           />
           <img
             className="shape two"
-            src="assets/images/team/team-shape-two.webp"
+            src="/assets/images/team/team-shape-two.webp"
             alt="Shape"
           />
         </div>
